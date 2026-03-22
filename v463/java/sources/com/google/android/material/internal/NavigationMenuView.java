@@ -1,0 +1,28 @@
+package com.google.android.material.internal;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import androidx.appcompat.view.menu.h;
+import androidx.appcompat.view.menu.p;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+public class NavigationMenuView extends RecyclerView implements p {
+    public int getWindowAnimations() {
+        return 0;
+    }
+
+    @Override // androidx.appcompat.view.menu.p
+    public void initialize(h hVar) {
+    }
+
+    public NavigationMenuView(Context context, AttributeSet attributeSet) {
+        this(context, attributeSet, 0);
+    }
+
+    public NavigationMenuView(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+        setLayoutManager(new LinearLayoutManager(context, 1, false));
+    }
+}

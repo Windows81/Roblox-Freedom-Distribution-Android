@@ -1,0 +1,151 @@
+package com.roblox.client.pushnotification;
+
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.media.RingtoneManager;
+import android.net.Uri;
+import android.os.AsyncTask;
+import android.support.v4.app.z;
+import com.roblox.client.h;
+import com.roblox.client.pushnotification.b.e;
+import com.roblox.client.pushnotification.b.m;
+
+/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+public abstract class a<T extends com.roblox.client.pushnotification.b.m> implements e.a<T>, i<T> {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    protected com.roblox.client.pushnotification.b.e<T> f7636a = new com.roblox.client.pushnotification.b.e<>();
+
+    protected abstract Intent a(Intent intent, T t);
+
+    protected abstract String a(int i);
+
+    protected abstract Intent b(Intent intent, T t);
+
+    protected abstract String b(Context context);
+
+    protected abstract int d();
+
+    protected abstract long e();
+
+    protected abstract String f();
+
+    protected abstract Class<?> g();
+
+    public a() {
+        this.f7636a.a(this);
+    }
+
+    @Override // com.roblox.client.pushnotification.i
+    public void a(Context context, T t) {
+        this.f7636a.a(t);
+        a(context, a());
+    }
+
+    public boolean a() {
+        return this.f7636a.size() != 0 && this.f7636a.size() <= 2;
+    }
+
+    @Override // com.roblox.client.pushnotification.i
+    public void a(Context context, String str) {
+        this.f7636a.b(str);
+        if (this.f7636a.isEmpty()) {
+            a(context, d());
+        } else {
+            a(context, false);
+        }
+    }
+
+    @Override // com.roblox.client.pushnotification.i
+    public void a(Context context, long j) {
+        this.f7636a.a(j);
+        if (this.f7636a.isEmpty()) {
+            a(context, d());
+        } else {
+            a(context, false);
+        }
+    }
+
+    @Override // com.roblox.client.pushnotification.i
+    public void b() {
+        this.f7636a.clear();
+    }
+
+    protected void a(Context context, int i) {
+        NotificationManager notificationManager = (NotificationManager) context.getSystemService("notification");
+        if (notificationManager != null) {
+            notificationManager.cancel(i);
+        }
+    }
+
+    protected void a(Context context, z.c cVar) {
+        ((NotificationManager) context.getSystemService("notification")).notify(d(), cVar.a());
+    }
+
+    /* JADX WARN: Type inference failed for: r1v0, types: [com.roblox.client.pushnotification.a$1] */
+    protected void a(final Context context, final boolean z) {
+        if (context != null && !this.f7636a.isEmpty()) {
+            new s(context, e()) { // from class: com.roblox.client.pushnotification.a.1
+                @Override // com.roblox.client.pushnotification.s
+                public void a(Bitmap bitmap) {
+                    if (!a.this.f7636a.isEmpty()) {
+                        a.this.a(context, a.this.a(context, z, bitmap));
+                    }
+                }
+            }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, new Void[0]);
+        }
+    }
+
+    protected z.c a(Context context, boolean z, Bitmap bitmap) {
+        z.c cVar = new z.c(context, "channel_general");
+        cVar.a(c(context, c()));
+        cVar.b(b(context, c()));
+        cVar.a(2131167126);
+        cVar.b(b(context));
+        cVar.a(true);
+        cVar.c(android.support.v4.a.c.c(context, 2131034135));
+        cVar.a((CharSequence) a(context));
+        cVar.b(this.f7636a.size());
+        cVar.a(bitmap);
+        if (z) {
+            cVar.a(RingtoneManager.getDefaultUri(2));
+        } else {
+            cVar.a((Uri) null);
+        }
+        cVar.a(new z.b().a(b(context)));
+        return cVar;
+    }
+
+    protected T c() {
+        if (this.f7636a.isEmpty()) {
+            return null;
+        }
+        return this.f7636a.get(this.f7636a.size() - 1);
+    }
+
+    protected PendingIntent b(Context context, T t) {
+        Intent intent = new Intent(a(1));
+        intent.setClass(context, g());
+        Intent intentA = a(intent, t);
+        intentA.putExtra("EXTRA_NOTIFICATION_TYPE", f());
+        intentA.putExtra("EXTRA_INTENT_ACTION_TYPE_CODE", 1);
+        return PendingIntent.getBroadcast(context, d(), intentA, 268435456);
+    }
+
+    protected PendingIntent c(Context context, T t) {
+        Intent intent = new Intent(a(2));
+        intent.setClass(context, g());
+        Intent intentB = b(intent, t);
+        intentB.putExtra("EXTRA_NOTIFICATION_ID", t.b());
+        intentB.putExtra("EXTRA_INTENT_ACTION_TYPE_CODE", 2);
+        intentB.putExtra("EXTRA_NOTIFICATION_TYPE", f());
+        return PendingIntent.getBroadcast(context, d(), intentB, 268435456);
+    }
+
+    protected String a(Context context) {
+        return context.getString(h.a.CommonUI_Messages_Label_Roblox);
+    }
+}

@@ -1,0 +1,12 @@
+package com.google.ads.interactivemedia.v3.a;
+
+/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+public final class m extends p {
+    public m(String str) {
+        super(str);
+    }
+
+    public m(Throwable th) {
+        super(th);
+    }
+}
