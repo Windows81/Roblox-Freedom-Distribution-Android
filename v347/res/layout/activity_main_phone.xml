@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.roblox.client.ReclickableTabHost n0:id="@android:id/tabhost" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:id="@id/content_main" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_marginBottom="@dimen/mainTabWidgetHeight">
+        <FrameLayout n0:id="@id/content_container_no_toolbar" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout n0:id="@id/content_main_no_margin" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    <TabWidget n0:gravity="center|bottom" n0:layout_gravity="center|bottom" n0:id="@android:id/tabs" n0:background="#fff9f9f9" n0:layout_width="match_parent" n0:layout_height="@dimen/mainTabWidgetHeight" n0:tabStripEnabled="false" n0:showDividers="none" />
+    <FrameLayout n0:layout_gravity="bottom" n0:id="@android:id/tabcontent" n0:layout_width="0.0dp" n0:layout_height="0.0dp" n0:layout_alignParentBottom="true" />
+</com.roblox.client.ReclickableTabHost>

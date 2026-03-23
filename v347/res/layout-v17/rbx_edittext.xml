@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/tableWrapper" n0:background="@android:color/transparent" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:weightSum="80.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <EditText n0:textSize="@dimen/rbxEditTextInternal" n0:id="@id/rbxEditTextTextBox" n0:background="@drawable/rbx_bg_flat_edittext" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_marginTop="1.0dp" n0:layout_marginBottom="1.0dp" n0:maxLines="1" n0:layout_weight="55.0" />
+    <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/rbxEditTextBottomLayout" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="25.0">
+        <TextView n0:textAppearance="?android:textAppearanceSmall" n0:textSize="@dimen/rbxEditTextHint" n0:id="@id/rbxEditTextBottomLabel" n0:background="@android:color/transparent" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="2.0dp" n0:layout_marginStart="2.0dp" />
+    </LinearLayout>
+</LinearLayout>

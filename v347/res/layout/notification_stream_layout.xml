@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/notification_stream" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="right" n0:id="@id/tooltip_nav_up" n0:background="@drawable/notification_stream_tooltip" n0:visibility="gone" n0:layout_width="25.0dp" n0:layout_height="25.0dp" />
+    <com.roblox.client.hybrid.RBHybridWebView n0:id="@id/web_view" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</LinearLayout>

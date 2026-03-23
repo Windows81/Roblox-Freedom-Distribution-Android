@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="4.8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/fragment_sign_up_inner_background" android:background="@drawable/rbx_bg_card_shadow" android:paddingLeft="15.0dp" android:paddingTop="12.0dp" android:paddingRight="15.0dp" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginLeft="10.0dp" android:layout_marginTop="10.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="1.0dp" android:layout_weight="10.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/fragment_sign_up_card_inner_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

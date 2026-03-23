@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:id="@id/landing_layout" n0:background="@color/activityBackground" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <Space n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+        <LinearLayout n0:gravity="center_horizontal" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="2.0">
+            <ImageView n0:layout_gravity="center" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/roblox_logo" />
+        </LinearLayout>
+        <LinearLayout n0:gravity="center" n0:orientation="vertical" n0:id="@id/landing_center_content" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="6.0">
+            <com.roblox.client.components.RbxButton n0:enabled="true" n0:id="@id/login_button" n0:layout_width="250.0dp" n0:layout_height="wrap_content" n0:text="@string/Authentication_Login_Action_Login" style="@style/Theme.Roblox.Button.Flat.White.Settings" />
+            <Space n0:layout_width="20.0dp" n0:layout_height="20.0dp" />
+            <com.roblox.client.components.RbxButton n0:enabled="true" n0:id="@id/signup_button" n0:layout_width="250.0dp" n0:layout_height="wrap_content" n0:text="@string/Authentication_SignUp_Action_SignUp" style="@style/Theme.Roblox.Button.Flat.White.Settings" />
+            <Space n0:layout_width="20.0dp" n0:layout_height="20.0dp" />
+            <com.roblox.client.components.RbxButton n0:enabled="true" n0:id="@id/play_now_button" n0:layout_width="250.0dp" n0:layout_height="wrap_content" n0:text="@string/Authentication_Login_Action_PlayNow" style="@style/Theme.Roblox.Button.Flat.White.Settings" />
+        </LinearLayout>
+        <FrameLayout n0:id="@id/landing_bottom_content" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="2.0">
+            <TextView n0:textSize="15.0sp" n0:textColor="@color/shell_text_normal" n0:ellipsize="none" n0:gravity="center" n0:layout_gravity="center|bottom" n0:id="@id/tvStartFinePrint" n0:padding="20.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="20.0dp" n0:maxLines="100" n0:scrollHorizontally="false" />
+            <ImageButton n0:layout_gravity="end|bottom" n0:id="@id/about_button" n0:background="@android:color/transparent" n0:layout_width="25.0dp" n0:layout_height="25.0dp" n0:layout_marginLeft="10.0dp" n0:layout_marginRight="10.0dp" n0:layout_marginBottom="10.0dp" n0:src="@drawable/about_icon_2" n0:scaleType="centerInside" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

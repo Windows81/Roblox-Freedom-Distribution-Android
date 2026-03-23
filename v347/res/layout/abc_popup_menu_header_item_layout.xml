@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:paddingLeft="16.0dp" n0:paddingRight="16.0dp" n0:layout_width="match_parent" n0:layout_height="?dropdownListPreferredItemHeight" n0:minWidth="196.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="?textAppearancePopupMenuHeader" n0:ellipsize="marquee" n0:layout_gravity="center_vertical" n0:id="@android:id/title" n0:fadingEdge="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" />
+</FrameLayout>

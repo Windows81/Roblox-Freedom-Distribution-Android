@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView n0:layout_gravity="center_horizontal" n0:id="@id/icon" n0:duplicateParentState="true" n0:layout_width="24.0dp" n0:layout_height="24.0dp" n0:layout_marginTop="@dimen/design_bottom_navigation_margin" n0:layout_marginBottom="@dimen/design_bottom_navigation_margin"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <android.support.design.internal.BaselineLayout n1:layout_gravity="center|bottom" n1:paddingBottom="10.0dp" n1:duplicateParentState="true" n1:clipToPadding="false" n1:layout_width="wrap_content" n1:layout_height="wrap_content"
+      xmlns:n1="http://schemas.android.com/apk/res/android">
+        <TextView n1:textSize="@dimen/design_bottom_navigation_text_size" n1:id="@id/smallLabel" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" />
+        <TextView n1:textSize="@dimen/design_bottom_navigation_active_text_size" n1:id="@id/largeLabel" n1:visibility="invisible" n1:duplicateParentState="true" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" />
+    </android.support.design.internal.BaselineLayout>
+</merge>

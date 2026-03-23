@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view n0:theme="@style/ThemeOverlay.AppCompat.Dark" n0:layout_gravity="bottom" n0:layout_width="match_parent" n0:layout_height="wrap_content" class="android.support.design.internal.SnackbarContentLayout"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="@style/TextAppearance.Design.Snackbar.Message" n0:ellipsize="end" n0:layout_gravity="start|center" n0:id="@id/snackbar_text" n0:paddingLeft="@dimen/design_snackbar_padding_horizontal" n0:paddingTop="@dimen/design_snackbar_padding_vertical" n0:paddingRight="@dimen/design_snackbar_padding_horizontal" n0:paddingBottom="@dimen/design_snackbar_padding_vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="@integer/design_snackbar_text_max_lines" n0:layout_weight="1.0" />
+    <Button n0:textColor="?colorAccent" n0:layout_gravity="end|center" n0:id="@id/snackbar_action" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="@dimen/design_snackbar_extra_spacing_horizontal" n0:minWidth="48.0dp" style="?borderlessButtonStyle" />
+</view>

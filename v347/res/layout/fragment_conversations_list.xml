@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <include n0:id="@id/toolbar_chatlist" layout="@layout/toolbar_include" />
+        <FrameLayout n0:id="@id/list_container" n0:layout_width="match_parent" n0:layout_height="match_parent">
+            <LinearLayout n0:orientation="vertical" n0:id="@id/chat_list_container" n0:background="@color/chatListBackground" n0:layout_width="match_parent" n0:layout_height="match_parent">
+                <View n0:background="@color/chatBackground" n0:layout_width="match_parent" n0:layout_height="1.0dp" />
+                <FrameLayout n0:paddingLeft="12.0dp" n0:paddingRight="12.0dp" n0:layout_width="match_parent" n0:layout_height="52.0dp">
+                    <com.roblox.client.components.RbxTextView n0:textSize="20.0sp" n0:textColor="@color/chatPrimary" n0:gravity="center" n0:layout_gravity="center" n0:id="@id/create_group_button" n0:background="@drawable/chat_white_button" n0:paddingTop="6.0dp" n0:paddingBottom="6.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/Feature_Chat_Label_CreateChatGroup" style="@style/Theme.Roblox.StandardFontRegular" />
+                </FrameLayout>
+                <android.support.v4.widget.SwipeRefreshLayout n0:id="@id/swipeContainer" n0:layout_width="match_parent" n0:layout_height="match_parent">
+                    <ListView n0:id="@id/list" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:listSelector="@drawable/contact_selector" n0:divider="@null" />
+                </android.support.v4.widget.SwipeRefreshLayout>
+            </LinearLayout>
+            <RelativeLayout n0:id="@id/chat_list_empty" n0:background="@color/chatBackground" n0:layout_width="match_parent" n0:layout_height="match_parent">
+                <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:id="@id/chat_start_hint" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Feature_Chat_Label_MakeFriendsChat" n0:layout_centerInParent="true" style="@style/Theme.Roblox.StandardFontRegular" />
+                <ImageView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="5.0dp" n0:src="@drawable/symbol_friends" n0:layout_above="@id/chat_start_hint" n0:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <FrameLayout n0:id="@id/chat_list_loading" n0:background="@color/chatBackground" n0:layout_width="match_parent" n0:layout_height="match_parent">
+                <include n0:layout_gravity="center" n0:layout_width="wrap_content" n0:layout_height="wrap_content" layout="@layout/chat_loading_squares" />
+            </FrameLayout>
+            <include n0:id="@id/connecting_banner" layout="@layout/connecting_banner" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

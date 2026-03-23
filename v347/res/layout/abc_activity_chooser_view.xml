@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view n0:layout_gravity="center" n0:id="@id/activity_chooser_view_content" n0:layout_width="wrap_content" n0:layout_height="match_parent" class="android.support.v7.widget.ActivityChooserView$InnerLayout" style="?activityChooserViewStyle"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:layout_gravity="center" n0:id="@id/expand_activities_button" n0:background="?actionBarItemBackground" n0:paddingLeft="12.0dp" n0:paddingTop="2.0dp" n0:paddingRight="12.0dp" n0:paddingBottom="2.0dp" n0:focusable="true" n0:addStatesFromChildren="true" n0:layout_width="wrap_content" n0:layout_height="match_parent">
+        <ImageView n0:layout_gravity="center" n0:id="@id/image" n0:layout_width="32.0dp" n0:layout_height="32.0dp" n0:scaleType="fitCenter" n0:adjustViewBounds="true" />
+    </FrameLayout>
+    <FrameLayout n0:layout_gravity="center" n0:id="@id/default_activity_button" n0:background="?actionBarItemBackground" n0:paddingLeft="12.0dp" n0:paddingTop="2.0dp" n0:paddingRight="12.0dp" n0:paddingBottom="2.0dp" n0:focusable="true" n0:addStatesFromChildren="true" n0:layout_width="wrap_content" n0:layout_height="match_parent">
+        <ImageView n0:layout_gravity="center" n0:id="@id/image" n0:layout_width="32.0dp" n0:layout_height="32.0dp" n0:scaleType="fitCenter" n0:adjustViewBounds="true" />
+    </FrameLayout>
+</view>

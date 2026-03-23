@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:background="@color/chatWhite" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <RelativeLayout n0:layout_width="match_parent" n0:layout_height="@dimen/mainToolbarHeight">
+            <View n0:id="@id/header_shadow" n0:background="@drawable/chat_shadow_darkgray" n0:layout_width="5.0dp" n0:layout_height="@dimen/mainToolbarHeight" />
+            <include n0:id="@id/toolbar_chat" n0:layout_width="match_parent" n0:layout_height="@dimen/mainToolbarHeight" n0:layout_toRightOf="@id/header_shadow" layout="@layout/toolbar_include" />
+            <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:textColor="@color/chatWhite" n0:gravity="center" n0:id="@id/create_conversation_action_button" n0:background="@drawable/chat_send_button" n0:paddingLeft="8.0dp" n0:paddingRight="8.0dp" n0:visibility="visible" n0:layout_width="wrap_content" n0:layout_height="30.0dp" n0:layout_marginRight="10.0dp" n0:layout_marginBottom="5.0dp" n0:text="@string/Feature_Chat_Label_Create" n0:layout_alignParentRight="true" n0:layout_centerVertical="true" style="@style/Theme.Roblox.StandardFontRegular" />
+        </RelativeLayout>
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="52.0dp">
+            <View n0:id="@id/selection_shadow" n0:background="@drawable/chat_shadow_white" n0:layout_width="5.0dp" n0:layout_height="match_parent" />
+            <LinearLayout n0:layout_gravity="center_vertical" n0:orientation="vertical" n0:paddingTop="8.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                <View n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="0.0dp" n0:layout_height="0.0dp" />
+                <com.roblox.client.components.MaxHeightScrollView n0:id="@id/contacts_container" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="8.0dp" n1:maxHeight="150.0dp"
+                  xmlns:n1="http://schemas.android.com/apk/res-auto">
+                    <org.apmem.tools.layouts.FlowLayout n0:gravity="center_vertical" n0:id="@id/contacts_flow" n0:paddingRight="3.0dp" n0:visibility="visible" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+                </com.roblox.client.components.MaxHeightScrollView>
+                <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                    <com.roblox.client.components.RbxChatEditText n0:textSize="16.0sp" n0:textColorHint="@color/chatSubText" n0:id="@id/search_edit" n0:background="@null" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_marginLeft="10.0dp" n0:layout_marginRight="10.0dp" n0:layout_marginBottom="8.0dp" n0:hint="@string/Feature_Chat_Label_SearchWord" n0:maxLines="1" n0:layout_weight="1.0" n0:inputType="textPersonName" n0:imeOptions="actionDone" style="@style/Theme.Roblox.StandardFontRegular" />
+                    <ImageButton n0:id="@id/close_search" n0:background="#0000" n0:visibility="gone" n0:layout_width="20.0dp" n0:layout_height="20.0dp" n0:layout_marginLeft="10.0dp" n0:layout_marginTop="1.0dp" n0:layout_marginRight="20.0dp" n0:src="@drawable/close_chat_rename" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="match_parent">
+            <View n0:id="@id/list_shadow" n0:background="@drawable/chat_shadow_white" n0:layout_width="5.0dp" n0:layout_height="match_parent" />
+            <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+                <View n0:background="@color/chatBackground" n0:layout_width="match_parent" n0:layout_height="1.0dp" />
+                <FrameLayout n0:layout_width="match_parent" n0:layout_height="match_parent">
+                    <ListView n0:id="@id/list" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:listSelector="@drawable/contact_selector" n0:divider="@null" />
+                    <include n0:id="@id/connecting_banner" layout="@layout/connecting_banner" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

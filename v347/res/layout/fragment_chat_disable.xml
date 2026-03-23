@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include n0:id="@id/toolbar_chat" layout="@layout/toolbar_include" />
+    <RelativeLayout n0:id="@id/chat_list_disabled" n0:background="@color/chatBackground" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:gravity="center" n0:id="@id/chat_disabled_hint" n0:paddingLeft="50.0dp" n0:paddingRight="50.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Feature_Chat_Label_TurnOnChatInSettings" n0:layout_centerInParent="true" style="@style/Theme.Roblox.StandardFontRegular" />
+        <ImageView n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="5.0dp" n0:src="@drawable/symbol_friends" n0:layout_above="@id/chat_disabled_hint" n0:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

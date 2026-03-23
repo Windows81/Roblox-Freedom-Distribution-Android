@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_marginLeft="24.0dp" n0:layout_marginTop="24.0dp" n0:layout_marginRight="24.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center" n0:id="@id/nearby_presentation_image_view" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/nearby_presentation" n0:scaleType="centerCrop" n0:adjustViewBounds="false" n0:cropToPadding="false" />
+    <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:textColor="@color/RbxBlack" n0:gravity="center" n0:id="@id/nearby_presentation_text_view" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="15.0dp" n0:layout_marginBottom="30.0dp" n0:text="@string/Features_Nearby_Label_IntroText" />
+    <com.roblox.client.components.RbxButton n0:textSize="16.0sp" n0:textColor="@color/white" n0:layout_gravity="center" n0:id="@id/nearby_presentation_button" n0:layout_width="match_parent" n0:layout_height="40.0dp" n0:text="@string/Features_Nearby_Label_Start" style="@style/Theme.Roblox.Button.Flat.Blue" />
+</LinearLayout>

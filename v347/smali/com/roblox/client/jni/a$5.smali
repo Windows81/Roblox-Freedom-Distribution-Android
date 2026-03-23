@@ -1,0 +1,64 @@
+.class Lcom/roblox/client/jni/a$5;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/roblox/client/jni/a;->e()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/roblox/client/jni/a;
+
+
+# direct methods
+.method constructor <init>(Lcom/roblox/client/jni/a;)V
+    .locals 0
+
+    .prologue
+    .line 158
+    iput-object p1, p0, Lcom/roblox/client/jni/a$5;->a:Lcom/roblox/client/jni/a;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 1
+
+    .prologue
+    .line 161
+    iget-object v0, p0, Lcom/roblox/client/jni/a$5;->a:Lcom/roblox/client/jni/a;
+
+    invoke-static {v0}, Lcom/roblox/client/jni/a;->a(Lcom/roblox/client/jni/a;)Lcom/roblox/engine/jni/b$a;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 162
+    iget-object v0, p0, Lcom/roblox/client/jni/a$5;->a:Lcom/roblox/client/jni/a;
+
+    invoke-static {v0}, Lcom/roblox/client/jni/a;->a(Lcom/roblox/client/jni/a;)Lcom/roblox/engine/jni/b$a;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lcom/roblox/engine/jni/b$a;->a()V
+
+    .line 164
+    :cond_0
+    return-void
+.end method

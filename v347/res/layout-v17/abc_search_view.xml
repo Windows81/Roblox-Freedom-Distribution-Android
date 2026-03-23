@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:id="@id/search_bar" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textAppearance="?android:textAppearanceMedium" n0:textColor="?android:textColorPrimary" n0:gravity="center_vertical" n0:id="@id/search_badge" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:layout_marginBottom="2.0dp" n0:drawablePadding="0.0dp" />
+    <ImageView n0:layout_gravity="center_vertical" n0:id="@id/search_button" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:contentDescription="@string/abc_searchview_description_search" style="?actionButtonStyle" />
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/search_edit_frame" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:layout_marginLeft="8.0dp" n0:layout_marginRight="8.0dp" n0:layout_weight="1.0" n0:layoutDirection="locale">
+        <ImageView n0:layout_gravity="center_vertical" n0:id="@id/search_mag_icon" n0:visibility="gone" n0:layout_width="@dimen/abc_dropdownitem_icon_width" n0:layout_height="wrap_content" n0:scaleType="centerInside" style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon" />
+        <LinearLayout n0:layout_gravity="center_vertical" n0:orientation="horizontal" n0:id="@id/search_plate" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:layout_weight="1.0">
+            <view n0:ellipsize="end" n0:layout_gravity="center_vertical" n0:id="@id/search_src_text" n0:background="@null" n0:paddingLeft="@dimen/abc_dropdownitem_text_padding_left" n0:paddingRight="@dimen/abc_dropdownitem_text_padding_right" n0:layout_width="0.0dp" n0:layout_height="36.0dp" n0:singleLine="true" n0:layout_weight="1.0" n0:inputType="textAutoComplete|textNoSuggestions" n0:dropDownAnchor="@id/search_edit_frame" n0:imeOptions="actionSearch" n0:dropDownHeight="wrap_content" n0:dropDownHorizontalOffset="0.0dp" n0:dropDownVerticalOffset="0.0dp" class="android.support.v7.widget.SearchView$SearchAutoComplete" />
+            <ImageView n0:layout_gravity="center_vertical" n0:id="@id/search_close_btn" n0:background="?selectableItemBackgroundBorderless" n0:paddingLeft="8.0dp" n0:paddingRight="8.0dp" n0:focusable="true" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:contentDescription="@string/abc_searchview_description_clear" />
+        </LinearLayout>
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/submit_area" n0:layout_width="wrap_content" n0:layout_height="match_parent">
+            <ImageView n0:layout_gravity="center_vertical" n0:id="@id/search_go_btn" n0:background="?selectableItemBackgroundBorderless" n0:paddingLeft="16.0dp" n0:paddingRight="16.0dp" n0:focusable="true" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:contentDescription="@string/abc_searchview_description_submit" />
+            <ImageView n0:layout_gravity="center_vertical" n0:id="@id/search_voice_btn" n0:background="?selectableItemBackgroundBorderless" n0:paddingLeft="16.0dp" n0:paddingRight="16.0dp" n0:focusable="true" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:contentDescription="@string/abc_searchview_description_voice" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

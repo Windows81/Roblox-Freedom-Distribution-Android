@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n0:state_pressed="true"
+      xmlns:n0="http://schemas.android.com/apk/res/android">
+        <shape n0:shape="rectangle">
+            <solid n0:color="#ff0000" />
+        </shape>
+    </item>
+    <item>
+        <shape n1:shape="rectangle"
+          xmlns:n1="http://schemas.android.com/apk/res/android">
+            <solid n1:color="#ffffff" />
+        </shape>
+    </item>
+</selector>

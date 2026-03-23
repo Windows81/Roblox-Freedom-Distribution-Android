@@ -1,0 +1,57 @@
+.class final Lcom/google/android/gms/internal/ads/fv;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field private final synthetic a:Lcom/google/android/gms/internal/ads/ij;
+
+.field private final synthetic b:Lcom/google/android/gms/internal/ads/ft;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/ft;Lcom/google/android/gms/internal/ads/ij;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/fv;->b:Lcom/google/android/gms/internal/ads/ft;
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/ads/fv;->a:Lcom/google/android/gms/internal/ads/ij;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 10
+
+    const/4 v2, 0x0
+
+    iget-object v9, p0, Lcom/google/android/gms/internal/ads/fv;->b:Lcom/google/android/gms/internal/ads/ft;
+
+    new-instance v0, Lcom/google/android/gms/internal/ads/ii;
+
+    iget-object v1, p0, Lcom/google/android/gms/internal/ads/fv;->a:Lcom/google/android/gms/internal/ads/ij;
+
+    move-object v3, v2
+
+    move-object v4, v2
+
+    move-object v5, v2
+
+    move-object v6, v2
+
+    move-object v7, v2
+
+    move-object v8, v2
+
+    invoke-direct/range {v0 .. v8}, Lcom/google/android/gms/internal/ads/ii;-><init>(Lcom/google/android/gms/internal/ads/ij;Lcom/google/android/gms/internal/ads/qd;Lcom/google/android/gms/internal/ads/bbd;Lcom/google/android/gms/internal/ads/bbx;Ljava/lang/String;Lcom/google/android/gms/internal/ads/bbh;Lcom/google/android/gms/internal/ads/ath;Ljava/lang/String;)V
+
+    invoke-virtual {v9, v0}, Lcom/google/android/gms/ads/internal/a;->b(Lcom/google/android/gms/internal/ads/ii;)V
+
+    return-void
+.end method

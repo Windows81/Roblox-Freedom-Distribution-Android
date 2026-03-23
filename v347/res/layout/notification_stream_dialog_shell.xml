@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:id="@id/dialog_frame" n0:background="@drawable/dialog_full_holo_light" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <FrameLayout n0:id="@id/frame_container" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>

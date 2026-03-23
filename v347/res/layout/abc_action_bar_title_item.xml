@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content" style="@style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:ellipsize="end" n0:id="@id/action_bar_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+    <TextView n0:ellipsize="end" n0:id="@id/action_bar_subtitle" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="@dimen/abc_action_bar_subtitle_top_margin_material" n0:singleLine="true" />
+</LinearLayout>

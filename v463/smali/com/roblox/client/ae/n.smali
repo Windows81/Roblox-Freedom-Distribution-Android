@@ -1,0 +1,456 @@
+.class public final Lcom/roblox/client/ae/n;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/roblox/client/phonenumber/PhonePrefix;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final b:Ljava/util/Locale;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 19
+    sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
+
+    sput-object v0, Lcom/roblox/client/ae/n;->b:Ljava/util/Locale;
+
+    .line 24
+    invoke-static {}, Lcom/roblox/client/ae/n;->a()Ljava/util/List;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/roblox/client/ae/n;->a:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public static a(Landroid/content/Context;)Lcom/roblox/client/phonenumber/PhonePrefix;
+    .locals 0
+
+    .line 61
+    invoke-static {p0}, Lcom/roblox/client/ae/n;->b(Landroid/content/Context;)Ljava/util/Locale;
+
+    move-result-object p0
+
+    if-nez p0, :cond_0
+
+    .line 64
+    invoke-static {}, Lcom/roblox/client/ae/n;->b()Ljava/util/Locale;
+
+    move-result-object p0
+
+    :cond_0
+    if-nez p0, :cond_1
+
+    .line 68
+    invoke-static {}, Lcom/roblox/client/phonenumber/PhonePrefix;->getDefaultPhonePrefix()Lcom/roblox/client/phonenumber/PhonePrefix;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 71
+    :cond_1
+    invoke-virtual {p0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcom/roblox/client/ae/n;->a(Ljava/lang/String;)Lcom/roblox/client/phonenumber/PhonePrefix;
+
+    move-result-object p0
+
+    if-nez p0, :cond_2
+
+    .line 73
+    invoke-static {}, Lcom/roblox/client/phonenumber/PhonePrefix;->getDefaultPhonePrefix()Lcom/roblox/client/phonenumber/PhonePrefix;
+
+    move-result-object p0
+
+    :cond_2
+    return-object p0
+.end method
+
+.method public static a(Ljava/lang/String;)Lcom/roblox/client/phonenumber/PhonePrefix;
+    .locals 3
+
+    .line 28
+    sget-object v0, Lcom/roblox/client/ae/n;->a:Ljava/util/List;
+
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/roblox/client/phonenumber/PhonePrefix;
+
+    .line 29
+    iget-object v2, v1, Lcom/roblox/client/phonenumber/PhonePrefix;->countryCode:Ljava/lang/String;
+
+    invoke-virtual {v2, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    return-object v1
+
+    :cond_1
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public static a(Lcom/roblox/client/signup/multiscreen/a/e;)Ljava/lang/String;
+    .locals 3
+
+    .line 90
+    invoke-virtual {p0}, Lcom/roblox/client/signup/multiscreen/a/e;->b()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "+"
+
+    .line 91
+    invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    return-object v0
+
+    .line 94
+    :cond_0
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 95
+    invoke-virtual {p0}, Lcom/roblox/client/signup/multiscreen/a/e;->a()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, "[^\\d.]"
+
+    const-string v1, ""
+
+    .line 96
+    invoke-virtual {v0, p0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    .line 141
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "^\\+?"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v0, ""
+
+    invoke-virtual {p0, p1, v0}, Ljava/lang/String;->replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static a()Ljava/util/List;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/roblox/client/phonenumber/PhonePrefix;",
+            ">;"
+        }
+    .end annotation
+
+    .line 123
+    new-instance v0, Lcom/google/gson/f;
+
+    invoke-direct {v0}, Lcom/google/gson/f;-><init>()V
+
+    .line 124
+    new-instance v1, Lcom/roblox/client/ae/n$1;
+
+    invoke-direct {v1}, Lcom/roblox/client/ae/n$1;-><init>()V
+
+    .line 125
+    invoke-virtual {v1}, Lcom/roblox/client/ae/n$1;->b()Ljava/lang/reflect/Type;
+
+    move-result-object v1
+
+    const-string v2, "[{\"name\":\"Afghanistan\",\"code\":\"AF\",\"prefix\":\"93\",\"localizedName\":\"Afghanistan\"},{\"name\":\"Aland Islands\",\"code\":\"AX\",\"prefix\":\"358\",\"localizedName\":\"Aland Islands\"},{\"name\":\"Albania\",\"code\":\"AL\",\"prefix\":\"355\",\"localizedName\":\"Albania\"},{\"name\":\"Algeria\",\"code\":\"DZ\",\"prefix\":\"213\",\"localizedName\":\"Algeria\"},{\"name\":\"American Samoa\",\"code\":\"AS\",\"prefix\":\"1\",\"localizedName\":\"American Samoa\"},{\"name\":\"Andorra\",\"code\":\"AD\",\"prefix\":\"376\",\"localizedName\":\"Andorra\"},{\"name\":\"Angola\",\"code\":\"AO\",\"prefix\":\"244\",\"localizedName\":\"Angola\"},{\"name\":\"Anguilla\",\"code\":\"AI\",\"prefix\":\"1\",\"localizedName\":\"Anguilla\"},{\"name\":\"Antarctica\",\"code\":\"AQ\",\"prefix\":\"672\",\"localizedName\":\"Antarctica\"},{\"name\":\"Antigua and Barbuda\",\"code\":\"AG\",\"prefix\":\"1\",\"localizedName\":\"Antigua and Barbuda\"},{\"name\":\"Argentina\",\"code\":\"AR\",\"prefix\":\"54\",\"localizedName\":\"Argentina\"},{\"name\":\"Armenia\",\"code\":\"AM\",\"prefix\":\"374\",\"localizedName\":\"Armenia\"},{\"name\":\"Aruba\",\"code\":\"AW\",\"prefix\":\"297\",\"localizedName\":\"Aruba\"},{\"name\":\"Australia\",\"code\":\"AU\",\"prefix\":\"61\",\"localizedName\":\"Australia\"},{\"name\":\"Austria\",\"code\":\"AT\",\"prefix\":\"43\",\"localizedName\":\"Austria\"},{\"name\":\"Azerbaijan\",\"code\":\"AZ\",\"prefix\":\"994\",\"localizedName\":\"Azerbaijan\"},{\"name\":\"Bahamas, The\",\"code\":\"BS\",\"prefix\":\"1\",\"localizedName\":\"Bahamas\"},{\"name\":\"Bahrain\",\"code\":\"BH\",\"prefix\":\"973\",\"localizedName\":\"Bahrain\"},{\"name\":\"Bangladesh\",\"code\":\"BD\",\"prefix\":\"880\",\"localizedName\":\"Bangladesh\"},{\"name\":\"Barbados\",\"code\":\"BB\",\"prefix\":\"1\",\"localizedName\":\"Barbados\"},{\"name\":\"Belarus\",\"code\":\"BY\",\"prefix\":\"375\",\"localizedName\":\"Belarus\"},{\"name\":\"Belgium\",\"code\":\"BE\",\"prefix\":\"32\",\"localizedName\":\"Belgium\"},{\"name\":\"Belize\",\"code\":\"BZ\",\"prefix\":\"501\",\"localizedName\":\"Belize\"},{\"name\":\"Benin\",\"code\":\"BJ\",\"prefix\":\"229\",\"localizedName\":\"Benin\"},{\"name\":\"Bermuda\",\"code\":\"BM\",\"prefix\":\"1\",\"localizedName\":\"Bermuda\"},{\"name\":\"Bhutan\",\"code\":\"BT\",\"prefix\":\"975\",\"localizedName\":\"Bhutan\"},{\"name\":\"Bolivia\",\"code\":\"BO\",\"prefix\":\"591\",\"localizedName\":\"Bolivia\"},{\"name\":\"Bonaire, Saint Eustatius and Saba\",\"code\":\"BQ\",\"prefix\":\"599\",\"localizedName\":\"Bonaire, Saint Eustatius and Saba\"},{\"name\":\"Bosnia and Herzegovina\",\"code\":\"BA\",\"prefix\":\"387\",\"localizedName\":\"Bosnia and Herzegovina\"},{\"name\":\"Botswana\",\"code\":\"BW\",\"prefix\":\"267\",\"localizedName\":\"Botswana\"},{\"name\":\"Bouvet Island\",\"code\":\"BV\",\"prefix\":\"47\",\"localizedName\":\"Bouvet Island\"},{\"name\":\"Brazil\",\"code\":\"BR\",\"prefix\":\"55\",\"localizedName\":\"Brazil\"},{\"name\":\"British Indian Ocean Territory\",\"code\":\"IO\",\"prefix\":\"246\",\"localizedName\":\"British Indian Ocean Territory\"},{\"name\":\"Brunei Darussalam\",\"code\":\"BN\",\"prefix\":\"673\",\"localizedName\":\"Brunei Darussalam\"},{\"name\":\"Bulgaria\",\"code\":\"BG\",\"prefix\":\"359\",\"localizedName\":\"Bulgaria\"},{\"name\":\"Burkina Faso\",\"code\":\"BF\",\"prefix\":\"226\",\"localizedName\":\"Burkina Faso\"},{\"name\":\"Burundi\",\"code\":\"BI\",\"prefix\":\"257\",\"localizedName\":\"Burundi\"},{\"name\":\"Cambodia\",\"code\":\"KH\",\"prefix\":\"855\",\"localizedName\":\"Cambodia\"},{\"name\":\"Cameroon\",\"code\":\"CM\",\"prefix\":\"237\",\"localizedName\":\"Cameroon\"},{\"name\":\"Canada\",\"code\":\"CA\",\"prefix\":\"1\",\"localizedName\":\"Canada\"},{\"name\":\"Cape Verde\",\"code\":\"CV\",\"prefix\":\"238\",\"localizedName\":\"Cape Verde\"},{\"name\":\"Cayman Islands\",\"code\":\"KY\",\"prefix\":\"1\",\"localizedName\":\"Cayman Islands\"},{\"name\":\"Central African Republic\",\"code\":\"CF\",\"prefix\":\"236\",\"localizedName\":\"Central African Republic\"},{\"name\":\"Chad\",\"code\":\"TD\",\"prefix\":\"235\",\"localizedName\":\"Chad\"},{\"name\":\"Chile\",\"code\":\"CL\",\"prefix\":\"56\",\"localizedName\":\"Chile\"},{\"name\":\"China\",\"code\":\"CN\",\"prefix\":\"86\",\"localizedName\":\"China\"},{\"name\":\"Christmas Island\",\"code\":\"CX\",\"prefix\":\"61\",\"localizedName\":\"Christmas Island\"},{\"name\":\"Cocos (Keeling) Islands\",\"code\":\"CC\",\"prefix\":\"61\",\"localizedName\":\"Cocos Islands\"},{\"name\":\"Colombia\",\"code\":\"CO\",\"prefix\":\"57\",\"localizedName\":\"Colombia\"},{\"name\":\"Comoros\",\"code\":\"KM\",\"prefix\":\"269\",\"localizedName\":\"Comoros\"},{\"name\":\"Congo\",\"code\":\"CG\",\"prefix\":\"242\",\"localizedName\":\"Congo\"},{\"name\":\"Congo, The Democratic Republic of the\",\"code\":\"CD\",\"prefix\":\"243\",\"localizedName\":\"Congo (DRC)\"},{\"name\":\"Cook Islands\",\"code\":\"CK\",\"prefix\":\"682\",\"localizedName\":\"Cook Islands\"},{\"name\":\"Costa Rica\",\"code\":\"CR\",\"prefix\":\"506\",\"localizedName\":\"Costa Rica\"},{\"name\":\"Croatia\",\"code\":\"HR\",\"prefix\":\"385\",\"localizedName\":\"Croatia\"},{\"name\":\"Cuba\",\"code\":\"CU\",\"prefix\":\"53\",\"localizedName\":\"Cuba\"},{\"name\":\"Cura\u00e7ao\",\"code\":\"CW\",\"prefix\":\"599\",\"localizedName\":\"Cura\u00e7ao\"},{\"name\":\"Cyprus\",\"code\":\"CY\",\"prefix\":\"357\",\"localizedName\":\"Cyprus\"},{\"name\":\"Czech Republic\",\"code\":\"CZ\",\"prefix\":\"420\",\"localizedName\":\"Czech Republic\"},{\"name\":\"Denmark\",\"code\":\"DK\",\"prefix\":\"45\",\"localizedName\":\"Denmark\"},{\"name\":\"Djibouti\",\"code\":\"DJ\",\"prefix\":\"253\",\"localizedName\":\"Djibouti\"},{\"name\":\"Dominica\",\"code\":\"DM\",\"prefix\":\"1\",\"localizedName\":\"Dominica\"},{\"name\":\"Dominican Republic\",\"code\":\"DO\",\"prefix\":\"1\",\"localizedName\":\"Dominican Republic\"},{\"name\":\"Dominican Republic\",\"code\":\"DO\",\"prefix\":\"1\",\"localizedName\":\"Dominican Republic\"},{\"name\":\"Dominican Republic\",\"code\":\"DO\",\"prefix\":\"1\",\"localizedName\":\"Dominican Republic\"},{\"name\":\"Ecuador\",\"code\":\"EC\",\"prefix\":\"593\",\"localizedName\":\"Ecuador\"},{\"name\":\"Egypt\",\"code\":\"EG\",\"prefix\":\"20\",\"localizedName\":\"Egypt\"},{\"name\":\"El Salvador\",\"code\":\"SV\",\"prefix\":\"503\",\"localizedName\":\"El Salvador\"},{\"name\":\"Equatorial Guinea\",\"code\":\"GQ\",\"prefix\":\"240\",\"localizedName\":\"Equatorial Guinea\"},{\"name\":\"Eritrea\",\"code\":\"ER\",\"prefix\":\"291\",\"localizedName\":\"Eritrea\"},{\"name\":\"Estonia\",\"code\":\"EE\",\"prefix\":\"372\",\"localizedName\":\"Estonia\"},{\"name\":\"Ethiopia\",\"code\":\"ET\",\"prefix\":\"251\",\"localizedName\":\"Ethiopia\"},{\"name\":\"Falkland Islands (Malvinas)\",\"code\":\"FK\",\"prefix\":\"500\",\"localizedName\":\"Falkland Islands (Malvinas)\"},{\"name\":\"Faroe Islands\",\"code\":\"FO\",\"prefix\":\"298\",\"localizedName\":\"Faroe Islands\"},{\"name\":\"Fiji\",\"code\":\"FJ\",\"prefix\":\"679\",\"localizedName\":\"Fiji\"},{\"name\":\"Finland\",\"code\":\"FI\",\"prefix\":\"358\",\"localizedName\":\"Finland\"},{\"name\":\"France\",\"code\":\"FR\",\"prefix\":\"33\",\"localizedName\":\"France\"},{\"name\":\"French Guiana\",\"code\":\"GF\",\"prefix\":\"594\",\"localizedName\":\"French Guiana\"},{\"name\":\"French Polynesia\",\"code\":\"PF\",\"prefix\":\"689\",\"localizedName\":\"French Polynesia\"},{\"name\":\"French Southern Territories\",\"code\":\"TF\",\"prefix\":\"262\",\"localizedName\":\"French Southern Territories\"},{\"name\":\"Gabon\",\"code\":\"GA\",\"prefix\":\"241\",\"localizedName\":\"Gabon\"},{\"name\":\"Gambia, The\",\"code\":\"GM\",\"prefix\":\"220\",\"localizedName\":\"Gambia\"},{\"name\":\"Georgia\",\"code\":\"GE\",\"prefix\":\"995\",\"localizedName\":\"Georgia\"},{\"name\":\"Germany\",\"code\":\"DE\",\"prefix\":\"49\",\"localizedName\":\"Germany\"},{\"name\":\"Ghana\",\"code\":\"GH\",\"prefix\":\"233\",\"localizedName\":\"Ghana\"},{\"name\":\"Gibraltar\",\"code\":\"GI\",\"prefix\":\"350\",\"localizedName\":\"Gibraltar\"},{\"name\":\"Greece\",\"code\":\"GR\",\"prefix\":\"30\",\"localizedName\":\"Greece\"},{\"name\":\"Greenland\",\"code\":\"GL\",\"prefix\":\"299\",\"localizedName\":\"Greenland\"},{\"name\":\"Grenada\",\"code\":\"GD\",\"prefix\":\"1\",\"localizedName\":\"Grenada\"},{\"name\":\"Guadeloupe\",\"code\":\"GP\",\"prefix\":\"590\",\"localizedName\":\"Guadeloupe\"},{\"name\":\"Guam\",\"code\":\"GU\",\"prefix\":\"1\",\"localizedName\":\"Guam\"},{\"name\":\"Guatemala\",\"code\":\"GT\",\"prefix\":\"502\",\"localizedName\":\"Guatemala\"},{\"name\":\"Guernsey\",\"code\":\"GG\",\"prefix\":\"44\",\"localizedName\":\"Guernsey\"},{\"name\":\"Guinea\",\"code\":\"GN\",\"prefix\":\"224\",\"localizedName\":\"Guinea\"},{\"name\":\"Guinea-Bissau\",\"code\":\"GW\",\"prefix\":\"245\",\"localizedName\":\"Guinea-Bissau\"},{\"name\":\"Guyana\",\"code\":\"GY\",\"prefix\":\"592\",\"localizedName\":\"Guyana\"},{\"name\":\"Haiti\",\"code\":\"HT\",\"prefix\":\"509\",\"localizedName\":\"Haiti\"},{\"name\":\"Holy See\",\"code\":\"VA\",\"prefix\":\"379\",\"localizedName\":\"Holy See\"},{\"name\":\"Honduras\",\"code\":\"HN\",\"prefix\":\"504\",\"localizedName\":\"Honduras\"},{\"name\":\"Hong Kong\",\"code\":\"HK\",\"prefix\":\"852\",\"localizedName\":\"Hong Kong\"},{\"name\":\"Hungary\",\"code\":\"HU\",\"prefix\":\"36\",\"localizedName\":\"Hungary\"},{\"name\":\"Iceland\",\"code\":\"IS\",\"prefix\":\"354\",\"localizedName\":\"Iceland\"},{\"name\":\"India\",\"code\":\"IN\",\"prefix\":\"91\",\"localizedName\":\"India\"},{\"name\":\"Indonesia\",\"code\":\"ID\",\"prefix\":\"62\",\"localizedName\":\"Indonesia\"},{\"name\":\"Iran\",\"code\":\"IR\",\"prefix\":\"98\",\"localizedName\":\"Iran\"},{\"name\":\"Iraq\",\"code\":\"IQ\",\"prefix\":\"964\",\"localizedName\":\"Iraq\"},{\"name\":\"Ireland\",\"code\":\"IE\",\"prefix\":\"353\",\"localizedName\":\"Ireland\"},{\"name\":\"Isle of Man\",\"code\":\"IM\",\"prefix\":\"44\",\"localizedName\":\"Isle of Man\"},{\"name\":\"Israel\",\"code\":\"IL\",\"prefix\":\"972\",\"localizedName\":\"Israel\"},{\"name\":\"Italy\",\"code\":\"IT\",\"prefix\":\"39\",\"localizedName\":\"Italy\"},{\"name\":\"Cote D\'ivoire\",\"code\":\"CI\",\"prefix\":\"225\",\"localizedName\":\"Ivory Coast\"},{\"name\":\"Jamaica\",\"code\":\"JM\",\"prefix\":\"1\",\"localizedName\":\"Jamaica\"},{\"name\":\"Japan\",\"code\":\"JP\",\"prefix\":\"81\",\"localizedName\":\"Japan\"},{\"name\":\"Jersey\",\"code\":\"JE\",\"prefix\":\"44\",\"localizedName\":\"Jersey\"},{\"name\":\"Jordan\",\"code\":\"JO\",\"prefix\":\"962\",\"localizedName\":\"Jordan\"},{\"name\":\"Kazakhstan\",\"code\":\"KZ\",\"prefix\":\"7\",\"localizedName\":\"Kazakhstan\"},{\"name\":\"Kenya\",\"code\":\"KE\",\"prefix\":\"254\",\"localizedName\":\"Kenya\"},{\"name\":\"Kiribati\",\"code\":\"KI\",\"prefix\":\"686\",\"localizedName\":\"Kiribati\"},{\"name\":\"Korea, Republic of\",\"code\":\"KR\",\"prefix\":\"82\",\"localizedName\":\"Korea\"},{\"name\":\"Kuwait\",\"code\":\"KW\",\"prefix\":\"965\",\"localizedName\":\"Kuwait\"},{\"name\":\"Kyrgyzstan\",\"code\":\"KG\",\"prefix\":\"996\",\"localizedName\":\"Kyrgyzstan\"},{\"name\":\"Lao People\'s Democratic Republic\",\"code\":\"LA\",\"prefix\":\"856\",\"localizedName\":\"Laos\"},{\"name\":\"Latvia\",\"code\":\"LV\",\"prefix\":\"371\",\"localizedName\":\"Latvia\"},{\"name\":\"Lebanon\",\"code\":\"LB\",\"prefix\":\"961\",\"localizedName\":\"Lebanon\"},{\"name\":\"Lesotho\",\"code\":\"LS\",\"prefix\":\"266\",\"localizedName\":\"Lesotho\"},{\"name\":\"Liberia\",\"code\":\"LR\",\"prefix\":\"231\",\"localizedName\":\"Liberia\"},{\"name\":\"Libya\",\"code\":\"LY\",\"prefix\":\"218\",\"localizedName\":\"Libya\"},{\"name\":\"Liechtenstein\",\"code\":\"LI\",\"prefix\":\"423\",\"localizedName\":\"Liechtenstein\"},{\"name\":\"Lithuania\",\"code\":\"LT\",\"prefix\":\"370\",\"localizedName\":\"Lithuania\"},{\"name\":\"Luxembourg\",\"code\":\"LU\",\"prefix\":\"352\",\"localizedName\":\"Luxembourg\"},{\"name\":\"Macao\",\"code\":\"MO\",\"prefix\":\"853\",\"localizedName\":\"Macao\"},{\"name\":\"Macedonia, The Former Yugoslav Republic of\",\"code\":\"MK\",\"prefix\":\"389\",\"localizedName\":\"Macedonia\"},{\"name\":\"Madagascar\",\"code\":\"MG\",\"prefix\":\"261\",\"localizedName\":\"Madagascar\"},{\"name\":\"Malawi\",\"code\":\"MW\",\"prefix\":\"265\",\"localizedName\":\"Malawi\"},{\"name\":\"Malaysia\",\"code\":\"MY\",\"prefix\":\"60\",\"localizedName\":\"Malaysia\"},{\"name\":\"Maldives\",\"code\":\"MV\",\"prefix\":\"960\",\"localizedName\":\"Maldives\"},{\"name\":\"Mali\",\"code\":\"ML\",\"prefix\":\"223\",\"localizedName\":\"Mali\"},{\"name\":\"Malta\",\"code\":\"MT\",\"prefix\":\"356\",\"localizedName\":\"Malta\"},{\"name\":\"Marshall Islands\",\"code\":\"MH\",\"prefix\":\"692\",\"localizedName\":\"Marshall Islands\"},{\"name\":\"Martinique\",\"code\":\"MQ\",\"prefix\":\"596\",\"localizedName\":\"Martinique\"},{\"name\":\"Mauritania\",\"code\":\"MR\",\"prefix\":\"222\",\"localizedName\":\"Mauritania\"},{\"name\":\"Mauritius\",\"code\":\"MU\",\"prefix\":\"230\",\"localizedName\":\"Mauritius\"},{\"name\":\"Mayotte\",\"code\":\"YT\",\"prefix\":\"262\",\"localizedName\":\"Mayotte\"},{\"name\":\"Mexico\",\"code\":\"MX\",\"prefix\":\"52\",\"localizedName\":\"Mexico\"},{\"name\":\"Micronesia, Federated States of\",\"code\":\"FM\",\"prefix\":\"691\",\"localizedName\":\"Micronesia\"},{\"name\":\"Moldova, Republic of\",\"code\":\"MD\",\"prefix\":\"373\",\"localizedName\":\"Moldova\"},{\"name\":\"Monaco\",\"code\":\"MC\",\"prefix\":\"377\",\"localizedName\":\"Monaco\"},{\"name\":\"Mongolia\",\"code\":\"MN\",\"prefix\":\"976\",\"localizedName\":\"Mongolia\"},{\"name\":\"Montenegro\",\"code\":\"ME\",\"prefix\":\"382\",\"localizedName\":\"Montenegro\"},{\"name\":\"Montserrat\",\"code\":\"MS\",\"prefix\":\"1\",\"localizedName\":\"Montserrat\"},{\"name\":\"Morocco\",\"code\":\"MA\",\"prefix\":\"212\",\"localizedName\":\"Morocco\"},{\"name\":\"Mozambique\",\"code\":\"MZ\",\"prefix\":\"258\",\"localizedName\":\"Mozambique\"},{\"name\":\"Myanmar\",\"code\":\"MM\",\"prefix\":\"95\",\"localizedName\":\"Myanmar\"},{\"name\":\"Namibia\",\"code\":\"NA\",\"prefix\":\"264\",\"localizedName\":\"Namibia\"},{\"name\":\"Nauru\",\"code\":\"NR\",\"prefix\":\"674\",\"localizedName\":\"Nauru\"},{\"name\":\"Nepal\",\"code\":\"NP\",\"prefix\":\"977\",\"localizedName\":\"Nepal\"},{\"name\":\"Netherlands\",\"code\":\"NL\",\"prefix\":\"31\",\"localizedName\":\"Netherlands\"},{\"name\":\"Netherlands Antilles\",\"code\":\"AN\",\"prefix\":\"599\",\"localizedName\":\"Netherlands Antilles\"},{\"name\":\"New Caledonia\",\"code\":\"NC\",\"prefix\":\"687\",\"localizedName\":\"New Caledonia\"},{\"name\":\"New Zealand\",\"code\":\"NZ\",\"prefix\":\"64\",\"localizedName\":\"New Zealand\"},{\"name\":\"Nicaragua\",\"code\":\"NI\",\"prefix\":\"505\",\"localizedName\":\"Nicaragua\"},{\"name\":\"Niger\",\"code\":\"NE\",\"prefix\":\"227\",\"localizedName\":\"Niger\"},{\"name\":\"Nigeria\",\"code\":\"NG\",\"prefix\":\"234\",\"localizedName\":\"Nigeria\"},{\"name\":\"Niue\",\"code\":\"NU\",\"prefix\":\"683\",\"localizedName\":\"Niue\"},{\"name\":\"Norfolk Island\",\"code\":\"NF\",\"prefix\":\"672\",\"localizedName\":\"Norfolk Island\"},{\"name\":\"North Korea\",\"code\":\"KP\",\"prefix\":\"850\",\"localizedName\":\"North Korea\"},{\"name\":\"Northern Mariana Islands\",\"code\":\"MP\",\"prefix\":\"1\",\"localizedName\":\"Northern Mariana Islands\"},{\"name\":\"Norway\",\"code\":\"NO\",\"prefix\":\"47\",\"localizedName\":\"Norway\"},{\"name\":\"Oman\",\"code\":\"OM\",\"prefix\":\"968\",\"localizedName\":\"Oman\"},{\"name\":\"Pakistan\",\"code\":\"PK\",\"prefix\":\"92\",\"localizedName\":\"Pakistan\"},{\"name\":\"Palau\",\"code\":\"PW\",\"prefix\":\"680\",\"localizedName\":\"Palau\"},{\"name\":\"Palestinian Territories\",\"code\":\"PS\",\"prefix\":\"970\",\"localizedName\":\"Palestine\"},{\"name\":\"Panama\",\"code\":\"PA\",\"prefix\":\"507\",\"localizedName\":\"Panama\"},{\"name\":\"Papua New Guinea\",\"code\":\"PG\",\"prefix\":\"675\",\"localizedName\":\"Papua New Guinea\"},{\"name\":\"Paraguay\",\"code\":\"PY\",\"prefix\":\"595\",\"localizedName\":\"Paraguay\"},{\"name\":\"Peru\",\"code\":\"PE\",\"prefix\":\"51\",\"localizedName\":\"Peru\"},{\"name\":\"Philippines\",\"code\":\"PH\",\"prefix\":\"63\",\"localizedName\":\"Philippines\"},{\"name\":\"Pitcairn\",\"code\":\"PN\",\"prefix\":\"64\",\"localizedName\":\"Pitcairn Islands\"},{\"name\":\"Poland\",\"code\":\"PL\",\"prefix\":\"48\",\"localizedName\":\"Poland\"},{\"name\":\"Portugal\",\"code\":\"PT\",\"prefix\":\"351\",\"localizedName\":\"Portugal\"},{\"name\":\"Puerto Rico\",\"code\":\"PR\",\"prefix\":\"1\",\"localizedName\":\"Puerto Rico\"},{\"name\":\"Puerto Rico\",\"code\":\"PR\",\"prefix\":\"1\",\"localizedName\":\"Puerto Rico\"},{\"name\":\"Qatar\",\"code\":\"QA\",\"prefix\":\"974\",\"localizedName\":\"Qatar\"},{\"name\":\"Reunion\",\"code\":\"RE\",\"prefix\":\"262\",\"localizedName\":\"Reunion\"},{\"name\":\"Romania\",\"code\":\"RO\",\"prefix\":\"40\",\"localizedName\":\"Romania\"},{\"name\":\"Russian Federation\",\"code\":\"RU\",\"prefix\":\"7\",\"localizedName\":\"Russian Federation\"},{\"name\":\"Rwanda\",\"code\":\"RW\",\"prefix\":\"250\",\"localizedName\":\"Rwanda\"},{\"name\":\"Saint Barthelemy\",\"code\":\"BL\",\"prefix\":\"590\",\"localizedName\":\"Saint Barthelemy\"},{\"name\":\"Saint Helena, Ascension and Tristan da Cunha\",\"code\":\"SH\",\"prefix\":\"290\",\"localizedName\":\"Saint Helena, Ascension and Tristan da Cunha\"},{\"name\":\"Saint Kitts and Nevis\",\"code\":\"KN\",\"prefix\":\"1\",\"localizedName\":\"Saint Kitts and Nevis\"},{\"name\":\"Saint Lucia\",\"code\":\"LC\",\"prefix\":\"1\",\"localizedName\":\"Saint Lucia\"},{\"name\":\"Saint Martin\",\"code\":\"MF\",\"prefix\":\"590\",\"localizedName\":\"Saint Martin\"},{\"name\":\"Saint Pierre and Miquelon\",\"code\":\"PM\",\"prefix\":\"508\",\"localizedName\":\"Saint Pierre and Miquelon\"},{\"name\":\"Saint Vincent and the Grenadines\",\"code\":\"VC\",\"prefix\":\"1\",\"localizedName\":\"Saint Vincent and the Grenadines\"},{\"name\":\"Samoa\",\"code\":\"WS\",\"prefix\":\"685\",\"localizedName\":\"Samoa\"},{\"name\":\"San Marino\",\"code\":\"SM\",\"prefix\":\"378\",\"localizedName\":\"San Marino\"},{\"name\":\"Sao Tome and Principe\",\"code\":\"ST\",\"prefix\":\"239\",\"localizedName\":\"Sao Tome and Principe\"},{\"name\":\"Saudi Arabia\",\"code\":\"SA\",\"prefix\":\"966\",\"localizedName\":\"Saudi Arabia\"},{\"name\":\"Senegal\",\"code\":\"SN\",\"prefix\":\"221\",\"localizedName\":\"Senegal\"},{\"name\":\"Serbia\",\"code\":\"RS\",\"prefix\":\"381\",\"localizedName\":\"Serbia\"},{\"name\":\"Seychelles\",\"code\":\"SC\",\"prefix\":\"248\",\"localizedName\":\"Seychelles\"},{\"name\":\"Sierra Leone\",\"code\":\"SL\",\"prefix\":\"232\",\"localizedName\":\"Sierra Leone\"},{\"name\":\"Singapore\",\"code\":\"SG\",\"prefix\":\"65\",\"localizedName\":\"Singapore\"},{\"name\":\"Sint Maarten\",\"code\":\"SX\",\"prefix\":\"1\",\"localizedName\":\"Sint Maarten\"},{\"name\":\"Slovakia\",\"code\":\"SK\",\"prefix\":\"421\",\"localizedName\":\"Slovakia\"},{\"name\":\"Slovenia\",\"code\":\"SI\",\"prefix\":\"386\",\"localizedName\":\"Slovenia\"},{\"name\":\"Solomon Islands\",\"code\":\"SB\",\"prefix\":\"677\",\"localizedName\":\"Solomon Islands\"},{\"name\":\"Somalia\",\"code\":\"SO\",\"prefix\":\"252\",\"localizedName\":\"Somalia\"},{\"name\":\"South Africa\",\"code\":\"ZA\",\"prefix\":\"27\",\"localizedName\":\"South Africa\"},{\"name\":\"South Georgia and the South Sandwich Islands\",\"code\":\"GS\",\"prefix\":\"500\",\"localizedName\":\"South Georgia and the South Sandwich Islands\"},{\"name\":\"South Sudan\",\"code\":\"SS\",\"prefix\":\"211\",\"localizedName\":\"South Sudan\"},{\"name\":\"Spain\",\"code\":\"ES\",\"prefix\":\"34\",\"localizedName\":\"Spain\"},{\"name\":\"Sri Lanka\",\"code\":\"LK\",\"prefix\":\"94\",\"localizedName\":\"Sri Lanka\"},{\"name\":\"Suriname\",\"code\":\"SR\",\"prefix\":\"597\",\"localizedName\":\"Suriname\"},{\"name\":\"Svalbard and Jan Mayen\",\"code\":\"SJ\",\"prefix\":\"47\",\"localizedName\":\"Svalbard and Jan Mayen\"},{\"name\":\"Swaziland\",\"code\":\"SZ\",\"prefix\":\"268\",\"localizedName\":\"Swaziland\"},{\"name\":\"Sweden\",\"code\":\"SE\",\"prefix\":\"46\",\"localizedName\":\"Sweden\"},{\"name\":\"Switzerland\",\"code\":\"CH\",\"prefix\":\"41\",\"localizedName\":\"Switzerland\"},{\"name\":\"Syria\",\"code\":\"SY\",\"prefix\":\"963\",\"localizedName\":\"Syria\"},{\"name\":\"Taiwan\",\"code\":\"TW\",\"prefix\":\"886\",\"localizedName\":\"Taiwan\"},{\"name\":\"Tajikistan\",\"code\":\"TJ\",\"prefix\":\"992\",\"localizedName\":\"Tajikistan\"},{\"name\":\"Tanzania, United Republic of\",\"code\":\"TZ\",\"prefix\":\"255\",\"localizedName\":\"Tanzania\"},{\"name\":\"Thailand\",\"code\":\"TH\",\"prefix\":\"66\",\"localizedName\":\"Thailand\"},{\"name\":\"Timor-leste\",\"code\":\"TL\",\"prefix\":\"670\",\"localizedName\":\"Timor-leste\"},{\"name\":\"Togo\",\"code\":\"TG\",\"prefix\":\"228\",\"localizedName\":\"Togo\"},{\"name\":\"Tokelau\",\"code\":\"TK\",\"prefix\":\"690\",\"localizedName\":\"Tokelau\"},{\"name\":\"Tonga\",\"code\":\"TO\",\"prefix\":\"676\",\"localizedName\":\"Tonga\"},{\"name\":\"Trinidad and Tobago\",\"code\":\"TT\",\"prefix\":\"1\",\"localizedName\":\"Trinidad and Tobago\"},{\"name\":\"Tunisia\",\"code\":\"TN\",\"prefix\":\"216\",\"localizedName\":\"Tunisia\"},{\"name\":\"Turkey\",\"code\":\"TR\",\"prefix\":\"90\",\"localizedName\":\"Turkey\"},{\"name\":\"Turkmenistan\",\"code\":\"TM\",\"prefix\":\"993\",\"localizedName\":\"Turkmenistan\"},{\"name\":\"Turks and Caicos Islands\",\"code\":\"TC\",\"prefix\":\"1\",\"localizedName\":\"Turks and Caicos Islands\"},{\"name\":\"Tuvalu\",\"code\":\"TV\",\"prefix\":\"688\",\"localizedName\":\"Tuvalu\"},{\"name\":\"Uganda\",\"code\":\"UG\",\"prefix\":\"256\",\"localizedName\":\"Uganda\"},{\"name\":\"Ukraine\",\"code\":\"UA\",\"prefix\":\"380\",\"localizedName\":\"Ukraine\"},{\"name\":\"United Arab Emirates\",\"code\":\"AE\",\"prefix\":\"971\",\"localizedName\":\"United Arab Emirates\"},{\"name\":\"United Kingdom\",\"code\":\"GB\",\"prefix\":\"44\",\"localizedName\":\"United Kingdom\"},{\"name\":\"United States\",\"code\":\"US\",\"prefix\":\"1\",\"localizedName\":\"United States\"},{\"name\":\"Uruguay\",\"code\":\"UY\",\"prefix\":\"598\",\"localizedName\":\"Uruguay\"},{\"name\":\"Uzbekistan\",\"code\":\"UZ\",\"prefix\":\"998\",\"localizedName\":\"Uzbekistan\"},{\"name\":\"Vanuatu\",\"code\":\"VU\",\"prefix\":\"678\",\"localizedName\":\"Vanuatu\"},{\"name\":\"Venezuela\",\"code\":\"VE\",\"prefix\":\"58\",\"localizedName\":\"Venezuela\"},{\"name\":\"Vietnam\",\"code\":\"VN\",\"prefix\":\"84\",\"localizedName\":\"Vietnam\"},{\"name\":\"Virgin Islands, British\",\"code\":\"VG\",\"prefix\":\"1\",\"localizedName\":\"Virgin Islands (British)\"},{\"name\":\"Virgin Islands, U.S.\",\"code\":\"VI\",\"prefix\":\"1\",\"localizedName\":\"Virgin Islands (US)\"},{\"name\":\"Wallis and Futuna\",\"code\":\"WF\",\"prefix\":\"681\",\"localizedName\":\"Wallis and Futuna\"},{\"name\":\"Western Sahara\",\"code\":\"EH\",\"prefix\":\"212\",\"localizedName\":\"Western Sahara\"},{\"name\":\"Yemen\",\"code\":\"YE\",\"prefix\":\"967\",\"localizedName\":\"Yemen\"},{\"name\":\"Zambia\",\"code\":\"ZM\",\"prefix\":\"260\",\"localizedName\":\"Zambia\"},{\"name\":\"Zimbabwe\",\"code\":\"ZW\",\"prefix\":\"263\",\"localizedName\":\"Zimbabwe\"}]"
+
+    .line 127
+    invoke-virtual {v0, v2, v1}, Lcom/google/gson/f;->a(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public static b(Ljava/lang/String;)Lcom/roblox/client/signup/multiscreen/a/e;
+    .locals 2
+
+    .line 45
+    sget-object v0, Lcom/roblox/client/ae/n;->b:Ljava/util/Locale;
+
+    invoke-virtual {v0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "+"
+
+    .line 49
+    invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    .line 50
+    invoke-static {p0}, Lcom/roblox/client/ae/n;->d(Ljava/lang/String;)Lcom/roblox/client/phonenumber/PhonePrefix;
+
+    move-result-object v0
+
+    .line 51
+    iget-object v1, v0, Lcom/roblox/client/phonenumber/PhonePrefix;->prefix:Ljava/lang/String;
+
+    invoke-static {p0, v1}, Lcom/roblox/client/ae/n;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    goto :goto_0
+
+    .line 53
+    :cond_0
+    invoke-static {v0}, Lcom/roblox/client/ae/n;->a(Ljava/lang/String;)Lcom/roblox/client/phonenumber/PhonePrefix;
+
+    move-result-object v0
+
+    .line 56
+    :goto_0
+    new-instance v1, Lcom/roblox/client/signup/multiscreen/a/e;
+
+    invoke-direct {v1, v0, p0}, Lcom/roblox/client/signup/multiscreen/a/e;-><init>(Lcom/roblox/client/phonenumber/PhonePrefix;Ljava/lang/String;)V
+
+    return-object v1
+.end method
+
+.method private static b()Ljava/util/Locale;
+    .locals 1
+
+    .line 137
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method private static b(Landroid/content/Context;)Ljava/util/Locale;
+    .locals 2
+
+    const-string v0, "phone"
+
+    .line 131
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Landroid/telephony/TelephonyManager;
+
+    const/4 v0, 0x0
+
+    if-eqz p0, :cond_0
+
+    .line 132
+    invoke-virtual {p0}, Landroid/telephony/TelephonyManager;->getSimCountryIso()Ljava/lang/String;
+
+    move-result-object p0
+
+    goto :goto_0
+
+    :cond_0
+    move-object p0, v0
+
+    .line 133
+    :goto_0
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    goto :goto_1
+
+    :cond_1
+    new-instance v0, Ljava/util/Locale;
+
+    const-string v1, ""
+
+    invoke-direct {v0, v1, p0}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    :goto_1
+    return-object v0
+.end method
+
+.method public static c(Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    const-string v0, "[^\\d.]"
+
+    const-string v1, ""
+
+    .line 77
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static d(Ljava/lang/String;)Lcom/roblox/client/phonenumber/PhonePrefix;
+    .locals 7
+
+    const-string v0, "^\\+"
+
+    const-string v1, ""
+
+    .line 106
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 107
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    :goto_0
+    const/4 v2, 0x3
+
+    if-gt v1, v2, :cond_2
+
+    if-gt v1, v0, :cond_2
+
+    const/4 v2, 0x0
+
+    .line 110
+    invoke-virtual {p0, v2, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 111
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    .line 113
+    sget-object v3, Lcom/roblox/client/ae/n;->a:Ljava/util/List;
+
+    invoke-interface {v3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v3
+
+    :cond_0
+    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v4
+
+    if-eqz v4, :cond_1
+
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Lcom/roblox/client/phonenumber/PhonePrefix;
+
+    .line 114
+    iget-object v5, v4, Lcom/roblox/client/phonenumber/PhonePrefix;->prefix:Ljava/lang/String;
+
+    invoke-static {v5}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
+
+    move-result v5
+
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v6
+
+    if-ne v5, v6, :cond_0
+
+    return-object v4
+
+    :cond_1
+    add-int/lit8 v1, v1, 0x1
+
+    goto :goto_0
+
+    .line 119
+    :cond_2
+    invoke-static {}, Lcom/roblox/client/phonenumber/PhonePrefix;->getDefaultPhonePrefix()Lcom/roblox/client/phonenumber/PhonePrefix;
+
+    move-result-object p0
+
+    return-object p0
+.end method

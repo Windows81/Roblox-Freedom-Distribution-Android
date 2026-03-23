@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView n0:textAppearance="?android:textAppearanceMedium" n0:textColor="?textColorAlertDialogListItem" n0:ellipsize="marquee" n0:gravity="center_vertical" n0:id="@android:id/text1" n0:paddingLeft="@dimen/abc_select_dialog_padding_start_material" n0:paddingRight="?dialogPreferredPadding" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="?listPreferredItemHeightSmall" n0:drawableLeft="?android:listChoiceIndicatorMultiple" n0:drawablePadding="20.0dp" n0:drawableStart="?android:listChoiceIndicatorMultiple"
+  xmlns:n0="http://schemas.android.com/apk/res/android" />

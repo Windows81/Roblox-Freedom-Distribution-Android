@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:layout_gravity="bottom" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="80.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <View n0:id="@id/fakeShadow" n0:background="@drawable/shadow" n0:layout_width="match_parent" n0:layout_height="2.0dp" />
+    <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <ImageView n0:id="@id/imageView2" n0:padding="20.0dp" n0:layout_width="32.0pt" n0:layout_height="match_parent" n0:src="@drawable/icon_vr" />
+        <Switch n0:textSize="17.0sp" n0:layout_gravity="center_horizontal" n0:id="@id/vr_switch" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:checked="false" n0:text="@string/CommonUI_Features_Label_VRMode" n0:fontFamily="sans-serif-light" />
+    </LinearLayout>
+</LinearLayout>

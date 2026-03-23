@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:background="@drawable/rbx_bg_card_shadow" n0:paddingLeft="12.0dp" n0:paddingTop="12.0dp" n0:paddingRight="12.0dp" n0:paddingBottom="18.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_margin="12.0dp">
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:textSize="18.0sp" n0:textColor="@color/RbxBlack" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Authentication_SignUp_Label_WhatIsYourGender" style="@style/Theme.Roblox.StandardFontBold" />
+            <com.roblox.client.components.RbxGenderPicker n0:id="@id/sign_up_gender_picker" n0:layout_width="match_parent" n0:layout_height="60.0dp" n0:layout_marginTop="12.0dp" style="@style/Theme.Roblox.StandardFontLight" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.roblox.client.components.RbxButton n0:textSize="20.0sp" n0:id="@id/sign_up_gender_next_button" n0:layout_width="match_parent" n0:layout_height="40.0dp" n0:layout_marginLeft="12.0dp" n0:layout_marginRight="12.0dp" n0:layout_marginBottom="12.0dp" n0:text="@string/Authentication_SignUp_Action_NextWord" style="@style/Theme.Roblox.Button.Flat.Blue" />
+</LinearLayout>

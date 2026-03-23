@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:id="@id/more_square_click_frame" n0:background="@drawable/more_page_item_selector" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center_vertical" n0:layout_gravity="left" n0:orientation="horizontal" n0:paddingTop="10.0dp" n0:paddingBottom="10.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+        <View n0:layout_width="0.0dp" n0:layout_height="25.0dp" />
+        <ImageView n0:id="@id/imageview_more_square" n0:layout_width="25.0dp" n0:layout_height="25.0dp" n0:layout_marginLeft="20.0dp" n0:scaleType="fitCenter" />
+        <TextView n0:textSize="14.0sp" n0:textColor="@color/black" n0:gravity="center_horizontal" n0:id="@id/textview_more_square" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="20.0dp" style="@style/Theme.Roblox.StandardFontRegular" />
+    </LinearLayout>
+    <TextView n0:textSize="10.0sp" n0:textColor="@color/white" n0:gravity="center" n0:layout_gravity="right|center" n0:id="@id/textview_more_square_notification" n0:background="@drawable/circle_shape_red" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginRight="20.0dp" n0:minWidth="20.0dp" n0:minHeight="20.0dp" />
+</FrameLayout>

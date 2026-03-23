@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:id="@id/status_bar_latest_event_content" n0:layout_width="match_parent" n0:layout_height="128.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/icon" n0:layout_width="128.0dp" n0:layout_height="128.0dp" n0:scaleType="centerCrop" />
+    <include n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:layout_marginLeft="2.0dp" n0:layout_marginRight="2.0dp" n0:layout_alignParentRight="true" n0:layout_alignParentEnd="true" layout="@layout/notification_media_cancel_action" />
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/notification_main_column_container" n0:paddingTop="@dimen/notification_main_column_padding_top" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="128.0dp" n0:minHeight="@dimen/notification_large_icon_height" n0:layout_toLeftOf="@id/cancel_action" n0:layout_marginStart="128.0dp" n0:layout_toStartOf="@id/cancel_action">
+        <FrameLayout n0:id="@id/notification_main_column" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="@dimen/notification_media_narrow_margin" n0:layout_marginRight="8.0dp" n0:layout_marginBottom="8.0dp" n0:layout_weight="1.0" n0:layout_marginStart="@dimen/notification_media_narrow_margin" n0:layout_marginEnd="8.0dp" />
+        <FrameLayout n0:id="@id/right_side" n0:paddingTop="@dimen/notification_right_side_padding_top" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginRight="8.0dp" n0:layout_marginEnd="8.0dp">
+            <DateTimeView n0:textAppearance="@style/TextAppearance.Compat.Notification.Time.Media" n0:layout_gravity="end|top" n0:id="@id/time" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+            <Chronometer n0:textAppearance="@style/TextAppearance.Compat.Notification.Time.Media" n0:layout_gravity="end|top" n0:id="@id/chronometer" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+            <TextView n0:textAppearance="@style/TextAppearance.Compat.Notification.Info.Media" n0:layout_gravity="end|bottom" n0:id="@id/info" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="20.0dp" n0:singleLine="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/media_actions" n0:layout_width="match_parent" n0:layout_height="48.0dp" n0:layout_marginLeft="12.0dp" n0:layout_marginRight="12.0dp" n0:layout_toRightOf="@id/icon" n0:layout_alignParentBottom="true" n0:layoutDirection="ltr" n0:layout_toEndOf="@id/icon" />
+    <ImageView n0:id="@id/action_divider" n0:background="?android:dividerHorizontal" n0:layout_width="match_parent" n0:layout_height="1.0dp" n0:layout_toRightOf="@id/icon" n0:layout_above="@id/media_actions" n0:layout_toEndOf="@id/icon" />
+</RelativeLayout>

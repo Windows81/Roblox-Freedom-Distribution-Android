@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n0:state_enabled="false" n0:color="?colorControlNormal" n1:alpha="?android:disabledAlpha"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <item n2:state_checked="true" n2:color="?colorControlActivated"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:color="?colorControlNormal"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</selector>

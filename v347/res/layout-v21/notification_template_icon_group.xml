@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:id="@id/icon_group" n0:layout_width="@dimen/notification_large_icon_width" n0:layout_height="@dimen/notification_large_icon_height"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/icon" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_marginTop="@dimen/notification_big_circle_margin" n0:layout_marginBottom="@dimen/notification_big_circle_margin" n0:scaleType="centerInside" n0:layout_marginStart="@dimen/notification_big_circle_margin" n0:layout_marginEnd="@dimen/notification_big_circle_margin" />
+    <ImageView n0:layout_gravity="end|bottom" n0:id="@id/right_icon" n0:visibility="gone" n0:layout_width="@dimen/notification_right_icon_size" n0:layout_height="@dimen/notification_right_icon_size" n0:layout_marginBottom="8.0dp" n0:scaleType="centerInside" n0:layout_marginEnd="8.0dp" />
+</FrameLayout>

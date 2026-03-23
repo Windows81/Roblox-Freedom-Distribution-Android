@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:background="@color/RbxGray8" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include n0:id="@id/contacts_error_screen" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent" layout="@layout/contacts_error_screen" />
+    <include n0:id="@id/contacts_loading_screen" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent" layout="@layout/contacts_loading_screen" />
+    <LinearLayout n0:orientation="vertical" n0:id="@id/contacts_contacts_list" n0:focusable="true" n0:focusableInTouchMode="true" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <com.roblox.client.components.RbxSearchView n0:textSize="17.0sp" n0:id="@id/contacts_search_view" n0:background="@color/white" n0:padding="5.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:imeOptions="actionDone" n0:iconifiedByDefault="false" n0:queryHint="@string/Features_FriendFinder_Label_SearchContacts" n0:queryBackground="@android:color/transparent" />
+        <android.support.v7.widget.RecyclerView n0:id="@id/contacts_recycler_view" n0:scrollbars="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

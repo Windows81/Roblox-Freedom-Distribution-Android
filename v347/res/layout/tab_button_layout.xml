@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:gravity="center" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_weight="1.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@android:id/icon" n0:layout_width="34.0dp" n0:layout_height="36.0dp" n0:layout_centerHorizontal="true" />
+    <TextView n0:id="@android:id/title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_below="@android:id/icon" n0:layout_centerHorizontal="true" style="@style/Theme.Roblox.TabTextIndicator" />
+    <TextView n0:textSize="10.0dp" n0:textColor="@color/white" n0:gravity="center" n0:id="@id/tab_counter" n0:background="@drawable/circle_shape_red" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="2.0dp" n0:layout_marginRight="-10.0dp" n0:minWidth="20.0dp" n0:minHeight="20.0dp" n0:text="99" n0:layout_alignTop="@android:id/icon" n0:layout_alignRight="@android:id/icon" />
+</RelativeLayout>

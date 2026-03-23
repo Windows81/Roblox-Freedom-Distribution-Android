@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="@dimen/mainToolbarHeight">
+        <View n0:id="@id/chat_shadow_top" n0:background="@drawable/chat_shadow_blue" n0:layout_width="5.0dp" n0:layout_height="@dimen/mainToolbarHeight" />
+        <include n0:id="@id/toolbar_chat" layout="@layout/toolbar_include" />
+    </LinearLayout>
+    <FrameLayout n0:id="@id/rename_chat_join_game_container" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/rename_chat_container" n0:background="@color/chatWhite" n0:visibility="visible" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <View n0:id="@id/rename_chat_shadow" n0:background="@drawable/chat_shadow_white" n0:layout_width="5.0dp" n0:layout_height="match_parent" />
+            <com.roblox.client.components.RbxChatEditText n0:textSize="16.0sp" n0:textColorHint="@color/chatSubText" n0:id="@id/rename_chat" n0:background="@null" n0:paddingLeft="10.0dp" n0:paddingRight="10.0dp" n0:scrollbars="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="50.0dp" n0:maxLength="150" n0:layout_weight="1.0" n0:inputType="textCapSentences" n0:imeOptions="actionDone" n0:textCursorDrawable="@null" style="@style/Theme.Roblox.StandardFontRegular" />
+            <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:textColor="@color/chatWhite" n0:gravity="center" n0:layout_gravity="bottom" n0:id="@id/rename_button" n0:background="@drawable/chat_send_button" n0:paddingLeft="10.0dp" n0:paddingRight="10.0dp" n0:layout_width="wrap_content" n0:layout_height="30.0dp" n0:layout_marginRight="10.0dp" n0:layout_marginBottom="5.0dp" n0:text="@string/CommonUI_Features_Action_Done" style="@style/Theme.Roblox.StandardFontRegular" />
+        </LinearLayout>
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/join_game_container" n0:background="@color/chatWhite" n0:visibility="visible" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:weightSum="1.0">
+            <View n0:id="@id/join_game_chat_shadow" n0:background="@drawable/chat_shadow_white" n0:layout_width="5.0dp" n0:layout_height="match_parent" />
+            <ImageView n0:id="@id/game_icon" n0:background="@drawable/chat_join_game_image_border" n0:layout_width="45.0dp" n0:layout_height="45.0dp" n0:layout_marginLeft="10.0dp" n0:layout_marginTop="10.0dp" n0:layout_marginBottom="10.0dp" />
+            <LinearLayout n0:orientation="vertical" n0:paddingLeft="10.0dp" n0:layout_width="wrap_content" n0:layout_height="match_parent" n0:weightSum="1.0">
+                <com.roblox.client.components.RbxTextView n0:textColor="@color/RbxGray3" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="8.0dp" n0:text="@string/Feature_Chat_Label_Playing" n0:layout_weight="1.0" style="@style/Theme.Roblox.StandardFontRegular" />
+                <com.roblox.client.components.RbxTextView n0:textColor="@color/RbxBlack" n0:id="@id/game_name" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="10.0dp" n0:layout_weight="1.0" style="@style/Theme.Roblox.StandardFontRegular" />
+            </LinearLayout>
+            <View n0:layout_width="0.0dp" n0:layout_height="0.0dp" n0:layout_weight="0.9" />
+            <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:textColor="@color/chatWhite" n0:gravity="center" n0:layout_gravity="bottom" n0:id="@id/join_button" n0:background="@drawable/chat_join_game_button" n0:paddingLeft="10.0dp" n0:paddingRight="10.0dp" n0:layout_width="wrap_content" n0:layout_height="31.0dp" n0:layout_marginBottom="8.0dp" n0:text="@string/Feature_Chat_Label_JoinGame" style="@style/Theme.Roblox.StandardFontRegular" />
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout n0:background="@color/chatWhite" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <FrameLayout n0:id="@id/chat_list_loading" n0:background="@color/chatBackground" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_above="@id/input_container">
+            <include n0:layout_gravity="center" n0:layout_width="wrap_content" n0:layout_height="wrap_content" layout="@layout/chat_loading_squares" />
+        </FrameLayout>
+        <View n0:focusable="true" n0:focusableInTouchMode="true" n0:layout_width="0.0dp" n0:layout_height="0.0dp" />
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/input_container" n0:visibility="visible" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_alignParentBottom="true">
+            <View n0:id="@id/chat_shadow_bottom" n0:background="@drawable/chat_shadow_white" n0:layout_width="5.0dp" n0:layout_height="match_parent" />
+            <com.roblox.client.components.RbxChatEditText n0:textSize="16.0sp" n0:textColorHint="@color/chatSubText" n0:id="@id/message" n0:background="@null" n0:paddingLeft="10.0dp" n0:paddingRight="10.0dp" n0:scrollbars="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:minHeight="50.0dp" n0:maxLines="3" n0:layout_weight="1.0" n0:inputType="textCapSentences|textMultiLine" n0:textCursorDrawable="@null" style="@style/Theme.Roblox.StandardFontRegular" />
+            <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:textColor="@color/chatWhite" n0:gravity="center" n0:layout_gravity="bottom" n0:id="@id/send_button" n0:background="@drawable/chat_send_button" n0:paddingLeft="10.0dp" n0:paddingRight="10.0dp" n0:visibility="visible" n0:layout_width="wrap_content" n0:layout_height="30.0dp" n0:layout_marginRight="10.0dp" n0:layout_marginBottom="5.0dp" n0:text="@string/Feature_Chat_Label_Send" style="@style/Theme.Roblox.StandardFontRegular" />
+        </LinearLayout>
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/chat_container" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_above="@id/input_container">
+            <View n0:id="@id/chat_shadow_center" n0:background="@drawable/chat_shadow_gray" n0:layout_width="5.0dp" n0:layout_height="match_parent" />
+            <ListView n0:id="@id/list" n0:background="@color/chatBackground" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:stackFromBottom="true" n0:transcriptMode="normal" n0:divider="@null" />
+        </LinearLayout>
+        <include n0:id="@id/connecting_banner" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_alignParentTop="true" layout="@layout/connecting_banner" />
+        <com.roblox.client.components.RbxTextView n0:textColor="@color/chatWhite" n0:id="@id/new_chats_available" n0:background="@drawable/rounded_square_shape_blue" n0:paddingLeft="16.0dp" n0:paddingTop="4.0dp" n0:paddingRight="16.0dp" n0:paddingBottom="4.0dp" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="10.0dp" n0:text="@string/Feature_Chat_Label_NewChats" n0:layout_alignBottom="@id/chat_container" n0:layout_centerHorizontal="true" style="@style/Theme.Roblox.StandardFontRegular" />
+    </RelativeLayout>
+</LinearLayout>

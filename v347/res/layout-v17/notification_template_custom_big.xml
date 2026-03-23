@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:id="@id/notification_background" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/icon" n0:layout_width="@dimen/notification_large_icon_width" n0:layout_height="@dimen/notification_large_icon_height" n0:scaleType="center" />
+    <LinearLayout n0:layout_gravity="top" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/notification_main_column_container" n0:paddingTop="@dimen/notification_main_column_padding_top" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="@dimen/notification_large_icon_width" n0:minHeight="@dimen/notification_large_icon_height" n0:layout_marginStart="@dimen/notification_large_icon_width">
+            <FrameLayout n0:id="@id/notification_main_column" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="@dimen/notification_content_margin_start" n0:layout_marginRight="8.0dp" n0:layout_marginBottom="8.0dp" n0:layout_weight="1.0" n0:layout_marginStart="@dimen/notification_content_margin_start" n0:layout_marginEnd="8.0dp" />
+            <FrameLayout n0:id="@id/right_side" n0:paddingTop="@dimen/notification_right_side_padding_top" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginRight="8.0dp" n0:layout_marginEnd="8.0dp">
+                <ViewStub n0:layout_gravity="end|top" n0:id="@id/time" n0:visibility="gone" n0:layout="@layout/notification_template_part_time" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+                <ViewStub n0:layout_gravity="end|top" n0:id="@id/chronometer" n0:visibility="gone" n0:layout="@layout/notification_template_part_chronometer" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+                <LinearLayout n0:layout_gravity="end|bottom" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="20.0dp">
+                    <TextView n0:textAppearance="@style/TextAppearance.Compat.Notification.Info" n0:id="@id/info" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+                    <ImageView n0:layout_gravity="center" n0:id="@id/right_icon" n0:visibility="gone" n0:layout_width="16.0dp" n0:layout_height="16.0dp" n0:layout_marginLeft="8.0dp" n0:scaleType="centerInside" n0:alpha="0.6" n0:layout_marginStart="8.0dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView n0:id="@id/action_divider" n0:background="?android:dividerHorizontal" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="1.0px" n0:layout_marginLeft="@dimen/notification_large_icon_width" n0:layout_marginStart="@dimen/notification_large_icon_width" />
+        <LinearLayout n0:orientation="horizontal" n0:id="@id/actions" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginLeft="@dimen/notification_large_icon_width" n0:divider="?android:listDivider" n0:showDividers="middle" n0:dividerPadding="12.0dp" n0:layout_marginStart="@dimen/notification_large_icon_width" />
+    </LinearLayout>
+</FrameLayout>

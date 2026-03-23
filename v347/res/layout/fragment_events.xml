@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:background="@color/RbxGray5" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include n0:id="@id/toolbar" layout="@layout/toolbar_include" />
+    <FrameLayout n0:id="@id/events_container" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <ScrollView n0:layout_width="match_parent" n0:layout_height="match_parent" n0:fillViewport="true">
+            <LinearLayout n0:orientation="vertical" n0:id="@id/event_layout" n0:padding="5.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

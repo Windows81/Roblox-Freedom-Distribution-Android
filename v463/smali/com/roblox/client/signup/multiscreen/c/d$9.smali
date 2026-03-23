@@ -1,0 +1,182 @@
+.class Lcom/roblox/client/signup/multiscreen/c/d$9;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/roblox/client/signup/multiscreen/c/d;->at()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Landroid/os/Handler;
+
+.field final synthetic b:Landroid/content/Context;
+
+.field final synthetic c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+
+# direct methods
+.method constructor <init>(Lcom/roblox/client/signup/multiscreen/c/d;Landroid/os/Handler;Landroid/content/Context;)V
+    .locals 0
+
+    .line 629
+    iput-object p1, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    iput-object p2, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->a:Landroid/os/Handler;
+
+    iput-object p3, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->b:Landroid/content/Context;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 7
+
+    .line 633
+    iget-object v0, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    invoke-static {v0}, Lcom/roblox/client/signup/multiscreen/c/d;->l(Lcom/roblox/client/signup/multiscreen/c/d;)Lcom/roblox/client/components/RbxEditText;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/roblox/client/components/RbxEditText;->getText()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, ""
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    const/4 v2, 0x1
+
+    if-eqz v0, :cond_0
+
+    .line 634
+    iget-object v0, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    invoke-static {v0}, Lcom/roblox/client/signup/multiscreen/c/d;->l(Lcom/roblox/client/signup/multiscreen/c/d;)Lcom/roblox/client/components/RbxEditText;
+
+    move-result-object v3
+
+    iget-object v4, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    sget v5, Lcom/roblox/client/o$j;->Authentication_SignUp_Response_PleaseEnterAPhoneNumber:I
+
+    const-string v6, "Authentication_SignUp_Response_PleaseEnterAPhoneNumber"
+
+    invoke-static {v4, v6, v5}, Lcom/roblox/client/signup/multiscreen/c/d;->a(Lcom/roblox/client/signup/multiscreen/c/d;Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {v0, v3, v4}, Lcom/roblox/client/signup/multiscreen/c/d;->a(Lcom/roblox/client/signup/multiscreen/c/d;Lcom/roblox/client/components/RbxEditText;Ljava/lang/String;)V
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 637
+    :goto_0
+    iget-object v3, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    invoke-static {v3}, Lcom/roblox/client/signup/multiscreen/c/d;->b(Lcom/roblox/client/signup/multiscreen/c/d;)Landroid/widget/EditText;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    .line 638
+    iget-object v0, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    invoke-static {v0}, Lcom/roblox/client/signup/multiscreen/c/d;->e(Lcom/roblox/client/signup/multiscreen/c/d;)Lcom/roblox/client/components/RbxEditText;
+
+    move-result-object v1
+
+    iget-object v3, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    sget v4, Lcom/roblox/client/o$j;->Authentication_SignUp_Response_PleaseEnterPassword:I
+
+    const-string v5, "Authentication_SignUp_Response_PleaseEnterPassword"
+
+    invoke-static {v3, v5, v4}, Lcom/roblox/client/signup/multiscreen/c/d;->a(Lcom/roblox/client/signup/multiscreen/c/d;Ljava/lang/String;I)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v0, v1, v3}, Lcom/roblox/client/signup/multiscreen/c/d;->a(Lcom/roblox/client/signup/multiscreen/c/d;Lcom/roblox/client/components/RbxEditText;Ljava/lang/String;)V
+
+    goto :goto_1
+
+    :cond_1
+    move v2, v0
+
+    :goto_1
+    if-nez v2, :cond_3
+
+    .line 642
+    iget-object v0, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    invoke-static {v0}, Lcom/roblox/client/signup/multiscreen/c/d;->c(Lcom/roblox/client/signup/multiscreen/c/d;)Lcom/roblox/client/signup/multiscreen/e/d;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/roblox/client/signup/multiscreen/e/d;->k()Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    goto :goto_2
+
+    .line 647
+    :cond_2
+    iget-object v0, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->a:Landroid/os/Handler;
+
+    new-instance v1, Lcom/roblox/client/signup/multiscreen/c/d$9$1;
+
+    invoke-direct {v1, p0}, Lcom/roblox/client/signup/multiscreen/c/d$9$1;-><init>(Lcom/roblox/client/signup/multiscreen/c/d$9;)V
+
+    const-wide/16 v2, 0x1f4
+
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    return-void
+
+    .line 643
+    :cond_3
+    :goto_2
+    iget-object v0, p0, Lcom/roblox/client/signup/multiscreen/c/d$9;->c:Lcom/roblox/client/signup/multiscreen/c/d;
+
+    invoke-static {v0}, Lcom/roblox/client/signup/multiscreen/c/d;->m(Lcom/roblox/client/signup/multiscreen/c/d;)V
+
+    return-void
+.end method

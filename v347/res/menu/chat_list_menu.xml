@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n0:icon="@drawable/icon_create_group" n0:id="@id/menu_create_group" n0:orderInCategory="@integer/menuItemOrderChatList" n0:title="@string/Feature_Chat_Heading_CreateGroup" n1:showAsAction="always"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</menu>

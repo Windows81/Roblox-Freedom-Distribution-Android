@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:orientation="vertical" n0:id="@id/landing_carousel_item_frame_layout" n0:background="@color/RbxTransparent" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:weightSum="10.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:id="@id/landing_carousel_slide_image_view" n0:layout_width="wrap_content" n0:layout_height="0.0dp" n0:layout_weight="6.0" />
+    <com.roblox.client.components.RbxTextView n0:textSize="18.0sp" n0:textColor="@color/RbxGray1" n0:gravity="center" n0:id="@id/landing_carousel_slide_title" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="12.0dp" n0:layout_marginTop="30.0dp" n0:layout_marginRight="12.0dp" n0:layout_marginStart="12.0dp" n0:layout_marginEnd="12.0dp" />
+    <com.roblox.client.components.RbxTextView n0:textSize="14.0sp" n0:textColor="@color/RbxGray2" n0:gravity="center" n0:id="@id/landing_carousel_slide_body_text" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_margin="12.0dp" n0:layout_marginTop="12.0dp" />
+</LinearLayout>

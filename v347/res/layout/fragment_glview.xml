@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:orientation="vertical" n0:id="@id/fragment_glview" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center" n0:id="@id/retry_layout" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <include layout="@layout/splash_retry_button" />
+    </LinearLayout>
+    <com.roblox.client.RBXSurfaceView n0:id="@id/surfaceview" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" />
+    <FrameLayout n0:id="@id/loading_layout" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <include n0:layout_gravity="center" n0:layout_width="35.0dp" n0:layout_height="35.0dp" layout="@layout/include_rbx_progress_bar" />
+    </FrameLayout>
+    <FrameLayout n0:id="@id/keyboard_layout" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <com.roblox.client.RbxKeyboard n0:layout_gravity="top" n0:id="@id/gl_edit_text" n0:background="@android:color/transparent" n0:visibility="gone" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="36.0dp" n0:ems="10">
+            <requestFocus />
+        </com.roblox.client.RbxKeyboard>
+    </FrameLayout>
+</FrameLayout>

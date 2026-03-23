@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/rbxGenderContainer" n0:background="@drawable/rbx_bg_gender_full" n0:layout_width="wrap_content" n0:layout_height="0.0dp" n0:layout_weight="55.0">
+        <RelativeLayout n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="4.0">
+            <LinearLayout n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_centerInParent="true">
+                <ImageView n0:id="@id/rbxGenderBtnMaleBg" n0:layout_width="25.0dp" n0:layout_height="25.0dp" n0:src="@drawable/icon_male" />
+                <TextView n0:textSize="23.0sp" n0:textColor="@color/RbxGray4" n0:id="@id/rbxGenderBtnMaleTextView" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Authentication_SignUp_Label_Male" />
+            </LinearLayout>
+            <com.roblox.client.components.RbxButton n0:id="@id/rbxGenderBtnMale" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:contentDescription="@string/Authentication_SignUp_Description_GenderPickerMaleContentDesc" style="@style/Theme.Roblox.Button.Gender.Male" />
+        </RelativeLayout>
+        <RelativeLayout n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="4.0">
+            <View n0:background="@color/RbxGray4" n0:layout_width="1.0dp" n0:layout_height="match_parent" />
+            <LinearLayout n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_centerInParent="true">
+                <ImageView n0:id="@id/rbxGenderBtnFemaleBg" n0:layout_width="25.0dp" n0:layout_height="25.0dp" n0:src="@drawable/icon_female" />
+                <TextView n0:textSize="23.0sp" n0:textColor="@color/RbxGray4" n0:id="@id/rbxGenderBtnFemaleTextView" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Authentication_SignUp_Label_Female" />
+            </LinearLayout>
+            <com.roblox.client.components.RbxButton n0:id="@id/rbxGenderBtnFemale" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:contentDescription="@string/Authentication_SignUp_Description_GenderPickerFemaleContentDesc" style="@style/Theme.Roblox.Button.Gender.Female" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="25.0">
+        <com.roblox.client.components.RbxTextView n0:textAppearance="?android:textAppearanceSmall" n0:textSize="@dimen/rbxEditTextHint" n0:textColor="@color/RbxRed2" n0:id="@id/rbxGenderBottomText" n0:background="@android:color/transparent" n0:visibility="invisible" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="2.0dp" n0:text="@string/Authentication_SignUp_Label_GenderRequired" />
+    </LinearLayout>
+</LinearLayout>

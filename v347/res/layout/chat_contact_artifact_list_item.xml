@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:paddingLeft="12.0dp" n0:paddingTop="12.0dp" n0:paddingBottom="12.0dp" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:id="@id/contact_thumbnail_layout" n0:background="@drawable/contact_status_ring" n0:padding="1.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_alignParentLeft="true" n0:layout_centerVertical="true">
+        <ImageView n0:id="@id/contact_thumbnail" n0:layout_width="@dimen/chatConversationViewThumbnailSize" n0:layout_height="@dimen/chatConversationViewThumbnailSize" n0:src="@drawable/ic_avatar_placement" />
+    </FrameLayout>
+    <ImageView n0:id="@id/contact_thumbnail_checked" n0:background="@drawable/circle_shape_green" n0:padding="8.0dp" n0:visibility="gone" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/icon_check" n0:layout_alignLeft="@id/contact_thumbnail_layout" n0:layout_alignTop="@id/contact_thumbnail_layout" n0:layout_alignRight="@id/contact_thumbnail_layout" n0:layout_alignBottom="@id/contact_thumbnail_layout" />
+    <View n0:id="@id/online_status_ring" n0:background="@drawable/circle_shape_white" n0:visibility="visible" n0:layout_width="20.0dp" n0:layout_height="20.0dp" n0:layout_alignRight="@id/contact_thumbnail_layout" n0:layout_alignBottom="@id/contact_thumbnail_layout" />
+    <View n0:id="@id/online_status" n0:background="@drawable/circle_shape_green" n0:visibility="visible" n0:layout_width="16.0dp" n0:layout_height="16.0dp" n0:layout_margin="2.0dp" n0:layout_alignRight="@id/contact_thumbnail_layout" n0:layout_alignBottom="@id/contact_thumbnail_layout" />
+    <ImageView n0:id="@id/contact_remove" n0:padding="12.0dp" n0:visibility="gone" n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:src="@drawable/icon_remove_selector" n0:layout_alignParentRight="true" n0:layout_centerVertical="true" />
+    <ImageView n0:id="@id/contact_report" n0:padding="12.0dp" n0:visibility="visible" n0:layout_width="48.0dp" n0:layout_height="48.0dp" n0:src="@drawable/icon_flag_selector" n0:layout_toLeftOf="@id/contact_remove" n0:layout_centerVertical="true" n0:layout_alignWithParentIfMissing="true" />
+    <LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="15.0dp" n0:layout_toLeftOf="@id/contact_report" n0:layout_toRightOf="@id/contact_thumbnail_layout" n0:layout_centerVertical="true">
+        <com.roblox.client.components.RbxTextView n0:textSize="18.0sp" n0:textColor="@color/chatPrimary" n0:ellipsize="end" n0:id="@id/contact_name" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="1" style="@style/Theme.Roblox.StandardFontRegular" />
+        <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:textColor="@color/chatSubText" n0:ellipsize="end" n0:id="@id/contact_subtext" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="3.0dp" n0:text="" n0:maxLines="1" style="@style/Theme.Roblox.StandardFontRegular" />
+    </LinearLayout>
+</RelativeLayout>

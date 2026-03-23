@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:gravity="center_horizontal" n0:orientation="vertical" n0:id="@id/permissions_needed_linear_layout" n0:paddingLeft="15.0dp" n0:paddingRight="15.0dp" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:animateLayoutChanges="true">
+        <ImageView n0:layout_gravity="center_horizontal" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="15.0dp" n0:layout_marginBottom="12.0dp" n0:src="@drawable/contacts_robot" />
+        <com.roblox.client.components.RbxTextView n0:textSize="16.0sp" n0:textColor="@color/RbxGray1" n0:gravity="start" n0:id="@id/contacts_fine_print_tv" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="24.0dp" n0:text="@string/Features_FriendFinder_Response_ContactPermissionNeeded" />
+        <com.roblox.client.components.RbxButton n0:textSize="16.0sp" n0:id="@id/contacts_needed_continue_button" n0:layout_width="match_parent" n0:layout_height="36.0dp" n0:text="@string/Features_FriendFinder_Action_Continue" style="@style/Theme.Roblox.Button.Flat.Blue.Primary" />
+    </LinearLayout>
+</FrameLayout>

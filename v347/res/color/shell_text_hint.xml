@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n0:state_focused="true" n0:color="@android:color/transparent"
+      xmlns:n0="http://schemas.android.com/apk/res/android" />
+    <item n1:color="@color/shell_text_hint_visible"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+</selector>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view n0:id="@id/select_dialog_listview" n0:scrollbars="vertical" n0:fadingEdge="none" n0:clipToPadding="false" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:cacheColorHint="@null" n0:divider="?listDividerAlertDialog" n0:overScrollMode="ifContentScrolls" n0:textAlignment="viewStart" n1:paddingBottomNoButtons="@dimen/abc_dialog_list_padding_bottom_no_buttons" n1:paddingTopNoTitle="@dimen/abc_dialog_list_padding_top_no_title" class="android.support.v7.app.AlertController$RecycleListView" style="@style/Widget.AppCompat.ListView"
+  xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />

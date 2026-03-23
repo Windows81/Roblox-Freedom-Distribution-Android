@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape n0:shape="oval"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <size n0:height="@dimen/abc_progress_bar_height_material" n0:width="@dimen/abc_progress_bar_height_material" />
+    <solid n0:color="@android:color/white" />
+</shape>

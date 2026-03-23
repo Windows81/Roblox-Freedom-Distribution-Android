@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:background="@color/activityBackground" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:weightSum="6.0"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:layout_gravity="center" n0:orientation="vertical" n0:background="@drawable/white__square_background_rounded_corners" n0:padding="24.0dp" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:minWidth="350.0px" n0:layout_weight="3.0">
+        <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginBottom="24.0dp">
+            <com.roblox.client.components.RbxTextView n0:textSize="@dimen/textSizeSignupHeader" n0:textColor="@color/RbxGray1" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Authentication_Login_Label_Login_Uppercase" />
+            <Space n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_weight="1.0" />
+            <com.roblox.client.components.RbxButton n0:id="@id/fragment_login_btn_cancel" n0:background="@drawable/ic_login_close" n0:layout_width="20.0dp" n0:layout_height="20.0dp" />
+        </LinearLayout>
+        <com.roblox.client.components.RbxEditText n0:id="@id/fragment_login_username" n0:layout_width="match_parent" n0:layout_height="80.0dp" n0:contentDescription="@string/Authentication_Login_Description_UsernameContentDescription" n1:errorText="@string/Authentication_SignUp_Response_UsernameContainsInvalidCharacters" n1:hintText="@string/Authentication_Login_Label_Username" n1:hintTextLong="@string/Authentication_SignUp_Description_UsernameHintTextLong" n1:inputType="textNoSuggestions" style="@style/Theme.Roblox.EditText"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <com.roblox.client.components.RbxEditText n0:id="@id/fragment_login_password" n0:layout_width="match_parent" n0:layout_height="80.0dp" n0:layout_marginTop="2.0dp" n0:contentDescription="@string/Authentication_Login_Description_PasswordContentDescription" n2:hintText="@string/CommonUI_Messages_Label_Password" n2:hintTextLong="@string/Authentication_SignUp_Description_PasswordHintTextLong" n2:inputType="password" style="@style/Theme.Roblox.EditText"
+          xmlns:n2="http://schemas.android.com/apk/res-auto" />
+        <com.roblox.client.components.RbxProgressButton n0:layout_gravity="center" n0:id="@id/fragment_login_btn_login" n0:layout_width="match_parent" n0:layout_height="60.0dp" n0:layout_marginTop="2.0dp" n0:layout_marginBottom="24.0dp" n0:contentDescription="@string/Authentication_Login_Description_LoginButtonContentDesc" n3:buttonTextSize="20.0sp" n3:defButtonText="@string/Authentication_Login_Action_LogInCapitalized" n3:progressTextSize="20.0sp" style="@style/Theme.Roblox.Progress.Button.Blue"
+          xmlns:n3="http://schemas.android.com/apk/res-auto" />
+        <com.roblox.client.components.RbxButton n0:textSize="18.0sp" n0:textColor="@color/RbxBlue1" n0:layout_gravity="center_horizontal" n0:id="@id/fragment_login_btn_forgot_password" n0:background="@android:color/transparent" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginBottom="24.0dp" n0:text="@string/Authentication_Login_Action_ForgotUsernamePassword" />
+        <Space n0:layout_width="wrap_content" n0:layout_height="0.0dp" n0:layout_weight="1.0" />
+        <LinearLayout n0:gravity="center_horizontal" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <com.roblox.client.components.RbxTextView n0:textSize="18.0sp" n0:textColor="@color/RbxGray1" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Authentication_Login_Label_DontHaveAnAccount" />
+            <com.roblox.client.components.RbxButton n0:textSize="18.0sp" n0:textColor="@color/RbxBlue1" n0:id="@id/fragment_login_btn_signup" n0:background="@android:color/transparent" n0:paddingLeft="4.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Authentication_SignUp_Label_SignUp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

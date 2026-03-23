@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:paddingLeft="10.0dp" n0:paddingRight="10.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:background="@color/white" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:textSize="20.0dp" n0:textColor="@color/black" n0:id="@id/title" n0:paddingLeft="15.0dp" n0:paddingTop="12.0dp" n0:paddingRight="15.0dp" n0:paddingBottom="12.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="" n0:layout_weight="1.0" />
+            <ImageView n0:layout_gravity="center_vertical" n0:id="@id/close_button" n0:paddingLeft="10.0dp" n0:paddingRight="10.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:src="@drawable/icon_close" n0:tint="@color/RbxGray4" />
+        </LinearLayout>
+        <View n0:background="@color/RbxGray3" n0:layout_width="match_parent" n0:layout_height="1.0dp" />
+        <TextView n0:textSize="18.0dp" n0:id="@id/description" n0:paddingLeft="15.0dp" n0:paddingTop="12.0dp" n0:paddingRight="15.0dp" n0:paddingBottom="12.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="" />
+        <FrameLayout n0:layout_gravity="center_horizontal" n0:background="@color/RbxGray3" n0:padding="1.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content">
+            <ImageView n0:id="@id/thumbnail" n0:background="@color/white" n0:layout_width="150.0dp" n0:layout_height="150.0dp" n0:src="@drawable/ic_launcher_transparent" />
+        </FrameLayout>
+        <Button n0:textSize="20.0dp" n0:textColor="@color/white" n0:layout_gravity="center_horizontal" n0:id="@id/get_button" n0:background="@drawable/rbx_drawable_flat_button_progress_blue" n0:paddingLeft="14.0dp" n0:paddingTop="10.0dp" n0:paddingRight="14.0dp" n0:paddingBottom="10.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_margin="15.0dp" n0:text="@string/Feature_PromoCatalog_Action_GetNow" />
+    </LinearLayout>
+</FrameLayout>

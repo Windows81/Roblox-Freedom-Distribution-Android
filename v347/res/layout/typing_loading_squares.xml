@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="wrap_content" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <FrameLayout n0:layout_width="@dimen/typingProgressDotExpandSize" n0:layout_height="@dimen/typingProgressDotExpandSize">
+        <View n0:layout_gravity="center" n0:id="@id/loading_squares_1" n0:background="@drawable/circle_shape_darkgray" n0:layout_width="@dimen/typingProgressDotSize" n0:layout_height="@dimen/typingProgressDotSize" />
+    </FrameLayout>
+    <FrameLayout n0:layout_width="@dimen/typingProgressDotExpandSize" n0:layout_height="@dimen/typingProgressDotExpandSize" n0:layout_marginLeft="10.0dp">
+        <View n0:layout_gravity="center" n0:id="@id/loading_squares_2" n0:background="@drawable/circle_shape_darkgray" n0:layout_width="@dimen/typingProgressDotSize" n0:layout_height="@dimen/typingProgressDotSize" />
+    </FrameLayout>
+    <FrameLayout n0:layout_width="@dimen/typingProgressDotExpandSize" n0:layout_height="@dimen/typingProgressDotExpandSize" n0:layout_marginLeft="20.0dp">
+        <View n0:layout_gravity="center" n0:id="@id/loading_squares_3" n0:background="@drawable/circle_shape_darkgray" n0:layout_width="@dimen/typingProgressDotSize" n0:layout_height="@dimen/typingProgressDotSize" />
+    </FrameLayout>
+</RelativeLayout>

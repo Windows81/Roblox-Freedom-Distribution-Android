@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar n0:background="@color/RbxBlue3" n0:layout_width="match_parent" n0:layout_height="@dimen/mainToolbarHeight" n0:minHeight="@dimen/mainToolbarHeight" n1:popupTheme="@style/ThemeOverlay.AppCompat.Light" n1:subtitleTextAppearance="@style/RobloxCompatTheme.Toolbar.SubTitleText" n1:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" n1:titleTextAppearance="@style/RobloxCompatTheme.Toolbar.TitleText"
+  xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto" />

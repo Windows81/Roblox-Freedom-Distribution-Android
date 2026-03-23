@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout n0:orientation="vertical" n0:fitsSystemWindows="true" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:ellipsize="end" n0:id="@id/title" n0:paddingLeft="?dialogPreferredPadding" n0:paddingTop="@dimen/abc_dialog_padding_top_material" n0:paddingRight="?dialogPreferredPadding" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:singleLine="true" style="?android:windowTitleStyle" />
+    <include n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_weight="1.0" layout="@layout/abc_screen_content_include" />
+</android.support.v7.widget.FitWindowsLinearLayout>

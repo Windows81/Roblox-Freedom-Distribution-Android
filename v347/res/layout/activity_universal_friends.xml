@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/universal_friend_tab_container" n0:background="@color/activityBackground" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <include n0:id="@id/universal_friends_toolbar_include" layout="@layout/toolbar_include" />
+    <android.support.design.widget.TabLayout n0:id="@id/universal_friends_tab_layout" n0:background="@color/white" n0:layout_width="match_parent" n0:layout_height="95.0dp" n1:tabIndicatorColor="@android:color/transparent"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <TextView n0:id="@id/tab_divider" n0:background="@color/RbxGray8" n0:layout_width="match_parent" n0:layout_height="2.0dp" />
+    <FrameLayout n0:id="@id/container" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</LinearLayout>

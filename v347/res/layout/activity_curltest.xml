@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:focusableInTouchMode="true" n0:descendantFocusability="beforeDescendants" n0:layout_width="match_parent" n0:layout_height="59.0dp">
+        <EditText n0:id="@id/url" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:hint="@string/CommonUI_Features_Description_Url" n0:layout_weight="0.1" n0:imeOptions="actionNext" style="@android:style/Widget.EditText" />
+        <Button n0:id="@id/url_go" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:text="@string/CommonUI_Features_Action_Go" n0:layout_weight="0.9" n0:onClick="onURLGo" />
+    </LinearLayout>
+    <TextView n0:id="@id/textView" n0:scrollbars="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+</LinearLayout>

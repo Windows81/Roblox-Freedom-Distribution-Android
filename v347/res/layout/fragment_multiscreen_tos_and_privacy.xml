@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="vertical" n0:background="@drawable/rbx_bg_card_shadow" n0:paddingLeft="12.0dp" n0:paddingTop="12.0dp" n0:paddingRight="12.0dp" n0:paddingBottom="18.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_margin="12.0dp">
+        <LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+            <TextView n0:textSize="18.0sp" n0:textColor="@color/RbxBlack" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Authentication_SignUp_Label_AlmostThere" style="@style/Theme.Roblox.StandardFontBold" />
+            <LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp">
+                <com.roblox.client.components.RbxCheckBox n0:textSize="@dimen/textSizeSignupFinePrint" n0:id="@id/sign_up_agreement_checkbox" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginRight="12.0dp" />
+                <com.roblox.client.components.RbxTextView n0:textSize="@dimen/textSizeSignupFinePrint" n0:textColor="@color/shell_text_normal" n0:gravity="start" n0:id="@id/sign_up_agreement_textview" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/CommonUI_Features_Label_LoremIpsumXl" style="@style/Theme.Roblox.StandardFontLight" />
+            </LinearLayout>
+            <com.roblox.client.components.RbxTextView n0:textAppearance="?android:textAppearanceSmall" n0:textSize="@dimen/rbxEditTextHint" n0:textColor="@color/RbxRed2" n0:id="@id/sign_up_error_agreement_textview" n0:background="@android:color/transparent" n0:visibility="invisible" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:text="@string/Authentication_SignUp_Label_PleaseAgreeToTerms" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.roblox.client.components.RbxProgressButton n0:layout_gravity="bottom" n0:id="@id/sign_up_tos_done_button" n0:layout_width="match_parent" n0:layout_height="40.0dp" n0:layout_marginLeft="12.0dp" n0:layout_marginRight="12.0dp" n0:layout_marginBottom="12.0dp" n1:buttonTextSize="@dimen/textSizeBtnSubmit" n1:defButtonText="@string/CommonUI_Features_Action_Done" n1:progressTextSize="@dimen/textSizeBtnSubmitProgress" style="@style/Theme.Roblox.Progress.Button.Blue"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

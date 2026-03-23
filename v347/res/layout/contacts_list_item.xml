@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="horizontal" n0:background="@drawable/chat_join_game_image_border" n0:paddingLeft="24.0dp" n0:paddingTop="12.0dp" n0:paddingRight="24.0dp" n0:paddingBottom="12.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <de.hdodenhof.circleimageview.CircleImageView n0:id="@id/contacts_list_thumbnail_img_view" n0:layout_width="50.0dp" n0:layout_height="50.0dp" n0:src="@drawable/empty_contact_icon" n1:civ_border_color="@color/RbxGray3" n1:civ_border_width="1.0dp"
+      xmlns:n1="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout n0:orientation="vertical" n0:layout_width="0.0dp" n0:layout_height="wrap_content" n0:layout_marginLeft="12.0dp" n0:layout_weight="4.0">
+        <com.roblox.client.components.RbxTextView n0:textSize="14.0sp" n0:textColor="@color/RbxBlack" n0:ellipsize="end" n0:id="@id/contacts_list_name_text_view" n0:focusable="false" n0:clickable="false" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:maxLines="1" style="@style/Theme.Roblox.StandardFontBold" />
+        <com.roblox.client.components.RbxTextView n0:textSize="12.0sp" n0:id="@id/contacts_list_sub_text_view" n0:layout_width="wrap_content" n0:layout_height="wrap_content" />
+    </LinearLayout>
+    <Space n0:layout_width="12.0dp" n0:layout_height="wrap_content" />
+    <Button n0:textSize="14.0sp" n0:layout_gravity="center_vertical" n0:id="@id/contacts_send_app_link_button" n0:layout_width="54.0dp" n0:layout_height="32.0dp" n0:text="@string/Features_FriendFinder_Action_Invite" style="@style/Theme.Roblox.Button.Flat.Blue.Primary" />
+</LinearLayout>

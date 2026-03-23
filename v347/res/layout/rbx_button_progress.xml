@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <com.roblox.client.components.RbxButton n0:id="@id/rbxProgressBtnRbxBtn" n0:background="@android:color/transparent" n0:layout_width="match_parent" n0:layout_height="match_parent" />
+    <LinearLayout n0:orientation="vertical" n0:id="@id/rbxProgressBtnProgressContainer" n0:paddingLeft="@dimen/btnFlatStdPaddingLeftRight" n0:paddingTop="@dimen/btnFlatStdPaddingTopBtm" n0:paddingRight="@dimen/btnFlatStdPaddingLeftRight" n0:paddingBottom="@dimen/btnFlatStdPaddingTopBtm" n0:layout_width="match_parent" n0:layout_height="match_parent">
+        <LinearLayout n0:layout_gravity="center_horizontal" n0:orientation="horizontal" n0:layout_width="wrap_content" n0:layout_height="match_parent">
+            <ProgressBar n0:layout_gravity="center_horizontal" n0:id="@id/rbxProgressBtnProgressBar" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:indeterminateDrawable="@drawable/rbx_bg_progress_btn_spinner" n0:layout_weight="1.0" style="@android:style/Widget.ProgressBar.Small" />
+            <com.roblox.client.components.RbxTextView n0:gravity="center_vertical" n0:layout_gravity="center" n0:id="@id/rbxProgressBtnProgressText" n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_marginLeft="5.0dp" n0:singleLine="false" n0:layout_weight="10.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

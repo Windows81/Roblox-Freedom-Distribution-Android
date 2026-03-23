@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:orientation="horizontal" n0:id="@id/rbxBirthdayContainer" n0:background="@drawable/rbx_bg_gender_full" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="55.0">
+        <RelativeLayout n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="6.0">
+            <TextView n0:textSize="20.0sp" n0:textColor="@color/RbxGray2" n0:gravity="center_vertical" n0:id="@id/rbxBirthdayText" n0:paddingLeft="@dimen/stdHintLeftIndent" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:text="@string/Authentication_SignUp_Label_Birthday" />
+        </RelativeLayout>
+        <RelativeLayout n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="3.0">
+            <View n0:background="@color/RbxGray4" n0:layout_width="1.0dp" n0:layout_height="match_parent" />
+            <Spinner n0:id="@id/rbxBirthdayMonthSpinner" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_margin="3.0dp" n0:popupBackground="@drawable/rbx_bg_spinner_outline" n0:contentDescription="@string/Authentication_SignUp_Description_BirthdayMonthSpinnerContentDesc" n0:dropDownVerticalOffset="0.100000024dp" n0:spinnerMode="dropdown" style="@style/Theme.Roblox.DefaultSpinner" />
+        </RelativeLayout>
+        <RelativeLayout n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="2.0">
+            <View n0:background="@color/RbxGray4" n0:layout_width="1.0dp" n0:layout_height="match_parent" />
+            <Spinner n0:id="@id/rbxBirthdayDaySpinner" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_margin="3.0dp" n0:popupBackground="@drawable/rbx_bg_spinner_outline" n0:contentDescription="@string/Authentication_SignUp_Description_BirthdayDaySpinnerContentDesc" n0:dropDownVerticalOffset="0.100000024dp" n0:spinnerMode="dropdown" style="@style/Theme.Roblox.DefaultSpinner" />
+        </RelativeLayout>
+        <RelativeLayout n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="3.0">
+            <View n0:background="@color/RbxGray4" n0:layout_width="1.0dp" n0:layout_height="match_parent" />
+            <Spinner n0:id="@id/rbxBirthdayYearSpinner" n0:layout_width="match_parent" n0:layout_height="match_parent" n0:layout_margin="3.0dp" n0:popupBackground="@drawable/rbx_bg_spinner_outline" n0:contentDescription="@string/Authentication_SignUp_Description_BirthdayYearSpinnerContentDesc" n0:dropDownVerticalOffset="0.100000024dp" n0:spinnerMode="dropdown" style="@style/Theme.Roblox.DefaultSpinner" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout n0:gravity="center_vertical" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="25.0">
+        <com.roblox.client.components.RbxTextView n0:textAppearance="?android:textAppearanceSmall" n0:textSize="@dimen/rbxEditTextHint" n0:textColor="@color/RbxRed2" n0:id="@id/rbxBirthdayBottomText" n0:background="@android:color/transparent" n0:visibility="invisible" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="2.0dp" n0:text="@string/Authentication_SignUp_Response_InvalidBirthday" />
+    </LinearLayout>
+</LinearLayout>

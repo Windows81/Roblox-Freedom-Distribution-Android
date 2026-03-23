@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item n0:state_enabled="true" n1:state_collapsed="false" n1:state_collapsible="true"
+      xmlns:n0="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/res-auto">
+        <objectAnimator n0:duration="@integer/app_bar_elevation_anim_duration" n0:valueTo="0.0dp" n0:valueType="floatType" n0:propertyName="elevation" />
+    </item>
+    <item n2:state_enabled="true"
+      xmlns:n2="http://schemas.android.com/apk/res/android">
+        <objectAnimator n2:duration="@integer/app_bar_elevation_anim_duration" n2:valueTo="@dimen/design_appbar_elevation" n2:valueType="floatType" n2:propertyName="elevation" />
+    </item>
+    <item>
+        <objectAnimator n3:duration="0" n3:valueTo="0" n3:valueType="floatType" n3:propertyName="elevation"
+          xmlns:n3="http://schemas.android.com/apk/res/android" />
+    </item>
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:gravity="center" n0:orientation="vertical" n0:layout_width="match_parent" n0:layout_height="match_parent"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <TextView n0:textColor="@color/red" n0:gravity="center" n0:id="@id/alertTitle" n0:padding="10.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/CommonUI_Messages_Response_ConnectionError" />
+    <com.roblox.client.components.RbxButton n0:enabled="true" n0:id="@id/reconnect_button" n0:layout_width="250.0dp" n0:layout_height="@dimen/landingButtonHeight" n0:text="@string/CommonUI_Controls_Action_Retry" style="@style/Theme.Roblox.Button.Flat.White.Settings" />
+</LinearLayout>

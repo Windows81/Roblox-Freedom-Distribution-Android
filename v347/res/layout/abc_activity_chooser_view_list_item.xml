@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:id="@id/list_item" n0:background="?selectableItemBackground" n0:paddingLeft="16.0dp" n0:paddingRight="16.0dp" n0:layout_width="match_parent" n0:layout_height="?dropdownListPreferredItemHeight" n0:minWidth="196.0dp"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <LinearLayout n0:duplicateParentState="true" n0:layout_width="wrap_content" n0:layout_height="match_parent">
+        <ImageView n0:layout_gravity="center_vertical" n0:id="@id/icon" n0:duplicateParentState="true" n0:layout_width="32.0dp" n0:layout_height="32.0dp" n0:layout_marginRight="8.0dp" />
+        <TextView n0:textAppearance="?textAppearanceLargePopupMenu" n0:ellipsize="marquee" n0:layout_gravity="center_vertical" n0:id="@id/title" n0:fadingEdge="horizontal" n0:duplicateParentState="true" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

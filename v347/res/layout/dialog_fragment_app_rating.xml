@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n0:orientation="vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n0:orientation="horizontal" n0:padding="12.0dp" n0:layout_width="match_parent" n0:layout_height="wrap_content">
+        <com.roblox.client.components.RbxTextView n0:textSize="20.0sp" n0:textStyle="bold" n0:textColor="@color/RbxGray1" n0:gravity="center_vertical" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Application_AppRating_Label_PleaseRate" />
+        <TextView n0:textSize="18.0sp" n0:textColor="@color/RbxGray2" n0:id="@id/dialog_rating_close_btn" n0:paddingLeft="5.0dp" n0:paddingRight="5.0dp" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Application_AppRating_Label_AppRatingDialogCloseButtonText" n0:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView n0:background="@color/black" n0:layout_width="match_parent" n0:layout_height="1.0px" />
+    <com.roblox.client.components.RbxTextView n0:textSize="18.0sp" n0:textColor="@color/RbxGray1" n0:gravity="start|center" n0:id="@id/rbxTextView" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginLeft="12.0dp" n0:layout_marginTop="12.0dp" n0:layout_marginBottom="12.0dp" n0:text="@string/Application_AppRating_Label_RatingMessage" />
+    <LinearLayout n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="0.0dp" n0:layout_weight="0.1">
+        <Space n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="3.0" />
+        <com.roblox.client.components.RbxButton n0:layout_gravity="center" n0:id="@id/dialog_rating_positive_btn" n0:layout_width="0.0dp" n0:layout_height="50.0dp" n0:text="@string/Application_AppRating_Label_RatingYes" n0:layout_weight="10.0" n1:buttonTextSize="16.0sp" style="@style/Theme.Roblox.Button.Flat.Blue"
+          xmlns:n1="http://schemas.android.com/apk/res-auto" />
+        <Space n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="1.0" />
+        <com.roblox.client.components.RbxButton n0:textSize="16.0sp" n0:layout_gravity="center" n0:id="@id/dialog_rating_negative_btn" n0:layout_width="0.0dp" n0:layout_height="50.0dp" n0:text="@string/Application_AppRating_Action_RatingNegativeButton" n0:layout_weight="10.0" style="@style/Theme.Roblox.Button.Flat.White" />
+        <Space n0:layout_width="0.0dp" n0:layout_height="match_parent" n0:layout_weight="3.0" />
+    </LinearLayout>
+    <LinearLayout n0:gravity="center" n0:orientation="horizontal" n0:layout_width="match_parent" n0:layout_height="wrap_content" n0:layout_marginTop="12.0dp" n0:layout_marginBottom="12.0dp">
+        <com.roblox.client.components.RbxButton n0:textSize="16.0sp" n0:textStyle="bold" n0:textColor="@color/RbxBlue1" n0:gravity="start" n0:id="@id/dialog_rating_skip_btn" n0:background="@android:color/transparent" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:text="@string/Application_AppRating_Action_RatingRemindMeLater" />
+    </LinearLayout>
+</LinearLayout>

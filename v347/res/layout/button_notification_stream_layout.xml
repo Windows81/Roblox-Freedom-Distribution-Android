@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout n0:background="@color/RbxBlue3" n0:layout_width="@dimen/menuItemWidth" n0:layout_height="@dimen/mainToolbarHeight"
+  xmlns:n0="http://schemas.android.com/apk/res/android">
+    <ImageView n0:layout_gravity="center" n0:id="@id/notification_button" n0:background="@drawable/ic_notification" n0:layout_width="32.0dp" n0:layout_height="32.0dp" />
+    <TextView n0:textSize="10.0dp" n0:textColor="#fff" n0:gravity="center" n0:layout_gravity="center" n0:id="@id/notification_count" n0:background="@drawable/circle_shape_red" n0:visibility="visible" n0:layout_width="wrap_content" n0:layout_height="wrap_content" n0:layout_marginTop="-8.0dp" n0:layout_marginRight="-8.0dp" n0:minWidth="20.0dp" n0:minHeight="20.0dp" n0:text="@string/Notifications_NotificationStream_Label_NotificationStreamCount" />
+</FrameLayout>
