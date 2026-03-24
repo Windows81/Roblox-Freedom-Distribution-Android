@@ -3082,7 +3082,7 @@
 .method public static h()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "2.463.417712"
+    const-string v0, "2.463.417004"
 
     return-object v0
 .end method
@@ -3561,7 +3561,7 @@
 .method public static v()Ljava/lang/String;
     .locals 1
 
-    const-string v0, "30096382"
+    const-string v0, "29908575"
 
     return-object v0
 .end method

@@ -9,7 +9,7 @@ import java.lang.ref.WeakReference;
 /* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
 public class VectorEnabledTintResources extends Resources {
     public static final int MAX_SDK_WHERE_REQUIRED = 20;
-    private static boolean sCompatVectorFromResourcesEnabled;
+    private static boolean sCompatVectorFromResourcesEnabled = false;
     private final WeakReference<Context> mContextRef;
 
     public static boolean shouldBeUsed() {

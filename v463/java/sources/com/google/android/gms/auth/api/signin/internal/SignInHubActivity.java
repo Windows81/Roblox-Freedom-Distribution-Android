@@ -12,7 +12,7 @@ import com.google.android.gms.common.api.Status;
 
 /* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
 public class SignInHubActivity extends androidx.fragment.app.c {
-    private static boolean k;
+    private static boolean k = false;
     private boolean l = false;
     private SignInConfiguration m;
     private boolean n;

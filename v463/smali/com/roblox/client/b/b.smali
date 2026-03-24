@@ -580,7 +580,7 @@
 
     move-result-object v1
 
-    const-string v3, "2.463.417712"
+    const-string v3, "2.463.417004"
 
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

@@ -3,7 +3,7 @@ Built-By: BundleTool
 Created-By: BundleTool
 
 Name: AndroidManifest.xml
-SHA-256-Digest: bq01C5hGiXmc13no1jyaE0ujLv4093JDmYTztM9IbNU=
+SHA-256-Digest: /hhCo8daqjzWagBd3VEvGxFc5Xa/AME90Jt694NXpMI=
 
 Name: META-INF/NativeShell_googleProdRelease.kotlin_module
 SHA-256-Digest: cMFE1UPhehJ3Ligg9XyrDZqjW1n7MHUcFBhJhrGWFEk=
@@ -162,7 +162,7 @@ Name: assets/cacert.pem
 SHA-256-Digest: MT1WJZTr0HhGrWuEDdGJk/IuD4s/J12arPrhGPTwD7c=
 
 Name: assets/fingerprint.txt
-SHA-256-Digest: Mk2WfDu4l2Ls0V6DI3lAf6+ULiTtxILGUh2wp0+zPwQ=
+SHA-256-Digest: tC/fkzZDKx8NioFM5921eeY/SXv6c0R1GRrdQNu+/RE=
 
 Name: assets/fonts/SourceSansPro-Black.ttf
 SHA-256-Digest: edKw7nCjDK5hG7nLvJpHNJHA+KQW9KXAha46TaoXE4E=
@@ -180,13 +180,13 @@ Name: assets/fonts/SourceSansPro-Semibold.ttf
 SHA-256-Digest: rZv1NfwY0nupKbdmBYv1OBZJvD2QkiMsAOBp9CAFQjI=
 
 Name: assets/main.1.com.roblox.client.obb
-SHA-256-Digest: kTTJSg5UjhOc/nkbhyFAc6gBm6lPDcBTrdK2v2ijAFs=
+SHA-256-Digest: MR/+5rqvgRLLRZIcoRfPGutB7ZP53BSrmO9q6arO8D0=
 
 Name: assets/supplierconfig.json
 SHA-256-Digest: /Mb+e0BnmBVTfVPNj9d0NlcVKKo/oIACUR/+34hSp/w=
 
 Name: classes.dex
-SHA-256-Digest: GLSVYyfmcOuNIkmPx9kamuzIYbvTktdvJgXpQJPwbo4=
+SHA-256-Digest: x4WEdUfoAzrQfBvQJzdZShKuuwmae7U5SZlOsGX4fU4=
 
 Name: com/appsflyer/internal/a-
 SHA-256-Digest: t2IllHy6u2oWe3zs9BHHPkwA4/+Sg9QFkvZ9sJjPJsw=
@@ -238,21 +238,6 @@ SHA-256-Digest: M1GCyseFH4A5FsPHsXHR+WJ/VUZSj7PHxOCrD4ufzVM=
 
 Name: kotlin/reflect/reflect.kotlin_builtins
 SHA-256-Digest: nt9+AE86/ap9KjcxM3UU6XGlXBRZRQYKkhyoeif/TbI=
-
-Name: lib/arm64-v8a/libfmod.so
-SHA-256-Digest: MjI1SdAhnH1BrGmF9FpUnZUbkky+cbKAzZ033vbxwOE=
-
-Name: lib/arm64-v8a/libgojni.so
-SHA-256-Digest: buH4PcAb1Yc4Uu4XBAzFGLKK1GvdgI6Lt81D3SJ53nU=
-
-Name: lib/arm64-v8a/libroblox.so
-SHA-256-Digest: d+IkbfbadUln5gE7ohmdQJT0QNUC1up6wvO5aqOIYQU=
-
-Name: lib/arm64-v8a/libtrampoline.so
-SHA-256-Digest: E/2oEtWKkYyGNm241Q5d+tRwst8y3tMICV411pPEauM=
-
-Name: lib/arm64-v8a/libyuv_shared.so
-SHA-256-Digest: agdizTPnVryp/wtgeaGIUmukLhyFxZBWnBPyxM2dRTQ=
 
 Name: play-services-ads-identifier.properties
 SHA-256-Digest: 5XbTUztCIlsW304knI479jw5kyRfEPSF4mdr8XSDtnA=

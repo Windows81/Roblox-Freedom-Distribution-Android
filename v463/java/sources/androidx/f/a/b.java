@@ -20,7 +20,7 @@ import java.lang.reflect.Modifier;
 class b extends androidx.f.a.a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    static boolean f1593a;
+    static boolean f1593a = false;
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
     private final j f1594b;

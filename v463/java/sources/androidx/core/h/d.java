@@ -16,13 +16,13 @@ import java.lang.reflect.Method;
 public class d {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    private static boolean f1477a;
+    private static boolean f1477a = false;
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
-    private static Method f1478b;
+    private static Method f1478b = null;
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */
-    private static boolean f1479c;
+    private static boolean f1479c = false;
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */
     private static Field f1480d;

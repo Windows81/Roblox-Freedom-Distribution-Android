@@ -9,16 +9,16 @@ import com.roblox.engine.jni.NativeSettingsInterface;
 public class c {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    private static boolean f7560a;
+    private static boolean f7560a = false;
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
-    private static boolean f7561b;
+    private static boolean f7561b = false;
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */
-    private static boolean f7562c;
+    private static boolean f7562c = false;
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */
-    private static boolean f7563d;
+    private static boolean f7563d = false;
 
     public static String e() {
         return "rbxasset://places/Mobile.rbxl";

@@ -51,7 +51,7 @@ public class AboutActivity extends q {
         } else if (i == 2) {
             strName = "64-bit";
         }
-        Toast.makeText(this, strName + " -- Ver:904", 0).show();
+        Toast.makeText(this, strName + " -- Ver:892", 0).show();
         return false;
     }
 

@@ -28,7 +28,7 @@ public class ChirpError {
         this.code = chirpErrorCode;
     }
 
-    private ChirpErrorCode findErrorCode(int i) {
+    private ChirpErrorCode findErrorCode(int i) throws CloneNotSupportedException {
         for (ChirpErrorCode chirpErrorCode : ChirpErrorCode.values()) {
             if (chirpErrorCode.getCode() == i) {
                 return chirpErrorCode;

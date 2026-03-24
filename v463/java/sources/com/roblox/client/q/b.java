@@ -17,7 +17,7 @@ public class b implements com.roblox.engine.jni.reporter.a {
 
     @Override // com.roblox.engine.jni.reporter.a
     public String b() {
-        return "2.463.417712";
+        return "2.463.417004";
     }
 
     public b(Context context) {

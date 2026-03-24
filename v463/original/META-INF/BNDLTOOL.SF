@@ -1,10 +1,10 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android)
-SHA-256-Digest-Manifest: gLKzQTxIV7Pixt37yYMYlfIsMXL7KtdfNwa8OnkVIxs=
+SHA-256-Digest-Manifest: xdNKInJ9DyFYzVrwlMWc5FtU7UoEwyfVQedTNNrEuYA=
 X-Android-APK-Signed: 2, 3
 
 Name: AndroidManifest.xml
-SHA-256-Digest: KZxu359E1AIyMcMZOIU4I+Qv3i3Jgnj98Z+1jf3NVZw=
+SHA-256-Digest: bLAlCmHydeWL5ArCJ2u5jtaIi5no0UCJo8qwdWLt9uU=
 
 Name: META-INF/NativeShell_googleProdRelease.kotlin_module
 SHA-256-Digest: 8KaEcmc3fb1V+eiiJSG2K583qUE8DzVgiu0LC8vIMKQ=
@@ -163,7 +163,7 @@ Name: assets/cacert.pem
 SHA-256-Digest: jZDLEpq+TxfM2iKb8adfad23ZWtBr3CKcE3rywRlx38=
 
 Name: assets/fingerprint.txt
-SHA-256-Digest: teRJh14Ey1pKehinRTItchC+fnVCebi+UU5qgqzih+o=
+SHA-256-Digest: A1BtJNVbjJSg0ysRUcl44CVEp0A6d3gSBbwDf8CfhKU=
 
 Name: assets/fonts/SourceSansPro-Black.ttf
 SHA-256-Digest: k+lMOwgkAar+fYBBtWCTP52oOvGYhMbFAkiIppP35Qw=
@@ -181,13 +181,13 @@ Name: assets/fonts/SourceSansPro-Semibold.ttf
 SHA-256-Digest: xf0FTCioVrO5x3VllWP72JV0mL8ZCJycsszVTXYdEMk=
 
 Name: assets/main.1.com.roblox.client.obb
-SHA-256-Digest: l6IkyubWAxjWCcQ+o7i5cyOQgM9FuS0eymSu7JTzmTE=
+SHA-256-Digest: xgacUMGb30DxT3Em6zAv4kuhT+baxnf2Nnt9YDnen+g=
 
 Name: assets/supplierconfig.json
 SHA-256-Digest: uK3uQhmSDCYDXWQFw6RAaC56PangYKcAL6Z3/vcUsDY=
 
 Name: classes.dex
-SHA-256-Digest: Vw9BaFfxJ+0A51UM4UCpqgdy/AaQMgVpdE/zS9yy3Ds=
+SHA-256-Digest: DDAnxPZncejjmsGkz/Ftx5tq8VckMacsUc0ytEsmEKg=
 
 Name: com/appsflyer/internal/a-
 SHA-256-Digest: WCKVrFWlScwGh2veyzDpRZ6WNgNwQdN0tqkb+7Sh3DE=
@@ -239,21 +239,6 @@ SHA-256-Digest: TJdvlVJY5fkbaAnm4hALqSoUpQG9Fbfi8t9Ru+pXua8=
 
 Name: kotlin/reflect/reflect.kotlin_builtins
 SHA-256-Digest: aas3jY2Apd1QqNAypFrehTLfFB8cGv9c5BsH6zakav4=
-
-Name: lib/arm64-v8a/libfmod.so
-SHA-256-Digest: LG+qtFOiq1gfCFMsXuLBtiF9L9/nKno0tVsZT+XHtPU=
-
-Name: lib/arm64-v8a/libgojni.so
-SHA-256-Digest: hLoMM80pIb2z8P7zBBAKqbmzcYIXXUPNApPKWTwzK98=
-
-Name: lib/arm64-v8a/libroblox.so
-SHA-256-Digest: nkgORACEd59qCloo8B+eSwTVekydrFDFIxPjXsP7bfs=
-
-Name: lib/arm64-v8a/libtrampoline.so
-SHA-256-Digest: 2fe5QiWxs4ydcoreoCsp/CrAP0mFuqJkC/dwwPwAWFE=
-
-Name: lib/arm64-v8a/libyuv_shared.so
-SHA-256-Digest: kg3TDBT8bOyyWu5nMpapiOqbva3kFOHsoVKtEEUf9kw=
 
 Name: play-services-ads-identifier.properties
 SHA-256-Digest: 6Q2vMvAvBiL2dP9s5Db/o41nSS44RwGmHXIwvTAPxC8=

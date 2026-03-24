@@ -885,7 +885,7 @@
 
     const-string v3, "rbx.AppManager"
 
-    const-string v4, "ROBLOX | Version = 2.463.417712, Code = 904"
+    const-string v4, "ROBLOX | Version = 2.463.417004, Code = 892"
 
     .line 282
     invoke-static {v3, v4}, Lcom/roblox/client/ae/k;->b(Ljava/lang/String;Ljava/lang/String;)I

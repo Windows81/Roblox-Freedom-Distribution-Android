@@ -12,7 +12,7 @@ import android.util.Log;
 public final class FirebaseInstanceIdReceiver extends androidx.legacy.a.a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    private static boolean f5185a;
+    private static boolean f5185a = false;
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
     private static aj f5186b;

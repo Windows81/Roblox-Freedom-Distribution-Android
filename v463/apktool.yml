@@ -1,5 +1,5 @@
 version: 3.0.1
-apkFileName: v463.apk
+apkFileName: base.apk
 usesFramework:
   ids:
   - 1
@@ -7,8 +7,8 @@ sdkInfo:
   minSdkVersion: 19
   targetSdkVersion: 29
 versionInfo:
-  versionCode: 904
-  versionName: 2.463.417712
+  versionCode: 892
+  versionName: 2.463.417004
 resourcesInfo:
   packageId: 127
 doNotCompress:

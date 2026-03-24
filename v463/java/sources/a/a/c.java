@@ -14,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
 public class c implements a.a.e.b {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    private static boolean f359a;
+    private static boolean f359a = false;
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
     private static Timer f360b;

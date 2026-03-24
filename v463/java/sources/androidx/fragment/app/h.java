@@ -55,7 +55,7 @@ final class h extends androidx.fragment.app.g implements LayoutInflater.Factory2
     static final Interpolator I = new AccelerateInterpolator(1.5f);
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    static boolean f1683a;
+    static boolean f1683a = false;
     static Field q;
     ArrayList<j> C;
     androidx.fragment.app.i D;

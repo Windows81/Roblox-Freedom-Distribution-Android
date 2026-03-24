@@ -7,10 +7,10 @@ import com.roblox.engine.jni.NativeReportingInterface;
 public class i {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    private static boolean f5697a;
+    private static boolean f5697a = false;
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
-    private static boolean f5698b;
+    private static boolean f5698b = false;
 
     public static void a() {
         if (!com.roblox.client.b.bN() || f5698b) {

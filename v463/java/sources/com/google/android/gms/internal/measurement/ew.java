@@ -95,7 +95,7 @@ public final class ew extends ih implements da {
         this.h.put(str, aVar3);
     }
 
-    private final void g(String str) {
+    private final void g(String str) throws Throwable {
         N();
         c();
         com.google.android.gms.common.internal.aa.a(str);
@@ -127,7 +127,7 @@ public final class ew extends ih implements da {
     }
 
     @Override // com.google.android.gms.internal.measurement.da
-    public final String a(String str, String str2) {
+    public final String a(String str, String str2) throws Throwable {
         c();
         g(str);
         Map<String, String> map = this.f4299d.get(str);
@@ -213,7 +213,7 @@ public final class ew extends ih implements da {
         super.b();
     }
 
-    final boolean b(String str, String str2) {
+    final boolean b(String str, String str2) throws Throwable {
         Boolean bool;
         c();
         g(str);
@@ -240,7 +240,7 @@ public final class ew extends ih implements da {
         this.i.put(str, null);
     }
 
-    final boolean c(String str, String str2) {
+    final boolean c(String str, String str2) throws Throwable {
         Boolean bool;
         c();
         g(str);
@@ -259,7 +259,7 @@ public final class ew extends ih implements da {
         return super.c_();
     }
 
-    final int d(String str, String str2) {
+    final int d(String str, String str2) throws Throwable {
         Integer num;
         c();
         g(str);

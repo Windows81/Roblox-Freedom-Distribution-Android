@@ -172,7 +172,7 @@ public class c implements a.InterfaceC0169a {
                 String strT = u.t();
                 k.b("rbx.AppManager", "ROBLOX | User-Agent = " + strT);
                 k.b("rbx.AppManager", "ROBLOX | Build = googleProd" + t.d("release") + ", ID = " + u.v());
-                k.b("rbx.AppManager", "ROBLOX | Version = 2.463.417712, Code = 904");
+                k.b("rbx.AppManager", "ROBLOX | Version = 2.463.417004, Code = 892");
                 StringBuilder sb = new StringBuilder();
                 sb.append("ROBLOX | BaseUrl = ");
                 sb.append(u.b());

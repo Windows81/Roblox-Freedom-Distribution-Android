@@ -9,7 +9,7 @@ import com.roblox.platform.e;
 
 /* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
 public class b {
-    private static boolean h;
+    private static boolean h = false;
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
     public Rect f7584a;

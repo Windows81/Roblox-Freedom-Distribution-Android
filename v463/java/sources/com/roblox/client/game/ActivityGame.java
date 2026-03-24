@@ -33,7 +33,7 @@ import org.fmod.FMOD;
 
 /* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
 public class ActivityGame extends r implements n, b.a {
-    private static boolean C;
+    private static boolean C = false;
     private com.roblox.engine.b A;
     private ViewTreeObserver.OnGlobalLayoutListener B;
     private ViewGroup D;

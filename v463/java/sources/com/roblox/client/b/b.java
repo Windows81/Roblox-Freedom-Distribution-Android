@@ -66,9 +66,9 @@ public class b implements c.a {
         SharedPreferences sharedPreferencesA = s.a(context, "rate_me_maybe");
         this.f5743b = sharedPreferencesA;
         SharedPreferences.Editor editorEdit = sharedPreferencesA.edit();
-        if (!"2.463.417712".equals(this.f5743b.getString("CURRENT_APP_VERSION", ""))) {
+        if (!"2.463.417004".equals(this.f5743b.getString("CURRENT_APP_VERSION", ""))) {
             b(context);
-            editorEdit.putString("CURRENT_APP_VERSION", "2.463.417712");
+            editorEdit.putString("CURRENT_APP_VERSION", "2.463.417004");
         }
         if (this.f5743b.getLong("PREF_TIME_OF_ABSOLUTE_FIRST_LAUNCH", 0L) == 0) {
             editorEdit.putLong("PREF_TIME_OF_ABSOLUTE_FIRST_LAUNCH", System.currentTimeMillis());

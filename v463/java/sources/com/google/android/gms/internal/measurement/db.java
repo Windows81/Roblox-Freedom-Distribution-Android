@@ -1507,7 +1507,7 @@ final class db extends ih {
         throw new UnsupportedOperationException("Method not decompiled: com.google.android.gms.internal.measurement.db.d(java.lang.String, java.lang.String):com.google.android.gms.internal.measurement.zzed");
     }
 
-    public final byte[] d(String str) {
+    public final byte[] d(String str) throws Throwable {
         Cursor cursorQuery;
         com.google.android.gms.common.internal.aa.a(str);
         c();

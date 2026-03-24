@@ -26,11 +26,11 @@ public class l {
     public static final int f3833b = 12451000;
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */
-    public static boolean f3834c;
+    public static boolean f3834c = false;
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */
-    public static boolean f3835d;
-    private static boolean f;
+    public static boolean f3835d = false;
+    private static boolean f = false;
 
     /* JADX INFO: renamed from: e, reason: collision with root package name */
     static final AtomicBoolean f3836e = new AtomicBoolean();

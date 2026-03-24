@@ -4,10 +4,10 @@ package com.roblox.engine.jni;
 public class NativeAppTracingInterface {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    public static String f7638a;
+    public static String f7638a = null;
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
-    private static boolean f7639b;
+    private static boolean f7639b = false;
 
     private static native void nativeFinishAndReportSpan(String str);
 

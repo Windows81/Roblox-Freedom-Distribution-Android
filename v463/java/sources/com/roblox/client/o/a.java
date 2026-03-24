@@ -112,7 +112,7 @@ public class a implements c {
     }
 
     protected String c() {
-        a("appVersion", "2.463.417712");
+        a("appVersion", "2.463.417004");
         b("deviceType", Build.MODEL);
         a("deviceOSVersion", Integer.valueOf(Build.VERSION.SDK_INT));
         a("platform", "Android");
