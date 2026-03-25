@@ -91,6 +91,7 @@
     move-result-object p1
 
     .line 88
+    :cond_0
     const-string v0, "rbx.prefs"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -114,7 +115,6 @@
     invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 90
-    :cond_0
     const/4 v0, 0x0
 
     invoke-virtual {p0, p1, v0}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
@@ -254,6 +254,7 @@
     move-result-object p1
 
     .line 60
+    :cond_0
     const-string v0, "rbx.prefs"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -277,7 +278,6 @@
     invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 62
-    :cond_0
     iget-object v0, p0, Lcom/roblox/client/util/m;->b:Landroid/content/Context;
 
     const/4 v1, 0x0

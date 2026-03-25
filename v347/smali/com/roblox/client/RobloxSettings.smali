@@ -3462,7 +3462,7 @@
 
     move-result v2
 
-    if-nez v2, :cond_0
+    #if-nez v2, :cond_0
 
     .line 671
     const-string v2, "roblox.config"
