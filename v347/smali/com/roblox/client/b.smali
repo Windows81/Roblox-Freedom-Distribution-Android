@@ -3196,7 +3196,7 @@
 
     const-string v2, "RobloxWebLink"
 
-    const-string v3, "www.roblox.com"
+    const-string v3, "www.test01.local"
 
     invoke-direct {v1, v2, v3}, Lcom/roblox/client/b$a;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
 

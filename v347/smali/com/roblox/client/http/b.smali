@@ -392,6 +392,9 @@
     .line 123
     invoke-virtual {v0, p6}, Ljava/net/HttpURLConnection;->setReadTimeout(I)V
 
+    # PATCH: disables TLS checks.
+    # invoke-static {v0}, Linsecuritise;->insecuritise(Ljavax/net/ssl/HttpsURLConnection;)V
+
     .line 125
     if-eqz p1, :cond_5
 

@@ -209,7 +209,7 @@
 
     .prologue
     .line 27
-    const-string v0, "roblox.com"
+    const-string v0, "test06.local"
 
     return-object v0
 .end method
@@ -230,12 +230,6 @@
     move-result-object v0
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    const-string v1, "."
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 

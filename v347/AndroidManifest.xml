@@ -72,7 +72,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="robloxmobile"/>
+                <data android:scheme="rfd-347"/>
             </intent-filter>
         </activity>
         <activity android:alwaysRetainTaskState="true" android:configChanges="orientation|screenSize" android:label="@string/CommonUI_Messages_Label_Roblox" android:launchMode="singleTask" android:name="com.roblox.client.ActivityNativeMain" android:theme="@style/Theme.Roblox" android:windowSoftInputMode="adjustNothing">

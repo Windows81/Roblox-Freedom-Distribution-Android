@@ -117,45 +117,21 @@
 .end method
 
 .method public e(Ljava/lang/String;)Ljava/lang/String;
-    .locals 2
+    .locals 0
 
     .prologue
-    .line 33
-    const-string v0, "."
 
-    invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
-
-    move-result v0
-
-    add-int/lit8 v0, v0, 0x1
-
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
-
-    move-result v1
-
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
+    return-object p1
 .end method
 
 .method public f(Ljava/lang/String;)Ljava/lang/String;
-    .locals 2
+    .locals 1
 
     .prologue
     .line 37
     const/4 v0, 0x0
 
-    const-string v1, "."
+    const-string v1, ""
 
-    invoke-virtual {p1, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
-
-    move-result v1
-
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
+    return-object v1
 .end method

@@ -23,7 +23,7 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    const-string v1, "^(?:robloxmobile|roblox|http)://(.*)"
+    const-string v1, "^[^/]+://(.*)"
 
     const/4 v2, 0x2
 
