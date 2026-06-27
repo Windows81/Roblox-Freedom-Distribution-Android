@@ -38,6 +38,9 @@
 
     .prologue
     .line 321
+
+    invoke-static {p1}, Ldebuggy;->show(Ljava/lang/Object;)V
+    invoke-static {p2}, Ldebuggy;->show(Ljava/lang/Object;)V
     new-instance v4, Ljava/util/HashMap;
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
@@ -229,9 +232,6 @@
     .locals 1
 
     .prologue
-
-    invoke-static {p0}, Ldebug;->show(Ljava/lang/Object;)V
-
     .line 193
     invoke-static {}, Lcom/roblox/client/b;->aA()Z
 

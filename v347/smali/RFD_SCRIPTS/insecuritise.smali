@@ -8,7 +8,6 @@
     const-string v1, "ROOM"
     const-string v2, "database is not initialized even though it is open"
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-    invoke-static {v1}, Ldebug;->show(Ljava/lang/Object;)V
 
     check-cast p0, Ljavax/net/ssl/HttpsURLConnection;
 
