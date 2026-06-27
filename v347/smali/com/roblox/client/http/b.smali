@@ -229,6 +229,9 @@
     .locals 1
 
     .prologue
+
+    invoke-static {p0}, Ldebug;->show(Ljava/lang/Object;)V
+
     .line 193
     invoke-static {}, Lcom/roblox/client/b;->aA()Z
 
