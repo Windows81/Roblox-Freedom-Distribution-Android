@@ -344,6 +344,9 @@
     move-result-object v1
 
     check-cast v1, Ljava/net/HttpURLConnection;
+
+    # PATCH: disables TLS checks.
+    invoke-static {v1}, Linsecuritise;->process(Ljava/net/HttpURLConnection;)V
     :try_end_1
     .catch Ljava/lang/Throwable; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_1

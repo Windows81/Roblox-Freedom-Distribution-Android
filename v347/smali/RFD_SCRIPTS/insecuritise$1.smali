@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Linsecuritise;->insecuritise(Ljavax/net/ssl/HttpsURLConnection;)V
+    value = Linsecuritise;->process(Ljava/net/HttpURLConnection;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,12 +21,10 @@
 .method constructor <init>()V
     .registers 1
 
-    .line 11
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
-
 
 # virtual methods
 .method public checkClientTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
@@ -34,7 +32,6 @@
     .param p1, "certs"    # [Ljava/security/cert/X509Certificate;
     .param p2, "authType"    # Ljava/lang/String;
 
-    .line 13
     return-void
 .end method
 
@@ -43,15 +40,29 @@
     .param p1, "certs"    # [Ljava/security/cert/X509Certificate;
     .param p2, "authType"    # Ljava/lang/String;
 
-    .line 14
     return-void
 .end method
 
 .method public getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
     .registers 2
 
-    .line 12
     const/4 v0, 0x0
 
     return-object v0
+.end method
+
+.method public isClientTrusted([Ljava/security/cert/X509Certificate;)Z
+    .registers 2
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public isServerTrusted([Ljava/security/cert/X509Certificate;)Z
+    .registers 2
+
+    const/4 v0, 0x1
+
+    return v0
 .end method

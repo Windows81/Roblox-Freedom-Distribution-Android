@@ -209,6 +209,9 @@
 
     check-cast v0, Ljava/net/HttpURLConnection;
 
+    # PATCH: disables TLS checks.
+    invoke-static {v0}, Linsecuritise;->process(Ljava/net/HttpURLConnection;)V
+
     iput-object v0, p0, Lcom/appsflyer/s;->h:Ljava/net/HttpURLConnection;
 
     .line 61

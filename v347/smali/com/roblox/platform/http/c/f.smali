@@ -26,14 +26,15 @@
 
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 0
+    .locals 1
 
     .prologue
     .line 21
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 22
-    iput-object p1, p0, Lcom/roblox/platform/http/c/f;->b:Ljava/lang/String;
+    const-string v0, ""
+    iput-object v0, p0, Lcom/roblox/platform/http/c/f;->b:Ljava/lang/String;
 
     .line 23
     if-eqz p2, :cond_0

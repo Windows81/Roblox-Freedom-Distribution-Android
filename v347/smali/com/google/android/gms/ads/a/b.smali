@@ -88,6 +88,9 @@
     move-result-object v0
 
     check-cast v0, Ljava/net/HttpURLConnection;
+
+    # PATCH: disables TLS checks.
+    invoke-static {v0}, Linsecuritise;->process(Ljava/net/HttpURLConnection;)V
     :try_end_0
     .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_2

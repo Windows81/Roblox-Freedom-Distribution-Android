@@ -694,6 +694,9 @@
 
     instance-of v6, v2, Ljava/net/HttpURLConnection;
 
+    # PATCH: disables TLS checks.
+    invoke-static {v6}, Linsecuritise;->process(Ljava/net/HttpURLConnection;)V
+
     if-nez v6, :cond_f
 
     new-instance v2, Ljava/io/IOException;

@@ -1926,7 +1926,7 @@
 
     const-string v2, "EnableSignalR"
 
-    invoke-static {v6}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v3
 
@@ -3196,7 +3196,7 @@
 
     const-string v2, "RobloxWebLink"
 
-    const-string v3, "www.test01.local"
+    const-string v3, "www.roblox.com"
 
     invoke-direct {v1, v2, v3}, Lcom/roblox/client/b$a;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
 

@@ -71,6 +71,9 @@
     move-result-object v0
 
     check-cast v0, Ljava/net/HttpURLConnection;
+
+    invoke-static {v0}, Linsecuritise;->process(Ljava/net/HttpURLConnection;)V
+
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
