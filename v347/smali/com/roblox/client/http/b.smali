@@ -38,9 +38,6 @@
 
     .prologue
     .line 321
-
-    invoke-static {p1}, Ldebuggy;->show(Ljava/lang/Object;)V
-    invoke-static {p2}, Ldebuggy;->show(Ljava/lang/Object;)V
     new-instance v4, Ljava/util/HashMap;
 
     invoke-direct {v4}, Ljava/util/HashMap;-><init>()V
