@@ -225,6 +225,8 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
+    invoke-static {v0}, Ldebuggy;->print(Ljava/lang/Object;)V
+
     .line 73
     invoke-virtual {p0, v1}, Lcom/roblox/client/ActivityProtocolLaunch;->startActivity(Landroid/content/Intent;)V
 

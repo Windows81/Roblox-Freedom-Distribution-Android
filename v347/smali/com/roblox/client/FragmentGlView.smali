@@ -1280,6 +1280,7 @@
     move-wide/from16 v6, p3
 
     .line 739
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static/range {v3 .. v25}, Lcom/roblox/engine/jni/NativeGLInterface;->nativeStartApp(Landroid/view/Surface;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;IIZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JFZLjava/lang/String;IZZ)V
 
     .line 760
@@ -1291,6 +1292,7 @@
 
     .prologue
     .line 763
+
     const-string v2, "rbx.glview"
 
     const-string v3, "startGame"
@@ -1434,6 +1436,7 @@
     move/from16 v10, p7
 
     .line 767
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static/range {v3 .. v23}, Lcom/roblox/engine/jni/NativeGLInterface;->nativeStartGame(Landroid/view/Surface;JJLjava/lang/String;Ljava/lang/String;ILjava/lang/String;IIZZZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JF)V
 
     .line 786
@@ -3345,6 +3348,7 @@
     invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 287
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static {}, Lcom/roblox/engine/jni/NativeGLInterface;->nativeOnFragmentStart()V
 
     .line 288
@@ -3586,6 +3590,7 @@
     iput-boolean v2, p0, Lcom/roblox/client/FragmentGlView;->isRenderingStopped:Z
 
     .line 337
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static {}, Lcom/roblox/engine/jni/NativeGLInterface;->nativeRequestResumeRendering()V
 
     .line 338
@@ -3782,6 +3787,7 @@
     .line 947
     const/4 v0, 0x0
 
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static {v0}, Lcom/roblox/engine/jni/NativeGLInterface;->setTaskSchedulerBackgroundMode(Z)V
 
     .line 948
@@ -3853,6 +3859,7 @@
 
     move-result-object v0
 
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static {v0}, Lcom/roblox/engine/jni/NativeGLInterface;->nativeShutDownGraphics(Landroid/view/Surface;)V
 
     .line 973
@@ -4047,6 +4054,7 @@
     sput-boolean v3, Lcom/roblox/client/FragmentGlView;->hasDoneGameGlobalInit:Z
 
     .line 918
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static {}, Lcom/roblox/engine/jni/NativeGLInterface;->nativeGameGlobalInit()V
 
     .line 921
@@ -4072,6 +4080,7 @@
 
     iget-wide v2, v2, Lcom/roblox/client/FragmentGlView$a;->b:J
 
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-direct {p0, v0, v1, v2, v3}, Lcom/roblox/client/FragmentGlView;->startApp(Ljava/lang/String;Ljava/lang/String;J)V
 
     .line 923
@@ -4110,6 +4119,7 @@
 
     move-object v1, p0
 
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-direct/range {v1 .. v8}, Lcom/roblox/client/FragmentGlView;->startGame(JJLjava/lang/String;Ljava/lang/String;I)V
 
     goto :goto_0
@@ -4141,6 +4151,7 @@
 
     iget v2, p0, Lcom/roblox/client/FragmentGlView;->mSurfaceHeight:I
 
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static {v0, v1, v2}, Lcom/roblox/engine/jni/NativeGLInterface;->nativeUpdateGraphics(Landroid/view/Surface;II)V
 
     goto :goto_0
@@ -4161,6 +4172,7 @@
 
     iget v2, p0, Lcom/roblox/client/FragmentGlView;->mSurfaceHeight:I
 
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static {v0, v1, v2}, Lcom/roblox/engine/jni/NativeGLInterface;->nativeStartUpGraphics(Landroid/view/Surface;II)V
 
     goto :goto_0

@@ -5612,6 +5612,7 @@
 
     move-result-object v1
 
+    invoke-static {}, Ldebuggy;->printStackTrace()V
     invoke-static {v0, v1}, Lcom/roblox/engine/jni/NativeSettingsInterface;->nativeSetBaseUrl(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 772

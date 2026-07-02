@@ -542,6 +542,7 @@
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v4, "onCreate: savedInstanceState = "
+    invoke-static {v4}, Ldebuggy;->print(Ljava/lang/Object;)V
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -573,6 +574,10 @@
 
     .line 106
     if-eqz v4, :cond_0
+
+    invoke-virtual {v4}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+    move-result-object v0
+    invoke-static {v0}, Ldebuggy;->print(Ljava/lang/Object;)V
 
     .line 108
     const-string v0, "roblox_app_settings_for_engine"

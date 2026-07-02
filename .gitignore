@@ -1,8 +1,11 @@
 *.id[0-9]
 *.i64
 *.i32
-/*/build
+*.idsig
+*/build
 *.so.*
 *.apk
 *.xapk
+*.apks
 *.dex
+*/ida/Assemport
