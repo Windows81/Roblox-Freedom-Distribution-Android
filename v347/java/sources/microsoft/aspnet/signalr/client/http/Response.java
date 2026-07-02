@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface Response {
     List<String> getHeader(String str);
 

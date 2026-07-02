@@ -6,7 +6,7 @@ import com.birbit.android.jobqueue.g;
 import com.birbit.android.jobqueue.l;
 import com.birbit.android.jobqueue.m;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class f extends g {
 
     /* JADX INFO: renamed from: e, reason: collision with root package name */

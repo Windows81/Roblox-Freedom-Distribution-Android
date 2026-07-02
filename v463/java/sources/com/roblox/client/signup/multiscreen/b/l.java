@@ -2,7 +2,7 @@ package com.roblox.client.signup.multiscreen.b;
 
 import com.roblox.client.signup.multiscreen.a.d;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class l extends k {
     l(String str, String str2, h hVar, n nVar) {
         super(str, str2, hVar, nVar);

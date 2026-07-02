@@ -2,7 +2,7 @@ package com.birbit.android.jobqueue.scheduling;
 
 import android.content.Context;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class Scheduler {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

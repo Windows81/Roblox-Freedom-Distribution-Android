@@ -3,7 +3,7 @@ package android.support.v4.media.session;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ParcelableVolumeInfo implements Parcelable {
     public static final Parcelable.Creator<ParcelableVolumeInfo> CREATOR = new Parcelable.Creator<ParcelableVolumeInfo>() { // from class: android.support.v4.media.session.ParcelableVolumeInfo.1
         @Override // android.os.Parcelable.Creator

@@ -7,7 +7,7 @@ import android.content.pm.PackageItemInfo;
 import android.content.pm.ResolveInfo;
 import com.appsflyer.internal.referrer.Payload;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class MultipleInstallBroadcastReceiver extends BroadcastReceiver {
     @Override // android.content.BroadcastReceiver
     public void onReceive(Context context, Intent intent) {

@@ -2,7 +2,7 @@ package com.roblox.client.http.a;
 
 import com.roblox.client.http.j;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c implements d<j> {
     @Override // com.roblox.client.http.a.d
     public int a() {

@@ -1,6 +1,6 @@
 package io.chirp.connect.models;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum ConnectState {
     ConnectNotCreated,
     AudioStateStopped,

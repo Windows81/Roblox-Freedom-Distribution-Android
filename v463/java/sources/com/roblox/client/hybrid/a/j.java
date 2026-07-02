@@ -13,7 +13,7 @@ import com.roblox.client.ae.l;
 import com.roblox.client.o;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class j extends com.roblox.a.c {
     public j() {
         super("Social");

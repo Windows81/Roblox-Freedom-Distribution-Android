@@ -2,7 +2,7 @@ package org.a;
 
 import java.net.InetSocketAddress;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface a {
 
     /* JADX INFO: renamed from: org.a.a$a, reason: collision with other inner class name */

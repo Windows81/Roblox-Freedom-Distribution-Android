@@ -8,7 +8,7 @@ import android.os.Handler;
 import androidx.lifecycle.g;
 import androidx.lifecycle.t;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class s implements j {
     private static final s i = new s();
     private Handler f;

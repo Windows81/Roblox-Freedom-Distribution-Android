@@ -2,7 +2,7 @@ package com.birbit.android.jobqueue;
 
 import com.birbit.android.jobqueue.persistentQueue.sqlite.SqliteJobQueue;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f implements QueueFactory {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

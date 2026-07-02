@@ -4,9 +4,9 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ProgressBar;
-import com.roblox.client.h;
+import com.roblox.client.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RbxLoadingEditText extends RbxEditText {
     protected ProgressBar e;
 
@@ -21,7 +21,7 @@ public class RbxLoadingEditText extends RbxEditText {
     }
 
     public void f() {
-        b(h.a.CommonUI_Messages_Response_CheckingMessage);
+        b(R.string.CommonUI_Messages_Response_CheckingMessage);
         this.f6676b.addView(this.e, 0);
     }
 
@@ -38,8 +38,8 @@ public class RbxLoadingEditText extends RbxEditText {
     }
 
     private void setup(Context context) {
-        this.e = (ProgressBar) inflate(context, 2131361911, null);
-        this.e.setIndeterminateDrawable(a(context, 2131167207));
+        this.e = (ProgressBar) inflate(context, R.layout.include_rbx_progress_bar, null);
+        this.e.setIndeterminateDrawable(a(context, R.drawable.rbx_spinner_loading_edittext));
     }
 
     protected void g() {

@@ -2,7 +2,7 @@ package android.support.v4.view;
 
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface m extends l {
     void a(View view, int i, int i2, int i3, int i4, int i5);
 

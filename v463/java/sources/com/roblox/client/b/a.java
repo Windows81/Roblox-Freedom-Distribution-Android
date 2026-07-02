@@ -6,7 +6,7 @@ import java.io.IOException;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends com.roblox.platform.http.a.a<ad> {
     @Override // com.roblox.platform.http.a.a, e.d
     public void a(e.b<ad> bVar, l<ad> lVar) {

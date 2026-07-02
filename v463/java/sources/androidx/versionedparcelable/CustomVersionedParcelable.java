@@ -1,6 +1,6 @@
 package androidx.versionedparcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class CustomVersionedParcelable implements c {
     public void a(boolean z) {
     }

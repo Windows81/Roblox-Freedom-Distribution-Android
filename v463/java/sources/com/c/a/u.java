@@ -16,7 +16,7 @@ import android.os.SystemClock;
 import android.widget.ImageView;
 import com.c.a.t;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class u extends BitmapDrawable {
 
     /* JADX INFO: renamed from: e, reason: collision with root package name */

@@ -3,7 +3,7 @@ package com.roblox.client.purchase.google;
 import com.roblox.client.http.post.GsonCompatibleRequestBody;
 import com.roblox.client.purchase.google.a.h;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class GooglePurchaseReceiptRequestBody implements GsonCompatibleRequestBody {
     private boolean isRetry;
     private String orderId;

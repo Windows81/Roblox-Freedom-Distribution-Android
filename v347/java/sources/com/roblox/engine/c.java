@@ -3,7 +3,7 @@ package com.roblox.engine;
 import android.graphics.Point;
 import android.view.MotionEvent;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c {
     private a h;
 

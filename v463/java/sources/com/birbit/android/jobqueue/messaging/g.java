@@ -6,7 +6,7 @@ import com.birbit.android.jobqueue.messaging.a.k;
 import java.util.HashMap;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum g {
     CALLBACK(com.birbit.android.jobqueue.messaging.a.b.class, 0),
     CANCEL_RESULT_CALLBACK(com.birbit.android.jobqueue.messaging.a.d.class, 0),

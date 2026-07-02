@@ -1,0 +1,12 @@
+package com.google.android.gms.ads.internal.overlay;
+
+import android.app.Activity;
+import com.google.android.gms.internal.ads.cm;
+
+/* JADX INFO: loaded from: classes.dex */
+@cm
+public final class p extends c {
+    public p(Activity activity) {
+        super(activity);
+    }
+}

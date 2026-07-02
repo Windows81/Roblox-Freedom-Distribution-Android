@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class u implements Parcelable.Creator<SignInConfiguration> {
     @Override // android.os.Parcelable.Creator
     public final /* synthetic */ SignInConfiguration createFromParcel(Parcel parcel) {

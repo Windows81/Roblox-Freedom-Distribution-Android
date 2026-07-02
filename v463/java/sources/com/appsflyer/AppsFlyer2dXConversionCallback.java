@@ -4,7 +4,7 @@ import java.util.Map;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AppsFlyer2dXConversionCallback implements AppsFlyerConversionListener {
     public native void onAppOpenAttributionNative(Object obj);
 

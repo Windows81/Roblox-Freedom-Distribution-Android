@@ -7,7 +7,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.internal.o;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ResolveAccountResponse extends AbstractSafeParcelable {
     public static final Parcelable.Creator<ResolveAccountResponse> CREATOR = new y();
 

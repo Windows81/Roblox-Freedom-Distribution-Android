@@ -2,10 +2,10 @@ package com.roblox.client.pushnotification;
 
 import android.content.Context;
 import android.content.Intent;
-import com.roblox.client.h;
+import com.roblox.client.R;
 import com.roblox.client.pushnotification.notificationreceivers.FriendRequestAcceptedNotificationReceiver;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class e extends a<com.roblox.client.pushnotification.b.c> {
     @Override // com.roblox.client.pushnotification.b.e.a
     public boolean a(com.roblox.client.pushnotification.b.c cVar, com.roblox.client.pushnotification.b.c cVar2) {
@@ -37,16 +37,16 @@ public class e extends a<com.roblox.client.pushnotification.b.c> {
         String strD = ((com.roblox.client.pushnotification.b.c) this.f7636a.get(this.f7636a.size() - 1)).d();
         String strD2 = this.f7636a.size() > 1 ? ((com.roblox.client.pushnotification.b.c) this.f7636a.get(this.f7636a.size() - 2)).d() : "";
         if (this.f7636a.size() == 1) {
-            return String.format(context.getResources().getString(h.a.Notifications_PushNotifications_Label_SingleFriendAcceptedRequest), strD);
+            return String.format(context.getResources().getString(R.string.Notifications_PushNotifications_Label_SingleFriendAcceptedRequest), strD);
         }
         if (this.f7636a.size() == 2) {
-            return String.format(context.getResources().getString(h.a.Notifications_PushNotifications_Label_TwoFriendsAcceptedRequests), strD, strD2);
+            return String.format(context.getResources().getString(R.string.Notifications_PushNotifications_Label_TwoFriendsAcceptedRequests), strD, strD2);
         }
         if (this.f7636a.size() == 3) {
-            return String.format(context.getResources().getString(h.a.Notifications_PushNotifications_Label_ThreeFriendsAcceptedRequests), strD, strD2);
+            return String.format(context.getResources().getString(R.string.Notifications_PushNotifications_Label_ThreeFriendsAcceptedRequests), strD, strD2);
         }
         if (this.f7636a.size() > 3) {
-            return String.format(context.getResources().getString(h.a.Notifications_PushNotifications_Label_MoreThanThreeFriendsAcceptedRequests), strD, strD2);
+            return String.format(context.getResources().getString(R.string.Notifications_PushNotifications_Label_MoreThanThreeFriendsAcceptedRequests), strD, strD2);
         }
         return null;
     }

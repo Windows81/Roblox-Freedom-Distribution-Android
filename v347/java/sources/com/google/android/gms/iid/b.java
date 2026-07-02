@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public class b extends o {
     static void a(Context context, m mVar) {

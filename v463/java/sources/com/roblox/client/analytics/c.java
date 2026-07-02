@@ -17,7 +17,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c {
     private static c f;
 

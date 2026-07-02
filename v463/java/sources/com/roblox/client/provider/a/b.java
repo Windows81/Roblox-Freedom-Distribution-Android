@@ -13,7 +13,7 @@ import com.roblox.client.provider.ShellConfigurationContentProvider;
 import com.roblox.client.provider.a.e;
 import com.roblox.client.u;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b implements e {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -1,6 +1,6 @@
 package com.google.gson;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class p extends RuntimeException {
     public p(String str) {
         super(str);

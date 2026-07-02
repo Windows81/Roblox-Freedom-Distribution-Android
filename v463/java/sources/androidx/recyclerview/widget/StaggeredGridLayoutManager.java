@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.BitSet;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class StaggeredGridLayoutManager extends RecyclerView.i implements RecyclerView.s.b {
     private SavedState A;
     private int B;

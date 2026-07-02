@@ -5,7 +5,7 @@ import android.view.ViewParent;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class e {
     static InputConnection a(InputConnection inputConnection, EditorInfo editorInfo, View view) {
         if (inputConnection != null && editorInfo.hintText == null) {

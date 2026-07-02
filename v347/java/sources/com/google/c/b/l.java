@@ -2,7 +2,7 @@ package com.google.c.b;
 
 import java.util.ListIterator;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class l<E> extends k<E> implements ListIterator<E> {
     protected l() {
     }

@@ -4,7 +4,7 @@ import c.aa;
 import c.t;
 import java.net.Proxy;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class k {
     static String a(aa aaVar, Proxy.Type type) {
         StringBuilder sb = new StringBuilder();

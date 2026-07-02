@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.FrameLayout;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ContentFrameLayout extends FrameLayout {
     private OnAttachListener mAttachListener;
     private final Rect mDecorPadding;

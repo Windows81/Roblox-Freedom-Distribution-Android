@@ -2,7 +2,7 @@ package com.roblox.platform.http.returntypes.auth;
 
 import com.roblox.platform.http.returntypes.ResponseBody;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SignUpResponseBody implements ResponseBody {
     public final long starterPlaceId;
     public final long userId;

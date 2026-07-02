@@ -3,7 +3,7 @@ package com.roblox.client.realtime;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b implements g {
     @Override // com.roblox.client.realtime.g
     public boolean a(String str, String str2) {

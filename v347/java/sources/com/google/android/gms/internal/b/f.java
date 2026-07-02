@@ -3,7 +3,7 @@ package com.google.android.gms.internal.b;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class f extends WeakReference<Throwable> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

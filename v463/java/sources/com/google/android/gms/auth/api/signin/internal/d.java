@@ -4,7 +4,7 @@ import android.os.RemoteException;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.common.api.Status;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class d extends q {
     @Override // com.google.android.gms.auth.api.signin.internal.p
     public void a(GoogleSignInAccount googleSignInAccount, Status status) throws RemoteException {

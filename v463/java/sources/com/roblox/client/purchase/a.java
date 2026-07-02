@@ -1,8 +1,8 @@
 package com.roblox.client.purchase;
 
-import com.roblox.client.r;
+import com.roblox.client.AbstractActivityC0192r;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface a {
-    r aq();
+    AbstractActivityC0192r aq();
 }

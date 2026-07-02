@@ -6,7 +6,7 @@ import java.net.NetworkInterface;
 import java.util.Collections;
 import java.util.Iterator;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NetworkUtils {
     public static String getPublicIPv4Addresseses() {
         try {

@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityCompat {
     public static Uri getReferrer(Activity activity) {
         if (Build.VERSION.SDK_INT >= 22) {

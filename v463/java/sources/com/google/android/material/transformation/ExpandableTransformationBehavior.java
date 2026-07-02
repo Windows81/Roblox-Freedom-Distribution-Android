@@ -7,7 +7,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class ExpandableTransformationBehavior extends ExpandableBehavior {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

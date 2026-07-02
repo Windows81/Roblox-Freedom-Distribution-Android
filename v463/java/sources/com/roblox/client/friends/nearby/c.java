@@ -2,7 +2,7 @@ package com.roblox.client.friends.nearby;
 
 import com.roblox.client.p;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c {
     public void a(String str) {
         p.a("nearby", "retry", str);

@@ -5,7 +5,7 @@ import android.content.Context;
 import android.view.MotionEvent;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface agr {
     String a(Context context);
 

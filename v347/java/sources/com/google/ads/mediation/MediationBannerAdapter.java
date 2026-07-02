@@ -6,7 +6,7 @@ import com.google.ads.AdSize;
 import com.google.ads.mediation.MediationServerParameters;
 import com.google.ads.mediation.NetworkExtras;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public interface MediationBannerAdapter<ADDITIONAL_PARAMETERS extends NetworkExtras, SERVER_PARAMETERS extends MediationServerParameters> extends MediationAdapter<ADDITIONAL_PARAMETERS, SERVER_PARAMETERS> {
     View getBannerView();

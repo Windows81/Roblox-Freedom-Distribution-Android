@@ -4,7 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import com.google.android.gms.ads.d;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class AdSize {
     public static final int AUTO_HEIGHT = -2;

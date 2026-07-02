@@ -10,7 +10,7 @@ import microsoft.aspnet.signalr.client.Constants;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class g {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

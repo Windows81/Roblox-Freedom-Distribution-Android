@@ -3,7 +3,7 @@ package android.support.v4.view;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class AbsSavedState implements Parcelable {
     private final Parcelable mSuperState;
     public static final AbsSavedState EMPTY_STATE = new AbsSavedState() { // from class: android.support.v4.view.AbsSavedState.1

@@ -3,7 +3,7 @@ package com.google.android.material.a;
 import android.animation.TypeEvaluator;
 import android.graphics.Matrix;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g implements TypeEvaluator<Matrix> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

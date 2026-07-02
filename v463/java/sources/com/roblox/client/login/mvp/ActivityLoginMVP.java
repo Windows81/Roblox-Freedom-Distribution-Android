@@ -25,7 +25,7 @@ import com.roblox.client.u;
 import com.roblox.client.u.a;
 import com.roblox.client.v;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityLoginMVP extends com.roblox.client.u.f implements a.InterfaceC0119a, a.InterfaceC0129a, a.InterfaceC0159a, b.c {
     protected b.InterfaceC0160b q;
     protected DialogInterface.OnDismissListener r = new DialogInterface.OnDismissListener() { // from class: com.roblox.client.login.mvp.ActivityLoginMVP.2
@@ -55,7 +55,7 @@ public class ActivityLoginMVP extends com.roblox.client.u.f implements a.Interfa
     public void n() {
     }
 
-    @Override // com.roblox.client.u.f, com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.u.f, com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         k.b("rbx.authlogin", "onCreate:");
@@ -68,7 +68,7 @@ public class ActivityLoginMVP extends com.roblox.client.u.f implements a.Interfa
         return new LoginPresenter(this, com.roblox.client.s.f.b(), new e(new d(com.roblox.client.ad.c.a(), com.roblox.client.ad.b.a(), s.a(getApplicationContext()))), g(), com.roblox.abtesting.a.a(), new com.roblox.client.y.a(this, new com.roblox.client.g.b()));
     }
 
-    @Override // com.roblox.client.r, android.app.Activity, android.view.ContextThemeWrapper, android.content.ContextWrapper
+    @Override // com.roblox.client.AbstractActivityC0192r, android.app.Activity, android.view.ContextThemeWrapper, android.content.ContextWrapper
     protected void attachBaseContext(Context context) {
         if (com.roblox.client.b.by()) {
             context = h.a(context);

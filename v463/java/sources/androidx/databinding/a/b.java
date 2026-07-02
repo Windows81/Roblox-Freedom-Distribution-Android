@@ -3,7 +3,7 @@ package androidx.databinding.a;
 import android.text.Spanned;
 import android.widget.TextView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
     public static void a(TextView textView, CharSequence charSequence) {
         CharSequence text = textView.getText();

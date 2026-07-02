@@ -6,7 +6,7 @@ import com.roblox.platform.http.postbody.chat.MarkAsReadPostBody;
 import com.roblox.platform.i;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends f {
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */

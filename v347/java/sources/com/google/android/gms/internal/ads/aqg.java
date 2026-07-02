@@ -3,7 +3,7 @@ package com.google.android.gms.internal.ads;
 import android.os.Parcel;
 import android.os.RemoteException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class aqg extends aiz implements aqf {
     public aqg() {
         super("com.google.android.gms.ads.internal.client.IVideoLifecycleCallbacks");

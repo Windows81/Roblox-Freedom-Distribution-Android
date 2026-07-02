@@ -2,7 +2,7 @@ package com.google.android.gms.common.util;
 
 import android.os.SystemClock;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g implements d {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

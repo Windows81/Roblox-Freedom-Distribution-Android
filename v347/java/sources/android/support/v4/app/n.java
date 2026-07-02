@@ -2,7 +2,7 @@ package android.support.v4.app;
 
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class n {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

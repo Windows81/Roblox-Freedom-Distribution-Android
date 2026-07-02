@@ -4,7 +4,7 @@ import com.roblox.client.RobloxSettings;
 import com.roblox.client.http.b;
 import com.roblox.client.http.post.GsonCompatibleRequestBody;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h implements f {
     @Override // com.roblox.client.http.f
     public d a(String str, String str2, b.a[] aVarArr, l lVar, String str3) {

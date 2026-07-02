@@ -6,7 +6,7 @@ import com.roblox.client.u;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class e extends f {
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */

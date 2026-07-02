@@ -6,7 +6,7 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import java.util.Locale;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class co extends ac {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

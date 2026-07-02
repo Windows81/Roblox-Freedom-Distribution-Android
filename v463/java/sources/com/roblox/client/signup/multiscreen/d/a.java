@@ -7,7 +7,7 @@ import com.roblox.client.signup.multiscreen.b.s;
 import com.roblox.client.signup.multiscreen.b.x;
 import com.roblox.client.u;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends b {
     public a(String str, com.roblox.client.signup.multiscreen.a.a aVar, s sVar, x xVar) {
         super(str, aVar, sVar, xVar);

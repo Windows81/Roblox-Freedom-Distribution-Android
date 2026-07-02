@@ -2,7 +2,7 @@ package com.google.android.gms.internal.measurement;
 
 import android.util.Log;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class kf extends jy<Double> {
     kf(kj kjVar, String str, Double d2) {
         super(kjVar, str, d2, null);

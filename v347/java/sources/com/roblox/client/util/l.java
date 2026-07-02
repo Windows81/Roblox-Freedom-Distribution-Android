@@ -3,7 +3,7 @@ package com.roblox.client.util;
 import b.ac;
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class l {
     public static String a(d.l<ac> lVar) {
         String strG;

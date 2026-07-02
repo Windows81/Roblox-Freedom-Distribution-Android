@@ -2,7 +2,7 @@ package com.google.android.gms.internal.measurement;
 
 import com.google.android.gms.internal.measurement.bb;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface bd<U extends bb> {
     U a();
 

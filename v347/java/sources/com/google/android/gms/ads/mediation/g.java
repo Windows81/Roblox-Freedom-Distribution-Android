@@ -3,7 +3,7 @@ package com.google.android.gms.ads.mediation;
 import com.google.android.gms.ads.formats.c;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g extends f {
     private String zzbhw;
     private List<c.b> zzbhx;

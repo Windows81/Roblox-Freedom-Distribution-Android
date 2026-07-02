@@ -12,7 +12,7 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 import java.util.List;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public class AppMeasurement {
     public static final String CRASH_ORIGIN = "crash";

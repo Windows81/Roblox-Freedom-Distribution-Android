@@ -12,11 +12,11 @@ import com.roblox.client.p;
 import com.roblox.client.q;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityChooseYourAdventure extends q {
     public long q;
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(o.g.activity_choose_your_adventure);
@@ -68,7 +68,7 @@ public class ActivityChooseYourAdventure extends q {
         return viewFindViewById;
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         p.b("chooseYourAdventure");

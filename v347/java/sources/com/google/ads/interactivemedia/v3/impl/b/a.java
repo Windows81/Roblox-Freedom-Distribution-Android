@@ -4,7 +4,7 @@ import android.annotation.TargetApi;
 import android.os.Build;
 import android.webkit.WebSettings;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a {
     @TargetApi(17)
     public static void a(WebSettings webSettings) {

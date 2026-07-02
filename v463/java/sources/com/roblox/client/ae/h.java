@@ -3,7 +3,7 @@ package com.roblox.client.ae;
 import android.content.Context;
 import android.content.res.Configuration;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h {
     public static Context a(Context context) {
         return b(context);

@@ -11,7 +11,7 @@ import com.google.android.gms.common.internal.q;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import java.util.Collection;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class GetServiceRequest extends AbstractSafeParcelable {
     public static final Parcelable.Creator<GetServiceRequest> CREATOR = new i();
 

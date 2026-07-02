@@ -1,6 +1,6 @@
 package com.roblox.client.locale;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum c {
     ENGLISH("en_us", "en"),
     SPANISH("es_es", "es"),

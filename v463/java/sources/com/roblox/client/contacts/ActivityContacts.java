@@ -27,13 +27,13 @@ import com.roblox.client.u;
 import java.util.ArrayList;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityContacts extends q implements a.InterfaceC0025a, h.a {
     private LinearLayout q;
     private LinearLayout r;
     private int s;
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         this.s = 4;
@@ -80,19 +80,19 @@ public class ActivityContacts extends q implements a.InterfaceC0025a, h.a {
         ((RelativeLayout) findViewById(o.f.permissions_request_layout)).setLayoutTransition(layoutTransition);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         p.b("contactsPermission");
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         n();
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onDestroy() {
         super.onDestroy();
         B();

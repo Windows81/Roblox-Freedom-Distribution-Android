@@ -6,7 +6,7 @@ import android.os.Build;
 import android.util.Log;
 import android.view.MenuItem;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class g {
     public static MenuItem a(MenuItem menuItem, b bVar) {
         if (menuItem instanceof androidx.core.b.a.b) {

@@ -11,7 +11,7 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a implements View.OnTouchListener {
     private static final int r = ViewConfiguration.getTapTimeout();
 

@@ -9,7 +9,7 @@ import com.roblox.client.http.b;
 import com.roblox.client.p;
 import com.roblox.client.s.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ReminderNotificationService extends f {
     public static void a(Context context, Intent intent) {
         k.b("ReminderNotificationHelper", "enqueuingWork.");

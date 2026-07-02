@@ -10,7 +10,7 @@ import com.roblox.client.x;
 import com.roblox.engine.b;
 import com.roblox.engine.jni.NativeGLInterface;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g implements o {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

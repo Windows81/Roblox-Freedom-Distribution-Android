@@ -5,7 +5,7 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class l {
     private static AlphaAnimation a(final View view, final float f, final float f2, int i) {
         AlphaAnimation alphaAnimation = new AlphaAnimation(f, f2);

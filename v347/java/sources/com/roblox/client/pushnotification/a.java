@@ -9,11 +9,11 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v4.app.z;
-import com.roblox.client.h;
+import com.roblox.client.R;
 import com.roblox.client.pushnotification.b.e;
 import com.roblox.client.pushnotification.b.m;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a<T extends com.roblox.client.pushnotification.b.m> implements e.a<T>, i<T> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -103,10 +103,10 @@ public abstract class a<T extends com.roblox.client.pushnotification.b.m> implem
         z.c cVar = new z.c(context, "channel_general");
         cVar.a(c(context, c()));
         cVar.b(b(context, c()));
-        cVar.a(2131167126);
+        cVar.a(R.drawable.notification_icon);
         cVar.b(b(context));
         cVar.a(true);
-        cVar.c(android.support.v4.a.c.c(context, 2131034135));
+        cVar.c(android.support.v4.a.c.c(context, R.color.RbxRed1));
         cVar.a((CharSequence) a(context));
         cVar.b(this.f7636a.size());
         cVar.a(bitmap);
@@ -146,6 +146,6 @@ public abstract class a<T extends com.roblox.client.pushnotification.b.m> implem
     }
 
     protected String a(Context context) {
-        return context.getString(h.a.CommonUI_Messages_Label_Roblox);
+        return context.getString(R.string.CommonUI_Messages_Label_Roblox);
     }
 }

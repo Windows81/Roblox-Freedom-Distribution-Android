@@ -5,7 +5,7 @@ import android.os.Build;
 import android.support.v7.a.a;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class o extends ListViewCompat {
     private android.support.v4.view.w mClickAnimation;
     private boolean mDrawsInPressedState;

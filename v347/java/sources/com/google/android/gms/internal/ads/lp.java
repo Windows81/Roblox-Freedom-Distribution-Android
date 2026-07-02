@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.StrictMode;
 import java.util.concurrent.Callable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @cm
 public final class lp {
     public static <T> T a(Context context, Callable<T> callable) {

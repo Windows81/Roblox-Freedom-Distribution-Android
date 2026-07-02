@@ -5,7 +5,7 @@ import com.google.android.gms.common.Feature;
 import com.google.android.gms.common.api.a;
 import com.google.android.gms.common.api.a.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class i<A extends a.b, ResultT> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -4,7 +4,7 @@ import android.os.IInterface;
 import android.os.RemoteException;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface atx extends IInterface {
     String a() throws RemoteException;
 

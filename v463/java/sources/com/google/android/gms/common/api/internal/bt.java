@@ -4,7 +4,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.Scope;
 import java.util.Set;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface bt {
     void a(com.google.android.gms.common.internal.q qVar, Set<Scope> set);
 

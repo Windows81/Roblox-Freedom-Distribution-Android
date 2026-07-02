@@ -7,7 +7,7 @@ import androidx.appcompat.view.menu.p;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NavigationMenuView extends RecyclerView implements p {
     public int getWindowAnimations() {
         return 0;

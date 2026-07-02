@@ -2,7 +2,7 @@ package com.roblox.engine.jni;
 
 import com.roblox.engine.jni.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c implements b {
     @Override // com.roblox.engine.jni.b
     public void a(boolean z) throws InterruptedException {

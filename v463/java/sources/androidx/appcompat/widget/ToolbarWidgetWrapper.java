@@ -23,7 +23,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.h.v;
 import androidx.core.h.x;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ToolbarWidgetWrapper implements DecorToolbar {
     private static final int AFFECTS_LOGO_MASK = 3;
     private static final long DEFAULT_FADE_DURATION_MS = 200;

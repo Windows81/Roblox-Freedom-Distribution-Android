@@ -2,7 +2,7 @@ package com.roblox.platform;
 
 import b.w;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface e {
     com.roblox.platform.http.c.a a();
 

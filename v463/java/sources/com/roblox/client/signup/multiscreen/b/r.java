@@ -3,7 +3,7 @@ package com.roblox.client.signup.multiscreen.b;
 import com.roblox.abtesting.a;
 import com.roblox.client.signup.d;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class r extends androidx.lifecycle.p<com.roblox.client.signup.multiscreen.a.g> {
 
     /* JADX INFO: renamed from: e, reason: collision with root package name */

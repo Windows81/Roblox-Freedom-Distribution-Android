@@ -5,7 +5,7 @@ import android.content.Intent;
 import com.roblox.client.o;
 import com.roblox.client.pushnotification.notificationreceivers.FriendRequestAcceptedNotificationReceiver;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class e extends a<com.roblox.client.pushnotification.b.c> {
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.roblox.client.pushnotification.a

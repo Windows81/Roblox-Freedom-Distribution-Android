@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class u {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -93,19 +93,6 @@ public class u {
         return workSource;
     }
 
-    /* JADX WARN: Failed to analyze thrown exceptions
-    java.util.ConcurrentModificationException
-    	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1096)
-    	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1050)
-    	at jadx.core.dex.visitors.MethodThrowsVisitor.processInstructions(MethodThrowsVisitor.java:117)
-    	at jadx.core.dex.visitors.MethodThrowsVisitor.visit(MethodThrowsVisitor.java:68)
-    	at jadx.core.dex.visitors.MethodThrowsVisitor.checkInsn(MethodThrowsVisitor.java:178)
-    	at jadx.core.dex.visitors.MethodThrowsVisitor.processInstructions(MethodThrowsVisitor.java:131)
-    	at jadx.core.dex.visitors.MethodThrowsVisitor.visit(MethodThrowsVisitor.java:68)
-    	at jadx.core.dex.visitors.MethodThrowsVisitor.checkInsn(MethodThrowsVisitor.java:178)
-    	at jadx.core.dex.visitors.MethodThrowsVisitor.processInstructions(MethodThrowsVisitor.java:131)
-    	at jadx.core.dex.visitors.MethodThrowsVisitor.visit(MethodThrowsVisitor.java:68)
-     */
     public static String a(WorkSource workSource, int i) {
         if (f != null) {
             try {

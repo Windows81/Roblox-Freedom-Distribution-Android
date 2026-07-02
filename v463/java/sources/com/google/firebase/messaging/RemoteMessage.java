@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class RemoteMessage extends AbstractSafeParcelable {
     public static final Parcelable.Creator<RemoteMessage> CREATOR = new f();
 

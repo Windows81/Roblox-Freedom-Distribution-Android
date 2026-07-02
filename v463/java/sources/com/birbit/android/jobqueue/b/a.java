@@ -9,7 +9,7 @@ import com.birbit.android.jobqueue.network.NetworkUtil;
 import com.birbit.android.jobqueue.scheduling.Scheduler;
 import com.birbit.android.jobqueue.timer.Timer;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

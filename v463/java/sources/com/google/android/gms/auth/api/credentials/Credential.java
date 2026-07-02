@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 import javax.annotation.Nonnull;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class Credential extends AbstractSafeParcelable implements ReflectedParcelable {
     public static final Parcelable.Creator<Credential> CREATOR = new g();
 

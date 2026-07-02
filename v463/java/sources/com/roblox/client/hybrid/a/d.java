@@ -5,7 +5,7 @@ import com.roblox.a.c;
 import com.roblox.client.ae.k;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class d extends com.roblox.a.c {
     public d() {
         super("Game");

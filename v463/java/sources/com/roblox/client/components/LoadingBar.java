@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import com.roblox.client.o;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class LoadingBar extends LinearLayout {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -27,7 +27,7 @@ import com.roblox.client.u.f;
 import com.roblox.client.u.h;
 import com.roblox.client.x;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityStartMVP extends f implements View.OnClickListener, c.InterfaceC0155c {
     private static final com.roblox.client.landing.a[] u = {new com.roblox.client.landing.a(o.j.Authentication_SignUp_Label_CarouselGamesTitle, o.j.Authentication_SignUp_Label_CarouselGamesText, o.e.img_landing_carousel_game), new com.roblox.client.landing.a(o.j.Authentication_SignUp_Label_CarouselChatTitle, o.j.Authentication_SignUp_Label_CarouselChatText, o.e.img_landing_carousel_chat), new com.roblox.client.landing.a(o.j.Authentication_SignUp_Label_CarouselAvatarTitle, o.j.Authentication_SignUp_Label_CarouselAvatarText, o.e.img_landing_carousel_avatar)};
     private c.a q;
@@ -43,7 +43,7 @@ public class ActivityStartMVP extends f implements View.OnClickListener, c.Inter
         return true;
     }
 
-    @Override // com.roblox.client.u.f, com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.u.f, com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         if (!com.roblox.client.b.a()) {
@@ -64,7 +64,7 @@ public class ActivityStartMVP extends f implements View.OnClickListener, c.Inter
         this.q = new d(this);
     }
 
-    @Override // com.roblox.client.u.f, com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.u.f, com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         k.b("ActivityStartMVP", "onResume()");
@@ -80,7 +80,7 @@ public class ActivityStartMVP extends f implements View.OnClickListener, c.Inter
         }
     }
 
-    @Override // com.roblox.client.u.f, com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.u.f, com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onPause() {
         super.onPause();
         k.b("ActivityStartMVP", "onPause()");

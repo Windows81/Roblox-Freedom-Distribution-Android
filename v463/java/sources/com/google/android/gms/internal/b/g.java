@@ -4,7 +4,7 @@ import android.os.IInterface;
 import android.os.RemoteException;
 import com.google.android.gms.common.api.Status;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface g extends IInterface {
     void a(Status status) throws RemoteException;
 }

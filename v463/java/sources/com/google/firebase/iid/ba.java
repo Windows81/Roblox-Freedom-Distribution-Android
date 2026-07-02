@@ -1,6 +1,6 @@
 package com.google.firebase.iid;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class ba extends Exception {
     ba(String str) {
         super(str);

@@ -15,7 +15,7 @@ import com.google.android.gms.common.internal.j;
 import com.google.android.gms.common.internal.q;
 import com.google.android.gms.signin.internal.e;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g extends j<e> implements com.google.android.gms.signin.b {
 
     /* JADX INFO: renamed from: e, reason: collision with root package name */

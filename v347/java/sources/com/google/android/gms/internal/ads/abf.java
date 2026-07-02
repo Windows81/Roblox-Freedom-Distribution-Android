@@ -4,7 +4,7 @@ import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 import microsoft.aspnet.signalr.client.Constants;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class abf {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

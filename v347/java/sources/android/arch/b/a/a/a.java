@@ -11,7 +11,7 @@ import android.util.Pair;
 import java.io.IOException;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class a implements android.arch.b.a.b {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

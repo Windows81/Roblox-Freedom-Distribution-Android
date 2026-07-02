@@ -7,7 +7,7 @@ import com.google.android.gms.common.internal.aa;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import javax.annotation.Nullable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SignInAccount extends AbstractSafeParcelable implements ReflectedParcelable {
     public static final Parcelable.Creator<SignInAccount> CREATOR = new f();
 

@@ -5,7 +5,7 @@ import android.os.Handler;
 import com.google.android.gms.common.ConnectionResult;
 import java.util.concurrent.atomic.AtomicReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class ai extends LifecycleCallback implements DialogInterface.OnCancelListener {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

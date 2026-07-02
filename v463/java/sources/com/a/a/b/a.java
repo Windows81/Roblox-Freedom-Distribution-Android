@@ -2,7 +2,7 @@ package com.a.a.b;
 
 import android.util.Log;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class a {
     public static void a(String str, String str2) {
         if (Log.isLoggable(str, 2)) {

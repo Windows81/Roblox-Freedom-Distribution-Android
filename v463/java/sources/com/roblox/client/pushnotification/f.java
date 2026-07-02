@@ -12,7 +12,7 @@ import androidx.core.app.i;
 import com.roblox.client.o;
 import com.roblox.client.pushnotification.notificationreceivers.FriendRequestReceivedNotificationReceiver;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f extends a<com.roblox.client.pushnotification.b.d> {
     /* JADX INFO: Access modifiers changed from: protected */
     @Override // com.roblox.client.pushnotification.a

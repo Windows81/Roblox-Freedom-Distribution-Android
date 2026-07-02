@@ -6,7 +6,7 @@ import android.animation.StateListAnimator;
 import android.support.design.a;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class v {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -1,6 +1,6 @@
 package android.support.v4.g;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class d {
     public static void a(Object obj, StringBuilder sb) {
         int iLastIndexOf;

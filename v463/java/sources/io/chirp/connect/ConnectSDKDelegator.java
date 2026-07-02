@@ -36,7 +36,7 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ConnectSDKDelegator {
     private Analytics analytics;
     private String appKey;

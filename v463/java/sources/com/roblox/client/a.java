@@ -1,6 +1,5 @@
 package com.roblox.client;
 
-import android.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Debug;
@@ -8,11 +7,11 @@ import android.os.Process;
 import com.roblox.client.o;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a {
     public static void a(Activity activity, String str, boolean z) {
         activity.startActivity(b(activity, str, activity.getString(o.j.CommonUI_Features_Heading_ReportAbuse), true, z, true));
-        activity.overridePendingTransition(o.a.slide_up_short, R.anim.fade_out);
+        activity.overridePendingTransition(o.a.slide_up_short, android.R.anim.fade_out);
     }
 
     public static void a(Activity activity, String str, String str2) {
@@ -54,7 +53,7 @@ public class a {
         if (z) {
             activity.overridePendingTransition(0, 0);
         } else {
-            activity.overridePendingTransition(o.a.slide_up_short, R.anim.fade_out);
+            activity.overridePendingTransition(o.a.slide_up_short, android.R.anim.fade_out);
         }
     }
 

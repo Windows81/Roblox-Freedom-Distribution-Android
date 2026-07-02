@@ -1,6 +1,6 @@
 package org.a.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c extends b {
     public c() {
         super(1002);

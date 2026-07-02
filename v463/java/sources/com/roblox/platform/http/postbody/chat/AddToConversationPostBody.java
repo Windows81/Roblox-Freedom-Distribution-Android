@@ -3,7 +3,7 @@ package com.roblox.platform.http.postbody.chat;
 import com.roblox.platform.http.postbody.PostBody;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AddToConversationPostBody implements PostBody {
     public final long conversationId;
     public final ArrayList<Long> participantUserIds;

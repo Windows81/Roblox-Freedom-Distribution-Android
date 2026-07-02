@@ -12,7 +12,7 @@ import com.roblox.client.o;
 import com.roblox.client.provider.a.e;
 import com.roblox.client.provider.a.f;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ShellConfigurationContentProvider extends ContentProvider {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

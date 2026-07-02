@@ -2,7 +2,7 @@ package com.roblox.platform.http.postbody.notifications;
 
 import com.roblox.platform.http.postbody.PostBody;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class PushMarkCategoryAsReadPostBody implements PostBody {
     public String category;
     public String latestNotificationId;

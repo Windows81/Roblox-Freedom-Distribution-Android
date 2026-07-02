@@ -11,7 +11,7 @@ import android.support.v4.media.b;
 import android.support.v4.media.session.MediaSessionCompat;
 import android.text.TextUtils;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class MediaDescriptionCompat implements Parcelable {
     public static final Parcelable.Creator<MediaDescriptionCompat> CREATOR = new Parcelable.Creator<MediaDescriptionCompat>() { // from class: android.support.v4.media.MediaDescriptionCompat.1
         @Override // android.os.Parcelable.Creator

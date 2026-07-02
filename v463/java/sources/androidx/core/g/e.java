@@ -1,6 +1,6 @@
 package androidx.core.g;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class e {
     public static <T> T a(T t) {
         if (t != null) {

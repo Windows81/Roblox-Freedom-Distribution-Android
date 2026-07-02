@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import microsoft.aspnet.signalr.client.Constants;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class aiv {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

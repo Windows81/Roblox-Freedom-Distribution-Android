@@ -3,7 +3,7 @@ package a.a.b;
 import com.google.gson.f;
 import com.google.gson.g;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a {
     public static a.a.g.c a(String str) {
         return (a.a.g.c) new f().a(str, a.a.g.c.class);

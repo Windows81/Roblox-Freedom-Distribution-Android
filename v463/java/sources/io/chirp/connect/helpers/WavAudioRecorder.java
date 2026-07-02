@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class WavAudioRecorder {
     private int bitsPerSample = 16;
     private Context context;
@@ -60,7 +60,7 @@ public class WavAudioRecorder {
         broadCastToMediaScanner(this.context, this.wavOutputFile);
     }
 
-    public void createWav(int i, float f) {
+    public void createWav(int i, float f) throws IOException {
         this.wavOutputFile = new File(this.outputDir, this.wavFilename);
         this.wavOutputStream = new DataOutputStream(new FileOutputStream(this.wavOutputFile));
         int iCalculatePayloadSize = calculatePayloadSize(this.bitsPerSample, i, f);
@@ -79,7 +79,7 @@ public class WavAudioRecorder {
         writeInt(this.wavOutputStream, iCalculatePayloadSize);
     }
 
-    public void writeWav(byte[] bArr) {
+    public void writeWav(byte[] bArr) throws IOException {
         this.wavOutputStream.write(bArr, 0, bArr.length);
     }
 }

@@ -3,7 +3,7 @@ package com.roblox.client.contacts.model;
 import com.roblox.client.datastructures.NameValuePair;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ContactRequestObject {
     public static final String JSON_FIELD_COUNTRY = "Country";
     public static final String JSON_FIELD_EMAIL = "Email";

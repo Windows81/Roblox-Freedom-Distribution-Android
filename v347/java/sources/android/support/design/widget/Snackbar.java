@@ -5,7 +5,7 @@ import android.support.design.widget.b;
 import android.util.AttributeSet;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class Snackbar extends b<Snackbar> {
 
     public static final class SnackbarLayout extends b.f {

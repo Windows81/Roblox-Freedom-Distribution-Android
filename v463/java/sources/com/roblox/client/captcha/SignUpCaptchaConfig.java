@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.roblox.client.m.c;
 import com.roblox.client.u;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SignUpCaptchaConfig implements CaptchaConfig {
     public static final Parcelable.Creator<SignUpCaptchaConfig> CREATOR = new Parcelable.Creator<SignUpCaptchaConfig>() { // from class: com.roblox.client.captcha.SignUpCaptchaConfig.1
         @Override // android.os.Parcelable.Creator

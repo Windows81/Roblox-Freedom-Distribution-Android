@@ -1,6 +1,5 @@
 package com.roblox.client;
 
-import android.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.ServiceConnection;
@@ -19,7 +18,7 @@ import com.roblox.client.v;
 import com.roblox.engine.jni.NativeGLInterface;
 import org.greenrobot.eventbus.ThreadMode;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RobloxWebActivity extends q implements e.b {
     protected int q;
     protected int r;
@@ -46,7 +45,7 @@ public class RobloxWebActivity extends q implements e.b {
         }
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     public void onCreate(Bundle bundle) {
         String string;
         boolean booleanExtra;
@@ -100,7 +99,7 @@ public class RobloxWebActivity extends q implements e.b {
                     robloxWebActivity.overridePendingTransition(robloxWebActivity.q, RobloxWebActivity.this.r);
                 }
             });
-            this.q = R.anim.fade_in;
+            this.q = android.R.anim.fade_in;
             this.r = o.a.slide_down_short;
         }
         if (booleanExtra) {
@@ -129,7 +128,7 @@ public class RobloxWebActivity extends q implements e.b {
         }
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         this.t = RealtimeService.a(this);
@@ -137,7 +136,7 @@ public class RobloxWebActivity extends q implements e.b {
         org.greenrobot.eventbus.c.a().a(this);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStop() {
         RealtimeService.a(this.t);
         com.roblox.client.s.e.a().b(this);
@@ -145,7 +144,7 @@ public class RobloxWebActivity extends q implements e.b {
         super.onStop();
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         if (com.roblox.client.routing.a.a().b()) {

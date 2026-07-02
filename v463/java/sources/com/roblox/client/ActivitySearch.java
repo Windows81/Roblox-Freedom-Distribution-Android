@@ -15,7 +15,7 @@ import com.roblox.client.components.RbxSearchView;
 import com.roblox.client.o;
 import org.greenrobot.eventbus.ThreadMode;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivitySearch extends q {
     private int q;
     private int r;
@@ -27,7 +27,7 @@ public class ActivitySearch extends q {
         return intent;
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(o.g.activity_search);
@@ -86,14 +86,14 @@ public class ActivitySearch extends q {
         return super.onOptionsItemSelected(menuItem);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         p.b("searchScreen");
         org.greenrobot.eventbus.c.a().a(this);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStop() {
         org.greenrobot.eventbus.c.a().b(this);
         super.onStop();

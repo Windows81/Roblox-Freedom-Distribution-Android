@@ -2,7 +2,7 @@ package com.roblox.client.provider;
 
 import com.roblox.client.f.d;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

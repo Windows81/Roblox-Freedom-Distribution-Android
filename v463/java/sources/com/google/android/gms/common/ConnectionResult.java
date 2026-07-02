@@ -7,7 +7,7 @@ import com.appsflyer.internal.referrer.Payload;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import com.google.android.gms.common.internal.y;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class ConnectionResult extends AbstractSafeParcelable {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

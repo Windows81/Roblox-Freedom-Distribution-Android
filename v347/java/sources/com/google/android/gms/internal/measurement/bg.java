@@ -6,7 +6,7 @@ import android.os.RemoteException;
 import java.util.List;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class bg extends cc implements bf {
     bg(IBinder iBinder) {
         super(iBinder, "com.google.android.gms.analytics.internal.IAnalyticsService");

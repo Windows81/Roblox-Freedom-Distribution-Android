@@ -2,7 +2,7 @@ package com.roblox.client.l;
 
 import java.util.HashMap;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c extends HashMap<String, Object> {
     public void a(String str, String str2) {
         put(str, str2);

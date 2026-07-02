@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class FeatureState implements Parcelable {
     public static final Parcelable.Creator<FeatureState> CREATOR = new Parcelable.Creator<FeatureState>() { // from class: com.roblox.client.feature.FeatureState.1
         @Override // android.os.Parcelable.Creator

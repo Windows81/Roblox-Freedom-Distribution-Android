@@ -9,7 +9,7 @@ import java.util.Map;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AppsFlyerProperties {
     public static final String ADDITIONAL_CUSTOM_DATA = "additionalCustomData";
     public static final String AF_KEY = "AppsFlyerKey";

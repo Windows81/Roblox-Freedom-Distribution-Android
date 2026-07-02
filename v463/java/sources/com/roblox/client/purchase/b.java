@@ -5,13 +5,13 @@ import android.os.Looper;
 import android.view.WindowManager;
 import android.widget.TextView;
 import androidx.appcompat.app.b;
+import com.roblox.client.AbstractActivityC0192r;
 import com.roblox.client.ae.k;
 import com.roblox.client.game.m;
 import com.roblox.client.o;
-import com.roblox.client.r;
 import com.roblox.engine.jni.NativeGLInterface;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */
@@ -49,14 +49,14 @@ public class b {
         @Override // com.roblox.client.purchase.e
         public void a(final f fVar) {
             final CharSequence charSequenceA;
-            r rVarAq = b.this.f6667d.aq();
-            if (rVarAq == null) {
+            AbstractActivityC0192r abstractActivityC0192rAq = b.this.f6667d.aq();
+            if (abstractActivityC0192rAq == null) {
                 return;
             }
             if (fVar.b()) {
                 charSequenceA = b.this.a(o.j.Purchasing_RobloxProducts_Response_PurchaseSuccessfulAndroid);
             } else {
-                charSequenceA = fVar.a(rVarAq);
+                charSequenceA = fVar.a(abstractActivityC0192rAq);
             }
             b.this.a(new Runnable() { // from class: com.roblox.client.purchase.b.a.1
                 @Override // java.lang.Runnable
@@ -92,8 +92,8 @@ public class b {
     public void a(long j, String str, String str2) {
         this.f6664a = j;
         this.f6665b = str;
-        r rVarAq = this.f6667d.aq();
-        if (!com.roblox.client.purchase.google.b.a(rVarAq).a(str2, str, rVarAq, j, this.f)) {
+        AbstractActivityC0192r abstractActivityC0192rAq = this.f6667d.aq();
+        if (!com.roblox.client.purchase.google.b.a(abstractActivityC0192rAq).a(str2, str, abstractActivityC0192rAq, j, this.f)) {
             a(new Runnable() { // from class: com.roblox.client.purchase.b.1
                 @Override // java.lang.Runnable
                 public void run() {

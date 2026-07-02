@@ -4,7 +4,7 @@ import android.os.RemoteException;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.common.api.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class j extends l<Status> {
     j(com.google.android.gms.common.api.f fVar) {
         super(fVar);

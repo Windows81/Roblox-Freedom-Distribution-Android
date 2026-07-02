@@ -4,7 +4,7 @@ import android.app.PendingIntent;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class m implements Parcelable.Creator<Status> {
     @Override // android.os.Parcelable.Creator
     public final /* synthetic */ Status createFromParcel(Parcel parcel) {

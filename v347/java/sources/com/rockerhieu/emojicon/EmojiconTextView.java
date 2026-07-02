@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 import com.rockerhieu.emojicon.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class EmojiconTextView extends TextView {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

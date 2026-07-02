@@ -1,6 +1,6 @@
 package com.appsflyer.share;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class Constants {
     public static final String LOG_CROSS_PROMOTION_APP_INSTALLED_FROM_CROSS_PROMOTION = "[CrossPromotion] App was installed via %s's Cross Promotion";
     public static final String LOG_INVITE_DETECTED_APP_INVITE_VIA_CHANNEL = "[Invite] Detected App-Invite via channel: ";

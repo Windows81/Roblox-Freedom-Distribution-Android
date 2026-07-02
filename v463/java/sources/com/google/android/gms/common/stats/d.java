@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class d implements Parcelable.Creator<WakeLockEvent> {
     @Override // android.os.Parcelable.Creator
     /* JADX INFO: renamed from: a, reason: merged with bridge method [inline-methods] */

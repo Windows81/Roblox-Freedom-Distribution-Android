@@ -3,7 +3,7 @@ package com.roblox.client.pushnotification;
 import android.content.Context;
 import org.json.JSONException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h {
     public void a(com.roblox.client.pushnotification.b.i iVar, Context context) {
         com.roblox.client.pushnotification.b.m mVarA = a(iVar);

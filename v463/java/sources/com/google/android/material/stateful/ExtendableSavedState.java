@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import androidx.c.g;
 import androidx.customview.view.AbsSavedState;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ExtendableSavedState extends AbsSavedState {
     public static final Parcelable.Creator<ExtendableSavedState> CREATOR = new Parcelable.ClassLoaderCreator<ExtendableSavedState>() { // from class: com.google.android.material.stateful.ExtendableSavedState.1
         @Override // android.os.Parcelable.ClassLoaderCreator

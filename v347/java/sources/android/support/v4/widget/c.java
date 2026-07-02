@@ -12,7 +12,7 @@ import android.support.v4.view.s;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class c extends ImageView {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

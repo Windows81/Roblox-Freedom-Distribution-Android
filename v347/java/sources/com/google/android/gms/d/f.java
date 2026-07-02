@@ -2,7 +2,7 @@ package com.google.android.gms.d;
 
 import java.util.concurrent.Executor;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class f<TResult> {
     public f<TResult> a(b<TResult> bVar) {
         throw new UnsupportedOperationException("addOnCompleteListener is not implemented");

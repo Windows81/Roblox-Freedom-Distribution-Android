@@ -12,7 +12,7 @@ import microsoft.aspnet.signalr.client.http.HttpConnectionFuture;
 import microsoft.aspnet.signalr.client.http.Request;
 import microsoft.aspnet.signalr.client.http.StreamResponse;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class NetworkRunnable implements Runnable {
     HttpConnectionFuture.ResponseCallback mCallback;
     HttpConnectionFuture mFuture;

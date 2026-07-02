@@ -1,6 +1,6 @@
 package com.google.android.gms.common.internal.safeparcel;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractSafeParcelable implements SafeParcelable {
     @Override // android.os.Parcelable
     public final int describeContents() {

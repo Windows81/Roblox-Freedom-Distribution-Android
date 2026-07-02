@@ -3,7 +3,7 @@ package com.roblox.engine.jni;
 import android.view.Surface;
 import com.roblox.engine.components.NativeTextBoxInfo;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NativeGLInterface {
     public static native void nativeActionEnabled(a aVar);
 

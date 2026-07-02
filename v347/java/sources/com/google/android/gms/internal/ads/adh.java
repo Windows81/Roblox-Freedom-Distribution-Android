@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 /* JADX INFO: Add missing generic type declarations: [FieldDescriptorType] */
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class adh<FieldDescriptorType> extends adg<FieldDescriptorType, Object> {
     adh(int i) {
         super(i, null);

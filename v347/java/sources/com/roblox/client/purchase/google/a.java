@@ -1,10 +1,10 @@
 package com.roblox.client.purchase.google;
 
 import android.content.Context;
-import com.roblox.client.h;
+import com.roblox.client.R;
 import com.roblox.client.purchase.d;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends d {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -38,24 +38,24 @@ public class a extends d {
 
     @Override // com.roblox.client.purchase.d
     public CharSequence a(Context context) {
-        String string = context.getString(h.a.CommonUI_Messages_Response_RobloxSupport);
+        String string = context.getString(R.string.CommonUI_Messages_Response_RobloxSupport);
         switch (this.f7564a) {
             case SUCCESS:
-                return context.getText(h.a.Purchasing_RobloxProducts_Response_PurchaseSuccessfulAndroid);
+                return context.getText(R.string.Purchasing_RobloxProducts_Response_PurchaseSuccessfulAndroid);
             case IS_EMULATOR:
-                return context.getString(h.a.Purchasing_RobloxProducts_Response_PurchaseIsEmulator, string);
+                return context.getString(R.string.Purchasing_RobloxProducts_Response_PurchaseIsEmulator, string);
             case VALIDATION_ERROR:
-                return context.getString(h.a.Purchasing_RobloxProducts_Response_PurchaseNotCompleted, string);
+                return context.getString(R.string.Purchasing_RobloxProducts_Response_PurchaseNotCompleted, string);
             case VALIDATION_RETRY:
-                return context.getText(h.a.Purchasing_RobloxProducts_Response_BillingUnavailableTryLater);
+                return context.getText(R.string.Purchasing_RobloxProducts_Response_BillingUnavailableTryLater);
             case VALIDATION_LIMIT:
-                return context.getString(h.a.Purchasing_RobloxProducts_Response_PurchaseValidateLimit, string);
+                return context.getString(R.string.Purchasing_RobloxProducts_Response_PurchaseValidateLimit, string);
             case REQUEST_BALANCE_ERROR:
-                return context.getString(h.a.Purchasing_RobloxProducts_Response_PurchaseNotCompleted, string);
+                return context.getString(R.string.Purchasing_RobloxProducts_Response_PurchaseNotCompleted, string);
             case USER_CANCELLED:
-                return context.getString(h.a.Purchasing_RobloxProducts_Response_PurchaseCancelled, string);
+                return context.getString(R.string.Purchasing_RobloxProducts_Response_PurchaseCancelled, string);
             default:
-                return context.getString(h.a.Purchasing_RobloxProducts_Response_PurchaseNotCompleted, string);
+                return context.getString(R.string.Purchasing_RobloxProducts_Response_PurchaseNotCompleted, string);
         }
     }
 

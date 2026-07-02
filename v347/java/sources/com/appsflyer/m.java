@@ -11,7 +11,7 @@ import com.google.firebase.iid.FirebaseInstanceIdService;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class m {
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */

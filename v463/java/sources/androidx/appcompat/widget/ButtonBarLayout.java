@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import androidx.appcompat.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ButtonBarLayout extends LinearLayout {
     private static final int PEEK_BUTTON_DP = 16;
     private boolean mAllowStacking;

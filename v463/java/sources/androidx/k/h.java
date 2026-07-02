@@ -5,7 +5,7 @@ import android.graphics.PathMeasure;
 import android.graphics.PointF;
 import android.util.Property;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class h<T> extends Property<T, Float> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

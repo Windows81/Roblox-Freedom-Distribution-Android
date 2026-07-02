@@ -1,6 +1,6 @@
 package com.google.android.gms.internal.ads;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class abm extends abr {
     public static ack a() {
         throw new NoSuchMethodError();

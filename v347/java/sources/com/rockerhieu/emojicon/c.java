@@ -1,8 +1,8 @@
 package com.rockerhieu.emojicon;
 
-import android.R;
+import com.roblox.client.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class c {
 
     public static final class a {
@@ -1710,8 +1710,8 @@ public final class c {
         public static final int FontFamily_fontProviderFetchTimeout = 3;
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
-        public static final int[] Emojicon = {2130903181, 2130903182, 2130903183, 2130903184, 2130903185};
-        public static final int[] FontFamily = {2130903212, 2130903213, 2130903214, 2130903215, 2130903216, 2130903217};
-        public static final int[] FontFamilyFont = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, 2130903209, 2130903218, 2130903219};
+        public static final int[] Emojicon = {R.attr.emojiconAlignment, R.attr.emojiconSize, R.attr.emojiconTextLength, R.attr.emojiconTextStart, R.attr.emojiconUseSystemDefault};
+        public static final int[] FontFamily = {R.attr.fontProviderAuthority, R.attr.fontProviderCerts, R.attr.fontProviderFetchStrategy, R.attr.fontProviderFetchTimeout, R.attr.fontProviderPackage, R.attr.fontProviderQuery};
+        public static final int[] FontFamilyFont = {android.R.attr.font, android.R.attr.fontWeight, android.R.attr.fontStyle, R.attr.font, R.attr.fontStyle, R.attr.fontWeight};
     }
 }

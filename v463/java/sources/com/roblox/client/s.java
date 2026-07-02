@@ -11,7 +11,7 @@ import androidx.appcompat.app.b;
 import com.roblox.client.ab.d;
 import com.roblox.client.o;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class s extends androidx.fragment.app.b implements d.a {
     protected com.roblox.client.ab.d aq;
     public final String ag = "dialogHeight";
@@ -100,43 +100,43 @@ public class s extends androidx.fragment.app.b implements d.a {
 
     public void b(String str) {
         androidx.fragment.app.c cVarR = r();
-        if (cVarR instanceof r) {
-            ((r) cVarR).d(str);
+        if (cVarR instanceof AbstractActivityC0192r) {
+            ((AbstractActivityC0192r) cVarR).d(str);
         }
     }
 
     public void d(int i) {
         androidx.fragment.app.c cVarR = r();
-        if (cVarR instanceof r) {
-            ((r) cVarR).c(i);
+        if (cVarR instanceof AbstractActivityC0192r) {
+            ((AbstractActivityC0192r) cVarR).c(i);
         }
     }
 
     public void c(String str) {
         androidx.fragment.app.c cVarR = r();
-        if (cVarR instanceof r) {
-            ((r) cVarR).e(str);
+        if (cVarR instanceof AbstractActivityC0192r) {
+            ((AbstractActivityC0192r) cVarR).e(str);
         }
     }
 
     public void b(int i, Object... objArr) {
         androidx.fragment.app.c cVarR = r();
-        if (cVarR instanceof r) {
-            ((r) cVarR).a(i, objArr);
+        if (cVarR instanceof AbstractActivityC0192r) {
+            ((AbstractActivityC0192r) cVarR).a(i, objArr);
         }
     }
 
     public void c(int i, int i2) {
         androidx.fragment.app.c cVarR = r();
-        if (cVarR instanceof r) {
-            ((r) cVarR).a(i, i2);
+        if (cVarR instanceof AbstractActivityC0192r) {
+            ((AbstractActivityC0192r) cVarR).a(i, i2);
         }
     }
 
     public void a(String str, int i) {
         androidx.fragment.app.c cVarR = r();
-        if (cVarR instanceof r) {
-            ((r) cVarR).a(str, i);
+        if (cVarR instanceof AbstractActivityC0192r) {
+            ((AbstractActivityC0192r) cVarR).a(str, i);
         }
     }
 

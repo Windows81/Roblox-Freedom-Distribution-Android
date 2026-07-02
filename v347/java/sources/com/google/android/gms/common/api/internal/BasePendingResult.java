@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @KeepName
 public abstract class BasePendingResult<R extends com.google.android.gms.common.api.i> extends com.google.android.gms.common.api.g<R> {
 

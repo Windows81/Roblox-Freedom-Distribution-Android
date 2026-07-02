@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class g<K, V> extends AbstractMap<K, V> implements Serializable {
     static final /* synthetic */ boolean f = !g.class.desiredAssertionStatus();
     private static final Comparator<Comparable> g = new Comparator<Comparable>() { // from class: com.google.gson.internal.g.1

@@ -7,7 +7,7 @@ import android.os.RemoteException;
 import com.google.android.gms.c.a;
 import com.google.android.gms.common.GoogleCertificatesQuery;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface v extends IInterface {
 
     public static abstract class a extends com.google.android.gms.internal.d.b implements v {

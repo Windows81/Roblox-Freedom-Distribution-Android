@@ -3,7 +3,7 @@ package androidx.recyclerview.widget;
 import android.view.View;
 import androidx.recyclerview.widget.RecyclerView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class k extends RecyclerView.f {
     boolean h = true;
 

@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends android.support.v4.a.c {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

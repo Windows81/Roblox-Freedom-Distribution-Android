@@ -17,7 +17,7 @@ import androidx.appcompat.view.menu.h;
 import androidx.appcompat.view.menu.o;
 import androidx.appcompat.widget.LinearLayoutCompat;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActionMenuView extends LinearLayoutCompat implements h.b, androidx.appcompat.view.menu.p {
     static final int GENERATED_ITEM_PADDING = 4;
     static final int MIN_CELL_SIZE = 56;

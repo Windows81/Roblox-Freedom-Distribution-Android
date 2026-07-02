@@ -3,7 +3,7 @@ package com.roblox.client.friends.c;
 import c.ad;
 import com.roblox.platform.http.returntypes.TokenResponseBody;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a implements b {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

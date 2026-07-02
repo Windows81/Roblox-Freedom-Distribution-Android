@@ -3,7 +3,7 @@ package com.google.android.gms.ads.mediation.customevent;
 import com.google.ads.mediation.NetworkExtras;
 import java.util.HashMap;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class c implements NetworkExtras {
 

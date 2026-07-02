@@ -4,7 +4,7 @@ import android.content.Context;
 import com.appsflyer.internal.ContentFetcher;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class HuaweiReferrer extends ContentFetcher<Map<String, Object>> {
     public Map<String, Object> map;
 

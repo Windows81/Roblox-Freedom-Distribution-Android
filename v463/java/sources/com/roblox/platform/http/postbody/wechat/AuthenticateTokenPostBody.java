@@ -2,7 +2,7 @@ package com.roblox.platform.http.postbody.wechat;
 
 import com.roblox.platform.http.postbody.PostBody;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AuthenticateTokenPostBody implements PostBody {
     private final String accessToken;
     private final int accessTokenExpiry;

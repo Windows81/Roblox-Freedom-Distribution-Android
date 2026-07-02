@@ -1,6 +1,6 @@
 package com.roblox.platform.http.returntypes;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NearbyUserResponseBody implements ResponseBody {
     public final int friendshipStatus;
     public final long userId;

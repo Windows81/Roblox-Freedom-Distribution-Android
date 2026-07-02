@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewParent;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class ForwardingListener implements View.OnAttachStateChangeListener, View.OnTouchListener {
     private int mActivePointerId;
     private Runnable mDisallowIntercept;

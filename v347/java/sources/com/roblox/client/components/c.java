@@ -8,9 +8,10 @@ import android.animation.ValueAnimator;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
+import com.roblox.client.R;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -50,9 +51,9 @@ public class c {
         this.f = num3 != null ? Integer.valueOf(context.getResources().getDimensionPixelSize(num3.intValue())) : null;
         this.g = num4 != null ? Integer.valueOf(context.getResources().getDimensionPixelSize(num4.intValue())) : null;
         this.k = i;
-        this.h = view.findViewById(2131230998);
-        this.i = view.findViewById(2131230999);
-        this.j = view.findViewById(2131231000);
+        this.h = view.findViewById(R.id.loading_squares_1);
+        this.i = view.findViewById(R.id.loading_squares_2);
+        this.j = view.findViewById(R.id.loading_squares_3);
         this.f6725a = d();
     }
 

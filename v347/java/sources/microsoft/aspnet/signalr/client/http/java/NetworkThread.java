@@ -1,6 +1,6 @@
 package microsoft.aspnet.signalr.client.http.java;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class NetworkThread extends Thread {
     abstract void releaseAndStop();
 

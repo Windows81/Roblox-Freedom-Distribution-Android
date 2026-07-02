@@ -3,7 +3,7 @@ package com.roblox.client;
 import android.widget.Toast;
 import com.roblox.client.o;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityProtocolLaunch extends q {
     private final com.roblox.client.game.i q = l.a().h();
 
@@ -14,7 +14,7 @@ public class ActivityProtocolLaunch extends q {
         	at jadx.core.dex.visitors.regions.maker.ExcHandlersRegionMaker.process(ExcHandlersRegionMaker.java:38)
         	at jadx.core.dex.visitors.regions.RegionMakerVisitor.visit(RegionMakerVisitor.java:27)
         */
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(android.os.Bundle r14) {
         /*
             r13 = this;

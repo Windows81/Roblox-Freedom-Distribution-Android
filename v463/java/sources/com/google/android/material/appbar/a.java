@@ -10,7 +10,7 @@ import android.widget.OverScroller;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.h.r;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class a<V extends View> extends c<V> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

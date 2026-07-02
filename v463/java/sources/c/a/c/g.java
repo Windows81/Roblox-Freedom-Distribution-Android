@@ -1,6 +1,6 @@
 package c.a.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum g {
     SPDY_SYN_STREAM,
     SPDY_REPLY,

@@ -9,7 +9,7 @@ import com.roblox.client.o;
 import com.roblox.client.u;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
     public static void a(Context context, TextView textView) {
         String string = context.getString(o.j.CommonUI_Features_Label_TermsOfUse);

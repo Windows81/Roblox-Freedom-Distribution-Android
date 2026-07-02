@@ -1,7 +1,7 @@
 package com.roblox.client.chat.a;
 
+import com.roblox.client.R;
 import com.roblox.client.RobloxSettings;
-import com.roblox.client.h;
 import java.text.DateFormatSymbols;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -11,7 +11,7 @@ import java.util.Set;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -160,7 +160,7 @@ public class h {
     }
 
     public int h() {
-        return "Moderated".equals(n()) ? h.a.Feature_Chat_Response_ChatMsgContentModerated : h.a.Feature_Chat_Response_ChatMsgSendFailed;
+        return "Moderated".equals(n()) ? R.string.Feature_Chat_Response_ChatMsgContentModerated : R.string.Feature_Chat_Response_ChatMsgSendFailed;
     }
 
     public void c(String str) {

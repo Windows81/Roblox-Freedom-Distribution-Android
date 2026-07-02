@@ -3,7 +3,7 @@ package com.birbit.android.jobqueue.messaging;
 import com.birbit.android.jobqueue.timer.Timer;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f extends h implements MessageQueue {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

@@ -3,7 +3,7 @@ package com.roblox.client;
 import androidx.lifecycle.g;
 import com.roblox.client.RobloxWebActivity;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RobloxWebActivity_DataModelFocusLifecycleObserver_LifecycleAdapter implements androidx.lifecycle.e {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

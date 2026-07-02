@@ -1,6 +1,5 @@
 package com.roblox.client;
 
-import android.R;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.ActivityNotFoundException;
@@ -27,7 +26,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebView;
 import android.widget.EditText;
 import android.widget.TextView;
-import com.roblox.client.h;
 import com.roblox.engine.jni.NativeSettingsInterface;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -39,7 +37,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class p {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -247,7 +245,7 @@ public class p {
     public static android.support.v7.app.b a(Context context, String str) {
         TextView textView = new TextView(context);
         textView.setText(str);
-        textView.setTextAppearance(context, R.style.TextAppearance.DeviceDefault.Large);
+        textView.setTextAppearance(context, android.R.style.TextAppearance.DeviceDefault.Large);
         textView.setTextSize(20.0f);
         textView.setEllipsize(null);
         android.support.v7.app.b bVarB = new b.a(context).b();
@@ -281,8 +279,8 @@ public class p {
                 return;
             }
             b.a aVar = new b.a(context);
-            aVar.b(context.getString(h.a.Game_Launch_Response_NoOpenLinkAppInstalled));
-            aVar.a(context.getString(h.a.CommonUI_Features_Action_Ok), (DialogInterface.OnClickListener) null);
+            aVar.b(context.getString(R.string.Game_Launch_Response_NoOpenLinkAppInstalled));
+            aVar.a(context.getString(R.string.CommonUI_Features_Action_Ok), (DialogInterface.OnClickListener) null);
             aVar.b().show();
         }
     }
@@ -374,7 +372,7 @@ public class p {
     }
 
     public static void a(Activity activity) {
-        ((InputMethodManager) activity.getSystemService("input_method")).hideSoftInputFromWindow(activity.findViewById(R.id.content).getWindowToken(), 0);
+        ((InputMethodManager) activity.getSystemService("input_method")).hideSoftInputFromWindow(activity.findViewById(android.R.id.content).getWindowToken(), 0);
     }
 
     public static Drawable a(Context context, int i, int i2, int i3) {

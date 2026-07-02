@@ -3,7 +3,7 @@ package com.roblox.client.components;
 import android.text.InputFilter;
 import android.text.Spanned;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b implements InputFilter {
     @Override // android.text.InputFilter
     public CharSequence filter(CharSequence charSequence, int i, int i2, Spanned spanned, int i3, int i4) {

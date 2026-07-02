@@ -2,7 +2,7 @@ package com.google.android.gms.d;
 
 import java.util.concurrent.Callable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class v implements Runnable {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

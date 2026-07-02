@@ -6,7 +6,7 @@ import com.google.android.gms.common.internal.ReflectedParcelable;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import com.google.android.gms.common.internal.w;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class Scope extends AbstractSafeParcelable implements ReflectedParcelable {
     public static final Parcelable.Creator<Scope> CREATOR = new l();
 

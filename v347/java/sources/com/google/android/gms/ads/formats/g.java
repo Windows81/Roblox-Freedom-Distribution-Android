@@ -3,7 +3,7 @@ package com.google.android.gms.ads.formats;
 import com.google.android.gms.ads.formats.c;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class g extends c {
 
     public interface a {

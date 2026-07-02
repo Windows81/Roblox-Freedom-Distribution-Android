@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends Fragment implements DialogInterface.OnCancelListener, DialogInterface.OnDismissListener {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

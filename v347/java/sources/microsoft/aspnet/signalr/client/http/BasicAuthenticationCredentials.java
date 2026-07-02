@@ -2,7 +2,7 @@ package microsoft.aspnet.signalr.client.http;
 
 import microsoft.aspnet.signalr.client.Credentials;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class BasicAuthenticationCredentials implements Credentials {
     private Base64Encoder mEncoder;
     private String mPassword;

@@ -2,7 +2,7 @@ package com.google.gson;
 
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class v<T> {
     public abstract void a(com.google.gson.c.c cVar, T t) throws IOException;
 

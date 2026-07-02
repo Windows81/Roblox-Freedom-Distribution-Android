@@ -6,7 +6,7 @@ import android.view.View;
 import com.google.android.material.a;
 import com.google.android.material.snackbar.BaseTransientBottomBar;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class Snackbar extends BaseTransientBottomBar<Snackbar> {
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */

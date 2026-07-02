@@ -2,7 +2,7 @@ package com.roblox.client.http.a;
 
 import com.roblox.client.http.j;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends a<j> {
     public b() {
         super(1000, 2, 2.0f);

@@ -1,6 +1,6 @@
 package com.appsflyer;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface AFInAppEventParameterName {
     public static final String ACHIEVEMENT_ID = "af_achievement_id";
     public static final String AD_REVENUE_AD_SIZE = "af_adrev_ad_size";

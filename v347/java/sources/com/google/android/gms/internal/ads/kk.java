@@ -2,7 +2,7 @@ package com.google.android.gms.internal.ads;
 
 import android.content.DialogInterface;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final /* synthetic */ class kk implements DialogInterface.OnClickListener {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -1,6 +1,6 @@
 package com.google.android.material.e;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class a {
     public static float a(float f, float f2, float f3) {
         return ((1.0f - f3) * f) + (f3 * f2);

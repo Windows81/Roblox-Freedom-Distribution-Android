@@ -3,7 +3,7 @@ package a.a.a.a.b;
 import java.io.Serializable;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class b<L, R> implements Serializable, Comparable<b<L, R>>, Map.Entry<L, R> {
     public abstract L a();
 

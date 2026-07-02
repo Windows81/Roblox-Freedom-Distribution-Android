@@ -2,7 +2,7 @@ package com.birbit.android.jobqueue.callback;
 
 import com.birbit.android.jobqueue.g;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface JobManagerCallback {
     public static final int RESULT_CANCEL_CANCELLED_VIA_SHOULD_RE_RUN = 5;
     public static final int RESULT_CANCEL_CANCELLED_WHILE_RUNNING = 3;

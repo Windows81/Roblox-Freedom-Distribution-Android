@@ -3,7 +3,7 @@ package com.roblox.client.game;
 import com.roblox.engine.jni.EngineJavaCallback2;
 import java.nio.charset.Charset;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class c extends EngineJavaCallback2 {
     public abstract o a();
 

@@ -3,7 +3,7 @@ package android.support.transition;
 import android.animation.TypeEvaluator;
 import android.graphics.Rect;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class s implements TypeEvaluator<Rect> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

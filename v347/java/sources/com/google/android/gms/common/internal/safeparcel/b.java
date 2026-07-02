@@ -6,7 +6,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
     public static int a(Parcel parcel) {
         return b(parcel, 20293);

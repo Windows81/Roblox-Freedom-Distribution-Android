@@ -8,7 +8,7 @@ import com.roblox.engine.jni.NativeAppTracingInterface;
 import java.util.ArrayList;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g {
     private static g i;
 

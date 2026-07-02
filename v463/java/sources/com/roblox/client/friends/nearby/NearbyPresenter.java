@@ -16,7 +16,7 @@ import com.roblox.client.o;
 import com.roblox.client.s.h;
 import org.greenrobot.eventbus.ThreadMode;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NearbyPresenter implements i, j, a.InterfaceC0141a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

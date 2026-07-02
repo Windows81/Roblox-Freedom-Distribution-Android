@@ -3,7 +3,7 @@ package com.roblox.client.realtime;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a {
     protected static boolean sSignalRConnected = false;
     protected static long sSequenceNumber = -1;

@@ -11,7 +11,7 @@ import javax.net.ssl.HttpsURLConnection;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class CreateOneLinkHttpTask extends OneLinkHttpTask {
     private static final String BRAND_DOMAIN = "brand_domain";
     private static final String TRACKING_LINK_DATA_KEY = "data";

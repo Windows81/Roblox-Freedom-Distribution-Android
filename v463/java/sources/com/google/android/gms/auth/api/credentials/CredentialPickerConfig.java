@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.ReflectedParcelable;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class CredentialPickerConfig extends AbstractSafeParcelable implements ReflectedParcelable {
     public static final Parcelable.Creator<CredentialPickerConfig> CREATOR = new i();
 

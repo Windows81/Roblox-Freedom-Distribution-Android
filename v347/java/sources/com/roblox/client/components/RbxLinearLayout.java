@@ -5,8 +5,9 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
+import com.roblox.client.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RbxLinearLayout extends LinearLayout {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -39,7 +40,7 @@ public class RbxLinearLayout extends LinearLayout {
         this.f6701c = false;
         this.f = 0;
         this.f6699a = new o(this, attributeSet);
-        this.f6699a.a(getResources().getColor(2131034129));
+        this.f6699a.a(getResources().getColor(R.color.RbxGreen2));
     }
 
     public RbxLinearLayout(Context context, AttributeSet attributeSet, int i) {
@@ -49,7 +50,7 @@ public class RbxLinearLayout extends LinearLayout {
         this.f6701c = false;
         this.f = 0;
         this.f6699a = new o(this, attributeSet);
-        this.f6699a.a(getResources().getColor(2131034129));
+        this.f6699a.a(getResources().getColor(R.color.RbxGreen2));
     }
 
     public float getXFraction() {

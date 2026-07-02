@@ -2,7 +2,7 @@ package android.arch.lifecycle;
 
 import android.arch.lifecycle.d;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class LiveData<T> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

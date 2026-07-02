@@ -12,7 +12,7 @@ import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicHttpResponse;
 import org.apache.http.message.BasicStatusLine;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class hb implements qh {
     public abstract pg a(avg<?> avgVar, Map<String, String> map) throws IOException, a;
 

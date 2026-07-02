@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ScrollView;
 import com.roblox.client.h;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class MaxHeightScrollView extends ScrollView {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -10,7 +10,7 @@ import com.roblox.client.ae.s;
 import com.roblox.client.friends.d;
 import com.roblox.client.u;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class UniversalFriendsPresenter implements i, d.a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

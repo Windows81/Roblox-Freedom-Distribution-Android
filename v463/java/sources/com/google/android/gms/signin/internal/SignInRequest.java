@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.internal.ResolveAccountRequest;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SignInRequest extends AbstractSafeParcelable {
     public static final Parcelable.Creator<SignInRequest> CREATOR = new h();
 

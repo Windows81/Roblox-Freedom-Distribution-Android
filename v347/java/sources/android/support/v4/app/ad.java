@@ -3,7 +3,7 @@ package android.support.v4.app;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class ad implements View.OnAttachStateChangeListener, ViewTreeObserver.OnPreDrawListener {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

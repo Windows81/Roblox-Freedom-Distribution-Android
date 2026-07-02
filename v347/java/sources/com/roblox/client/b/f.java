@@ -2,7 +2,7 @@ package com.roblox.client.b;
 
 import com.roblox.client.i;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f {
     public void a() {
         c.a("ResetPassword", "Success");

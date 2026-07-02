@@ -11,8 +11,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import com.roblox.client.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RbxGenderPicker extends LinearLayout {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -62,19 +63,19 @@ public class RbxGenderPicker extends LinearLayout {
     }
 
     private void a(Context context, AttributeSet attributeSet) {
-        LayoutInflater.from(context).inflate(2131361941, (ViewGroup) getRootView());
-        this.f = (TextView) findViewById(2131231079);
-        this.g = (TextView) findViewById(2131231076);
-        this.j = android.support.v4.a.c.c(context, 2131034123);
-        this.k = android.support.v4.a.c.c(context, 2131034113);
+        LayoutInflater.from(context).inflate(R.layout.rbx_updated_gender_picker, (ViewGroup) getRootView());
+        this.f = (TextView) findViewById(R.id.rbxGenderBtnMaleTextView);
+        this.g = (TextView) findViewById(R.id.rbxGenderBtnFemaleTextView);
+        this.j = android.support.v4.a.c.c(context, R.color.RbxGray4);
+        this.k = android.support.v4.a.c.c(context, R.color.RbxBlack);
         m.a(this.f, context, attributeSet);
         m.a(this.g, context, attributeSet);
-        this.f6690a = (RbxButton) findViewById(2131231077);
-        this.f6691b = (RbxButton) findViewById(2131231074);
-        this.f6692c = (ImageView) findViewById(2131231078);
-        this.f6693d = (ImageView) findViewById(2131231075);
-        this.e = (LinearLayout) findViewById(2131231080);
-        this.h = (RbxTextView) findViewById(2131231073);
+        this.f6690a = (RbxButton) findViewById(R.id.rbxGenderBtnMale);
+        this.f6691b = (RbxButton) findViewById(R.id.rbxGenderBtnFemale);
+        this.f6692c = (ImageView) findViewById(R.id.rbxGenderBtnMaleBg);
+        this.f6693d = (ImageView) findViewById(R.id.rbxGenderBtnFemaleBg);
+        this.e = (LinearLayout) findViewById(R.id.rbxGenderContainer);
+        this.h = (RbxTextView) findViewById(R.id.rbxGenderBottomText);
         setOnClickListener(new View.OnClickListener() { // from class: com.roblox.client.components.RbxGenderPicker.1
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
@@ -85,8 +86,8 @@ public class RbxGenderPicker extends LinearLayout {
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 if (RbxGenderPicker.this.i != 1) {
-                    RbxGenderPicker.this.f6692c.setImageResource(2131167052);
-                    RbxGenderPicker.this.f6693d.setImageResource(2131167034);
+                    RbxGenderPicker.this.f6692c.setImageResource(R.drawable.icon_male_on);
+                    RbxGenderPicker.this.f6693d.setImageResource(R.drawable.icon_female);
                     RbxGenderPicker.this.i = 1;
                     RbxGenderPicker.this.f.setTextColor(RbxGenderPicker.this.k);
                     RbxGenderPicker.this.g.setTextColor(RbxGenderPicker.this.j);
@@ -103,8 +104,8 @@ public class RbxGenderPicker extends LinearLayout {
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 if (RbxGenderPicker.this.i != 2) {
-                    RbxGenderPicker.this.f6692c.setImageResource(2131167051);
-                    RbxGenderPicker.this.f6693d.setImageResource(2131167035);
+                    RbxGenderPicker.this.f6692c.setImageResource(R.drawable.icon_male);
+                    RbxGenderPicker.this.f6693d.setImageResource(R.drawable.icon_female_on);
                     RbxGenderPicker.this.i = 2;
                     RbxGenderPicker.this.f.setTextColor(RbxGenderPicker.this.j);
                     RbxGenderPicker.this.g.setTextColor(RbxGenderPicker.this.k);
@@ -151,22 +152,22 @@ public class RbxGenderPicker extends LinearLayout {
     /* JADX INFO: Access modifiers changed from: private */
     public void e() {
         this.i = 0;
-        this.f6693d.setImageResource(2131167034);
-        this.f6692c.setImageResource(2131167051);
-        this.e.setBackgroundResource(2131167194);
+        this.f6693d.setImageResource(R.drawable.icon_female);
+        this.f6692c.setImageResource(R.drawable.icon_male);
+        this.e.setBackgroundResource(R.drawable.rbx_bg_gender_full);
         this.f.setTextColor(this.j);
         this.g.setTextColor(this.j);
     }
 
     public void a() {
-        this.e.setBackgroundResource(2131167195);
+        this.e.setBackgroundResource(R.drawable.rbx_bg_gender_full_error);
         if (this.h.getVisibility() != 0) {
             l.a(this.h, 0, 0.0f, 1.0f, 200L);
         }
     }
 
     public void b() {
-        this.e.setBackgroundResource(2131167196);
+        this.e.setBackgroundResource(R.drawable.rbx_bg_gender_full_success);
         this.h.setVisibility(4);
     }
 

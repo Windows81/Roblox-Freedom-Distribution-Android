@@ -3,7 +3,7 @@ package com.roblox.client.friends.nearby.b.a;
 import com.roblox.client.friends.c.c;
 import com.roblox.platform.http.returntypes.NearbyUserResponseBody;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

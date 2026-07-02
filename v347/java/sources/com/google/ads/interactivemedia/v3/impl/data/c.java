@@ -2,7 +2,7 @@ package com.google.ads.interactivemedia.v3.impl.data;
 
 import com.google.ads.interactivemedia.v3.api.AdPodInfo;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c implements AdPodInfo {
     public int podIndex;
     public double timeOffset;

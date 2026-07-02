@@ -2,7 +2,7 @@ package d;
 
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface d extends r {
     long a(s sVar) throws IOException;
 

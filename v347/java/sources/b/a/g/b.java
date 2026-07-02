@@ -5,7 +5,7 @@ import java.util.List;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.net.ssl.X509TrustManager;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class b {
     public abstract List<Certificate> a(List<Certificate> list, String str) throws SSLPeerUnverifiedException;
 

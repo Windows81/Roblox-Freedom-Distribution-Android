@@ -10,7 +10,7 @@ import com.google.android.gms.common.internal.s;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import javax.annotation.Nullable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class GoogleCertificatesQuery extends AbstractSafeParcelable {
     public static final Parcelable.Creator<GoogleCertificatesQuery> CREATOR = new h();
 

@@ -5,7 +5,7 @@ import android.os.IInterface;
 import android.os.Parcel;
 import android.os.RemoteException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class gi extends aiz implements gh {
     public gi() {
         super("com.google.android.gms.ads.internal.reward.client.IRewardedVideoAdListener");

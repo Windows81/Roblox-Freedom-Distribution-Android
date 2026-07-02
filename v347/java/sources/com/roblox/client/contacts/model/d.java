@@ -4,7 +4,7 @@ import android.text.TextUtils;
 import com.roblox.client.RobloxSettings;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class d extends a implements Comparable<d> {
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */

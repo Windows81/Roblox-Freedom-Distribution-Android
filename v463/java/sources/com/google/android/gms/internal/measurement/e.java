@@ -2,7 +2,7 @@ package com.google.android.gms.internal.measurement;
 
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class e extends IOException {
     e(int i, int i2) {
         StringBuilder sb = new StringBuilder(108);

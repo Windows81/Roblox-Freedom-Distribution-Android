@@ -1,6 +1,6 @@
 package androidx.h;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class b<T> extends i {
     protected abstract void a(androidx.i.a.f fVar, T t);
 

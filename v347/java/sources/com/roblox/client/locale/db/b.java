@@ -6,7 +6,7 @@ import com.roblox.client.locale.db.room.StringsDB;
 import com.roblox.client.util.g;
 import java.util.HashMap;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends AsyncTask<Void, Void, com.roblox.client.locale.db.room.b> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

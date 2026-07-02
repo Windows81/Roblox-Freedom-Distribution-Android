@@ -14,7 +14,7 @@ import com.roblox.client.o;
 import java.util.ArrayList;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends RecyclerView.a<com.roblox.client.friends.nearby.a.b.b<c>> implements Filterable {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

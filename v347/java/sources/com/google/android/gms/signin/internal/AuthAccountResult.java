@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AuthAccountResult extends AbstractSafeParcelable implements com.google.android.gms.common.api.i {
     public static final Parcelable.Creator<AuthAccountResult> CREATOR = new a();
 

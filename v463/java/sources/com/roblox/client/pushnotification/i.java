@@ -3,7 +3,7 @@ package com.roblox.client.pushnotification;
 import android.content.Context;
 import com.roblox.client.pushnotification.b.m;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface i<T extends com.roblox.client.pushnotification.b.m> {
     void a(Context context, long j);
 

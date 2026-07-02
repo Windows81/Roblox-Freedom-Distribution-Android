@@ -2,7 +2,7 @@ package com.google.android.gms.dynamite;
 
 import dalvik.system.PathClassLoader;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class j extends PathClassLoader {
     j(String str, ClassLoader classLoader) {
         super(str, classLoader);

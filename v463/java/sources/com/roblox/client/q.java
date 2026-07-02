@@ -20,8 +20,8 @@ import com.roblox.client.w;
 import com.roblox.engine.jni.NativeReportingInterface;
 import com.roblox.engine.jni.memstorage.MemStorage;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
-public abstract class q extends r implements d.a {
+/* JADX INFO: loaded from: classes.dex */
+public abstract class q extends AbstractActivityC0192r implements d.a {
     public static int k;
     protected Toolbar l;
     protected com.roblox.client.ab.d m;
@@ -45,7 +45,7 @@ public abstract class q extends r implements d.a {
         return new com.roblox.client.p.b();
     }
 
-    @Override // com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         com.roblox.client.s.c.d().a(this, c.b.APP_INIT_TYPE_SHELL);
         if (RobloxApplication.b() == null) {
@@ -131,14 +131,14 @@ public abstract class q extends r implements d.a {
         }
     }
 
-    @Override // com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onDestroy() {
         super.onDestroy();
         r();
         a(this.r);
     }
 
-    @Override // com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         if (com.roblox.client.i.b.a() && u.ax()) {
@@ -182,7 +182,7 @@ public abstract class q extends r implements d.a {
         });
     }
 
-    @Override // com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStop() {
         int i = k - 1;
         k = i;
@@ -202,12 +202,12 @@ public abstract class q extends r implements d.a {
         return u.a(this).getBoolean("ROBLOXCrash", false);
     }
 
-    @Override // com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onPause() {
         super.onPause();
     }
 
-    @Override // com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         if (b.a()) {

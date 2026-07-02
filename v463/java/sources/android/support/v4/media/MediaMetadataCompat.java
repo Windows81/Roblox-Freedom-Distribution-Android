@@ -6,7 +6,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.v4.media.session.MediaSessionCompat;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class MediaMetadataCompat implements Parcelable {
     public static final Parcelable.Creator<MediaMetadataCompat> CREATOR;
 

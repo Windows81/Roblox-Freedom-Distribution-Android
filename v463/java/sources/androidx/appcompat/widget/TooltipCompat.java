@@ -3,7 +3,7 @@ package androidx.appcompat.widget;
 import android.os.Build;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class TooltipCompat {
     public static void setTooltipText(View view, CharSequence charSequence) {
         if (Build.VERSION.SDK_INT >= 26) {

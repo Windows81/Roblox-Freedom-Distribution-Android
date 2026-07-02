@@ -8,9 +8,9 @@ import android.view.MenuItem;
 import com.roblox.client.o;
 import org.greenrobot.eventbus.ThreadMode;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NotificationStreamActivity extends RobloxWebActivity {
-    @Override // com.roblox.client.RobloxWebActivity, com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.RobloxWebActivity, com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     public void onCreate(Bundle bundle) {
         Intent intent = getIntent();
         if (intent != null) {

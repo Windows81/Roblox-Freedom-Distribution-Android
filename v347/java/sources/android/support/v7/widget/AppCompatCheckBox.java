@@ -8,7 +8,7 @@ import android.support.v7.a.a;
 import android.util.AttributeSet;
 import android.widget.CheckBox;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AppCompatCheckBox extends CheckBox implements android.support.v4.widget.o {
     private final f mCompoundButtonHelper;
 

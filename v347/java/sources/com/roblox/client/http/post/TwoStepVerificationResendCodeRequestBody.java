@@ -1,6 +1,6 @@
 package com.roblox.client.http.post;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class TwoStepVerificationResendCodeRequestBody implements GsonCompatibleRequestBody {
     private String tl;
     private String username;

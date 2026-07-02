@@ -9,7 +9,7 @@ import com.roblox.client.pushnotification.o;
 import com.roblox.client.r.b;
 import com.roblox.client.s.g;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ChatMessageNotificationReceiver extends a {
     @Override // com.roblox.client.pushnotification.notificationreceivers.a, android.content.BroadcastReceiver
     public void onReceive(Context context, Intent intent) {

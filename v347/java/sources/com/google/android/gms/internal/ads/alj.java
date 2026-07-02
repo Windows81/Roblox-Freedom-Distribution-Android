@@ -2,7 +2,7 @@ package com.google.android.gms.internal.ads;
 
 import java.util.Comparator;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class alj implements Comparator<alp> {
     alj(ali aliVar) {
     }

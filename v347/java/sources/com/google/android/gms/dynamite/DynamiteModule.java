@@ -15,7 +15,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import javax.annotation.concurrent.GuardedBy;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class DynamiteModule {
 
     @GuardedBy("DynamiteModule.class")

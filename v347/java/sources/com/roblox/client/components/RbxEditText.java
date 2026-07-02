@@ -14,10 +14,11 @@ import android.view.animation.Animation;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import com.roblox.client.R;
 import com.roblox.client.RobloxSettings;
 import com.roblox.client.h;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RbxEditText extends LinearLayout {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -96,10 +97,10 @@ public class RbxEditText extends LinearLayout {
     }
 
     private void f() {
-        inflate(getContext(), 2131361938, this);
-        this.f6676b = (LinearLayout) findViewById(2131231071);
-        this.f6675a = (EditText) findViewById(2131231072);
-        this.e = (TextView) findViewById(2131231070);
+        inflate(getContext(), R.layout.rbx_edittext, this);
+        this.f6676b = (LinearLayout) findViewById(R.id.rbxEditTextBottomLayout);
+        this.f6675a = (EditText) findViewById(R.id.rbxEditTextTextBox);
+        this.e = (TextView) findViewById(R.id.rbxEditTextBottomLabel);
         TypedArray typedArrayObtainStyledAttributes = getContext().obtainStyledAttributes(this.f, h.b.RbxEditText);
         this.i = typedArrayObtainStyledAttributes.getString(2);
         this.g = typedArrayObtainStyledAttributes.getString(1);
@@ -113,7 +114,7 @@ public class RbxEditText extends LinearLayout {
         m.a(this.e, getContext(), this.f);
         m.a(this.f6675a, getContext(), this.f);
         this.f6675a.setHint(this.i);
-        this.f6675a.setHintTextColor(getResources().getColor(2131034122));
+        this.f6675a.setHintTextColor(getResources().getColor(R.color.RbxGray3));
         this.f6675a.setContentDescription(getContentDescription());
         if (string2 != null) {
             this.e.setText(string2);
@@ -121,7 +122,7 @@ public class RbxEditText extends LinearLayout {
             this.e.setText(this.i);
         }
         this.e.setVisibility(4);
-        this.e.setTextColor(getResources().getColor(2131034121));
+        this.e.setTextColor(getResources().getColor(R.color.RbxGray2));
         this.f6675a.setOnFocusChangeListener(new View.OnFocusChangeListener() { // from class: com.roblox.client.components.RbxEditText.1
             @Override // android.view.View.OnFocusChangeListener
             public void onFocusChange(View view, boolean z) {
@@ -214,7 +215,7 @@ public class RbxEditText extends LinearLayout {
 
     private void g() {
         if (this.e.getText().length() != 0) {
-            this.e.setTextColor(getResources().getColor(2131034136));
+            this.e.setTextColor(getResources().getColor(R.color.RbxRed2));
             if (this.e.getVisibility() != 0) {
                 j();
             }
@@ -222,7 +223,7 @@ public class RbxEditText extends LinearLayout {
                 this.f6675a.setTextSize(15.0f);
             }
         }
-        this.f6675a.setBackgroundResource(2131167187);
+        this.f6675a.setBackgroundResource(R.drawable.rbx_bg_flat_edittext_error);
     }
 
     public void b(int i) {
@@ -245,7 +246,7 @@ public class RbxEditText extends LinearLayout {
     private void h() {
         if (this.e.getText().length() != 0) {
             this.m = this.f6675a.getTextSize();
-            this.e.setTextColor(getResources().getColor(2131034128));
+            this.e.setTextColor(getResources().getColor(R.color.RbxGreen1));
             if (this.e.getVisibility() != 0) {
                 j();
             }
@@ -255,7 +256,7 @@ public class RbxEditText extends LinearLayout {
         } else {
             this.e.setVisibility(4);
         }
-        this.f6675a.setBackgroundResource(2131167188);
+        this.f6675a.setBackgroundResource(R.drawable.rbx_bg_flat_edittext_success);
     }
 
     public void setTextBoxText(String str) {
@@ -350,7 +351,7 @@ public class RbxEditText extends LinearLayout {
 
     /* JADX INFO: Access modifiers changed from: private */
     public void i() {
-        this.f6675a.setBackgroundResource(2131167186);
+        this.f6675a.setBackgroundResource(R.drawable.rbx_bg_flat_edittext);
         if (RobloxSettings.mDeviceDensity == 120) {
             this.f6675a.setTextSize(this.m);
         }
@@ -383,7 +384,7 @@ public class RbxEditText extends LinearLayout {
 
     protected void d() {
         this.f6675a.setOnTouchListener(this.f6678d);
-        setRightIcon(2131166983);
+        setRightIcon(R.drawable.ic_clear);
     }
 
     protected void e() {

@@ -9,7 +9,7 @@ import com.google.ads.mediation.MediationInterstitialListener;
 import com.google.ads.mediation.MediationServerParameters;
 import com.google.ads.mediation.NetworkExtras;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @cm
 public final class bcy<NETWORK_EXTRAS extends NetworkExtras, SERVER_PARAMETERS extends MediationServerParameters> implements MediationBannerListener, MediationInterstitialListener {
 

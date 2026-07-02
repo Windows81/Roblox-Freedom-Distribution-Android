@@ -3,7 +3,7 @@ package c;
 import java.io.IOException;
 import java.io.InputStream;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface e extends s {
     long a(byte b2) throws IOException;
 

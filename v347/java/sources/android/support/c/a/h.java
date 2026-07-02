@@ -7,7 +7,7 @@ import android.graphics.Rect;
 import android.graphics.Region;
 import android.graphics.drawable.Drawable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class h extends Drawable implements android.support.v4.b.a.f {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

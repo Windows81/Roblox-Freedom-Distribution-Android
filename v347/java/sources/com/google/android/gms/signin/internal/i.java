@@ -5,7 +5,7 @@ import android.os.Parcelable;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.internal.ResolveAccountResponse;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class i implements Parcelable.Creator<SignInResponse> {
     @Override // android.os.Parcelable.Creator
     /* JADX INFO: renamed from: a, reason: merged with bridge method [inline-methods] */

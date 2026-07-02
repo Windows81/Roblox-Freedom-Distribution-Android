@@ -1,6 +1,6 @@
 package com.google.android.gms.common.internal;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class b {
     public static void a(Object obj) {
         if (obj == null) {

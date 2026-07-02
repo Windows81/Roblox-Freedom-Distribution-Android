@@ -6,7 +6,7 @@ import com.roblox.platform.http.returntypes.TokenResponseBody;
 import e.b.o;
 import e.b.s;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface g {
     @o(a = "v1/friends/verified/nearby/session")
     e.b<TokenResponseBody> a();

@@ -9,7 +9,7 @@ import android.view.View;
 import com.roblox.client.components.RbxLoadingEditText;
 import com.roblox.client.o;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class UsernameSignUpEditText extends RbxLoadingEditText {
     private b h;
     private int i;

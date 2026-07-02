@@ -28,7 +28,7 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.CompoundButton;
 import androidx.appcompat.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SwitchCompat extends CompoundButton {
     private static final String ACCESSIBILITY_EVENT_CLASS_NAME = "android.widget.Switch";
     private static final int MONOSPACE = 3;

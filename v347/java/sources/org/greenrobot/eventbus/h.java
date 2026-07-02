@@ -3,7 +3,7 @@ package org.greenrobot.eventbus;
 import java.util.ArrayList;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class h {
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */

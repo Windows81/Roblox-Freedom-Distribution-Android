@@ -2,7 +2,7 @@ package android.support.design.widget;
 
 import android.graphics.drawable.Drawable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 interface l {
     float a();
 

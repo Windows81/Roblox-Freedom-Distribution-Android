@@ -1,6 +1,6 @@
 package com.roblox.client.friends.nearby;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface a {
 
     /* JADX INFO: renamed from: com.roblox.client.friends.nearby.a$a, reason: collision with other inner class name */

@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import android.util.DisplayMetrics;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @cm
 public class zzjn extends AbstractSafeParcelable {
     public static final Parcelable.Creator<zzjn> CREATOR = new aoe();

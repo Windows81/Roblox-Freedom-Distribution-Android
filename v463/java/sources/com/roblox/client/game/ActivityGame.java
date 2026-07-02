@@ -18,9 +18,9 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
+import com.roblox.client.AbstractActivityC0192r;
 import com.roblox.client.RbxKeyboard;
 import com.roblox.client.o;
-import com.roblox.client.r;
 import com.roblox.client.realtime.RealtimeService;
 import com.roblox.client.s.c;
 import com.roblox.client.u;
@@ -31,8 +31,8 @@ import com.roblox.engine.jni.NativeGLJavaInterface;
 import com.roblox.engine.jni.RunOnMainEngineJavaCallback;
 import org.fmod.FMOD;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
-public class ActivityGame extends r implements n, b.a {
+/* JADX INFO: loaded from: classes.dex */
+public class ActivityGame extends AbstractActivityC0192r implements n, b.a {
     private static boolean C = false;
     private com.roblox.engine.b A;
     private ViewTreeObserver.OnGlobalLayoutListener B;
@@ -89,7 +89,7 @@ public class ActivityGame extends r implements n, b.a {
         return super.onKeyMultiple(i, i2, keyEvent);
     }
 
-    @Override // com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     public void onCreate(Bundle bundle) {
         com.roblox.client.ae.k.b("rbx.game", "onCreate: savedInstanceState = " + bundle);
         com.roblox.client.s.c.d().a(this, c.b.APP_INIT_TYPE_GAME);
@@ -199,7 +199,7 @@ public class ActivityGame extends r implements n, b.a {
         }
     }
 
-    @Override // com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         com.roblox.client.ae.k.c("rbx.game", "onNewIntent");
@@ -214,7 +214,7 @@ public class ActivityGame extends r implements n, b.a {
         }
     }
 
-    @Override // com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         NativeGLInterface.nativeOnFragmentStart();
@@ -225,7 +225,7 @@ public class ActivityGame extends r implements n, b.a {
         }
     }
 
-    @Override // com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStop() {
         super.onStop();
         NativeGLInterface.nativeOnFragmentStop();
@@ -238,21 +238,21 @@ public class ActivityGame extends r implements n, b.a {
         }
     }
 
-    @Override // com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onPause() {
         super.onPause();
         this.E.d().b();
         this.A.a();
     }
 
-    @Override // com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         this.E.d().c();
         this.A.a(false);
     }
 
-    @Override // com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     public void onDestroy() {
         boolean zIsFinishing;
         com.roblox.client.ae.k.b("rbx.game", "onDestroy: isFinishing = " + isFinishing());
@@ -279,7 +279,7 @@ public class ActivityGame extends r implements n, b.a {
         super.onDestroy();
     }
 
-    @Override // com.roblox.client.r, android.app.Activity, android.content.ComponentCallbacks2
+    @Override // com.roblox.client.AbstractActivityC0192r, android.app.Activity, android.content.ComponentCallbacks2
     public void onTrimMemory(int i) {
         super.onTrimMemory(i);
         if (i != 15) {

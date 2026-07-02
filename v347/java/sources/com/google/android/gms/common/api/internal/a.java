@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
 import javax.annotation.concurrent.GuardedBy;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class a implements Application.ActivityLifecycleCallbacks, ComponentCallbacks2 {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -16,7 +16,7 @@ import com.roblox.client.s.h;
 import com.roblox.client.startup.ActivitySplash;
 import com.roblox.client.startup.e;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a extends BroadcastReceiver {
     protected abstract Intent a(Context context, Intent intent, Intent intent2);
 

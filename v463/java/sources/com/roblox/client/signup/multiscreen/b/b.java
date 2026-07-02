@@ -5,7 +5,7 @@ import android.util.Patterns;
 import androidx.lifecycle.LiveData;
 import com.roblox.client.signup.multiscreen.a.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends androidx.lifecycle.p<com.roblox.client.signup.multiscreen.a.b> implements a {
 
     /* JADX INFO: renamed from: e, reason: collision with root package name */

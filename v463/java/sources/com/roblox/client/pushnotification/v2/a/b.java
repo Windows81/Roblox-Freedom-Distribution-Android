@@ -4,7 +4,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.net.Uri;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface b {
     PendingIntent a(Context context);
 

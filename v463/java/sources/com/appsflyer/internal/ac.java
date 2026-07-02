@@ -5,7 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class ac extends ContentFetcher<String> {
     public ac(Context context) {
         super(context, "com.facebook.katana.provider.AttributionIdProvider", "e3f9e1e0cf99d0e56a055ba65e241b3399f7cea524326b0cdd6ec1327ed0fdc1", 500L);

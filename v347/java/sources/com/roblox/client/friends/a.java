@@ -7,8 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import com.roblox.client.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends Fragment {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -45,9 +46,9 @@ public class a extends Fragment {
 
     @Override // android.support.v4.app.Fragment
     public View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
-        View viewInflate = layoutInflater.inflate(2131361877, viewGroup, false);
-        ((TextView) viewInflate.findViewById(2131230766)).setText(this.f6961a);
-        viewInflate.findViewById(2131230765).setOnClickListener(new View.OnClickListener() { // from class: com.roblox.client.friends.a.1
+        View viewInflate = layoutInflater.inflate(R.layout.fragment_app_settings, viewGroup, false);
+        ((TextView) viewInflate.findViewById(R.id.app_settings_text_view)).setText(this.f6961a);
+        viewInflate.findViewById(R.id.app_settings_needed_button).setOnClickListener(new View.OnClickListener() { // from class: com.roblox.client.friends.a.1
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 a.this.f6963c.e(a.this.f6962b);

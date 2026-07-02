@@ -6,7 +6,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.v4.os.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ResultReceiver implements Parcelable {
     public static final Parcelable.Creator<ResultReceiver> CREATOR = new Parcelable.Creator<ResultReceiver>() { // from class: android.support.v4.os.ResultReceiver.1
         @Override // android.os.Parcelable.Creator

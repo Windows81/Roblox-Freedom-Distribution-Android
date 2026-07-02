@@ -2,7 +2,7 @@ package com.google.firebase.iid;
 
 import android.os.Bundle;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class l extends m<Void> {
     l(int i, int i2, Bundle bundle) {
         super(i, 2, bundle);

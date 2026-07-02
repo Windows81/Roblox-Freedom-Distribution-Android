@@ -9,7 +9,7 @@ import android.widget.ListView;
 import androidx.appcompat.view.menu.h;
 import androidx.appcompat.widget.TintTypedArray;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class ExpandedMenuView extends ListView implements AdapterView.OnItemClickListener, h.b, p {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

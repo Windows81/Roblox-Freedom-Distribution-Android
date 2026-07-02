@@ -6,7 +6,7 @@ import android.support.v7.a.a;
 import android.util.AttributeSet;
 import android.widget.SeekBar;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AppCompatSeekBar extends SeekBar {
     private final j mAppCompatSeekBarHelper;
 

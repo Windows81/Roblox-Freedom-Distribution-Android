@@ -12,7 +12,7 @@ import com.roblox.client.http.b;
 import com.roblox.client.pushnotification.l;
 import com.roblox.client.s.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RegistrationIntentService extends f {
     private static final String[] j = {"friends", "chat"};
 

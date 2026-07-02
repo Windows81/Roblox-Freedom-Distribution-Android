@@ -13,9 +13,10 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import com.roblox.client.R;
 import com.roblox.client.h;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RbxProgressButton extends RelativeLayout {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -120,7 +121,7 @@ public class RbxProgressButton extends RelativeLayout {
     }
 
     private void a(AttributeSet attributeSet) {
-        inflate(getContext(), 2131361937, this);
+        inflate(getContext(), R.layout.rbx_button_progress, this);
         TypedArray typedArrayObtainStyledAttributes = getContext().obtainStyledAttributes(attributeSet, h.b.RbxProgressButton);
         this.j = typedArrayObtainStyledAttributes.getString(3);
         this.k = typedArrayObtainStyledAttributes.getString(4);
@@ -128,12 +129,12 @@ public class RbxProgressButton extends RelativeLayout {
             this.j = "";
         }
         if (this.k == null) {
-            this.k = getContext().getString(h.a.CommonUI_Messages_Label_Working);
+            this.k = getContext().getString(R.string.CommonUI_Messages_Label_Working);
         }
-        this.f6704b = (RbxButton) findViewById(2131231084);
-        this.f6705c = (TextView) findViewById(2131231083);
-        this.f6706d = (ProgressBar) findViewById(2131231081);
-        this.e = (LinearLayout) findViewById(2131231082);
+        this.f6704b = (RbxButton) findViewById(R.id.rbxProgressBtnRbxBtn);
+        this.f6705c = (TextView) findViewById(R.id.rbxProgressBtnProgressText);
+        this.f6706d = (ProgressBar) findViewById(R.id.rbxProgressBtnProgressBar);
+        this.e = (LinearLayout) findViewById(R.id.rbxProgressBtnProgressContainer);
         this.f6704b.setText(this.j);
         this.f6705c.setText(this.k);
         m.a(this.f6705c, getContext(), attributeSet);
@@ -145,9 +146,9 @@ public class RbxProgressButton extends RelativeLayout {
         this.f6704b.setContentDescription(getContentDescription());
         this.e.setVisibility(4);
         this.f6703a = new o(this, attributeSet);
-        this.f6703a.a(typedArrayObtainStyledAttributes.getColor(7, getResources().getColor(2131034123)));
-        this.f6704b.setBackgroundResource(typedArrayObtainStyledAttributes.getResourceId(0, 2131167203));
-        setBackgroundResource(typedArrayObtainStyledAttributes.getResourceId(0, 2131167203));
+        this.f6703a.a(typedArrayObtainStyledAttributes.getColor(7, getResources().getColor(R.color.RbxGray4)));
+        this.f6704b.setBackgroundResource(typedArrayObtainStyledAttributes.getResourceId(0, R.drawable.rbx_drawable_flat_button_progress_blue));
+        setBackgroundResource(typedArrayObtainStyledAttributes.getResourceId(0, R.drawable.rbx_drawable_flat_button_progress_blue));
         f();
         typedArrayObtainStyledAttributes.recycle();
     }
@@ -261,7 +262,7 @@ public class RbxProgressButton extends RelativeLayout {
             this.f6705c.setText(i);
         }
         if (this.i == null) {
-            this.i = getResources().getString(h.a.CommonUI_Messages_Label_Working_InProgress);
+            this.i = getResources().getString(R.string.CommonUI_Messages_Label_Working_InProgress);
         }
         e();
     }

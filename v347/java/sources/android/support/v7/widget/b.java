@@ -2,7 +2,7 @@ package android.support.v7.widget;
 
 import android.graphics.Outline;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class b extends a {
     public b(ActionBarContainer actionBarContainer) {
         super(actionBarContainer);

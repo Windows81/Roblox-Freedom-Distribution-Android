@@ -8,7 +8,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.widget.CheckedTextView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AppCompatCheckedTextView extends CheckedTextView {
     private static final int[] TINT_ATTRS = {R.attr.checkMark};
     private final i mTextHelper;

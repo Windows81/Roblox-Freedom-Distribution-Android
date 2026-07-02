@@ -3,7 +3,7 @@ package com.google.android.material.tabs;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends View {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

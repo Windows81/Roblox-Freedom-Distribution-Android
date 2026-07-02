@@ -4,7 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.AppCompatCheckBox;
 import android.util.AttributeSet;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RbxCheckBox extends AppCompatCheckBox {
     public RbxCheckBox(Context context) {
         super(context);

@@ -2,7 +2,7 @@ package com.google.android.gms.internal.ads;
 
 import android.util.Base64;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class afu {
     public static String a(byte[] bArr, boolean z) {
         return Base64.encodeToString(bArr, z ? 11 : 2);

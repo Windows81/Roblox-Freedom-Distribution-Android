@@ -10,7 +10,7 @@ import android.graphics.drawable.shapes.Shape;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends FrameLayout {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

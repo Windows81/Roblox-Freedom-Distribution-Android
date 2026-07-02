@@ -4,7 +4,7 @@ import com.google.android.gms.common.internal.y;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class b {
     public static <T> int a(T[] tArr, T t) {
         int length = tArr != null ? tArr.length : 0;

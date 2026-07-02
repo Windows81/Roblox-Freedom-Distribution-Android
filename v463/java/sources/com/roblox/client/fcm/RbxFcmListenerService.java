@@ -10,7 +10,7 @@ import com.roblox.client.pushnotification.r;
 import com.roblox.client.s.c;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RbxFcmListenerService extends FirebaseMessagingService {
     @Override // com.google.firebase.messaging.FirebaseMessagingService
     public void onNewToken(String str) {

@@ -5,7 +5,7 @@ import androidx.lifecycle.u;
 import androidx.lifecycle.v;
 import com.roblox.client.g.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends u {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

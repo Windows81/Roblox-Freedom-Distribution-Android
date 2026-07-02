@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.view.ViewParent;
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class ViewStubCompat extends View {
     private OnInflateListener mInflateListener;
     private int mInflatedId;

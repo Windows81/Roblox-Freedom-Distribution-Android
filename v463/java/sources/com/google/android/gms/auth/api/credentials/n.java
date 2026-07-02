@@ -3,7 +3,7 @@ package com.google.android.gms.auth.api.credentials;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class n implements Parcelable.Creator<HintRequest> {
     @Override // android.os.Parcelable.Creator
     public final /* synthetic */ HintRequest createFromParcel(Parcel parcel) {

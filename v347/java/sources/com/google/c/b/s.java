@@ -1,6 +1,6 @@
 package com.google.c.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class s {
     static int a(int i) {
         return 461845907 * Integer.rotateLeft((-862048943) * i, 15);

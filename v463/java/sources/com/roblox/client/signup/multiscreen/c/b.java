@@ -25,7 +25,7 @@ import java.util.List;
 import org.greenrobot.eventbus.ThreadMode;
 import org.greenrobot.eventbus.j;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends s {
     private static a at = new a() { // from class: com.roblox.client.signup.multiscreen.c.b.1
         @Override // com.roblox.client.signup.multiscreen.c.b.a

@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import com.google.android.gms.b.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class asg extends aiz implements asf {
     public asg() {
         super("com.google.android.gms.ads.internal.customrenderedad.client.ICustomRenderedAd");

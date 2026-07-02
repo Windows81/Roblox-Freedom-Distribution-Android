@@ -4,7 +4,7 @@ import android.os.IInterface;
 import android.os.RemoteException;
 import com.google.android.gms.auth.api.credentials.CredentialRequest;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface o extends IInterface {
     void a(m mVar, CredentialRequest credentialRequest) throws RemoteException;
 

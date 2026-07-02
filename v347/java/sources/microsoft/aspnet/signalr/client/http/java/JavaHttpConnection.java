@@ -7,7 +7,7 @@ import microsoft.aspnet.signalr.client.http.HttpConnection;
 import microsoft.aspnet.signalr.client.http.HttpConnectionFuture;
 import microsoft.aspnet.signalr.client.http.Request;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class JavaHttpConnection implements HttpConnection {
     private static final String USER_AGENT_HEADER = "User-Agent";
     private Logger mLogger;

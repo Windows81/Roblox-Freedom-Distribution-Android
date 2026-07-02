@@ -7,7 +7,7 @@ import java.util.Map;
 import microsoft.aspnet.signalr.client.http.Request;
 import microsoft.aspnet.signalr.client.transport.ClientTransport;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface ConnectionBase {
     void closed(Runnable runnable);
 

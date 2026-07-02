@@ -6,7 +6,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class aoc implements Parcelable.Creator<zzjj> {
     @Override // android.os.Parcelable.Creator
     public final /* synthetic */ zzjj createFromParcel(Parcel parcel) {

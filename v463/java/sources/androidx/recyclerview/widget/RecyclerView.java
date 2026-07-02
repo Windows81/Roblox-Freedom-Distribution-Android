@@ -48,7 +48,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RecyclerView extends ViewGroup implements androidx.core.h.j {
     static final Interpolator L;
     private static final int[] M = {R.attr.nestedScrollingEnabled};

@@ -6,7 +6,7 @@ import java.lang.Thread;
 import java.util.concurrent.FutureTask;
 
 /* JADX INFO: Add missing generic type declarations: [T] */
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class u<T> extends FutureTask<T> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

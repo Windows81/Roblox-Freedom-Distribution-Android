@@ -8,7 +8,7 @@ import android.os.Parcelable;
 import android.util.Base64;
 import android.util.Log;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class FirebaseInstanceIdReceiver extends androidx.legacy.a.a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

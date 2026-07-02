@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import microsoft.aspnet.signalr.client.Action;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class Subscription {
     private List<Action<k[]>> mReceived = new ArrayList();
 

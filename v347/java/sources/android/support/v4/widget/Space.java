@@ -6,7 +6,7 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class Space extends View {
     public Space(Context context, AttributeSet attributeSet, int i) {
         super(context, attributeSet, i);

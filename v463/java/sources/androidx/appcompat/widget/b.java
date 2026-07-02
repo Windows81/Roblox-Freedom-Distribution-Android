@@ -17,7 +17,7 @@ import androidx.appcompat.widget.ActionMenuView;
 import androidx.core.h.b;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class b extends androidx.appcompat.view.menu.b implements b.a {
     private C0019b A;
     d g;

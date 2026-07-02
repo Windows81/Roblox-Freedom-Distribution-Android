@@ -2,7 +2,7 @@ package androidx.core.h;
 
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface l {
     boolean onNestedFling(View view, float f, float f2, boolean z);
 

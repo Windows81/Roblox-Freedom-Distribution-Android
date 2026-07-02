@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class p implements Parcelable.Creator<PasswordSpecification> {
     @Override // android.os.Parcelable.Creator
     public final /* synthetic */ PasswordSpecification createFromParcel(Parcel parcel) {

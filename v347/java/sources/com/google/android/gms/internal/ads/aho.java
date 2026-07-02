@@ -3,7 +3,7 @@ package com.google.android.gms.internal.ads;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class aho implements ThreadFactory {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

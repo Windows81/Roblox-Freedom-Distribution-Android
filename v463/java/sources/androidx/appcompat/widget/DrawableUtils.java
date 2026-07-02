@@ -12,7 +12,7 @@ import android.os.Build;
 import android.util.Log;
 import java.lang.reflect.Field;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class DrawableUtils {
     public static final Rect INSETS_NONE = new Rect();
     private static final String TAG = "DrawableUtils";

@@ -4,7 +4,7 @@ import c.aa;
 import c.ac;
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface e {
     b a(ac acVar) throws IOException;
 

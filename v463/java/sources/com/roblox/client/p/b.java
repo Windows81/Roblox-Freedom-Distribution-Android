@@ -7,11 +7,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.q;
+import com.roblox.client.AbstractActivityC0192r;
 import com.roblox.client.ae.k;
 import com.roblox.client.o;
-import com.roblox.client.r;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -29,16 +29,16 @@ public class b {
     public View a(LayoutInflater layoutInflater, Fragment fragment) {
         androidx.fragment.app.c cVarR;
         View viewA = a(layoutInflater);
-        if (fragment != null && (cVarR = fragment.r()) != null && (cVarR instanceof r)) {
-            a((r) cVarR);
+        if (fragment != null && (cVarR = fragment.r()) != null && (cVarR instanceof AbstractActivityC0192r)) {
+            a((AbstractActivityC0192r) cVarR);
         }
         return viewA;
     }
 
-    public View a(LayoutInflater layoutInflater, r rVar) {
+    public View a(LayoutInflater layoutInflater, AbstractActivityC0192r abstractActivityC0192r) {
         View viewA = a(layoutInflater);
-        if (rVar != null && (rVar instanceof r)) {
-            a(rVar);
+        if (abstractActivityC0192r != null && (abstractActivityC0192r instanceof AbstractActivityC0192r)) {
+            a(abstractActivityC0192r);
         }
         return viewA;
     }
@@ -96,9 +96,9 @@ public class b {
         }
     }
 
-    private void a(r rVar) {
-        if (rVar != null) {
-            rVar.L().a().a(rVar, new q<Rect>() { // from class: com.roblox.client.p.b.1
+    private void a(AbstractActivityC0192r abstractActivityC0192r) {
+        if (abstractActivityC0192r != null) {
+            abstractActivityC0192r.L().a().a(abstractActivityC0192r, new q<Rect>() { // from class: com.roblox.client.p.b.1
                 @Override // androidx.lifecycle.q
                 public void a(Rect rect) {
                     if (rect != null) {

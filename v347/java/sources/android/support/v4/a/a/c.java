@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import org.xmlpull.v1.XmlPullParser;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c {
     public static boolean a(XmlPullParser xmlPullParser, String str) {
         return xmlPullParser.getAttributeValue("http://schemas.android.com/apk/res/android", str) != null;

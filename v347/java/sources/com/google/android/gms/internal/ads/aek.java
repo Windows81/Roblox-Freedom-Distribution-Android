@@ -11,7 +11,7 @@ jadx.core.utils.exceptions.JadxRuntimeException: Init of enum field 'i' uses ext
 	at jadx.core.dex.visitors.EnumVisitor.visit(EnumVisitor.java:100)
  */
 /* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class aek {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

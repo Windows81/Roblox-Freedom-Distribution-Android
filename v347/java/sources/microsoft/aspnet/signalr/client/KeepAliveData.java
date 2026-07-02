@@ -2,7 +2,7 @@ package microsoft.aspnet.signalr.client;
 
 import java.util.Calendar;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class KeepAliveData {
     private long mCheckInterval;
     private double mKeepAliveWarnAt = 0.6666666666666666d;

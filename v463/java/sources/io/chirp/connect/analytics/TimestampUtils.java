@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class TimestampUtils {
     private TimestampUtils() {
     }

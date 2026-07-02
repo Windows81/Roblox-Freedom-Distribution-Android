@@ -28,7 +28,7 @@ import androidx.appcompat.a;
 import androidx.appcompat.app.a;
 import androidx.appcompat.widget.LinearLayoutCompat;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ScrollingTabContainerView extends HorizontalScrollView implements AdapterView.OnItemSelectedListener {
     private static final int FADE_DURATION = 200;
     private static final String TAG = "ScrollingTabContainerView";

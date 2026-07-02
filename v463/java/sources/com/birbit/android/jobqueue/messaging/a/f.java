@@ -1,6 +1,6 @@
 package com.birbit.android.jobqueue.messaging.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f extends com.birbit.android.jobqueue.messaging.b {
     @Override // com.birbit.android.jobqueue.messaging.b
     protected void a() {

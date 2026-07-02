@@ -3,7 +3,7 @@ package com.google.gson;
 import java.io.IOException;
 import java.io.StringWriter;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class l {
     public boolean g() {
         return this instanceof i;

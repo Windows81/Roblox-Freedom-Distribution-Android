@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.widget.SearchView;
 import android.widget.TextView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RbxSearchView extends SearchView {
     public RbxSearchView(Context context) {
         super(context);

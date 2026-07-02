@@ -3,7 +3,7 @@ package com.roblox.client.routing;
 import com.roblox.client.p;
 import com.roblox.client.s.f;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
     public void a() {
         f.b().a("Android-AppRouter-ParseRouteCalled");

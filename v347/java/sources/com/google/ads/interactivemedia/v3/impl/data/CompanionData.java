@@ -1,6 +1,6 @@
 package com.google.ads.interactivemedia.v3.impl.data;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @com.google.b.a(a = f.class)
 public abstract class CompanionData {
     private String companionId;

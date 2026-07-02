@@ -1,6 +1,6 @@
 package com.google.android.gms.internal.measurement;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class ih extends ig {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

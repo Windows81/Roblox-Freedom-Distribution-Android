@@ -3,7 +3,7 @@ package com.google.ads.mediation.customevent;
 import com.google.ads.mediation.MediationServerParameters;
 import com.google.android.gms.ads.reward.mediation.MediationRewardedVideoAdAdapter;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class CustomEventServerParameters extends MediationServerParameters {
 
     @MediationServerParameters.Parameter(name = "class_name", required = true)

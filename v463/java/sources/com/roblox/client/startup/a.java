@@ -14,7 +14,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends androidx.fragment.app.b {
     private static final long ag = TimeUnit.DAYS.toMillis(1);
     private static boolean ah = false;

@@ -2,7 +2,7 @@ package com.google.c.b;
 
 import java.io.Serializable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class w<K, V> extends m<K, V> implements Serializable {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

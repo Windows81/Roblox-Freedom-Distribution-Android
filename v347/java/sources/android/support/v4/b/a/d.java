@@ -4,7 +4,7 @@ import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.support.v4.b.a.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class d extends c {
     d(Drawable drawable) {
         super(drawable);

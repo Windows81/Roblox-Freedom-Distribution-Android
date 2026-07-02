@@ -9,7 +9,7 @@ import android.graphics.Rect;
 import android.graphics.Region;
 import android.graphics.drawable.Drawable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class c extends Drawable implements Drawable.Callback, android.support.v4.b.a.b, f {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

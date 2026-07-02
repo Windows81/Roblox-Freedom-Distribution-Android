@@ -2,7 +2,7 @@ package com.google.gson.internal;
 
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class d {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

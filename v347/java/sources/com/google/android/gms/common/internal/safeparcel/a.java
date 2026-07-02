@@ -6,7 +6,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a {
 
     /* JADX INFO: renamed from: com.google.android.gms.common.internal.safeparcel.a$a, reason: collision with other inner class name */

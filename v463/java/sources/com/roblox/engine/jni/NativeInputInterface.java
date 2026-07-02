@@ -1,6 +1,6 @@
 package com.roblox.engine.jni;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NativeInputInterface {
     public static native void nativeGamepadAxisEvent(int i, int i2, float f, float f2, float f3);
 

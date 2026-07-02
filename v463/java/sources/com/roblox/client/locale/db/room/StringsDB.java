@@ -3,7 +3,7 @@ package com.roblox.client.locale.db.room;
 import android.content.Context;
 import androidx.h.e;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class StringsDB extends e {
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */

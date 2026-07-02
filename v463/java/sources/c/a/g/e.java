@@ -11,7 +11,7 @@ import java.util.Map;
 import javax.net.ssl.X509TrustManager;
 import javax.security.auth.x500.X500Principal;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class e {
     public abstract X509Certificate a(X509Certificate x509Certificate);
 

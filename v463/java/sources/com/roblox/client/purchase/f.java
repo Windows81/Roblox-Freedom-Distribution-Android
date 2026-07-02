@@ -3,7 +3,7 @@ package com.roblox.client.purchase;
 import android.content.Context;
 import java.io.Serializable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class f implements Serializable {
     public abstract CharSequence a(Context context);
 

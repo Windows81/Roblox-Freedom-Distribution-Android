@@ -2,7 +2,7 @@ package com.birbit.android.jobqueue.messaging.a;
 
 import com.birbit.android.jobqueue.IntCallback;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h extends com.birbit.android.jobqueue.messaging.b implements IntCallback.MessageWithCallback {
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */

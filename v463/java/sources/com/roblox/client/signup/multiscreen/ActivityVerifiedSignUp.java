@@ -22,7 +22,7 @@ import com.roblox.client.signup.multiscreen.c.d;
 import com.roblox.client.signup.multiscreen.c.g;
 import com.roblox.client.signup.multiscreen.e.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityVerifiedSignUp extends q implements a.InterfaceC0129a, a.InterfaceC0163a, a.InterfaceC0178a, c.a, d.a, g.b {
     private androidx.appcompat.app.a q;
     private d r;
@@ -32,7 +32,7 @@ public class ActivityVerifiedSignUp extends q implements a.InterfaceC0129a, a.In
     public void n() {
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(o.g.activity_sign_up_multi_screen);

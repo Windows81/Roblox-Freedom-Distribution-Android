@@ -7,7 +7,7 @@ import android.os.Parcelable;
 import android.util.Log;
 import androidx.lifecycle.x;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class FragmentState implements Parcelable {
     public static final Parcelable.Creator<FragmentState> CREATOR = new Parcelable.Creator<FragmentState>() { // from class: androidx.fragment.app.FragmentState.1
         @Override // android.os.Parcelable.Creator

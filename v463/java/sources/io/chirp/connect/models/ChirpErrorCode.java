@@ -1,6 +1,6 @@
 package io.chirp.connect.models;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum ChirpErrorCode {
     CHIRP_CONNECT_OK(0),
     CHIRP_CONNECT_OUT_OF_MEMORY_ERROR(1),

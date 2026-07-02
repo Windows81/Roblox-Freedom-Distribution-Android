@@ -3,7 +3,7 @@ package com.google.android.gms.common;
 import com.google.android.gms.common.g;
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class q extends g.a {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

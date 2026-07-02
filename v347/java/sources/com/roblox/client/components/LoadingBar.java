@@ -6,9 +6,10 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import com.roblox.client.R;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class LoadingBar extends LinearLayout {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -36,10 +37,10 @@ public class LoadingBar extends LinearLayout {
     }
 
     private void a() {
-        inflate(getContext(), 2131361912, this);
-        this.f6648a.add((ImageView) findViewById(2131230872));
-        this.f6648a.add((ImageView) findViewById(2131230873));
-        this.f6648a.add((ImageView) findViewById(2131230874));
+        inflate(getContext(), R.layout.loading_bar, this);
+        this.f6648a.add((ImageView) findViewById(R.id.dotImage1));
+        this.f6648a.add((ImageView) findViewById(R.id.dotImage2));
+        this.f6648a.add((ImageView) findViewById(R.id.dotImage3));
     }
 
     @Override // android.view.View

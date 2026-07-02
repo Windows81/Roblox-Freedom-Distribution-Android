@@ -11,7 +11,7 @@ import androidx.databinding.e;
 import com.roblox.client.o;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends a {
     private static final ViewDataBinding.b j = null;
     private static final SparseIntArray k;

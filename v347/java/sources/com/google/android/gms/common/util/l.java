@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import javax.annotation.Nullable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class l {
     public static long a(InputStream inputStream, OutputStream outputStream, boolean z) throws IOException {
         return a(inputStream, outputStream, z, 1024);

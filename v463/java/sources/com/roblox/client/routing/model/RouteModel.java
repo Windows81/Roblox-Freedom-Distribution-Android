@@ -1,6 +1,6 @@
 package com.roblox.client.routing.model;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RouteModel {
     public final String android_default_action_handler;
     public final String default_action;

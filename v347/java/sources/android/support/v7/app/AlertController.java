@@ -38,7 +38,7 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class AlertController {
     private CharSequence B;
     private CharSequence C;

@@ -4,7 +4,7 @@ import android.net.Uri;
 import android.provider.ContactsContract;
 import com.roblox.client.contacts.model.ContactRequestObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

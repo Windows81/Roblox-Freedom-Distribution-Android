@@ -5,7 +5,7 @@ import com.roblox.client.o;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c extends androidx.recyclerview.widget.c {
     @Override // androidx.recyclerview.widget.k, androidx.recyclerview.widget.RecyclerView.f
     public boolean h(RecyclerView.w wVar) {

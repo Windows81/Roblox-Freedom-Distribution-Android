@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import androidx.databinding.f;
 import com.roblox.client.o;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class e extends com.roblox.client.friends.nearby.a.b.a<com.roblox.client.friends.nearby.b.a.a, com.roblox.client.h.a> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

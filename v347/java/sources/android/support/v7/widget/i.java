@@ -15,7 +15,7 @@ import android.graphics.drawable.shapes.Shape;
 import android.util.AttributeSet;
 import android.widget.ProgressBar;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class i {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

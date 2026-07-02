@@ -27,7 +27,7 @@ import java.util.concurrent.TimeUnit;
 import javax.net.ssl.SSLPeerUnverifiedException;
 import javax.net.ssl.SSLSocket;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class c extends d.b implements i {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

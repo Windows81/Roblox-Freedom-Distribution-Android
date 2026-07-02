@@ -1,6 +1,6 @@
 package io.chirp.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface d {
     void processShortsInput(byte[] bArr);
 

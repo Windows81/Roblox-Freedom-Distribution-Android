@@ -8,7 +8,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.h.r;
 import androidx.customview.a.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SwipeDismissBehavior<V extends View> extends CoordinatorLayout.b<V> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

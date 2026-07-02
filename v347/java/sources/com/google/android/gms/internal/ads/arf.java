@@ -3,7 +3,7 @@ package com.google.android.gms.internal.ads;
 import android.content.SharedPreferences;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class arf extends are<Boolean> {
     arf(int i, String str, Boolean bool) {
         super(i, str, bool, null);

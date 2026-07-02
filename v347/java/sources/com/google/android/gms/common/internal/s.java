@@ -8,7 +8,7 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import com.google.android.gms.common.internal.r;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface s extends IInterface {
 
     public static abstract class a extends Binder implements s {

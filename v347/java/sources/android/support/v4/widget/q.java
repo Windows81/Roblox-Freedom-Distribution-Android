@@ -12,7 +12,7 @@ import android.view.animation.Interpolator;
 import android.widget.OverScroller;
 import java.util.Arrays;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class q {
     private static final Interpolator v = new Interpolator() { // from class: android.support.v4.widget.q.1
         @Override // android.animation.TimeInterpolator

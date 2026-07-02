@@ -10,7 +10,7 @@ import java.util.ArrayDeque;
 import java.util.Iterator;
 import java.util.Queue;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class FirebaseMessagingService extends ad {
     private static final Queue<String> zzdo = new ArrayDeque(10);
 

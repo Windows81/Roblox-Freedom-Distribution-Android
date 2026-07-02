@@ -1,6 +1,6 @@
 package com.birbit.android.jobqueue.log;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface CustomLogger {
     void d(String str, Object... objArr);
 

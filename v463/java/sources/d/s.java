@@ -3,7 +3,7 @@ package d;
 import java.io.Closeable;
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface s extends Closeable {
     long a(c cVar, long j) throws IOException;
 

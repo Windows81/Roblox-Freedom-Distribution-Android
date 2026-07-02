@@ -3,7 +3,7 @@ package com.google.gson.internal.bind;
 import com.google.gson.v;
 import com.google.gson.w;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class TypeAdapters$31 implements w {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

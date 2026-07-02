@@ -4,7 +4,7 @@ import com.appsflyer.internal.af;
 import com.appsflyer.internal.c;
 import com.google.firebase.messaging.FirebaseMessagingService;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class FirebaseMessagingServiceListener extends FirebaseMessagingService {
     @Override // com.google.firebase.messaging.FirebaseMessagingService
     public void onNewToken(String str) {

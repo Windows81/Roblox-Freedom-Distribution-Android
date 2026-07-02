@@ -11,7 +11,7 @@ import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLException;
 import javax.net.ssl.SSLSession;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class d implements HostnameVerifier {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

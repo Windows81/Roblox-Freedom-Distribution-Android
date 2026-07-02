@@ -3,7 +3,7 @@ package com.google.android.gms.common.internal.safeparcel;
 import android.content.Intent;
 import android.os.Parcel;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class c {
     public static <T extends SafeParcelable> void a(T t, Intent intent, String str) {
         intent.putExtra(str, a(t));

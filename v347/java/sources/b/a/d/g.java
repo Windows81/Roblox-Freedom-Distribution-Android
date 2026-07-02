@@ -2,7 +2,7 @@ package b.a.d;
 
 import microsoft.aspnet.signalr.client.Constants;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class g {
     public static boolean a(String str) {
         return str.equals(Constants.HTTP_POST) || str.equals("PATCH") || str.equals("PUT") || str.equals("DELETE") || str.equals("MOVE");

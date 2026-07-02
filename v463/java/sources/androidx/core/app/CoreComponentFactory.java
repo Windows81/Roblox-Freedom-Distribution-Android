@@ -8,7 +8,7 @@ import android.content.BroadcastReceiver;
 import android.content.ContentProvider;
 import android.content.Intent;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class CoreComponentFactory extends AppComponentFactory {
 
     public interface a {

@@ -2,7 +2,7 @@ package com.google.firebase.iid;
 
 import com.google.firebase.iid.Registrar;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final /* synthetic */ class r implements com.google.firebase.components.d {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

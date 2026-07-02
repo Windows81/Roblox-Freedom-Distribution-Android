@@ -3,7 +3,7 @@ package com.google.android.gms.internal.ads;
 import android.os.Bundle;
 import com.google.ads.mediation.admob.AdMobAdapter;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @cm
 public final class lq {
     public static boolean a(zzjj zzjjVar) {

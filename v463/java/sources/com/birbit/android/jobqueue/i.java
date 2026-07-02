@@ -3,7 +3,7 @@ package com.birbit.android.jobqueue;
 import com.birbit.android.jobqueue.scheduling.Scheduler;
 import java.util.concurrent.TimeUnit;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class i {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

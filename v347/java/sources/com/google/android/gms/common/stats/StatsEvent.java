@@ -3,7 +3,7 @@ package com.google.android.gms.common.stats;
 import com.google.android.gms.common.internal.ReflectedParcelable;
 import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class StatsEvent extends AbstractSafeParcelable implements ReflectedParcelable {
     public abstract long a();
 

@@ -5,7 +5,7 @@ import java.util.Formatter;
 import java.util.Map;
 import microsoft.aspnet.signalr.client.Constants;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class v {
     v() {
     }

@@ -1,6 +1,6 @@
 package io.chirp.connect;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class BuildConfig {
     public static final String APPLICATION_ID = "io.chirp.connect";
     public static final String BUILD_TYPE = "release";

@@ -6,7 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.util.Log;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class h implements DialogInterface.OnClickListener {
     public static h a(Activity activity, Intent intent, int i) {
         return new ab(intent, activity, i);

@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.widget.LinearLayout;
 import androidx.appcompat.widget.FitWindowsViewGroup;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class FitWindowsLinearLayout extends LinearLayout implements FitWindowsViewGroup {
     private FitWindowsViewGroup.OnFitSystemWindowsListener mListener;
 

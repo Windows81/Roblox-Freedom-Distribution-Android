@@ -4,7 +4,7 @@ import android.net.Uri;
 import android.os.IInterface;
 import android.os.RemoteException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface aub extends IInterface {
     com.google.android.gms.b.a a() throws RemoteException;
 

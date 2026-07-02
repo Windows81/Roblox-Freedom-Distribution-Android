@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import microsoft.aspnet.signalr.client.ErrorCallback;
 import microsoft.aspnet.signalr.client.SignalRFuture;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class HttpConnectionFuture extends SignalRFuture<Void> {
     private ErrorCallback mTimeoutCallback;
     private Queue<Throwable> mTimeoutQueue = new ConcurrentLinkedQueue();

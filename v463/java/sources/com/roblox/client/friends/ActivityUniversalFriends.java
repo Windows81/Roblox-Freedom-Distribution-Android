@@ -37,7 +37,7 @@ import java.util.List;
 import org.greenrobot.eventbus.ThreadMode;
 import org.greenrobot.eventbus.j;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityUniversalFriends extends q implements h.a, a.InterfaceC0134a, b.a, d.b, a.InterfaceC0142a, b.a {
     public static int q;
     public static int r;
@@ -48,7 +48,7 @@ public class ActivityUniversalFriends extends q implements h.a, a.InterfaceC0134
     private c w;
     private d.a x;
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(o.g.activity_universal_friends);
@@ -180,7 +180,7 @@ public class ActivityUniversalFriends extends q implements h.a, a.InterfaceC0134
         return super.onOptionsItemSelected(menuItem);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         org.greenrobot.eventbus.c.a().a(this);
@@ -188,7 +188,7 @@ public class ActivityUniversalFriends extends q implements h.a, a.InterfaceC0134
         p.b("universalFriends");
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         com.roblox.client.ae.k.c("ActivityUniversalFriends", "onResume. Tab selected: " + this.v);
@@ -203,14 +203,14 @@ public class ActivityUniversalFriends extends q implements h.a, a.InterfaceC0134
         }
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStop() {
         super.onStop();
         org.greenrobot.eventbus.c.a().b(this);
         RealtimeService.a(this.t);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onDestroy() {
         super.onDestroy();
         A();

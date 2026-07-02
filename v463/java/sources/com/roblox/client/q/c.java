@@ -1,6 +1,6 @@
 package com.roblox.client.q;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c extends com.roblox.engine.jni.user.a {
     @Override // com.roblox.engine.jni.user.a
     public String e() {

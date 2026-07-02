@@ -1,6 +1,6 @@
 package com.roblox.client.util;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class i {
     public static boolean a(int[] iArr) {
         if (iArr.length < 1) {

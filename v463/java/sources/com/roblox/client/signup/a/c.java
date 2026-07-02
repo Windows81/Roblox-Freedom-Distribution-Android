@@ -7,7 +7,7 @@ import com.roblox.client.signup.a;
 import com.roblox.client.u;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c extends f {
     public c(com.roblox.client.s.f fVar, a.h hVar) {
         super(fVar, hVar);

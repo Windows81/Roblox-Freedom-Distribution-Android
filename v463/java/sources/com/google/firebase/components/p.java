@@ -1,6 +1,6 @@
 package com.google.firebase.components;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class p<T> implements com.google.firebase.b.a<T> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

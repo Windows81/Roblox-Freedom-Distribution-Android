@@ -2,7 +2,7 @@ package b;
 
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum x {
     HTTP_1_0("http/1.0"),
     HTTP_1_1("http/1.1"),

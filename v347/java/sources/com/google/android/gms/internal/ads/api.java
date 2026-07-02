@@ -4,7 +4,7 @@ import android.os.IBinder;
 import android.os.IInterface;
 import android.os.RemoteException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface api extends IInterface {
     IBinder a(com.google.android.gms.b.a aVar, zzjn zzjnVar, String str, bbu bbuVar, int i, int i2) throws RemoteException;
 }

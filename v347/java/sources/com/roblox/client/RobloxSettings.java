@@ -7,7 +7,6 @@ import android.os.Build;
 import android.provider.Settings;
 import android.text.TextUtils;
 import com.roblox.client.components.q;
-import com.roblox.client.h;
 import com.roblox.engine.jni.NativeSettingsInterface;
 import java.io.File;
 import java.io.IOException;
@@ -22,7 +21,7 @@ import microsoft.aspnet.signalr.client.Constants;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class RobloxSettings {
     private static final String AMAZON_APP_STORE = " AmazonAppStore";
     public static final String API_SUB_DOMAIN = "api";
@@ -128,7 +127,7 @@ public class RobloxSettings {
     }
 
     static void updateDeviceType(Context context) {
-        isSw500dp = context.getResources().getBoolean(2130968581);
+        isSw500dp = context.getResources().getBoolean(R.bool.sw500dp);
         mIsChrome = context.getPackageManager().hasSystemFeature("org.chromium.arc.device_management");
     }
 
@@ -793,7 +792,7 @@ public class RobloxSettings {
             mVersion = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
             mDeviceDensity = context.getResources().getDisplayMetrics().densityDpi;
             if (!p.a()) {
-                mDeviceNotSupported = context.getString(h.a.CommonUI_Messages_Response_RequiresNEONInstructions);
+                mDeviceNotSupported = context.getString(R.string.CommonUI_Messages_Response_RequiresNEONInstructions);
                 mDeviceNotSupportedSkippable = false;
             } else if (p.b(context).x < 180) {
                 mDeviceNotSupported = "";
@@ -854,7 +853,7 @@ public class RobloxSettings {
 
     public static String ageVisibilityText(Context context) {
         String str = com.roblox.client.q.d.a().f() + " ";
-        return com.roblox.client.q.d.a().g() ? str + context.getString(h.a.CommonUI_Features_Heading_VisibleAgeUnder13) : str + context.getString(h.a.CommonUI_Features_Heading_VisibleAgeOver13);
+        return com.roblox.client.q.d.a().g() ? str + context.getString(R.string.CommonUI_Features_Heading_VisibleAgeUnder13) : str + context.getString(R.string.CommonUI_Features_Heading_VisibleAgeOver13);
     }
 
     public static boolean isShowVisibleAge() {

@@ -2,7 +2,7 @@ package com.google.android.gms.internal.measurement;
 
 import com.google.android.gms.internal.measurement.ao;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface aq<U extends ao> {
     U a();
 

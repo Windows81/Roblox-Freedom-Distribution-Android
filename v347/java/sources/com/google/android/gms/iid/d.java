@@ -3,7 +3,7 @@ package com.google.android.gms.iid;
 import android.os.Bundle;
 import android.util.Log;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class d extends aj<Bundle> {
     d(int i, int i2, Bundle bundle) {
         super(i, 1, bundle);

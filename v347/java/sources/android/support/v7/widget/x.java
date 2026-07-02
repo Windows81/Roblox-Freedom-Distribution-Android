@@ -7,7 +7,7 @@ import android.graphics.Color;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class x {
     private static final ThreadLocal<TypedValue> i = new ThreadLocal<>();
 

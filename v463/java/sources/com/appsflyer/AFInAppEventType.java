@@ -1,6 +1,6 @@
 package com.appsflyer;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface AFInAppEventType {
     public static final String ACHIEVEMENT_UNLOCKED = "af_achievement_unlocked";
     public static final String ADD_PAYMENT_INFO = "af_add_payment_info";

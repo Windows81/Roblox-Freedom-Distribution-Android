@@ -17,7 +17,7 @@ import com.roblox.client.s.h;
 import com.roblox.client.startup.ActivitySplash;
 import com.roblox.client.startup.e;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class DefaultPushNotificationReceiver extends BroadcastReceiver {
     @Override // android.content.BroadcastReceiver
     public void onReceive(Context context, Intent intent) {

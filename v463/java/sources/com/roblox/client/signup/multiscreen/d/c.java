@@ -10,7 +10,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c extends b {
     public c(String str, com.roblox.client.signup.multiscreen.a.a aVar, s sVar, x xVar) {
         super(str, aVar, sVar, xVar);

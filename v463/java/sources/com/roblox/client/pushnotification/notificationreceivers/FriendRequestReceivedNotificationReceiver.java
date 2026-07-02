@@ -15,7 +15,7 @@ import e.b;
 import e.d;
 import e.l;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class FriendRequestReceivedNotificationReceiver extends a {
     @Override // com.roblox.client.pushnotification.notificationreceivers.a, android.content.BroadcastReceiver
     public void onReceive(Context context, Intent intent) {

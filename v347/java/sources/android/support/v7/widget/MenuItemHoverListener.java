@@ -2,7 +2,7 @@ package android.support.v7.widget;
 
 import android.view.MenuItem;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface MenuItemHoverListener {
     void onItemHoverEnter(android.support.v7.view.menu.h hVar, MenuItem menuItem);
 

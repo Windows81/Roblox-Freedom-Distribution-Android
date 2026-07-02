@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.widget.Toast;
 import com.roblox.client.o;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g {
     public static void a(Context context) {
         a(context, "mailto:info@roblox.com");

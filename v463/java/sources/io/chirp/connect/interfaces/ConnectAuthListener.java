@@ -2,7 +2,7 @@ package io.chirp.connect.interfaces;
 
 import io.chirp.connect.models.ChirpError;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface ConnectAuthListener {
     void onError(ChirpError chirpError);
 

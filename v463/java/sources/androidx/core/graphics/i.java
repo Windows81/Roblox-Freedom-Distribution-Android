@@ -18,7 +18,7 @@ import java.nio.ByteBuffer;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class i {
     public static File a(Context context) {
         String str = ".font" + Process.myPid() + "-" + Process.myTid() + "-";

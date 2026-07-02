@@ -9,7 +9,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.TypedValue;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class b {
     public static Drawable a(Resources resources, int i, Resources.Theme theme) throws Resources.NotFoundException {
         return Build.VERSION.SDK_INT >= 21 ? resources.getDrawable(i, theme) : resources.getDrawable(i);

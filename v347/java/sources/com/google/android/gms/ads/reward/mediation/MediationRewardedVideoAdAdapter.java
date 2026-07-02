@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import com.google.android.gms.ads.mediation.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface MediationRewardedVideoAdAdapter extends b {
     public static final String CUSTOM_EVENT_SERVER_PARAMETER_FIELD = "parameter";
 

@@ -2,7 +2,7 @@ package androidx.media;
 
 import android.media.AudioAttributes;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class AudioAttributesImplApi21Parcelizer {
     public static b read(androidx.versionedparcelable.a aVar) {
         b bVar = new b();

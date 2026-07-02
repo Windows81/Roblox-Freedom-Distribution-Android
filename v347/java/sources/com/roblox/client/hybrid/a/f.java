@@ -4,7 +4,7 @@ import com.roblox.a.c;
 import com.roblox.client.e.q;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f extends com.roblox.a.c {
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     public f() {

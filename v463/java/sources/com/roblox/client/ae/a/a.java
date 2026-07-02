@@ -3,7 +3,7 @@ package com.roblox.client.ae.a;
 import android.content.Context;
 import android.text.style.ClickableSpan;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a extends ClickableSpan {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

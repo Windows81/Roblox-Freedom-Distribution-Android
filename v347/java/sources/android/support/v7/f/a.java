@@ -2,7 +2,7 @@ package android.support.v7.f;
 
 import java.util.Comparator;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a<T> {
 
     /* JADX INFO: renamed from: android.support.v7.f.a$a, reason: collision with other inner class name */

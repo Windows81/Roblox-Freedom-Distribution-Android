@@ -3,7 +3,7 @@ package com.roblox.client.g;
 import android.app.Activity;
 import android.content.Intent;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface a {
 
     /* JADX INFO: renamed from: com.roblox.client.g.a$a, reason: collision with other inner class name */

@@ -4,7 +4,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Process;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class PriorityWorkerThread extends Thread {
     public Handler handler;
 

@@ -26,7 +26,7 @@ import com.google.android.material.snackbar.BaseTransientBottomBar;
 import com.google.android.material.snackbar.b;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class BaseTransientBottomBar<B extends BaseTransientBottomBar<B>> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

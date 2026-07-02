@@ -1,6 +1,5 @@
 package com.roblox.client;
 
-import android.R;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -30,7 +29,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Pattern;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class x {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -81,7 +80,7 @@ public class x {
     public static androidx.appcompat.app.b a(Context context, String str) {
         TextView textView = new TextView(context);
         textView.setText(str);
-        textView.setTextAppearance(context, R.style.TextAppearance.DeviceDefault.Large);
+        textView.setTextAppearance(context, android.R.style.TextAppearance.DeviceDefault.Large);
         textView.setTextSize(20.0f);
         textView.setEllipsize(null);
         androidx.appcompat.app.b bVarB = new b.a(context).b();
@@ -206,7 +205,7 @@ public class x {
 
     public static void a(Activity activity) {
         if (activity != null) {
-            ((InputMethodManager) activity.getSystemService("input_method")).hideSoftInputFromWindow(activity.findViewById(R.id.content).getWindowToken(), 0);
+            ((InputMethodManager) activity.getSystemService("input_method")).hideSoftInputFromWindow(activity.findViewById(android.R.id.content).getWindowToken(), 0);
         }
     }
 

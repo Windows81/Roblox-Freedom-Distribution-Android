@@ -2,7 +2,7 @@ package com.google.c.b;
 
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class m<K, V> implements Map.Entry<K, V> {
     @Override // java.util.Map.Entry
     public abstract K getKey();

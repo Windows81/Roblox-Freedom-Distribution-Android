@@ -1,6 +1,6 @@
 package com.roblox.client.friends.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class d {
     public void a() {
     }

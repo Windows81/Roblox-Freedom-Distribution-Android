@@ -1,6 +1,6 @@
 package com.roblox.client;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum g {
     ERROR_APK_FILE_NOT_FOUND("apk_file_not_found"),
     ERROR_APK_ZIP_FILE_CANT_OPEN("apk_file_cant_open"),

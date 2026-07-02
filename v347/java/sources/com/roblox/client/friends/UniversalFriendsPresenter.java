@@ -6,7 +6,7 @@ import android.arch.lifecycle.m;
 import android.util.Log;
 import com.roblox.client.friends.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class UniversalFriendsPresenter implements f, c.a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

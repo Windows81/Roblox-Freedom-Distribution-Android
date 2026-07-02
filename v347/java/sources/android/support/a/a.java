@@ -1,8 +1,8 @@
 package android.support.a;
 
-import android.R;
+import com.roblox.client.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class a {
 
     /* JADX INFO: renamed from: android.support.a.a$a, reason: collision with other inner class name */
@@ -36,8 +36,8 @@ public final class a {
     }
 
     public static final class b {
-        public static final int[] FontFamily = {2130903212, 2130903213, 2130903214, 2130903215, 2130903216, 2130903217};
-        public static final int[] FontFamilyFont = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, 2130903209, 2130903218, 2130903219};
+        public static final int[] FontFamily = {R.attr.fontProviderAuthority, R.attr.fontProviderCerts, R.attr.fontProviderFetchStrategy, R.attr.fontProviderFetchTimeout, R.attr.fontProviderPackage, R.attr.fontProviderQuery};
+        public static final int[] FontFamilyFont = {android.R.attr.font, android.R.attr.fontWeight, android.R.attr.fontStyle, R.attr.font, R.attr.fontStyle, R.attr.fontWeight};
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontStyle = 2;
         public static final int FontFamilyFont_android_fontWeight = 1;

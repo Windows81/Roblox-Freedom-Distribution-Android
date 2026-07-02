@@ -9,7 +9,7 @@ import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class b implements Application.ActivityLifecycleCallbacks, ComponentCallbacks2 {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

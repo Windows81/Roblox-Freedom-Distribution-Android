@@ -22,7 +22,7 @@ import android.widget.OverScroller;
 import androidx.appcompat.a;
 import androidx.appcompat.view.menu.o;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActionBarOverlayLayout extends ViewGroup implements DecorContentParent, androidx.core.h.l {
     private static final int ACTION_BAR_ANIMATE_DELAY = 600;
     static final int[] ATTRS = {a.C0012a.actionBarSize, R.attr.windowContentOverlay};

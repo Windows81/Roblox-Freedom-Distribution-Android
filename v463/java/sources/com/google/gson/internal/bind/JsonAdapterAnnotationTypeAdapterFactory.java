@@ -5,7 +5,7 @@ import com.google.gson.s;
 import com.google.gson.v;
 import com.google.gson.w;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class JsonAdapterAnnotationTypeAdapterFactory implements w {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

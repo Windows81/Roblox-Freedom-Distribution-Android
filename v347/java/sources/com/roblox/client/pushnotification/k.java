@@ -2,10 +2,10 @@ package com.roblox.client.pushnotification;
 
 import android.content.Context;
 import android.content.Intent;
-import com.roblox.client.h;
+import com.roblox.client.R;
 import com.roblox.client.pushnotification.notificationreceivers.PrivateMessageReceivedNotificationReceiver;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class k extends a<com.roblox.client.pushnotification.b.f> {
     @Override // com.roblox.client.pushnotification.b.e.a
     public boolean a(com.roblox.client.pushnotification.b.f fVar, com.roblox.client.pushnotification.b.f fVar2) {
@@ -34,7 +34,7 @@ public class k extends a<com.roblox.client.pushnotification.b.f> {
 
     @Override // com.roblox.client.pushnotification.a
     protected String b(Context context) {
-        return this.f7636a.size() == 1 ? String.format(context.getResources().getString(h.a.Notifications_PushNotifications_Label_SentPrivateMessage), c().d()) : String.format(context.getResources().getString(h.a.Notifications_PushNotifications_Label_NewPrivateMessages), String.valueOf(this.f7636a.size()));
+        return this.f7636a.size() == 1 ? String.format(context.getResources().getString(R.string.Notifications_PushNotifications_Label_SentPrivateMessage), c().d()) : String.format(context.getResources().getString(R.string.Notifications_PushNotifications_Label_NewPrivateMessages), String.valueOf(this.f7636a.size()));
     }
 
     @Override // com.roblox.client.pushnotification.a

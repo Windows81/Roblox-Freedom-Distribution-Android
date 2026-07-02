@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import org.greenrobot.eventbus.ThreadMode;
 import org.greenrobot.eventbus.j;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
 
     private static class a {

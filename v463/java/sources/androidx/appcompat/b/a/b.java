@@ -12,7 +12,7 @@ import android.os.Build;
 import android.os.SystemClock;
 import android.util.SparseArray;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class b extends Drawable implements Drawable.Callback {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

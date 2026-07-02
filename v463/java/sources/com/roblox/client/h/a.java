@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.databinding.ViewDataBinding;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a extends ViewDataBinding {
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */

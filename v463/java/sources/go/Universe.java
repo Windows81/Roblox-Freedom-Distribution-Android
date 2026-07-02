@@ -2,7 +2,7 @@ package go;
 
 import go.Seq;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class Universe {
 
     private static final class proxyerror extends Exception implements Seq.Proxy, error {

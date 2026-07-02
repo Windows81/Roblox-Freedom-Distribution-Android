@@ -1,6 +1,6 @@
 package c.a.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum a {
     NO_ERROR(0, -1, 0),
     PROTOCOL_ERROR(1, 1, 1),

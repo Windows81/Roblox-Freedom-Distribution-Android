@@ -4,7 +4,7 @@ import android.media.session.PlaybackState;
 import android.os.Bundle;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class e {
     public static int a(Object obj) {
         return ((PlaybackState) obj).getState();

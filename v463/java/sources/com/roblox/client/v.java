@@ -26,7 +26,7 @@ import com.roblox.client.s.h;
 import com.roblox.engine.jni.NativeAppBridgeInterface;
 import org.greenrobot.eventbus.ThreadMode;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class v extends s implements c.b {
     private String aF;
     private ProgressDialog aG;

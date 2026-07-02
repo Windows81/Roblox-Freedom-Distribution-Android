@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends com.roblox.client.datastructures.b {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

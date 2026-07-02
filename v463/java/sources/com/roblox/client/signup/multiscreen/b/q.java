@@ -1,6 +1,6 @@
 package com.roblox.client.signup.multiscreen.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class q {
     public void a(int i) {
         com.roblox.client.s.f.c(i);

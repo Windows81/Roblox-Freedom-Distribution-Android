@@ -6,7 +6,7 @@ import com.roblox.client.realtime.RealtimeService;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class i extends com.roblox.a.c {
     public i() {
         super("RealTime");

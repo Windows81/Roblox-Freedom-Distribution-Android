@@ -2,7 +2,7 @@ package com.appsflyer.internal.model.event;
 
 import com.appsflyer.AFEvent;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AdRevenue extends AFEvent {
     public AdRevenue() {
         super(null, Boolean.FALSE, null);

@@ -6,7 +6,7 @@ import android.util.Pair;
 import java.io.Closeable;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface b extends Closeable {
     Cursor a(e eVar);
 

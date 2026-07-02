@@ -2,7 +2,7 @@ package microsoft.aspnet.signalr.client;
 
 import microsoft.aspnet.signalr.client.http.HttpConnectionFuture;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class FutureHelper {
     public static void copyHandlers(final SignalRFuture<?> signalRFuture, final SignalRFuture<?> signalRFuture2) {
         signalRFuture2.onCancelled(new Runnable() { // from class: microsoft.aspnet.signalr.client.FutureHelper.1

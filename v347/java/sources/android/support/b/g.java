@@ -10,7 +10,7 @@ import android.os.RemoteException;
 import android.support.b.f;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface g extends IInterface {
     int a(f fVar, String str, Bundle bundle) throws RemoteException;
 

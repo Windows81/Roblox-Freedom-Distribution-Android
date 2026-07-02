@@ -4,7 +4,7 @@ import android.view.View;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class ViewBoundsCheck {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

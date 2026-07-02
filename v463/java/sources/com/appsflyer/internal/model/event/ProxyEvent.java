@@ -1,6 +1,6 @@
 package com.appsflyer.internal.model.event;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ProxyEvent extends BackgroundEvent {
 
     /* JADX INFO: renamed from: ɾ, reason: contains not printable characters */

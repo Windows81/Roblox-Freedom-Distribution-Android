@@ -5,7 +5,7 @@ import androidx.databinding.ViewDataBinding;
 import com.roblox.client.components.RbxTextView;
 import com.roblox.client.phonenumber.PhonePrefix;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class c extends ViewDataBinding {
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */

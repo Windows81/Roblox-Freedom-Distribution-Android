@@ -11,7 +11,7 @@ import microsoft.aspnet.signalr.client.LogLevel;
 import microsoft.aspnet.signalr.client.Logger;
 import microsoft.aspnet.signalr.client.SimpleEntry;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class Request {
     private String mContent;
     private HashMap<String, String> mHeaders = new HashMap<>();

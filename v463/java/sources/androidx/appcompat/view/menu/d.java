@@ -1,6 +1,6 @@
 package androidx.appcompat.view.menu;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class d<T> {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

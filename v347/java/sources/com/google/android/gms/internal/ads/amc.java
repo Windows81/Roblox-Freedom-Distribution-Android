@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class amc implements Parcelable.Creator<zzhl> {
     @Override // android.os.Parcelable.Creator
     public final /* synthetic */ zzhl createFromParcel(Parcel parcel) {

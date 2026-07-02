@@ -4,7 +4,7 @@ import c.ad;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class n {
     public static void a() {
         com.roblox.platform.i.a().c().a().a(new com.roblox.platform.http.a.a<ad>() { // from class: com.roblox.client.http.n.1

@@ -2,7 +2,7 @@ package com.google.c.a;
 
 import java.util.Arrays;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class d {
     public static boolean a(Object obj, Object obj2) {
         return obj == obj2 || (obj != null && obj.equals(obj2));

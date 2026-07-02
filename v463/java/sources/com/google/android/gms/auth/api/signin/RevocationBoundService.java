@@ -6,7 +6,7 @@ import android.os.IBinder;
 import android.util.Log;
 import com.google.android.gms.auth.api.signin.internal.t;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class RevocationBoundService extends Service {
     @Override // android.app.Service
     public final IBinder onBind(Intent intent) {

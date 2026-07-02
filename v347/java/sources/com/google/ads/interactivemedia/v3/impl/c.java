@@ -3,7 +3,7 @@ package com.google.ads.interactivemedia.v3.impl;
 import com.google.ads.interactivemedia.v3.api.AdError;
 import com.google.ads.interactivemedia.v3.api.AdErrorEvent;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c implements AdErrorEvent {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

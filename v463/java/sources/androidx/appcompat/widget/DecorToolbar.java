@@ -14,7 +14,7 @@ import androidx.appcompat.view.menu.h;
 import androidx.appcompat.view.menu.o;
 import androidx.core.h.v;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface DecorToolbar {
     void animateToVisibility(int i);
 

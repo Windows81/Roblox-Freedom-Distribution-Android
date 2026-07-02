@@ -6,8 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.roblox.client.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends Fragment {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -24,8 +25,8 @@ public class a extends Fragment {
 
     @Override // android.support.v4.app.Fragment
     public View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
-        View viewInflate = layoutInflater.inflate(2131361899, viewGroup, false);
-        viewInflate.findViewById(2131231037).setOnClickListener(new View.OnClickListener() { // from class: com.roblox.client.friends.b.a.1
+        View viewInflate = layoutInflater.inflate(R.layout.fragment_nearby_presentation, viewGroup, false);
+        viewInflate.findViewById(R.id.nearby_presentation_button).setOnClickListener(new View.OnClickListener() { // from class: com.roblox.client.friends.b.a.1
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 if (a.this.f6969a != null) {

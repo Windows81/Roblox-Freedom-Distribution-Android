@@ -2,7 +2,7 @@ package com.roblox.client.aa;
 
 import com.roblox.client.analytics.h;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends c {
     public b(String str, int i, String str2, a aVar) {
         super(str, i, str2, aVar);

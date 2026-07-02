@@ -4,7 +4,7 @@ import android.graphics.Matrix;
 import android.support.transition.r;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class an implements as {
     an() {
     }

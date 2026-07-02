@@ -10,7 +10,7 @@ import android.support.v7.widget.LinearLayoutCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends LinearLayoutCompat {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

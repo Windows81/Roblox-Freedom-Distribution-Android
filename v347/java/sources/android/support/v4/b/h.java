@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h {
     public static File a(Context context) {
         String str = ".font" + Process.myPid() + "-" + Process.myTid() + "-";

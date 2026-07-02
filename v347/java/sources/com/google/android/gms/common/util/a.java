@@ -2,7 +2,7 @@ package com.google.android.gms.common.util;
 
 import com.google.android.gms.common.internal.v;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class a {
     public static <T> int a(T[] tArr, T t) {
         int length = tArr != null ? tArr.length : 0;

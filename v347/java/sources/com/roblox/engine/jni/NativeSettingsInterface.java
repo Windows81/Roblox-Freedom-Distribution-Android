@@ -1,6 +1,6 @@
 package com.roblox.engine.jni;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NativeSettingsInterface {
     public static native boolean nativeCPUSupportsNEON();
 

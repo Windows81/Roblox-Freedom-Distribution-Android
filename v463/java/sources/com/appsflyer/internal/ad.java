@@ -10,7 +10,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class ad implements Runnable {
 
     /* JADX INFO: renamed from: Ι, reason: contains not printable characters */

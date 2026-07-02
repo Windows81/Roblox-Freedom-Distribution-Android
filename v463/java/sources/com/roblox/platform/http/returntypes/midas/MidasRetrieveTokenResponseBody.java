@@ -2,7 +2,7 @@ package com.roblox.platform.http.returntypes.midas;
 
 import com.roblox.platform.http.returntypes.ResponseBody;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class MidasRetrieveTokenResponseBody implements ResponseBody {
     public final String appId;
     public final String errorMessages;

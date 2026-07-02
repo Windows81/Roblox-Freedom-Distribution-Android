@@ -6,7 +6,7 @@ import com.roblox.client.pushnotification.b.k;
 import com.roblox.client.pushnotification.m;
 import com.roblox.client.util.h;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a implements m {
     @Override // com.roblox.client.pushnotification.m
     public k a() {

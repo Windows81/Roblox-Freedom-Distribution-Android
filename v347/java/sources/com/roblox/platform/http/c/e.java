@@ -7,7 +7,7 @@ import com.roblox.platform.http.postbody.notifications.RegisterPushNotificationP
 import d.b.o;
 import d.b.t;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface e {
     @d.b.f(a = "/v2/stream-notifications/unread-count")
     d.b<ac> a();

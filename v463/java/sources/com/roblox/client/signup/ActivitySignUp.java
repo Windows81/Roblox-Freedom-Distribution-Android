@@ -15,7 +15,7 @@ import com.roblox.client.p;
 import com.roblox.client.q;
 import com.roblox.client.signup.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivitySignUp extends q implements a.InterfaceC0129a, a.b {
     com.roblox.client.g.a q;
 
@@ -23,7 +23,7 @@ public class ActivitySignUp extends q implements a.InterfaceC0129a, a.b {
     public void n() {
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(o.g.activity_sign_up);
@@ -38,7 +38,7 @@ public class ActivitySignUp extends q implements a.InterfaceC0129a, a.b {
         u();
     }
 
-    @Override // com.roblox.client.r, android.app.Activity, android.view.ContextThemeWrapper, android.content.ContextWrapper
+    @Override // com.roblox.client.AbstractActivityC0192r, android.app.Activity, android.view.ContextThemeWrapper, android.content.ContextWrapper
     protected void attachBaseContext(Context context) {
         if (com.roblox.client.b.by()) {
             context = h.a(context);

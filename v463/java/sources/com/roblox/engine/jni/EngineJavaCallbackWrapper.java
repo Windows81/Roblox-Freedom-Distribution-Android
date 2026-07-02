@@ -1,6 +1,6 @@
 package com.roblox.engine.jni;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class EngineJavaCallbackWrapper extends EngineJavaCallback2 {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

@@ -25,7 +25,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class b<B extends b<B>> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

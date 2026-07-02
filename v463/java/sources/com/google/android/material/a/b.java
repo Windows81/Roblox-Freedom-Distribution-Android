@@ -5,7 +5,7 @@ import android.animation.AnimatorSet;
 import android.animation.ValueAnimator;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
     public static void a(AnimatorSet animatorSet, List<Animator> list) {
         int size = list.size();

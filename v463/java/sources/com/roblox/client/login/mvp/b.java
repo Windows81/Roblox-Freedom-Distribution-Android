@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import com.roblox.client.captcha.LoginCaptchaConfig;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b {
 
     interface a {

@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class q {
     public static boolean a(Context context, int i) {
         if (!a(context, i, "com.google.android.gms")) {

@@ -2,7 +2,7 @@ package androidx.core;
 
 import android.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class a {
 
     /* JADX INFO: renamed from: androidx.core.a$a, reason: collision with other inner class name */
@@ -111,9 +111,9 @@ public final class a {
         public static final int GradientColor_android_startY = 9;
         public static final int GradientColor_android_tileMode = 6;
         public static final int GradientColor_android_type = 2;
-        public static final int[] ColorStateListItem = {R.attr.color, R.attr.alpha, 2130903079};
-        public static final int[] FontFamily = {2130903277, 2130903278, 2130903279, 2130903280, 2130903281, 2130903282};
-        public static final int[] FontFamilyFont = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, R.attr.ttcIndex, R.attr.fontVariationSettings, 2130903274, 2130903283, 2130903284, 2130903285, 2130903597};
+        public static final int[] ColorStateListItem = {R.attr.color, R.attr.alpha, com.roblox.client.R.attr.alpha};
+        public static final int[] FontFamily = {com.roblox.client.R.attr.fontProviderAuthority, com.roblox.client.R.attr.fontProviderCerts, com.roblox.client.R.attr.fontProviderFetchStrategy, com.roblox.client.R.attr.fontProviderFetchTimeout, com.roblox.client.R.attr.fontProviderPackage, com.roblox.client.R.attr.fontProviderQuery};
+        public static final int[] FontFamilyFont = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, R.attr.ttcIndex, R.attr.fontVariationSettings, com.roblox.client.R.attr.font, com.roblox.client.R.attr.fontStyle, com.roblox.client.R.attr.fontVariationSettings, com.roblox.client.R.attr.fontWeight, com.roblox.client.R.attr.ttcIndex};
         public static final int[] GradientColor = {R.attr.startColor, R.attr.endColor, R.attr.type, R.attr.centerX, R.attr.centerY, R.attr.gradientRadius, R.attr.tileMode, R.attr.centerColor, R.attr.startX, R.attr.startY, R.attr.endX, R.attr.endY};
         public static final int[] GradientColorItem = {R.attr.color, R.attr.offset};
     }

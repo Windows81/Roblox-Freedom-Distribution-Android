@@ -2,7 +2,7 @@ package a.a.b;
 
 import android.content.Context;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class e {
     public static boolean a(Context context) {
         return androidx.core.a.b.a(context, "android.permission.BLUETOOTH") == 0;

@@ -4,7 +4,7 @@ import android.app.AppOpsManager;
 import android.content.Context;
 import android.os.Build;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class b {
     public static String a(String str) {
         if (Build.VERSION.SDK_INT >= 23) {

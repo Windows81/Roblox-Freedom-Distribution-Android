@@ -2,7 +2,7 @@ package com.appsflyer.internal;
 
 import java.util.HashMap;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class a$4 extends HashMap<String, String> {
     public a$4() {
         put("0", "ro.arch");

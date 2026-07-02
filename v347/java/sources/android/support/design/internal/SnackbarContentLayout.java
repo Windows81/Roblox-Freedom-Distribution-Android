@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SnackbarContentLayout extends LinearLayout implements b.c {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

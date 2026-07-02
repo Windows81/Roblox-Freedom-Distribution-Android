@@ -2,11 +2,12 @@ package com.roblox.client.analytics;
 
 import android.content.Context;
 import com.google.android.gms.analytics.e;
+import com.roblox.client.R;
 import com.roblox.client.ae.k;
 import com.roblox.client.ae.t;
 import com.roblox.client.analytics.d;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f extends e {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -45,9 +46,9 @@ public class f extends e {
     @Override // com.roblox.client.analytics.e
     public void a(Context context) {
         com.google.android.gms.analytics.d dVarA = com.google.android.gms.analytics.d.a(context);
-        this.f5678a = dVarA.a(2131886080);
+        this.f5678a = dVarA.a(R.xml.android_tracker);
         if (com.roblox.client.b.bH()) {
-            com.google.android.gms.analytics.h hVarA = dVarA.a(2131886080);
+            com.google.android.gms.analytics.h hVarA = dVarA.a(R.xml.android_tracker);
             this.f5679b = hVarA;
             hVarA.a(com.roblox.client.b.bI());
             return;

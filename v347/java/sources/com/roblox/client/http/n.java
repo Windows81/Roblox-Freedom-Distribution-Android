@@ -2,7 +2,7 @@ package com.roblox.client.http;
 
 import android.os.AsyncTask;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class n extends AsyncTask<Void, Void, j> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

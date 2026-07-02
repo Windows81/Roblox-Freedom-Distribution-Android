@@ -7,7 +7,7 @@ import com.roblox.client.purchase.google.a.e;
 import java.util.List;
 import org.json.JSONException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface c {
     int a(String str, g gVar, List<String> list) throws JSONException, RemoteException;
 

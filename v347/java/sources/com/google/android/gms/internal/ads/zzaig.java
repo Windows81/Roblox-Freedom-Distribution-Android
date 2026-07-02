@@ -7,7 +7,7 @@ import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @cm
 public final class zzaig extends AbstractSafeParcelable {
     public static final Parcelable.Creator<zzaig> CREATOR = new hi();

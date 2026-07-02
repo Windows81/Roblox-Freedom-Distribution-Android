@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.AbstractCollection;
 import java.util.Collection;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class v<E> extends AbstractCollection<E> implements Serializable {
     @Override // java.util.AbstractCollection, java.util.Collection, java.lang.Iterable, java.util.Set
     /* JADX INFO: renamed from: c */

@@ -11,7 +11,7 @@ import android.os.Build;
 import android.preference.PreferenceManager;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h {
     private static List<ResolveInfo> b(Context context, Intent intent) {
         return context.getPackageManager().queryIntentActivities(intent, 65536);

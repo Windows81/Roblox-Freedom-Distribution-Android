@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import java.util.logging.Logger;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class LoadJNI {
     public static final Object ctx;
     private static Logger log = Logger.getLogger("GoLoadJNI");

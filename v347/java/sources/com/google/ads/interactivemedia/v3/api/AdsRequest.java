@@ -3,7 +3,7 @@ package com.google.ads.interactivemedia.v3.api;
 import com.google.ads.interactivemedia.v3.api.player.ContentProgressProvider;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface AdsRequest {
     AdDisplayContainer getAdDisplayContainer();
 

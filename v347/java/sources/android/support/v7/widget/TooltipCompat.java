@@ -4,7 +4,7 @@ import android.annotation.TargetApi;
 import android.os.Build;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class TooltipCompat {
     private static final c IMPL;
 

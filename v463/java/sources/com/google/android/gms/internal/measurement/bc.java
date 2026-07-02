@@ -9,7 +9,7 @@ import java.util.Locale;
 import org.xmlpull.v1.XmlPullParserException;
 
 /* JADX INFO: Access modifiers changed from: package-private */
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class bc<T extends bb> extends ab {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

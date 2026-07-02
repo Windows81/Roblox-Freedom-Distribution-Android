@@ -8,7 +8,7 @@ import android.text.Layout;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class DialogTitle extends TextView {
     public DialogTitle(Context context, AttributeSet attributeSet, int i) {
         super(context, attributeSet, i);

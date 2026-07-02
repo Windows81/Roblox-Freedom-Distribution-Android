@@ -2,7 +2,7 @@ package com.google.android.gms.ads.mediation;
 
 import android.os.Bundle;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface b {
 
     public static class a {

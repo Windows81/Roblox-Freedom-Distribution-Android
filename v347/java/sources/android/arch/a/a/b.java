@@ -5,7 +5,7 @@ import android.os.Looper;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends c {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

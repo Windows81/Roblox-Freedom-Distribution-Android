@@ -31,7 +31,7 @@ import com.google.android.material.internal.g;
 import com.google.android.material.stateful.ExtendableSavedState;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @CoordinatorLayout.c(a = Behavior.class)
 public class FloatingActionButton extends g implements q, k, com.google.android.material.d.a {
 

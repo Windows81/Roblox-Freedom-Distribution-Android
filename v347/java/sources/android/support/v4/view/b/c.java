@@ -1,6 +1,6 @@
 package android.support.v4.view.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c extends d {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -8,12 +8,13 @@ import android.widget.RelativeLayout;
 import com.google.ads.interactivemedia.v3.api.player.ContentProgressProvider;
 import com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer;
 import com.google.ads.interactivemedia.v3.api.player.VideoProgressUpdate;
+import com.roblox.client.R;
 import com.roblox.ima.b;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AdPlayer extends RelativeLayout {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -59,8 +60,8 @@ public class AdPlayer extends RelativeLayout {
     private void b() {
         Log.i("AdPlayer", "init:");
         this.f7990c = false;
-        this.f7988a = (b) getRootView().findViewById(2131231217);
-        this.f7989b = (ViewGroup) getRootView().findViewById(2131230757);
+        this.f7988a = (b) getRootView().findViewById(R.id.videoPlayer);
+        this.f7989b = (ViewGroup) getRootView().findViewById(R.id.adUiContainer);
         this.e = new VideoAdPlayer() { // from class: com.roblox.ima.AdPlayer.1
             @Override // com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer
             public void playAd() {

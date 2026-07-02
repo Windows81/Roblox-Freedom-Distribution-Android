@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.view.MotionEvent;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class agv {
     private static final String[] e = {"/aclk", "/pcs/click"};
 

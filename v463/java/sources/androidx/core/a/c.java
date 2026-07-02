@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.Binder;
 import android.os.Process;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class c {
     public static int a(Context context, String str, int i, int i2, String str2) {
         if (context.checkPermission(str, i, i2) == -1) {

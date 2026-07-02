@@ -2,7 +2,7 @@ package com.google.ads.interactivemedia.v3.api.player;
 
 import com.google.c.a.d;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class VideoProgressUpdate {
     public static final VideoProgressUpdate VIDEO_TIME_NOT_READY = new VideoProgressUpdate(-1, -1);
     private float currentTime;

@@ -8,7 +8,7 @@ import com.google.android.gms.internal.ads.apo;
 import com.google.android.gms.internal.ads.app;
 import com.google.android.gms.internal.ads.cm;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @cm
 public final class PublisherAdViewOptions extends AbstractSafeParcelable {
     public static final Parcelable.Creator<PublisherAdViewOptions> CREATOR = new m();

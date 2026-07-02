@@ -3,7 +3,7 @@ package com.google.android.gms.b;
 import android.os.IBinder;
 import android.os.IInterface;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface a extends IInterface {
 
     /* JADX INFO: renamed from: com.google.android.gms.b.a$a, reason: collision with other inner class name */

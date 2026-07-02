@@ -3,7 +3,7 @@ package com.roblox.client.f;
 import android.content.ContentValues;
 import android.net.Uri;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum a {
     GetPing("ping.get", 1),
     GetConfig("config.get", 2),

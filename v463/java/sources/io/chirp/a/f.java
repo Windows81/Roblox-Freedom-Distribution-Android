@@ -3,7 +3,7 @@ package io.chirp.a;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

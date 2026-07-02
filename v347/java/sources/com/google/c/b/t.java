@@ -1,6 +1,6 @@
 package com.google.c.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class t<E> extends x<E> {
     abstract v<E> a();
 

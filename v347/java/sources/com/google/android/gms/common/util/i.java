@@ -7,7 +7,7 @@ import android.content.IntentFilter;
 import android.os.PowerManager;
 import android.os.SystemClock;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class i {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

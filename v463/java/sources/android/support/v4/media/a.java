@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcel;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class a {
     public static String a(Object obj) {
         return ((MediaDescription) obj).getMediaId();

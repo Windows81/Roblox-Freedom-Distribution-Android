@@ -12,7 +12,7 @@ import com.roblox.client.o;
 import com.roblox.client.p;
 import com.roblox.client.s;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends s {
     private InterfaceC0134a as;
 

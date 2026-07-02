@@ -9,7 +9,7 @@ import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class v extends ThreadPoolExecutor {
     v() {
         super(3, 3, 0L, TimeUnit.MILLISECONDS, new PriorityBlockingQueue(), new ae.e());

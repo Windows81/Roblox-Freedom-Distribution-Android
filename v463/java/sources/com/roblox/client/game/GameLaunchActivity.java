@@ -10,7 +10,7 @@ import com.roblox.client.q;
 import com.roblox.client.realtime.RealtimeService;
 import com.roblox.client.u;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class GameLaunchActivity extends q {
     private h r;
     private ServiceConnection t;
@@ -38,7 +38,7 @@ public class GameLaunchActivity extends q {
         return new com.roblox.client.p.c();
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         com.roblox.client.ae.k.c("GameLaunchActivity", "onCreate: savedInstanceState = " + bundle);
@@ -84,7 +84,7 @@ public class GameLaunchActivity extends q {
         }
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         if (com.roblox.client.b.y()) {
@@ -92,13 +92,13 @@ public class GameLaunchActivity extends q {
         }
     }
 
-    @Override // com.roblox.client.r
+    @Override // com.roblox.client.AbstractActivityC0192r
     protected void I() {
         com.roblox.client.ae.k.c("GameLaunchActivity", "adjustOrientation: isPhone = " + u.j());
         super.I();
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         com.roblox.client.ae.k.c("GameLaunchActivity", "onResume: gameState = " + this.q);
@@ -123,7 +123,7 @@ public class GameLaunchActivity extends q {
         }
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStop() {
         super.onStop();
         if (com.roblox.client.b.y()) {
@@ -132,7 +132,7 @@ public class GameLaunchActivity extends q {
         com.roblox.client.ae.k.c("GameLaunchActivity", "onStop");
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onDestroy() {
         super.onDestroy();
         com.roblox.client.ae.k.c("GameLaunchActivity", "onDestroy");

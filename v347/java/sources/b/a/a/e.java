@@ -4,7 +4,7 @@ import b.ab;
 import b.z;
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface e {
     b a(ab abVar) throws IOException;
 

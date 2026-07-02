@@ -2,7 +2,7 @@ package com.appsflyer.internal;
 
 import java.util.Objects;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class n$2 {
     public final boolean equals(Object obj) {
         return obj == this || obj == null;

@@ -26,7 +26,7 @@ import android.widget.TextView;
 import androidx.appcompat.a;
 import androidx.appcompat.widget.ActivityChooserModel;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityChooserView extends ViewGroup implements ActivityChooserModel.ActivityChooserModelClient {
     private static final String LOG_TAG = "ActivityChooserView";
     private final View mActivityChooserContent;

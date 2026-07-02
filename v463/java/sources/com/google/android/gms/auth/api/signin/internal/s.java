@@ -6,7 +6,7 @@ import android.os.RemoteException;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.internal.auth.x;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class s extends com.google.android.gms.internal.auth.v implements r {
     s(IBinder iBinder) {
         super(iBinder, "com.google.android.gms.auth.api.signin.internal.ISignInService");

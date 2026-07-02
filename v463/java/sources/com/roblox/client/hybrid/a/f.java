@@ -3,7 +3,7 @@ package com.roblox.client.hybrid.a;
 import com.roblox.a.c;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f extends com.roblox.a.c {
     public f() {
         super("Navigation");

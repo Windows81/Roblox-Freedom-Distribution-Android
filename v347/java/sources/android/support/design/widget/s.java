@@ -5,7 +5,7 @@ import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class s<V extends View> extends CoordinatorLayout.a<V> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

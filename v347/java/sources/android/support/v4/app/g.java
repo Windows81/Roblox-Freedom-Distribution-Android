@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g extends Fragment implements DialogInterface.OnCancelListener, DialogInterface.OnDismissListener {
     private static final String SAVED_BACK_STACK_ID = "android:backStackId";
     private static final String SAVED_CANCELABLE = "android:cancelable";

@@ -13,19 +13,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
+import com.roblox.client.AbstractActivityC0192r;
 import com.roblox.client.RbxKeyboard;
 import com.roblox.client.game.b;
 import com.roblox.client.game.d;
 import com.roblox.client.o;
 import com.roblox.client.q;
-import com.roblox.client.r;
 import com.roblox.client.s;
 import com.roblox.engine.a.a;
 import com.roblox.engine.b;
 import com.roblox.engine.jni.OnAppBridgeNotificationListener;
 import com.roblox.engine.jni.RunOnMainEngineJavaCallback;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends s implements SurfaceHolder.Callback, View.OnClickListener, com.roblox.client.purchase.a, b.a {
     private com.roblox.engine.b aB;
     private o aC;
@@ -55,8 +55,8 @@ public class a extends s implements SurfaceHolder.Callback, View.OnClickListener
     }
 
     @Override // com.roblox.client.purchase.a
-    public r aq() {
-        return (r) r();
+    public AbstractActivityC0192r aq() {
+        return (AbstractActivityC0192r) r();
     }
 
     @Override // com.roblox.engine.b.a

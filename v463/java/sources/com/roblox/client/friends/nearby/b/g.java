@@ -4,7 +4,7 @@ import com.roblox.client.datastructures.NameValuePair;
 import com.roblox.client.p;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g {
     public void a(int i, long j, String str) {
         ArrayList arrayList = new ArrayList();

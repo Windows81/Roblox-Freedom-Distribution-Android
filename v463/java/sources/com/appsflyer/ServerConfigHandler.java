@@ -4,7 +4,7 @@ import com.appsflyer.internal.ai;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ServerConfigHandler {
     /* JADX INFO: renamed from: ı, reason: contains not printable characters */
     static JSONObject m114(String str) {

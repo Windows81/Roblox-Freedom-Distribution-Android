@@ -1,6 +1,6 @@
 package com.roblox.engine.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

@@ -17,7 +17,7 @@ import com.roblox.client.u.a;
 import com.roblox.client.u.h;
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class LoginPresenter implements i, b.InterfaceC0160b, a.InterfaceC0181a {
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */

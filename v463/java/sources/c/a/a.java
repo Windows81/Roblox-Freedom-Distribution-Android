@@ -6,7 +6,7 @@ import c.k;
 import c.s;
 import javax.net.ssl.SSLSocket;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

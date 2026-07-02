@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.roblox.client.ReclickableTabHost;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class e implements TabHost.OnTabChangeListener, j {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -81,7 +81,7 @@ public class e implements TabHost.OnTabChangeListener, j {
             this.f6748b = view;
             this.f6749c = (ImageView) view.findViewById(R.id.icon);
             this.f6750d = (TextView) view.findViewById(R.id.title);
-            this.e = (TextView) view.findViewById(2131231168);
+            this.e = (TextView) view.findViewById(com.roblox.client.R.id.tab_counter);
         }
 
         public String a() {
@@ -250,7 +250,7 @@ public class e implements TabHost.OnTabChangeListener, j {
     }
 
     private View a(int i, int i2, int i3) {
-        View viewInflate = this.f6743b.getLayoutInflater().inflate(2131361948, (ViewGroup) null, false);
+        View viewInflate = this.f6743b.getLayoutInflater().inflate(com.roblox.client.R.layout.tab_button_layout, (ViewGroup) null, false);
         ((ImageView) viewInflate.findViewById(R.id.icon)).setImageResource(i2);
         TextView textView = (TextView) viewInflate.findViewById(R.id.title);
         textView.setTextColor(android.support.v4.a.c.c(this.f6743b, i3));

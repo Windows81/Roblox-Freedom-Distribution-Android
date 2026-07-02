@@ -6,7 +6,7 @@ import c.u;
 import java.io.IOException;
 import java.net.ProtocolException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class b implements u {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -8,7 +8,7 @@ import android.graphics.drawable.InsetDrawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.RippleDrawable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class b extends RippleDrawable {
     b(ColorStateList colorStateList, InsetDrawable insetDrawable, Drawable drawable) {
         super(colorStateList, insetDrawable, drawable);

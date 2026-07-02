@@ -2,7 +2,7 @@ package com.google.android.gms.internal.measurement;
 
 import android.os.Handler;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class bg {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

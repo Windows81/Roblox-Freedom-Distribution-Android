@@ -4,7 +4,7 @@ import com.google.ads.interactivemedia.v3.impl.data.h;
 import java.util.List;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @com.google.b.a(a = h.class, b = {"extraParams", "isTv", "ignoreStrictModeFalsePositives"})
 public abstract class TestingConfiguration {
     public static final String PARAMETER_KEY = "tcnfp";

@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class db extends ih {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -1507,7 +1507,7 @@ final class db extends ih {
         throw new UnsupportedOperationException("Method not decompiled: com.google.android.gms.internal.measurement.db.d(java.lang.String, java.lang.String):com.google.android.gms.internal.measurement.zzed");
     }
 
-    public final byte[] d(String str) throws Throwable {
+    public final byte[] d(String str) {
         Cursor cursorQuery;
         com.google.android.gms.common.internal.aa.a(str);
         c();

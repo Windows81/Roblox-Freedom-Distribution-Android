@@ -37,7 +37,7 @@ import com.roblox.client.x;
 import com.roblox.platform.i;
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class g extends s implements e {
     private static b aE = new b() { // from class: com.roblox.client.signup.multiscreen.c.g.1
         @Override // com.roblox.client.signup.multiscreen.c.g.b

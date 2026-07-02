@@ -2,7 +2,7 @@ package android.arch.b.b;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class i {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

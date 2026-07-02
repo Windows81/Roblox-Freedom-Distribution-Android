@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import com.google.android.gms.auth.api.credentials.Credential;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class q implements Parcelable.Creator<zzbe> {
     @Override // android.os.Parcelable.Creator
     public final /* synthetic */ zzbe createFromParcel(Parcel parcel) {

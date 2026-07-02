@@ -2,7 +2,7 @@ package android.support.design.widget;
 
 import android.graphics.PorterDuff;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class u {
     static PorterDuff.Mode a(int i, PorterDuff.Mode mode) {
         switch (i) {

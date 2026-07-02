@@ -11,7 +11,7 @@ import android.view.Display;
 import android.view.WindowManager;
 import javax.annotation.concurrent.GuardedBy;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @cm
 final class ox implements SensorEventListener {
 

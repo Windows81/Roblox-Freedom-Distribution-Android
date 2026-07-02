@@ -8,7 +8,7 @@ import com.roblox.client.i;
 import com.roblox.client.i.c;
 import com.roblox.client.util.g;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ReminderNotificationService extends u {
     public static void a(Context context, Intent intent) {
         g.b("ReminderNotificationHelper", "enqueuingWork.");

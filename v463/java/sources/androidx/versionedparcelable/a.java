@@ -3,7 +3,7 @@ package androidx.versionedparcelable;
 import android.os.Parcelable;
 import java.lang.reflect.InvocationTargetException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a {
     protected abstract void a(int i);
 

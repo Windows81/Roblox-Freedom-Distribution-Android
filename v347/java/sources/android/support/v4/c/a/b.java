@@ -5,7 +5,7 @@ import android.graphics.PorterDuff;
 import android.view.MenuItem;
 import android.view.View;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface b extends MenuItem {
     b a(android.support.v4.view.b bVar);
 

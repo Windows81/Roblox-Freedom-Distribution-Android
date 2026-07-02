@@ -9,7 +9,7 @@ import android.support.v7.a.a;
 import android.util.AttributeSet;
 import android.widget.CompoundButton;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class f {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

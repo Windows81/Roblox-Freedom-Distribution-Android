@@ -15,7 +15,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class BasePendingResult<R extends com.google.android.gms.common.api.l> extends com.google.android.gms.common.api.g<R> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

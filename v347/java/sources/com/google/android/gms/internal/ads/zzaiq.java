@@ -8,7 +8,7 @@ import java.util.List;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @cm
 public final class zzaiq extends AbstractSafeParcelable {
     public static final Parcelable.Creator<zzaiq> CREATOR = new hr();

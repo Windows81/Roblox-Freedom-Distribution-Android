@@ -5,7 +5,7 @@ import android.os.Build;
 import com.roblox.client.RobloxApplication;
 import com.roblox.client.ae.k;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends com.roblox.engine.jni.locale.a {
     private static Context d() {
         return RobloxApplication.b();

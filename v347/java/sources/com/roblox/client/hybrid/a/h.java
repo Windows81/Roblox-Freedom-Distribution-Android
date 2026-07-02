@@ -6,7 +6,7 @@ import com.roblox.a.c;
 import com.roblox.client.pushnotification.l;
 import com.roblox.client.pushnotification.q;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h extends com.roblox.a.c {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

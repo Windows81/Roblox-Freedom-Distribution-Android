@@ -1,6 +1,6 @@
 package com.roblox.engine.jni.reporter;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b implements a {
     @Override // com.roblox.engine.jni.reporter.a
     public String a() {

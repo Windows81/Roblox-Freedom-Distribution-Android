@@ -16,7 +16,7 @@ import android.widget.PopupWindow;
 import androidx.appcompat.view.menu.ListMenuItemView;
 import java.lang.reflect.Method;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class MenuPopupWindow extends ListPopupWindow implements MenuItemHoverListener {
     private static final String TAG = "MenuPopupWindow";
     private static Method sSetTouchModalMethod;

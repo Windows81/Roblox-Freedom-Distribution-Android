@@ -3,7 +3,7 @@ package android.support.v4.media;
 import android.media.MediaDescription;
 import android.net.Uri;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class b {
     public static Uri a(Object obj) {
         return ((MediaDescription) obj).getMediaUri();

@@ -4,7 +4,7 @@ import android.util.Log;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -53,6 +53,19 @@ public class c {
         return str;
     }
 
+    /* JADX WARN: Failed to analyze thrown exceptions
+    java.util.ConcurrentModificationException
+    	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1096)
+    	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:1050)
+    	at jadx.core.dex.visitors.MethodThrowsVisitor.processInstructions(MethodThrowsVisitor.java:117)
+    	at jadx.core.dex.visitors.MethodThrowsVisitor.visit(MethodThrowsVisitor.java:68)
+    	at jadx.core.dex.visitors.MethodThrowsVisitor.checkInsn(MethodThrowsVisitor.java:178)
+    	at jadx.core.dex.visitors.MethodThrowsVisitor.processInstructions(MethodThrowsVisitor.java:131)
+    	at jadx.core.dex.visitors.MethodThrowsVisitor.visit(MethodThrowsVisitor.java:68)
+    	at jadx.core.dex.visitors.MethodThrowsVisitor.checkInsn(MethodThrowsVisitor.java:178)
+    	at jadx.core.dex.visitors.MethodThrowsVisitor.processInstructions(MethodThrowsVisitor.java:131)
+    	at jadx.core.dex.visitors.MethodThrowsVisitor.visit(MethodThrowsVisitor.java:68)
+     */
     static void b(String str, boolean z) {
         if (a(a.DEBUG)) {
             Log.d("AppsFlyer_4.8.3", e(str));

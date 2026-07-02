@@ -1,6 +1,6 @@
 package com.roblox.client.http.post;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class TwoStepVerifyCodeRequestBody implements GsonCompatibleRequestBody {
     private String identificationCode;
     private boolean rememberDevice;

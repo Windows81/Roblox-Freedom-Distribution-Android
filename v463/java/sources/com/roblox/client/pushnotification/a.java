@@ -13,7 +13,7 @@ import com.roblox.client.o;
 import com.roblox.client.pushnotification.b.e;
 import com.roblox.client.pushnotification.b.m;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class a<T extends com.roblox.client.pushnotification.b.m> implements e.a<T>, i<T> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

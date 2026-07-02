@@ -22,7 +22,7 @@ import com.google.android.material.a;
 import java.lang.ref.WeakReference;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @CoordinatorLayout.c(a = Behavior.class)
 public class AppBarLayout extends LinearLayout {
 

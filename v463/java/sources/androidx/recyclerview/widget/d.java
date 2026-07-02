@@ -11,7 +11,7 @@ import android.view.MotionEvent;
 import androidx.core.h.r;
 import androidx.recyclerview.widget.RecyclerView;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class d extends RecyclerView.h implements RecyclerView.m {
     private static final int[] k = {R.attr.state_pressed};
     private static final int[] l = new int[0];

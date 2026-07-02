@@ -16,7 +16,7 @@ import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import androidx.core.g.e;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends Drawable implements Animatable {
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */

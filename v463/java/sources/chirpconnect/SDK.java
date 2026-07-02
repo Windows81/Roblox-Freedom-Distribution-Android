@@ -3,7 +3,7 @@ package chirpconnect;
 import go.Seq;
 import java.util.Arrays;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class SDK implements Seq.Proxy {
     private final int refnum;
 

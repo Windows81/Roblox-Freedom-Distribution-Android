@@ -11,7 +11,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SignalRFuture<V> implements Future<V> {
     boolean mIsCancelled = false;
     boolean mCancelInProgress = false;

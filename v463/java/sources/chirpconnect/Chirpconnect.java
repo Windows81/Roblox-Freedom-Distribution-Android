@@ -2,7 +2,7 @@ package chirpconnect;
 
 import go.Seq;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class Chirpconnect {
     public static final byte SDK_STATE_NOT_CREATED = 0;
     public static final byte SDK_STATE_PAUSED = 2;

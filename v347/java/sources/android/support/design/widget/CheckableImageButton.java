@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.Checkable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class CheckableImageButton extends AppCompatImageButton implements Checkable {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

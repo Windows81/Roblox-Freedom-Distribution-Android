@@ -2,7 +2,7 @@ package microsoft.aspnet.signalr.client;
 
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SimpleEntry<K, V> implements Map.Entry<K, V> {
     K mKey;
     V mValue;

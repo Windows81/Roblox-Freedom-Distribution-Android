@@ -2,7 +2,7 @@ package androidx.k;
 
 import android.graphics.drawable.Drawable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 interface ac {
     void a(Drawable drawable);
 

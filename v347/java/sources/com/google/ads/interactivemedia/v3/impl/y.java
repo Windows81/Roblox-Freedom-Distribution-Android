@@ -11,7 +11,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import com.google.ads.interactivemedia.v3.impl.u;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @SuppressLint({"SetJavaScriptEnabled", "NewApi"})
 public class y {
 

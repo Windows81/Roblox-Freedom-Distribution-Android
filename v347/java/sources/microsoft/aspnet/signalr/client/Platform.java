@@ -4,7 +4,7 @@ import java.util.Locale;
 import microsoft.aspnet.signalr.client.http.HttpConnection;
 import microsoft.aspnet.signalr.client.http.java.JavaHttpConnection;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class Platform {
     public static String robloxUserAgent;
     static boolean mPlatformVerified = false;

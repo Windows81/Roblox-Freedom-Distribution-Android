@@ -1,6 +1,6 @@
 package com.google.android.gms.internal.ads;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class amr {
     public static int a(int i) {
         if ((i < 0 || i > 1) && (i < 1000 || i > 1000)) {

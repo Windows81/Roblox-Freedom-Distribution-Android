@@ -46,7 +46,7 @@ import org.greenrobot.eventbus.ThreadMode;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityNativeMain extends q implements a.InterfaceC0126a, com.roblox.client.feature.c, a.d, e.b, b.a, com.roblox.client.startup.d, com.roblox.client.z.d, NativeGLJavaInterface.OnAppShellReloadNeededListener {
     private com.roblox.client.app.c A;
     private boolean q;
@@ -90,7 +90,7 @@ public class ActivityNativeMain extends q implements a.InterfaceC0126a, com.robl
         return true;
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         this.y = com.roblox.client.locale.b.a().b();
@@ -141,7 +141,7 @@ public class ActivityNativeMain extends q implements a.InterfaceC0126a, com.robl
         viewGroup.addView(frameLayout, 0);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         x.f7552a = getResources().getDisplayMetrics();
@@ -153,7 +153,7 @@ public class ActivityNativeMain extends q implements a.InterfaceC0126a, com.robl
         p.b("main");
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         com.roblox.client.ae.k.b("rbx.main", "onResume: IsLoggedIn = " + com.roblox.client.s.h.a().d());
@@ -174,13 +174,13 @@ public class ActivityNativeMain extends q implements a.InterfaceC0126a, com.robl
         }
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onPause() {
         super.onPause();
         com.roblox.client.s.e.a().b(this);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStop() {
         org.greenrobot.eventbus.c.a().b(this);
         ServiceConnection serviceConnection = this.u;
@@ -192,7 +192,7 @@ public class ActivityNativeMain extends q implements a.InterfaceC0126a, com.robl
         super.onStop();
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onDestroy() {
         com.roblox.client.ae.k.b("rbx.main", "onDestroy. isFinishing = " + isFinishing());
         NativeGLJavaInterface.setAppShellReloadNeededListener(null);

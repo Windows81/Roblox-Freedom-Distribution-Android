@@ -4,7 +4,7 @@ import java.security.GeneralSecurityException;
 import java.security.Provider;
 import java.security.Signature;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class ys implements yk<Signature> {
     @Override // com.google.android.gms.internal.ads.yk
     public final /* synthetic */ Signature a(String str, Provider provider) throws GeneralSecurityException {

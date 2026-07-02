@@ -3,7 +3,7 @@ package com.roblox.client.contacts.model;
 import android.text.TextUtils;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class d extends a implements Comparable<d> {
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */

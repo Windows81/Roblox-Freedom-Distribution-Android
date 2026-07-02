@@ -4,7 +4,7 @@ import android.graphics.Rect;
 import android.os.Build;
 import android.view.Gravity;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class c {
     public static void a(int i, int i2, int i3, Rect rect, Rect rect2, int i4) {
         if (Build.VERSION.SDK_INT >= 17) {

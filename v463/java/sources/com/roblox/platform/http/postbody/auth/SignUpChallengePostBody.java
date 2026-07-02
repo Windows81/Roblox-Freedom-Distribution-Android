@@ -2,7 +2,7 @@ package com.roblox.platform.http.postbody.auth;
 
 import com.roblox.platform.http.postbody.PostBody;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class SignUpChallengePostBody implements PostBody {
     public final String deliveryMethod;
     public final String deliveryTarget;

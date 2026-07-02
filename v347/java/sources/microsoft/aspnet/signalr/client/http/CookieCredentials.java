@@ -8,7 +8,7 @@ import java.util.Map;
 import microsoft.aspnet.signalr.client.Constants;
 import microsoft.aspnet.signalr.client.Credentials;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class CookieCredentials implements Credentials {
     private Map<String, String> mCookieValues = new HashMap();
 

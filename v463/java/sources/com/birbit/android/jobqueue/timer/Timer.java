@@ -1,6 +1,6 @@
 package com.birbit.android.jobqueue.timer;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface Timer {
     long nanoTime();
 

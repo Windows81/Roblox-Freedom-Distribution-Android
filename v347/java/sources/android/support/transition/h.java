@@ -6,7 +6,7 @@ import android.graphics.PointF;
 import android.os.Build;
 import android.util.Property;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class h {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

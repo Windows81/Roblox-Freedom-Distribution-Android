@@ -4,7 +4,7 @@ import com.roblox.client.pushnotification.b.m;
 import java.util.ArrayList;
 import java.util.Vector;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class e<T extends m> extends Vector<T> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

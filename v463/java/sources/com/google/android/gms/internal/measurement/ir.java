@@ -7,7 +7,7 @@ import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class ir extends SSLSocketFactory {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

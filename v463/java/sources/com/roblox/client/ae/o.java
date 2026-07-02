@@ -6,10 +6,11 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+import com.roblox.client.AbstractActivityC0192r;
 import com.roblox.client.startup.ActivitySplash;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class o {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
@@ -55,7 +56,7 @@ public class o {
             }
             return z;
         }
-        return com.roblox.client.r.J();
+        return AbstractActivityC0192r.J();
     }
 
     public static String a(Context context) {

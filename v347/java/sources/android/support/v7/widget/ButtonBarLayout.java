@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ButtonBarLayout extends LinearLayout {
     private static final int ALLOW_STACKING_MIN_HEIGHT_DP = 320;
     private static final int PEEK_BUTTON_DP = 16;

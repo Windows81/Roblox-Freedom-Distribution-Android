@@ -13,7 +13,7 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class LinearLayoutCompat extends ViewGroup {
     public static final int HORIZONTAL = 0;
     private static final int INDEX_BOTTOM = 2;

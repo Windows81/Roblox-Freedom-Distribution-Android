@@ -3,7 +3,7 @@ package androidx.core.h;
 import android.os.Build;
 import android.view.ViewGroup;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class f {
     public static int a(ViewGroup.MarginLayoutParams marginLayoutParams) {
         if (Build.VERSION.SDK_INT >= 17) {

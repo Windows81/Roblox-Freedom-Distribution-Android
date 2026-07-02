@@ -4,7 +4,7 @@ import android.os.PowerManager;
 import android.os.Process;
 import android.text.TextUtils;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class c {
     public static String a(PowerManager.WakeLock wakeLock, String str) {
         String strValueOf = String.valueOf(String.valueOf((((long) Process.myPid()) << 32) | ((long) System.identityHashCode(wakeLock))));

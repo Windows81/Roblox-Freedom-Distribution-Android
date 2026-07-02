@@ -12,7 +12,7 @@ import android.view.View;
 import androidx.appcompat.a;
 import androidx.appcompat.widget.ActivityChooserModel;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ShareActionProvider extends androidx.core.h.b {
     private static final int DEFAULT_INITIAL_ACTIVITY_COUNT = 4;
     public static final String DEFAULT_SHARE_HISTORY_FILE_NAME = "share_history.xml";

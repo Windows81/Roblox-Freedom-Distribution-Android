@@ -3,7 +3,7 @@ package com.google.android.gms.internal.ads;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class atr implements Parcelable.Creator<zzpl> {
     @Override // android.os.Parcelable.Creator
     public final /* synthetic */ zzpl createFromParcel(Parcel parcel) {

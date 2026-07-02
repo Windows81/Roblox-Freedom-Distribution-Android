@@ -1,6 +1,6 @@
 package c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum af {
     TLS_1_2("TLSv1.2"),
     TLS_1_1("TLSv1.1"),

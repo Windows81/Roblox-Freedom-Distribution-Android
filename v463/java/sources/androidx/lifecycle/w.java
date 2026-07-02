@@ -5,7 +5,7 @@ import android.app.Application;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.v;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class w {
     private static Application a(Activity activity) {
         Application application = activity.getApplication();

@@ -10,7 +10,7 @@ import com.roblox.platform.http.returntypes.auth.SignUpResponseBody;
 import com.roblox.platform.http.returntypes.auth.SignUpVoucherResponseBody;
 import e.b.o;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface d {
     @o(a = "/v2/verified-signup/challenge")
     e.b<SignUpChallengeResponseBody> a(@e.b.a SignUpChallengePostBody signUpChallengePostBody);

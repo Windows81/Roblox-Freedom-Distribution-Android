@@ -23,7 +23,7 @@ import com.roblox.client.startup.b;
 import com.roblox.client.u;
 import com.roblox.engine.jni.NativeReportingInterface;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivitySplash extends q implements b.a, d {
     private static boolean r = true;
     private boolean A;
@@ -53,7 +53,7 @@ public class ActivitySplash extends q implements b.a, d {
         return intent;
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         this.t = SystemClock.elapsedRealtime();
@@ -116,26 +116,26 @@ public class ActivitySplash extends q implements b.a, d {
         finish();
     }
 
-    @Override // com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         k.b("rbx.splash", "onNewIntent: intent=" + intent);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onDestroy() {
         super.onDestroy();
         k.b("rbx.splash", "onDestroy: unset the activity from InitHelper.");
         c.a((Context) this).b(this);
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
         p.b("splash");
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onResume() {
         super.onResume();
         k.c("rbx.splash", "onResume:");
@@ -143,7 +143,7 @@ public class ActivitySplash extends q implements b.a, d {
         n();
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.fragment.app.c, android.app.Activity
     protected void onPause() {
         super.onPause();
         k.c("rbx.splash", "onPause: isFinishing = " + isFinishing());

@@ -28,7 +28,7 @@ import org.greenrobot.eventbus.j;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class b extends v {
     protected RobloxToolbar aC;
     protected RobloxToolbar aD;

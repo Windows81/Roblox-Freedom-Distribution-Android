@@ -7,7 +7,7 @@ import e.b.o;
 import e.b.t;
 import java.util.List;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public interface e {
     @o(a = "/v2/mark-as-read")
     e.b<ad> a(@e.b.a MarkAsReadPostBody markAsReadPostBody);

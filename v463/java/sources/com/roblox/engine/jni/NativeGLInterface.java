@@ -6,7 +6,7 @@ import com.roblox.engine.jni.model.NativeTextBoxInfo;
 import com.roblox.engine.jni.model.b;
 import com.roblox.engine.jni.model.c;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NativeGLInterface {
     public static native void antiAddictionStart();
 

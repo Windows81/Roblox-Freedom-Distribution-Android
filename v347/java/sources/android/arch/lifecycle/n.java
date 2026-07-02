@@ -8,7 +8,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class n implements g {
     private static final n i = new n();
     private Handler e;

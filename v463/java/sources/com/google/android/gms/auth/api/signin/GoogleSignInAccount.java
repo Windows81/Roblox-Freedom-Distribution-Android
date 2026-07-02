@@ -19,7 +19,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class GoogleSignInAccount extends AbstractSafeParcelable implements ReflectedParcelable {
     public static final Parcelable.Creator<GoogleSignInAccount> CREATOR = new a();
 

@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import com.birbit.android.jobqueue.persistentQueue.sqlite.b;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class a extends SQLiteOpenHelper {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

@@ -8,7 +8,7 @@ import android.widget.TextView;
 import com.roblox.client.o;
 import java.util.Hashtable;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class h {
     public static void a(TextView textView, Context context, AttributeSet attributeSet) {
         TypedArray typedArrayObtainStyledAttributes = context.obtainStyledAttributes(attributeSet, o.l.RbxFont);

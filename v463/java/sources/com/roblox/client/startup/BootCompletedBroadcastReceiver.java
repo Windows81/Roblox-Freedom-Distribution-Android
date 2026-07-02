@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import com.roblox.client.remindernotification.ReminderNotificationService;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class BootCompletedBroadcastReceiver extends BroadcastReceiver {
     @Override // android.content.BroadcastReceiver
     public void onReceive(Context context, Intent intent) {

@@ -2,7 +2,7 @@ package com.roblox.client.login;
 
 import android.os.Bundle;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 interface c {
     void a(Bundle bundle);
 

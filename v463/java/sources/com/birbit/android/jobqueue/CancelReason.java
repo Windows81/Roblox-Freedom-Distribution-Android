@@ -3,7 +3,7 @@ package com.birbit.android.jobqueue;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 @Retention(RetentionPolicy.SOURCE)
 public @interface CancelReason {
     public static final int CANCELLED_VIA_SHOULD_RE_RUN = 5;

@@ -4,7 +4,7 @@ import android.os.IBinder;
 import android.os.Parcel;
 import android.os.RemoteException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class ape extends aiy implements apd {
     ape(IBinder iBinder) {
         super(iBinder, "com.google.android.gms.ads.internal.client.IAdLoaderBuilderCreator");

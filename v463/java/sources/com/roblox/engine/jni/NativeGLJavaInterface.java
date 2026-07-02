@@ -2,7 +2,7 @@ package com.roblox.engine.jni;
 
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class NativeGLJavaInterface {
     private static OnAppBridgeNotificationListener sAppBridgeNotificationListener;
     private static WeakReference<OnAppShellReloadNeededListener> sAppShellReloadNeededListener;

@@ -23,7 +23,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class GoogleSignInOptions extends AbstractSafeParcelable implements a.d.e, ReflectedParcelable {
     private final int h;
     private final ArrayList<Scope> i;

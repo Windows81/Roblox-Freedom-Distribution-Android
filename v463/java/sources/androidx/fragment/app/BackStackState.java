@@ -7,7 +7,7 @@ import android.util.Log;
 import androidx.fragment.app.a;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class BackStackState implements Parcelable {
     public static final Parcelable.Creator<BackStackState> CREATOR = new Parcelable.Creator<BackStackState>() { // from class: androidx.fragment.app.BackStackState.1
         @Override // android.os.Parcelable.Creator

@@ -1,9 +1,8 @@
 package android.support.v7.d;
 
-import android.R;
-import android.support.design.a;
+import com.roblox.client.R;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class a {
 
     /* JADX INFO: renamed from: android.support.v7.d.a$a, reason: collision with other inner class name */
@@ -90,8 +89,8 @@ public final class a {
         public static final int RecyclerView_reverseLayout = 8;
         public static final int RecyclerView_spanCount = 9;
         public static final int RecyclerView_stackFromEnd = 10;
-        public static final int[] FontFamily = {2130903212, 2130903213, 2130903214, 2130903215, 2130903216, 2130903217};
-        public static final int[] FontFamilyFont = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, 2130903209, 2130903218, 2130903219};
-        public static final int[] RecyclerView = {R.attr.orientation, R.attr.descendantFocusability, a.b.fastScrollEnabled, a.b.fastScrollHorizontalThumbDrawable, a.b.fastScrollHorizontalTrackDrawable, a.b.fastScrollVerticalThumbDrawable, a.b.fastScrollVerticalTrackDrawable, a.b.layoutManager, a.b.reverseLayout, a.b.spanCount, a.b.stackFromEnd};
+        public static final int[] FontFamily = {R.attr.fontProviderAuthority, R.attr.fontProviderCerts, R.attr.fontProviderFetchStrategy, R.attr.fontProviderFetchTimeout, R.attr.fontProviderPackage, R.attr.fontProviderQuery};
+        public static final int[] FontFamilyFont = {android.R.attr.font, android.R.attr.fontWeight, android.R.attr.fontStyle, R.attr.font, R.attr.fontStyle, R.attr.fontWeight};
+        public static final int[] RecyclerView = {android.R.attr.orientation, android.R.attr.descendantFocusability, R.attr.fastScrollEnabled, R.attr.fastScrollHorizontalThumbDrawable, R.attr.fastScrollHorizontalTrackDrawable, R.attr.fastScrollVerticalThumbDrawable, R.attr.fastScrollVerticalTrackDrawable, R.attr.layoutManager, R.attr.reverseLayout, R.attr.spanCount, R.attr.stackFromEnd};
     }
 }

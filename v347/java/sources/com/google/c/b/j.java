@@ -2,7 +2,7 @@ package com.google.c.b;
 
 import java.util.Iterator;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class j<F, T> implements Iterator<T> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

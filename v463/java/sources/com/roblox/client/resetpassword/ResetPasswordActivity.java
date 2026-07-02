@@ -8,9 +8,9 @@ import com.roblox.client.u;
 import org.greenrobot.eventbus.ThreadMode;
 import org.greenrobot.eventbus.j;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ResetPasswordActivity extends RobloxWebActivity {
-    @Override // com.roblox.client.RobloxWebActivity, com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.RobloxWebActivity, com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     public void onCreate(Bundle bundle) {
         Intent intent = getIntent();
         intent.putExtra("USING_LOGIN_WEB_URL", true);

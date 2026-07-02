@@ -102,7 +102,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AppsFlyerLibCore extends AppsFlyerLib {
     public static final String AF_PRE_INSTALL_PATH = "AF_PRE_INSTALL_PATH";
     public static String FIRST_LAUNCHES_URL = null;

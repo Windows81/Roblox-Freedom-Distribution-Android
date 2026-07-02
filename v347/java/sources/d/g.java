@@ -6,7 +6,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
 import java.util.concurrent.Executor;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class g extends c.a {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

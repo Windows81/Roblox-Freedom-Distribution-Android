@@ -13,7 +13,7 @@ import javax.net.ssl.HandshakeCompletedListener;
 import javax.net.ssl.SSLSession;
 import javax.net.ssl.SSLSocket;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 final class is extends SSLSocket {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

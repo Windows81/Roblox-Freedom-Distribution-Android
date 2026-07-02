@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.text.TextUtils;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class f {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */

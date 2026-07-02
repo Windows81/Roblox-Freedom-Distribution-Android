@@ -7,7 +7,7 @@ import java.net.URL;
 import javax.net.ssl.HttpsURLConnection;
 import org.json.JSONException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public abstract class OneLinkHttpTask implements Runnable {
     static final String BASE_URL = "https://%sonelink.%s/shortlink-sdk/v1";
     static final String NO_CONNECTION_ERROR_MSG = "Can't get one link data";

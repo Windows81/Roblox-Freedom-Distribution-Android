@@ -3,7 +3,7 @@ package io.chirp.connect.models;
 import chirpconnect.SDKError;
 import io.chirp.a.e;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ChirpError {
     private ChirpErrorCode code;
     private String message;
@@ -28,7 +28,7 @@ public class ChirpError {
         this.code = chirpErrorCode;
     }
 
-    private ChirpErrorCode findErrorCode(int i) throws CloneNotSupportedException {
+    private ChirpErrorCode findErrorCode(int i) {
         for (ChirpErrorCode chirpErrorCode : ChirpErrorCode.values()) {
             if (chirpErrorCode.getCode() == i) {
                 return chirpErrorCode;

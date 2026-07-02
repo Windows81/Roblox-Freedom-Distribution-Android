@@ -9,9 +9,9 @@ import com.roblox.client.captcha.a;
 import com.roblox.client.o;
 import com.roblox.client.q;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class ActivityFunCaptcha extends q implements a.InterfaceC0129a {
-    @Override // com.roblox.client.r
+    @Override // com.roblox.client.AbstractActivityC0192r
     protected void I() {
     }
 
@@ -27,7 +27,7 @@ public class ActivityFunCaptcha extends q implements a.InterfaceC0129a {
         return intent;
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, androidx.core.app.e, android.app.Activity
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(o.g.activity_captcha);
@@ -45,12 +45,12 @@ public class ActivityFunCaptcha extends q implements a.InterfaceC0129a {
         }
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStart() {
         super.onStart();
     }
 
-    @Override // com.roblox.client.q, com.roblox.client.r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
+    @Override // com.roblox.client.q, com.roblox.client.AbstractActivityC0192r, androidx.appcompat.app.c, androidx.fragment.app.c, android.app.Activity
     protected void onStop() {
         super.onStop();
     }

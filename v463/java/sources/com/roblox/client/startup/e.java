@@ -1,6 +1,6 @@
 package com.roblox.client.startup;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public enum e {
     SYSTEM(0),
     SHELL_PROCESS_RESTART(1),

@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.RandomAccess;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 abstract class zp<E> extends AbstractList<E> implements abi<E> {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */

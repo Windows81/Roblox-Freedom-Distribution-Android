@@ -8,7 +8,7 @@ import com.google.android.gms.measurement.AppMeasurement;
 import java.io.IOException;
 import java.util.Map;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class ew extends ih implements da {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -95,7 +95,7 @@ public final class ew extends ih implements da {
         this.h.put(str, aVar3);
     }
 
-    private final void g(String str) throws Throwable {
+    private final void g(String str) {
         N();
         c();
         com.google.android.gms.common.internal.aa.a(str);
@@ -127,7 +127,7 @@ public final class ew extends ih implements da {
     }
 
     @Override // com.google.android.gms.internal.measurement.da
-    public final String a(String str, String str2) throws Throwable {
+    public final String a(String str, String str2) {
         c();
         g(str);
         Map<String, String> map = this.f4299d.get(str);
@@ -213,7 +213,7 @@ public final class ew extends ih implements da {
         super.b();
     }
 
-    final boolean b(String str, String str2) throws Throwable {
+    final boolean b(String str, String str2) {
         Boolean bool;
         c();
         g(str);
@@ -240,7 +240,7 @@ public final class ew extends ih implements da {
         this.i.put(str, null);
     }
 
-    final boolean c(String str, String str2) throws Throwable {
+    final boolean c(String str, String str2) {
         Boolean bool;
         c();
         g(str);
@@ -259,7 +259,7 @@ public final class ew extends ih implements da {
         return super.c_();
     }
 
-    final int d(String str, String str2) throws Throwable {
+    final int d(String str, String str2) {
         Integer num;
         c();
         g(str);

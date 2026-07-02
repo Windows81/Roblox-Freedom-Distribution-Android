@@ -4,7 +4,7 @@ import com.google.ads.interactivemedia.v3.a.w;
 import com.google.ads.interactivemedia.v3.api.UiElement;
 import java.io.IOException;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class k implements UiElement {
     public static final w<k> GSON_TYPE_ADAPTER = new w<k>() { // from class: com.google.ads.interactivemedia.v3.impl.data.k.1
         @Override // com.google.ads.interactivemedia.v3.a.w

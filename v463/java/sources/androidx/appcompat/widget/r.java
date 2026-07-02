@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.accessibility.AccessibilityManager;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 class r implements View.OnAttachStateChangeListener, View.OnHoverListener, View.OnLongClickListener {
     private static r j;
     private static r k;

@@ -3,7 +3,7 @@ package android.support.transition;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 interface d {
     void a(Animator animator);
 

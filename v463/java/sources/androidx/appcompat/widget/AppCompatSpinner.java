@@ -21,7 +21,7 @@ import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import androidx.appcompat.a;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class AppCompatSpinner extends Spinner implements androidx.core.h.q {
     private static final int[] ATTRS_ANDROID_SPINNERMODE = {R.attr.spinnerMode};
     private static final int MAX_ITEMS_MEASURED = 15;

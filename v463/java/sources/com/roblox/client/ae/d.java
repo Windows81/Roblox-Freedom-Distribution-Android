@@ -1,6 +1,6 @@
 package com.roblox.client.ae;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v463\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public class d {
     public String a(String str) {
         return str.replaceAll("/+$", "/");

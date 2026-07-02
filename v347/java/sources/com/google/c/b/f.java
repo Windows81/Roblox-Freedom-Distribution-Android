@@ -3,7 +3,7 @@ package com.google.c.b;
 import java.util.Iterator;
 import java.util.Set;
 
-/* JADX INFO: loaded from: C:\Users\USER\Projects\rbx-apk\.\v347\build\apk\classes.dex */
+/* JADX INFO: loaded from: classes.dex */
 public final class f {
     static int a(Set<?> set) {
         Iterator<?> it = set.iterator();
