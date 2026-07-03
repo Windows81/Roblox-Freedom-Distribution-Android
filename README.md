@@ -7,16 +7,20 @@ The _Rōblox Freedom Distribution_ project has been brought to you by my Surface
 
 ## File Structure
 
-### `./_.ps1`
+### `./_.sh`
 
-PowerShell script to re-assemble either v347 or v463 and (for me) installs the final APK to my phone as shown above.
+Bash script to re-assemble either v347 or v463 and (for me) installs the final APK to my phone as shown above.
 
 It takes me about thirty seconds to build and three to install over USB.
 
-Example:
+```sh
+# To build and install v347.
+./_.sh 347
+```
 
-```ps1
-./_.ps1 347
+```sh
+# To also set debug BaseUrl hostnames:
+./_.sh 347 visualplugin67.eu.cc:2005
 ```
 
 ### `./v{347,463}/smali/**`
