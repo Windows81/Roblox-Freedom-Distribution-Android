@@ -37,6 +37,6 @@ Miscellaneous files which get rebundled when `apktool b ...` is performed.
 
 ## APK Remote Locations
 
-Version 2.337.201523 was found on [the Internet Archive](https://ia800400.us.archive.org/22/items/ultimaterobloxmobilearchive/Android/2018/ROBLOX_v2.337.201523%28398%29.apk).
+Version 2.347.225742 was found on [MediaFire](https://www.mediafire.com/file/wvlew0ncabusl9n/ROBLOX_v2.347.225742%2528426%2529.apk/file).
 
 Version 2.463.417004 was found on [Downzen](https://downzen.com/en/android/roblox/download/2463417004/).
