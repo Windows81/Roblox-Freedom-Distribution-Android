@@ -201,6 +201,11 @@
     .line 22
     invoke-super {p0}, Landroid/app/Application;->onCreate()V
 
+    .line 23
+    new-instance v0, Lactivitylogger;
+    invoke-direct {v0}, Lactivitylogger;-><init>()V
+    invoke-virtual {p0, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+
     .line 24
     invoke-virtual {p0}, Lcom/roblox/client/RobloxApplication;->getApplicationContext()Landroid/content/Context;
 

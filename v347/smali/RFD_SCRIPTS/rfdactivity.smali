@@ -1,6 +1,5 @@
 .class public Lrfdactivity;
 .super Lcom/roblox/client/k;
-.source "SourceFile"
 
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 0

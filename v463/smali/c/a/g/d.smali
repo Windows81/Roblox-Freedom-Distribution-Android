@@ -589,30 +589,11 @@
     return p1
 .end method
 
+# PATCH: bypasses TLS checks (credit to https://github.com/Cuphead74832/Rbx21MobileProxy for the discovery).
 .method public verify(Ljava/lang/String;Ljavax/net/ssl/SSLSession;)Z
     .locals 1
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
-    .line 49
-    :try_start_0
-    invoke-interface {p2}, Ljavax/net/ssl/SSLSession;->getPeerCertificates()[Ljava/security/cert/Certificate;
-
-    move-result-object p2
-
-    .line 50
-    aget-object p2, p2, v0
-
-    check-cast p2, Ljava/security/cert/X509Certificate;
-
-    invoke-virtual {p0, p1, p2}, Lc/a/g/d;->a(Ljava/lang/String;Ljava/security/cert/X509Certificate;)Z
-
-    move-result p1
-    :try_end_0
-    .catch Ljavax/net/ssl/SSLException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return p1
-
-    :catch_0
     return v0
 .end method

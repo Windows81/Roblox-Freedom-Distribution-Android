@@ -8,4 +8,5 @@
 *.xapk
 *.apks
 *.dex
-*/ida/Assemport
+*/ida
+_tmp/

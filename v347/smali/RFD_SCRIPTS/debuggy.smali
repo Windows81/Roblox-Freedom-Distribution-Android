@@ -39,7 +39,7 @@
     .locals 7
 
     .prologue
-    .line 74
+    .line 1
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v2
@@ -48,7 +48,7 @@
 
     move-result-object v1
 
-    .line 75
+    .line 2
     array-length v3, v1
 
     const/4 v2, 0x0
@@ -56,17 +56,20 @@
     :goto_0
     if-lt v2, v3, :cond_0
 
-    .line 78
+    .line 3
     return-void
 
-    .line 75
+    .line 4
     :cond_0
     aget-object v0, v1, v2
 
-    .line 76
-    const/4 v4, 0x3
+    # Arguments are added in reverse order.
+
+    .line 5
+    const v4, 0x3
     new-array v5, v4, [Ljava/lang/Object;
 
+    .line 6
     invoke-virtual {v0}, Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
     move-result-object v6
     add-int/lit8 v4, v4, -0x1
@@ -82,15 +85,15 @@
     add-int/lit8 v4, v4, -0x1
     aput-object v6, v5, v4
 
-    const-string v4, "%02d  ||  Class name :: %s  || method name :: %s"
+    const-string v4, "%02d --- %s;->%s"
     invoke-static {v4, v5}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 77
+    .line 7
     invoke-static {v5}, Ldebuggy;->print(Ljava/lang/Object;)V
 
-    .line 78
+    .line 8
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
