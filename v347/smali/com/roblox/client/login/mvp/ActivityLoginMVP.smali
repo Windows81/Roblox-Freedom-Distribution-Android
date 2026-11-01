@@ -33,7 +33,7 @@
 
     const-string v1, "onResetPasswordClosed."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 152
     iget-object v0, p0, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->p:Lcom/roblox/client/login/mvp/b$b;
@@ -450,7 +450,7 @@
 
     const-string v1, "Create a new FragmentLoginMVP..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 98
     invoke-static {}, Lcom/roblox/client/login/mvp/a;->a()Lcom/roblox/client/login/mvp/a;
@@ -528,7 +528,7 @@
 
     const-string v1, "showResetPassword:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 127
     const-string v0, "login"
@@ -634,7 +634,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 324
     iget-object v0, p0, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->p:Lcom/roblox/client/login/mvp/b$b;
@@ -654,7 +654,7 @@
 
     const-string v1, "showForgotPasswordAlert:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 243
     invoke-direct {p0, p1}, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->b(Landroid/os/Bundle;)V
@@ -719,7 +719,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 268
     const/4 v0, 0x1
@@ -739,7 +739,7 @@
 
     const-string v1, "onLoginClicked:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 297
     iget-object v0, p0, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->p:Lcom/roblox/client/login/mvp/b$b;
@@ -775,7 +775,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 196
     invoke-direct {p0, p1, p2, p3}, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -829,7 +829,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 190
     invoke-direct {p0, p1}, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->h(I)V
@@ -847,7 +847,7 @@
 
     const-string v1, "showInvalidCredentialsAlert:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 249
     new-instance v0, Lcom/roblox/client/login/mvp/ActivityLoginMVP$2;
@@ -927,7 +927,7 @@
 
     const-string v1, "showPasswordResetRequestedAlert:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 207
     const-string v0, "password_reset_requested"
@@ -985,7 +985,7 @@
 
     const-string v1, "onCancelClicked:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 303
     const-string v0, "login"
@@ -1012,7 +1012,7 @@
 
     const-string v1, "onSignUpClicked:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 310
     const-string v0, "login"
@@ -1058,7 +1058,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 87
     const/16 v0, 0x2779
@@ -1137,7 +1137,7 @@
 
     const-string v1, "onCreate:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 57
     const v0, 0x7f0a0021
@@ -1204,7 +1204,7 @@
 
     const-string v1, "onForgotPasswordClicked:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 317
     invoke-direct {p0}, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->z()V
@@ -1222,7 +1222,7 @@
 
     const-string v1, "onResetPasswordClose."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 334
     invoke-virtual {p0}, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->e()Landroid/support/v4/app/l;

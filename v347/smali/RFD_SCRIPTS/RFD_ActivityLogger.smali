@@ -1,4 +1,4 @@
-.class public Lactivitylogger;
+.class public LRFD_ActivityLogger;
 .super Ljava/lang/Object;
 
 .implements Landroid/app/Application$ActivityLifecycleCallbacks;
@@ -29,8 +29,8 @@
     invoke-static {v0, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
     move-result-object v1
 
-    invoke-static {v1}, Ldebuggy;->print(Ljava/lang/Object;)V
-    # invoke-static {}, Ldebuggy;->printStackTrace()V
+    invoke-static {v1}, LRFD_Debuggy;->print(Ljava/lang/Object;)V
+    # invoke-static {}, LRFD_Debuggy;->printStackTrace()V
     return-void
 .end method
 

@@ -120,7 +120,7 @@
 
     const-string v1, "FeatureOption has no valid feature name"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method

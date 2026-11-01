@@ -71,7 +71,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 407
     iget-object v0, p0, Lcom/roblox/client/i/b$2;->b:Lcom/roblox/client/i/b;
@@ -154,7 +154,7 @@
     if-eqz v0, :cond_2
 
     .line 423
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -205,7 +205,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 

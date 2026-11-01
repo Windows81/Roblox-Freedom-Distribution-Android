@@ -157,7 +157,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 169
     invoke-static {}, Lcom/roblox/client/b;->ce()V
@@ -231,7 +231,7 @@
 
     const-string v2, "Failed to retrieve settings!"
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 183
     invoke-static {}, Lcom/roblox/client/b;->ce()V

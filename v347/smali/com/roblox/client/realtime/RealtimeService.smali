@@ -354,7 +354,7 @@
 
     const-string v1, "Error loading SignalR CPP, fallback to Java"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 162
     new-instance v0, Lcom/roblox/client/realtime/h;
@@ -531,7 +531,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 202
     invoke-virtual {p1}, Lcom/roblox/client/e/k;->a()Z
@@ -658,7 +658,7 @@
 
     const-string v1, "RealtimeService.onUserLoggedInFromGuestModeEvent()"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 217
     iget-object v0, p0, Lcom/roblox/client/realtime/RealtimeService;->a:Lcom/roblox/client/realtime/a;

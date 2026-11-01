@@ -863,7 +863,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 507
     if-eqz v1, :cond_0
@@ -1053,7 +1053,7 @@
 
     .line 410
     :cond_0
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 

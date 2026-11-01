@@ -45,7 +45,7 @@
     :sswitch_0
     const-string v0, "TRIM_MEMORY_COMPLETE"
 
-    invoke-static {p0, v0}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -53,7 +53,7 @@
     :sswitch_1
     const-string v0, "TRIM_MEMORY_MODERATE"
 
-    invoke-static {p0, v0}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -61,7 +61,7 @@
     :sswitch_2
     const-string v0, "TRIM_MEMORY_BACKGROUND"
 
-    invoke-static {p0, v0}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -69,7 +69,7 @@
     :sswitch_3
     const-string v0, "TRIM_MEMORY_UI_HIDDEN"
 
-    invoke-static {p0, v0}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -77,7 +77,7 @@
     :sswitch_4
     const-string v0, "TRIM_MEMORY_RUNNING_CRITICAL"
 
-    invoke-static {p0, v0}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -85,7 +85,7 @@
     :sswitch_5
     const-string v0, "TRIM_MEMORY_RUNNING_LOW"
 
-    invoke-static {p0, v0}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -93,7 +93,7 @@
     :sswitch_6
     const-string v0, "TRIM_MEMORY_RUNNING_MODERATE"
 
-    invoke-static {p0, v0}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v0}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -202,8 +202,8 @@
     invoke-super {p0}, Landroid/app/Application;->onCreate()V
 
     .line 23
-    new-instance v0, Lactivitylogger;
-    invoke-direct {v0}, Lactivitylogger;-><init>()V
+    new-instance v0, LRFD_ActivityLogger;
+    invoke-direct {v0}, LRFD_ActivityLogger;-><init>()V
     invoke-virtual {p0, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
     .line 24

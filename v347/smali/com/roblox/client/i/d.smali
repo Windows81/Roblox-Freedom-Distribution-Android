@@ -28,7 +28,7 @@
 
     const-string v1, "[AppsFlyerManager]: Constructor called."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 52
     return-void
@@ -169,7 +169,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -199,7 +199,7 @@
 
     const-string v1, "init"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 57
     invoke-static {}, Lcom/roblox/client/b;->bn()Z
@@ -208,7 +208,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -219,7 +219,7 @@
 
     const-string v1, "enabled"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 59
     invoke-static {}, Lcom/appsflyer/f;->c()Lcom/appsflyer/f;
@@ -287,7 +287,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 147
     invoke-direct {p0}, Lcom/roblox/client/i/d;->d()Z
@@ -301,7 +301,7 @@
 
     const-string v1, "enabled"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 149
     new-instance v1, Ljava/util/HashMap;
@@ -391,7 +391,7 @@
 
     const-string v1, "login"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 113
     invoke-direct {p0}, Lcom/roblox/client/i/d;->d()Z
@@ -405,7 +405,7 @@
 
     const-string v1, "enabled"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 115
     invoke-static {}, Lcom/appsflyer/f;->c()Lcom/appsflyer/f;
@@ -465,7 +465,7 @@
 
     const-string v1, "signup"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 127
     invoke-direct {p0}, Lcom/roblox/client/i/d;->d()Z
@@ -479,7 +479,7 @@
 
     const-string v1, "enabled"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 129
     invoke-static {}, Lcom/appsflyer/f;->c()Lcom/appsflyer/f;

@@ -48,7 +48,7 @@
 
     const-string v1, "Recreating activity"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 163
     iget-object v0, p0, Lcom/roblox/client/k$1;->a:Lcom/roblox/client/k;
@@ -65,7 +65,7 @@
 
     const-string v1, "Retrieved locale same as current locale"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method

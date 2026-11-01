@@ -450,7 +450,7 @@
 
     const-string v1, "Creating the loader."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 273
     new-instance v0, Landroid/support/v4/a/d;
@@ -530,7 +530,7 @@
 
     const-string v1, "Loader reset."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 298
     return-void
@@ -583,7 +583,7 @@
 
     const-string v1, "Contacts loaded."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 291
     iget-object v0, p0, Lcom/roblox/client/contacts/h;->i:Lcom/roblox/client/contacts/i$b;
@@ -637,7 +637,7 @@
 
     const-string v1, "Sending friend invite."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 380
     iget-object v0, p0, Lcom/roblox/client/contacts/h;->i:Lcom/roblox/client/contacts/i$b;
@@ -731,7 +731,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 341
     new-instance v0, Lcom/roblox/client/contacts/c;
@@ -819,7 +819,7 @@
 
     const-string v1, "Unique contacts generated."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 308
     invoke-direct {p0}, Lcom/roblox/client/contacts/h;->f()V
@@ -853,7 +853,7 @@
 
     const-string v1, "Sending app invite."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 392
     invoke-direct {p0, p1}, Lcom/roblox/client/contacts/h;->c(Lcom/roblox/client/contacts/model/d;)V
@@ -882,7 +882,7 @@
 
     const-string v1, "Roblox contacts fetched."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 318
     invoke-direct {p0}, Lcom/roblox/client/contacts/h;->f()V
@@ -1174,7 +1174,7 @@
 
     const-string v1, "onResume."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 150
     iget-object v0, p0, Lcom/roblox/client/contacts/h;->h:Lcom/roblox/client/contacts/c;

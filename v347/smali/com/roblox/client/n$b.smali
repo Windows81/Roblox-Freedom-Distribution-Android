@@ -79,7 +79,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 151
     iget-object v0, p0, Lcom/roblox/client/n$b;->a:Lcom/roblox/client/n;
@@ -136,7 +136,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 143
     iget-object v0, p0, Lcom/roblox/client/n$b;->a:Lcom/roblox/client/n;
@@ -191,7 +191,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 163
     if-nez p2, :cond_0
@@ -201,7 +201,7 @@
 
     const-string v1, "RWF.shouldOverrideUrlLoading() urlString is null!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     move v0, v6
 
@@ -232,7 +232,7 @@
 
     const-string v1, "RWF.shouldOverrideUrlLoading() activity is null or finishing"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     move v0, v7
 
@@ -349,7 +349,7 @@
 
     const-string v2, "RWF.shouldOverrideUrlLoading() The URL is a LOGIN type!"
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 203
     invoke-static {}, Lcom/roblox/client/i/h;->a()Lcom/roblox/client/i/h;
@@ -556,7 +556,7 @@
 
     const-string v1, "Missing placeid and userID."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 281
     iget-object v0, p0, Lcom/roblox/client/n$b;->a:Lcom/roblox/client/n;
@@ -599,7 +599,7 @@
 
     const-string v1, "Game join request type not set."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 286
     iget-object v0, p0, Lcom/roblox/client/n$b;->a:Lcom/roblox/client/n;

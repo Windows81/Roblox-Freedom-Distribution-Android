@@ -79,7 +79,7 @@
 
     move-result-object v1
 
-    iget-wide v2, p1, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iget-wide v2, p1, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
     invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -89,7 +89,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 321
     invoke-virtual {p1, p0}, Lcom/roblox/client/game/GameLaunchActivity$a;->a(Landroid/content/Context;)Landroid/content/Intent;
@@ -123,7 +123,7 @@
     .line 327
     const-string v0, "SessionReporterState_GameLoadStart"
 
-    iget-wide v2, p1, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iget-wide v2, p1, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
     invoke-static {v0, v2, v3}, Lcom/roblox/client/m/a;->a(Ljava/lang/String;J)V
 
@@ -137,7 +137,7 @@
 
     const-string v1, "launchGameWithParams: game-params is null. Just close this activity!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 330
     invoke-direct {p0}, Lcom/roblox/client/game/GameLaunchActivity;->l()V
@@ -194,7 +194,7 @@
 
     const-string v1, "hideProgressView:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 239
     const v0, 0x7f080156
@@ -270,7 +270,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 343
     invoke-static {}, Lcom/roblox/client/c/a;->a()Lcom/roblox/client/c/a;
@@ -320,7 +320,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 286
     const/16 v0, 0x2775
@@ -348,7 +348,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 296
     sget-object v0, Lcom/roblox/client/game/GameLaunchActivity$b;->c:Lcom/roblox/client/game/GameLaunchActivity$b;
@@ -376,7 +376,7 @@
 
     const-string v1, "onActivityResult: Game launch failed because it was launched in the last process."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 304
     iget v0, p0, Lcom/roblox/client/game/GameLaunchActivity;->q:I
@@ -449,7 +449,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 73
     const v0, 0x7f0a001f
@@ -512,7 +512,7 @@
 
     iget-object v2, p0, Lcom/roblox/client/game/GameLaunchActivity;->p:Lcom/roblox/client/game/GameLaunchActivity$a;
 
-    iget-wide v2, v2, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iget-wide v2, v2, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
     invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -546,7 +546,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 85
     :cond_0
@@ -585,7 +585,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 152
     :goto_0
@@ -746,7 +746,7 @@
 
     const-string v1, "The activity is being restored (as expected). Do nothing."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto/16 :goto_0
 
@@ -770,7 +770,7 @@
 
     const-string v1, "onDestroy"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 268
     iget-object v0, p0, Lcom/roblox/client/game/GameLaunchActivity;->m:Lcom/roblox/client/game/GameLaunchActivity$b;
@@ -791,7 +791,7 @@
 
     const-string v1, "onDestroy: No need to listen for on-leave-game event..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 271
     invoke-static {}, Lcom/roblox/engine/jni/NativeGLJavaInterface;->getImplementation()Lcom/roblox/engine/jni/b;
@@ -839,7 +839,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 189
     new-instance v1, Landroid/os/Handler;
@@ -914,7 +914,7 @@
 
     iget-object v1, p0, Lcom/roblox/client/game/GameLaunchActivity;->p:Lcom/roblox/client/game/GameLaunchActivity$a;
 
-    iget-wide v2, v1, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iget-wide v2, v1, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
     invoke-static {v0, v2, v3}, Lcom/roblox/client/m/a;->a(Ljava/lang/String;J)V
 
@@ -1025,7 +1025,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 249
     const-string v0, "gameState"
@@ -1075,7 +1075,7 @@
 
     const-string v1, "onStop"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 262
     return-void
@@ -1110,7 +1110,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 163
     return-void

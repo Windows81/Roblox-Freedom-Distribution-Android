@@ -42,7 +42,7 @@
 
     const-string v1, "GMA onAdClosed"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 265
     iget-object v0, p0, Lcom/roblox/client/i/b$1;->a:Lcom/roblox/client/i/b;
@@ -70,7 +70,7 @@
 
     const-string v1, "GMA onAdFailedToLoad: errorCode = ERROR_CODE_NO_FILL"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 274
     const-string v0, "MobileAds"
@@ -134,7 +134,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 277
     const-string v0, "MobileAds"
@@ -160,7 +160,7 @@
 
     const-string v1, "GMA onAdLeftApplication"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 292
     return-void
@@ -178,14 +178,14 @@
 
     const-string v1, "GMA onAdLoaded"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 304
     const-string v0, "MobileAds"
 
     const-string v1, "GMASuccess"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 306
     const-string v0, "AdSessionManager"
@@ -214,7 +214,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 307
     iget-object v0, p0, Lcom/roblox/client/i/b$1;->a:Lcom/roblox/client/i/b;
@@ -258,7 +258,7 @@
 
     const-string v1, "GMA onAdOpened"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 298
     return-void

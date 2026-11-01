@@ -205,7 +205,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 388
     new-instance v1, Ljava/util/ArrayList;
@@ -423,7 +423,7 @@
 
     const-string v1, "Should show extra rationale."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 260
     invoke-direct {p0}, Lcom/roblox/client/contacts/ActivityContacts;->x()V
@@ -445,7 +445,7 @@
 
     const-string v1, "Already asked for the permission but no rationale needed. This means the user checked: \'Do not show again\'"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 275
     invoke-direct {p0}, Lcom/roblox/client/contacts/ActivityContacts;->y()V
@@ -458,7 +458,7 @@
 
     const-string v1, "Requesting the permission for the first time."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 278
     invoke-direct {p0}, Lcom/roblox/client/contacts/ActivityContacts;->x()V
@@ -566,7 +566,7 @@
 
     const-string v1, "Contact permissions have already been granted. Displaying contact details."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 220
     invoke-direct {p0}, Lcom/roblox/client/contacts/ActivityContacts;->B()V
@@ -597,7 +597,7 @@
 
     const-string v1, "Contact permissions have already been denied once and the userselected \'Don\'t ask me again\'."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 226
     invoke-direct {p0}, Lcom/roblox/client/contacts/ActivityContacts;->y()V
@@ -610,7 +610,7 @@
 
     const-string v1, "Contact permissions have NOT been granted."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 230
     invoke-direct {p0}, Lcom/roblox/client/contacts/ActivityContacts;->z()V
@@ -720,7 +720,7 @@
 
     const-string v1, "This feature is only for users over 13 years old and Android >= 6"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 81
     const/4 v0, 0x6
@@ -993,7 +993,7 @@
 
     const-string v1, "Received response for contact permissions request."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 194
     invoke-static {p3}, Lcom/roblox/client/util/i;->a([I)Z
@@ -1007,7 +1007,7 @@
 
     const-string v1, "Read Contacts permission granted. Fetching contacts."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 197
     invoke-direct {p0, v2}, Lcom/roblox/client/contacts/ActivityContacts;->c(Z)V
@@ -1022,7 +1022,7 @@
 
     const-string v1, "Contacts permissions were NOT granted."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 201
     const/4 v0, 0x0

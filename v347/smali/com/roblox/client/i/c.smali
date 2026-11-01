@@ -119,7 +119,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -146,7 +146,7 @@
 
     const-string v1, "[AppManager]: Constructor called."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 120
     return-void
@@ -334,7 +334,7 @@
 
     const-string v2, "First App launch!"
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 134
     invoke-static {}, Lcom/roblox/client/i/f;->a()Lcom/roblox/client/i/f;
@@ -499,7 +499,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 189
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
@@ -572,7 +572,7 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v5}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 217
     invoke-static {v1}, Lmicrosoft/aspnet/signalr/client/Platform;->setRobloxUserAgent(Ljava/lang/String;)V
@@ -712,7 +712,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v0}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto/16 :goto_0
 
@@ -722,7 +722,7 @@
 
     const-string v1, "GooglePlay services is NOT available!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto/16 :goto_1
 
@@ -755,7 +755,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 211
     sget-object v0, Lcom/roblox/client/i/c$a;->d:Lcom/roblox/client/i/c$a;
@@ -803,7 +803,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 321
     const-string v0, "ActivityTracker"
@@ -833,14 +833,14 @@
 
     const-string v1, "!!!!! ACTIVITIES CREATED TOO MANY TIMES !!!!!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 327
     const-string v0, "AppManager"
 
     const-string v1, "!!!!!           RESTART THE APP         !!!!!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 329
     const-string v0, "ActivityTracker"

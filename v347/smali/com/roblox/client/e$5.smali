@@ -61,7 +61,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 264
     if-eqz p1, :cond_0

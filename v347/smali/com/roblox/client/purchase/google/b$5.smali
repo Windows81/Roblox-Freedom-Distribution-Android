@@ -163,7 +163,7 @@
 
     const-string v2, "QuerySkuDetails failed."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 305
     iget-object v1, p0, Lcom/roblox/client/purchase/google/b$5;->c:Lcom/roblox/client/purchase/google/b;

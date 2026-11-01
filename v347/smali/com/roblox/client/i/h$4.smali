@@ -62,7 +62,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 345
     invoke-virtual {p1}, Lcom/roblox/client/http/j;->b()I
@@ -86,7 +86,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/roblox/platform/http/b;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/roblox/platform/http/b;->removeSecurityCookie(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 349
     :cond_0

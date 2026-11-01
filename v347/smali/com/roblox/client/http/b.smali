@@ -167,7 +167,7 @@
 
     const-string v1, "IOException initial newCall()"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_2
 
@@ -180,7 +180,7 @@
 
     const-string v1, "null url in newCall()"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_2
 .end method
@@ -297,9 +297,6 @@
     move-result-object v0
 
     check-cast v0, Ljava/net/HttpURLConnection;
-
-    # PATCH: disables TLS checks.
-    invoke-static {v0}, Linsecuritise;->process(Ljava/net/HttpURLConnection;)V
 
     .line 100
     if-eqz p2, :cond_0
@@ -478,7 +475,7 @@
 
     const-string v1, "XSRF: got token. retrying"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 155
     sput-object v2, Lcom/roblox/client/http/b;->a:Ljava/lang/String;
@@ -511,7 +508,7 @@
 
     const-string v3, "XSRF Error: retry already attempted. Will not retry"
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 166
     :cond_7
@@ -547,7 +544,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 168
     const-string v2, "rbx.httpagent"
@@ -570,7 +567,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 169
     const-string v2, "rbx.httpagent"
@@ -593,7 +590,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_1
 
@@ -603,7 +600,7 @@
 
     const-string v3, "XSRF Error: token not present in response. Will not retry"
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_2
 
@@ -897,7 +894,7 @@
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 

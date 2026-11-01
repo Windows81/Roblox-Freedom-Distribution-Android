@@ -948,7 +948,7 @@
 
     const-string v1, "logout"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 309
     invoke-direct {p0, p2}, Lcom/roblox/client/i/h;->a(Lcom/roblox/client/j/b$a;)V
@@ -969,7 +969,7 @@
 
     const-string v1, "logout"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 299
     if-eqz p2, :cond_0
@@ -1075,7 +1075,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 433
     iput-object p1, p0, Lcom/roblox/client/i/h;->a:Ljava/lang/String;
@@ -1147,7 +1147,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 426
     const/16 v0, 0xc8

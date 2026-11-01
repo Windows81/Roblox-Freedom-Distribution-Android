@@ -407,7 +407,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 57
     const v0, 0x7f0a0025
@@ -485,7 +485,7 @@
 
     const-string v1, "onCreate: action = NONE. Not enough information to complete captcha."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 75
     invoke-virtual {p0}, Lcom/roblox/client/ReCaptchaActivity;->finish()V

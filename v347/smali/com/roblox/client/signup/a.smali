@@ -1072,7 +1072,7 @@
     .line 1476
     const-string v0, "UnexpectedError"
 
-    invoke-static {v0, p1}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1477
     const v0, 0x7f0e0131
@@ -2404,7 +2404,7 @@
 
     const-string v1, "Parent activity does not implement FragmentSignUp.OnFragmentInteractionListener!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 564
     new-instance v0, Ljava/lang/RuntimeException;

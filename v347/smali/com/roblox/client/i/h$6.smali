@@ -131,7 +131,7 @@
 
     const-string v7, "callLoginWithApi(). code=200. requires 2 step verification"
 
-    invoke-static {v5, v7}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v5, v7}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 516
     :try_start_1
@@ -213,7 +213,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 673
     iget-object v0, p0, Lcom/roblox/client/i/h$6;->c:Lcom/roblox/client/i/h;
@@ -233,7 +233,7 @@
 
     const-string v2, "callLoginWithApi. Error parsing server response on 200."
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 503
     const/16 v0, -0x3e8
@@ -261,7 +261,7 @@
 
     const-string v1, "callLoginWithApi. Error parsing 2SV response."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 522
     const/16 v0, -0x3e8
@@ -287,7 +287,7 @@
 
     const-string v1, "callLoginWithApi() Error no user ID"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 531
     const/16 v0, -0x3e8
@@ -306,7 +306,7 @@
 
     const-string v5, "callLoginWithApi(). code=200."
 
-    invoke-static {v4, v5}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v5}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 537
     iget-object v4, p0, Lcom/roblox/client/i/h$6;->c:Lcom/roblox/client/i/h;

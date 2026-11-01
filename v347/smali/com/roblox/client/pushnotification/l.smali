@@ -232,7 +232,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 95
     invoke-virtual {p3, p1, p4, p2}, Lcom/roblox/client/pushnotification/q;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
@@ -331,7 +331,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 118
     new-instance v0, Lcom/roblox/client/pushnotification/q;

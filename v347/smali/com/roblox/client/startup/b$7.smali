@@ -49,7 +49,7 @@
 
     const-string v1, "SessionCheck SUCCESS."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 382
     invoke-static {}, Lcom/roblox/client/b/d;->a()Lcom/roblox/client/b/d;
@@ -77,7 +77,7 @@
 
     const-string v1, "SessionCheck... Unauthorized. Still considered Done."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 388
     iget-object v0, p0, Lcom/roblox/client/startup/b$7;->a:Lcom/roblox/client/startup/b;
@@ -130,7 +130,7 @@
 
     const-string v1, "SessionCheck... Post login completed."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 397
     iget-object v0, p0, Lcom/roblox/client/startup/b$7;->a:Lcom/roblox/client/startup/b;
@@ -186,7 +186,7 @@
 
     const-string v1, "SessionCheck... Service unavailable."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 408
     iget-object v0, p0, Lcom/roblox/client/startup/b$7;->a:Lcom/roblox/client/startup/b;

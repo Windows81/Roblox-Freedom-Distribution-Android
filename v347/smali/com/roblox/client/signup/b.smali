@@ -650,7 +650,7 @@
 
     const-string v1, "Parent activity does not implement FragmentSignUp.OnFragmentInteractionListener!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 140
     new-instance v0, Ljava/lang/RuntimeException;

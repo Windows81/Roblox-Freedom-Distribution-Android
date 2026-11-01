@@ -1495,7 +1495,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 757
     :cond_0
@@ -3435,7 +3435,7 @@
     const/4 v5, 0x0
 
     .line 666
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -3497,7 +3497,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 672
     invoke-static {v1}, Lcom/roblox/client/RobloxSettings;->setBaseUrl(Ljava/lang/String;)V
@@ -5603,8 +5603,10 @@
 
     invoke-static {v0}, Lcom/roblox/engine/jni/NativeSettingsInterface;->nativeSetExceptionReasonFilename(Ljava/lang/String;)V
 
+    # PATCH: RFD requires the `https://` prefix.
     .line 770
-    invoke-static {}, Lcom/roblox/client/RobloxSettings;->baseUrlUnsecure()Ljava/lang/String;
+    #invoke-static {}, Lcom/roblox/client/RobloxSettings;->baseUrlUnsecure()Ljava/lang/String;
+    invoke-static {}, Lcom/roblox/client/RobloxSettings;->baseUrlSecure()Ljava/lang/String;
 
     move-result-object v0
 
@@ -5612,8 +5614,11 @@
 
     move-result-object v1
 
-    invoke-static {}, Ldebuggy;->printStackTrace()V
-    invoke-static {v0, v1}, Lcom/roblox/engine/jni/NativeSettingsInterface;->nativeSetBaseUrl(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {}, LRFD_Debuggy;->printStackTrace()V
+
+    # PATCH: refactor baseUrl to be passed in as a join parameter.
+    # invoke-static {v0, v1}, Lcom/roblox/engine/jni/NativeSettingsInterface;->nativeSetBaseUrl(Ljava/lang/String;Ljava/lang/String;)V
+    # invoke-static {v0, v0}, Lcom/roblox/engine/jni/NativeSettingsInterface;->nativeSetBaseUrl(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 772
     sget-object v0, Lcom/roblox/client/RobloxSettings;->mCacheDirectory:Ljava/lang/String;
@@ -5806,7 +5811,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method

@@ -221,7 +221,7 @@
 
     const-string v2, "Exception parsing the Variation field."
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 151
     const-string v0, "ABTest.fromJson: Exception parsing the Variation field."
@@ -242,7 +242,7 @@
 
     const-string v2, "Error parsing jsonObject."
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 155
     const-string v0, "ABTest.fromJson: Exception parsing jsonObject."

@@ -243,7 +243,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v4}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     const/4 v3, 0x0

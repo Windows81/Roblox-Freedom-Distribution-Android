@@ -3902,7 +3902,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 669
     return-void
@@ -3963,7 +3963,7 @@
 
     .prologue
     .line 767
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -7329,7 +7329,7 @@
 
     .prologue
     .line 217
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -7551,7 +7551,7 @@
     goto :goto_0
 .end method
 
-.method public static k()Ljava/lang/String;
+.method public static getRobloxAppSettingsForEngine()Ljava/lang/String;
     .locals 4
 
     .prologue

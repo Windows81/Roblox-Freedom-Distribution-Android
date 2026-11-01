@@ -177,7 +177,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 69
     const-string v0, "EXTRA_NOTIFICATION_ID"
@@ -220,7 +220,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 73
     const-string v0, "EXTRA_NOTIFICATION_TYPE"
@@ -434,7 +434,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 115
     invoke-virtual {p0, v5}, Lcom/roblox/client/pushnotification/notificationreceivers/a;->a(Ljava/lang/String;)V
@@ -494,7 +494,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 127
     invoke-virtual {p0, p1, p2}, Lcom/roblox/client/pushnotification/notificationreceivers/a;->a(Landroid/content/Context;Landroid/content/Intent;)V

@@ -240,7 +240,7 @@
 
     const-string v2, "getEventsCount() could not parse json"
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method

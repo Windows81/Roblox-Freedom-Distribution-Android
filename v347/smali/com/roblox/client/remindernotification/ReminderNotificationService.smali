@@ -23,7 +23,7 @@
 
     const-string v1, "enqueuingWork."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 34
     const-class v0, Lcom/roblox/client/remindernotification/ReminderNotificationService;
@@ -47,7 +47,7 @@
 
     const-string v1, "onHandleWord."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 40
     invoke-virtual {p0}, Lcom/roblox/client/remindernotification/ReminderNotificationService;->getApplicationContext()Landroid/content/Context;
@@ -85,7 +85,7 @@
 
     const-string v1, "Reminder notification dismissed."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 51
     const-string v0, "reminderNotificationDismissed"
@@ -117,14 +117,14 @@
 
     const-string v2, "AlarmTriggered"
 
-    invoke-static {v1, v2}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
     const-string v1, "ReminderNotificationHelper"
 
     const-string v2, "Trying to show the notification."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 59
     invoke-static {v0}, Lcom/roblox/client/b;->b(Landroid/content/Context;)V
@@ -152,14 +152,14 @@
 
     const-string v2, "Device rebooted, resetting the alarm."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 65
     const-string v1, "ReminderNotification"
 
     const-string v2, "deviceRebooted"
 
-    invoke-static {v1, v2}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 66
     const-string v1, "deviceBooted"
@@ -183,14 +183,14 @@
 
     const-string v1, "onStopCurrentWork."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 76
     const-string v0, "ReminderNotification"
 
     const-string v1, "onStopCurrentWork."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 77
     const-string v0, "reminderNotificationJobStopped"

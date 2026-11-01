@@ -212,7 +212,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 132
     iget-object v1, v0, Lcom/roblox/engine/a/c;->b:Ljava/lang/String;

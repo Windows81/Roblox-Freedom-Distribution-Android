@@ -258,7 +258,7 @@
     .line 197
     const-string v1, "RbxAnalytics"
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 198
     new-instance v1, Lcom/roblox/client/http/s;
@@ -337,7 +337,7 @@
     .line 171
     const-string v1, "RbxAnalytics"
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 172
     new-instance v1, Lcom/roblox/client/http/s;
@@ -733,7 +733,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 81
     sput-object p0, Lcom/roblox/client/i;->a:Ljava/lang/String;
@@ -888,7 +888,7 @@
     .line 218
     const-string v1, "RbxAnalytics"
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 219
     new-instance v1, Lcom/roblox/client/http/s;
@@ -978,7 +978,7 @@
     .line 248
     const-string v1, "RbxAnalytics"
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 249
     new-instance v1, Lcom/roblox/client/http/s;

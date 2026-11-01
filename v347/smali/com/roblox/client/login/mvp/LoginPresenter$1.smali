@@ -86,7 +86,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 208
     iget-object v1, p0, Lcom/roblox/client/login/mvp/LoginPresenter$1;->a:Lcom/roblox/client/login/mvp/LoginPresenter;
@@ -459,7 +459,7 @@
 
     const-string v1, "onPasswordResetRequested: "
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 152
     iget-object v0, p0, Lcom/roblox/client/login/mvp/LoginPresenter$1;->a:Lcom/roblox/client/login/mvp/LoginPresenter;
@@ -492,7 +492,7 @@
 
     const-string v1, "onTooManyFailedCredentials."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 159
     iget-object v0, p0, Lcom/roblox/client/login/mvp/LoginPresenter$1;->a:Lcom/roblox/client/login/mvp/LoginPresenter;
@@ -606,7 +606,7 @@
 
     const-string v1, "onTooManyFailedCredentials."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 183
     iget-object v0, p0, Lcom/roblox/client/login/mvp/LoginPresenter$1;->a:Lcom/roblox/client/login/mvp/LoginPresenter;

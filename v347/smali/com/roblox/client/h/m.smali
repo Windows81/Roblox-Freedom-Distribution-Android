@@ -145,7 +145,7 @@
 
     move-result-object v3
 
-    invoke-static {v1, v3}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v3}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 109
     new-instance v1, Lcom/roblox/client/h/m$a;

@@ -251,7 +251,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;)I
 
     .line 79
     invoke-direct {p0}, Lcom/roblox/client/chat/j;->f()V

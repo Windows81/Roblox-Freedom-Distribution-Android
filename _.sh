@@ -5,18 +5,19 @@
 
 version="${1:-347}"  # Default to v437.
 baseurl="$2"
+skip_build="$3"
 
 build_apk() {
 	version="$1" && \
 
-	apktool b "v${version}" -o "v${version}.apk" && \
+	apktool b -f "v${version}" -o "v${version}.apk" && \
 
 	uber-apk-signer --overwrite --ksAlias uwu -a "v${version}.apk" && \
 
 	adb install "v${version}.apk"
 }
 
-build_apk "$version"
+[ ! "$skip_build" ] && build_apk "$version"
 
 update_base_url() {
 	[ ! -n "${baseurl}" ] && return

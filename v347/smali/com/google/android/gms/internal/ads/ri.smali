@@ -336,9 +336,6 @@
 
     check-cast v0, Ljava/net/HttpURLConnection;
 
-    # PATCH: disables TLS checks.
-    invoke-static {v0}, Linsecuritise;->process(Ljava/net/HttpURLConnection;)V
-
     invoke-static {}, Ljava/net/HttpURLConnection;->getFollowRedirects()Z
 
     move-result v2

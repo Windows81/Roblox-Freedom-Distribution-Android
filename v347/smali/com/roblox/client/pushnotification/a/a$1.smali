@@ -89,7 +89,7 @@
     .line 56
     const-string v1, "rbx.push"
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 57
     iget-object v1, p0, Lcom/roblox/client/pushnotification/a/a$1;->c:Lcom/roblox/client/pushnotification/a/a;

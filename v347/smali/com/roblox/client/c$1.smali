@@ -45,7 +45,7 @@
 
     const-string v1, "[DeviceHandle] Executor::run: "
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 91
     iget-object v0, p0, Lcom/roblox/client/c$1;->a:Lcom/roblox/client/c;

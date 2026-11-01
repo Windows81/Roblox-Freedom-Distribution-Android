@@ -114,7 +114,7 @@
 
     const-string v1, "Unexpected result of getProcessMemoryInfo(). Return 0 as memory usage!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_1
 .end method

@@ -65,7 +65,7 @@
 
     const-string v3, "callResend2SVCode. 2SV code resent."
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 192
     :try_start_0
@@ -138,7 +138,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 268
     iget-object v2, p0, Lcom/roblox/client/p/b$2;->c:Lcom/roblox/client/p/b;
@@ -169,7 +169,7 @@
 
     const-string v2, "callResend2SVCode. Error parsing json response."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 199
     const-string v1, "FailureJSON"

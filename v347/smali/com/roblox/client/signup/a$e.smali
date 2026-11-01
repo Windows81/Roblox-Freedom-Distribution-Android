@@ -274,7 +274,7 @@
 
     move-result-object v0
 
-    invoke-static {v2, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1179
     return-object v1
@@ -543,7 +543,7 @@
 
     move-result-object v1
 
-    invoke-static {v3, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1296
     return-object v0
@@ -1471,7 +1471,7 @@
 
     move-result-object v1
 
-    invoke-static {v4, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1102
     invoke-direct {p0, v3}, Lcom/roblox/client/signup/a$e;->b(I)Ljava/lang/String;
@@ -1532,7 +1532,7 @@
 
     move-result-object v1
 
-    invoke-static {v3, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1111
     iget-object v1, p0, Lcom/roblox/client/signup/a$e;->e:Lorg/json/JSONObject;

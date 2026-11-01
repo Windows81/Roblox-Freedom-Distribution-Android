@@ -129,7 +129,7 @@
 
     const-string v1, "startGame: A game is in progress. Ignore request!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 62
     const v0, 0x7f0e0193
@@ -181,7 +181,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 73
     invoke-static {}, Lcom/roblox/client/b;->ac()Z
@@ -220,7 +220,7 @@
 
     const-string v2, "startGameForResult: Remove GL apps in Main activity..."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 80
     check-cast v0, Lcom/roblox/client/ActivityNativeMain;
@@ -275,7 +275,7 @@
 
     const-string v1, "onGameEnded:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 107
     sget-object v0, Lcom/roblox/client/game/b$a;->c:Lcom/roblox/client/game/b$a;
@@ -294,7 +294,7 @@
 
     const-string v1, "onGameEnded: Check if we need to upload any crash dump..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 111
     invoke-static {}, Lcom/roblox/client/b/a;->a()Lcom/roblox/client/b/a;
@@ -328,7 +328,7 @@
 
     const-string v1, "onGameStarted:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 102
     sget-object v0, Lcom/roblox/client/game/b$a;->b:Lcom/roblox/client/game/b$a;

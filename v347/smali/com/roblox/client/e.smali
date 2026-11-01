@@ -359,7 +359,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 301
     new-instance v1, Lcom/roblox/client/f/a;
@@ -515,7 +515,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 260
     new-instance v2, Lcom/roblox/client/h/n;
@@ -681,7 +681,7 @@
 
     const-string v1, "onGameLoaded() fragment not attached"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 115
     :cond_0
@@ -810,7 +810,7 @@
 
     const-string v1, "onStart() resumeRendering Lua App"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 83
     invoke-virtual {p0}, Lcom/roblox/client/e;->resumeRenderingIfStopped()V
@@ -856,7 +856,7 @@
 
     const-string v1, "onStop() stopRendering Lua App"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 96
     invoke-virtual {p0}, Lcom/roblox/client/e;->stopRendering()V

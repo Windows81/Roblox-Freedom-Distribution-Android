@@ -81,7 +81,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 177
     iget-object v0, p0, Lcom/roblox/client/contacts/b$3$1;->c:Lcom/roblox/client/contacts/b$3;

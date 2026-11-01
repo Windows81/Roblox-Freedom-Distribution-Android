@@ -153,7 +153,7 @@
     move-result-object v1
 
     .line 153
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 156
     invoke-static {}, Lcom/roblox/client/b;->o()Z
@@ -167,7 +167,7 @@
 
     const-string v1, "using new api on app resume"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 158
     new-instance v0, Lcom/roblox/client/locale/f;
@@ -248,7 +248,7 @@
 
     const-string v1, "A network-disconnected alert already exists. Do nothing."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -503,7 +503,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 225
     iget-object v0, p0, Lcom/roblox/client/k;->o:Lcom/roblox/client/purchase/google/b;
@@ -565,7 +565,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 235
     invoke-virtual {p0, p3}, Lcom/roblox/client/k;->startActivity(Landroid/content/Intent;)V
@@ -592,7 +592,7 @@
 
     const-string v1, "Sharing dialog dismissed."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 243
     invoke-static {}, Lcom/roblox/client/i/f;->a()Lcom/roblox/client/i/f;
@@ -617,7 +617,7 @@
 
     const-string v1, "onActivityResult handled by Store Manager"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -755,7 +755,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 94
     invoke-virtual {p0}, Lcom/roblox/client/k;->finish()V
@@ -842,7 +842,7 @@
     invoke-super {p0}, Lcom/roblox/client/l;->onStart()V
 
     .line 122
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -859,7 +859,7 @@
 
     const-string v1, "Alert: needs restart"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 124
     invoke-virtual {p0}, Lcom/roblox/client/k;->q()V
@@ -991,7 +991,7 @@
 
     const-string v1, "The Shell is in background."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 182
     invoke-static {}, Lcom/roblox/client/b/b;->a()Lcom/roblox/client/b/b;

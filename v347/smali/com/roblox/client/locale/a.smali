@@ -497,7 +497,7 @@
 
     const-string v1, "mUserLocale is empty"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 96
     const/4 v0, 0x0
@@ -522,7 +522,7 @@
 
     const-string v1, "No stored value for mUserLocale."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 100
     sget-object v0, Lcom/roblox/client/locale/c;->a:Lcom/roblox/client/locale/c;
@@ -549,7 +549,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 104
     invoke-direct {p0, p1, v0}, Lcom/roblox/client/locale/a;->b(Landroid/content/Context;Lcom/roblox/client/locale/c;)Landroid/content/Context;

@@ -118,7 +118,7 @@
 
     move-result-object v6
 
-    invoke-static {v5, v6}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v5, v6}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 170
     invoke-static {}, Lcom/roblox/client/RobloxSettings;->version()Ljava/lang/String;
@@ -166,7 +166,7 @@
 
     move-result-object v1
 
-    invoke-static {v4, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 174
     invoke-static {}, Lcom/roblox/client/b/a$b;->a()Ljava/util/concurrent/ConcurrentLinkedQueue;

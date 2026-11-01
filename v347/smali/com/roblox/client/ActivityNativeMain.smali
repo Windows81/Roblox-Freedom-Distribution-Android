@@ -113,7 +113,7 @@
 
     const-string v1, "ActivityNativeMain.internalOnResume()"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 634
     invoke-static {}, Lcom/roblox/client/q/d;->a()Lcom/roblox/client/q/d;
@@ -230,7 +230,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 672
     invoke-static {v1, p0}, Lcom/roblox/client/ActivityNativeMain;->a(Lcom/roblox/client/game/a;Landroid/app/Activity;)V
@@ -616,7 +616,7 @@
 
     const-string v1, "showLoginDialog: Launch Login MVP activity..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 816
     invoke-static {p0}, Lcom/roblox/client/login/mvp/ActivityLoginMVP;->a(Landroid/app/Activity;)V
@@ -631,7 +631,7 @@
 
     const-string v1, "showLoginDialog: Launch Login activity..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 819
     invoke-static {p0}, Lcom/roblox/client/login/ActivityLogin;->a(Landroid/app/Activity;)V
@@ -2111,7 +2111,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1686
     sget-object v0, Lcom/roblox/client/startup/e;->k:Lcom/roblox/client/startup/e;
@@ -2264,7 +2264,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1564
     new-instance v0, Lcom/roblox/client/feature/FeatureState;
@@ -2515,7 +2515,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1380
     invoke-static {p0, p1}, Lcom/roblox/client/ActivityNativeMain;->b(Lcom/roblox/client/game/a;Landroid/app/Activity;)V
@@ -2574,7 +2574,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1573
     new-instance v0, Lcom/roblox/client/feature/FeatureState;
@@ -2691,7 +2691,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v0}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1393
     :cond_0
@@ -2823,7 +2823,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1480
     invoke-static {}, Lcom/roblox/client/i/h;->a()Lcom/roblox/client/i/h;
@@ -3020,7 +3020,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1597
     iget-object v0, p0, Lcom/roblox/client/ActivityNativeMain;->v:Lcom/roblox/client/components/e;
@@ -3852,7 +3852,7 @@
 
     const-string v3, "createGlAppsFrame() apps frame created"
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 259
     const/4 v2, 0x0
@@ -3869,7 +3869,7 @@
 
     const-string v1, "createGlAppsFrame() using alternate root view. Bad!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 263
     const v0, 0x7f080077
@@ -3906,7 +3906,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 466
     iget-boolean v0, p0, Lcom/roblox/client/ActivityNativeMain;->m:Z
@@ -3951,7 +3951,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 469
     const/4 v0, 0x0
@@ -4012,7 +4012,7 @@
 
     const-string v1, "Setting up the main tabs."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 490
     iget-object v0, p0, Lcom/roblox/client/ActivityNativeMain;->v:Lcom/roblox/client/components/e;
@@ -4050,7 +4050,7 @@
 
     const-string v1, "Restoring saved instance."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 505
     iget-object v0, p0, Lcom/roblox/client/ActivityNativeMain;->p:Lcom/roblox/client/feature/FeatureState;
@@ -4374,7 +4374,7 @@
     move-result-object v1
 
     .line 593
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 597
     invoke-static {}, Lcom/roblox/client/RobloxSettings;->isEmailNotificationEnabled()Z
@@ -4643,7 +4643,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1433
     invoke-direct {p0}, Lcom/roblox/client/ActivityNativeMain;->T()Lcom/roblox/client/feature/l;
@@ -5082,7 +5082,7 @@
 
     const-string v1, "ANM.onAccountNotificationsUpdateEvent() update"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1764
     invoke-direct {p0}, Lcom/roblox/client/ActivityNativeMain;->z()V
@@ -5283,7 +5283,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 389
     const/16 v0, 0x67
@@ -5417,7 +5417,7 @@
 
     const-string v1, "Back from friends finder."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 425
     invoke-static {}, Lcom/roblox/client/b;->bB()Z
@@ -5576,7 +5576,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1919
     const-string v0, "CHAT_TAG"
@@ -5651,6 +5651,13 @@
     .locals 3
 
     .prologue
+
+    # PATCH: generate intent.
+    #.line 6767
+    #invoke-static {p0}, LRFD_Intent;->launchTheGameNow(Landroid/content/Context;)V
+    #invoke-virtual {p0}, Landroid/content/Context;->finish()V
+    #return-void
+
     .line 169
     invoke-super {p0, p1}, Lcom/roblox/client/k;->onCreate(Landroid/os/Bundle;)V
 
@@ -5659,7 +5666,7 @@
 
     const-string v1, "onCreate NativeMain."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 174
     invoke-static {}, Lcom/roblox/client/RobloxSettings;->isPhone()Z
@@ -5763,7 +5770,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 196
     :cond_0
@@ -5780,7 +5787,7 @@
 
     const-string v2, "onCreate no AppSettings."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 201
     sget-object v1, Lcom/roblox/client/startup/e;->c:Lcom/roblox/client/startup/e;
@@ -5938,7 +5945,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto/16 :goto_1
 .end method
@@ -5972,7 +5979,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 318
     invoke-virtual {p0}, Lcom/roblox/client/ActivityNativeMain;->isFinishing()Z
@@ -6449,7 +6456,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1777
     iget-boolean v0, p1, Lcom/roblox/client/e/r;->a:Z
@@ -6597,7 +6604,7 @@
 
     const-string v1, "Alert: needs restart due to settings changed."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 289
     invoke-virtual {p0}, Lcom/roblox/client/ActivityNativeMain;->r()V
@@ -6682,7 +6689,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 334
     :cond_0
@@ -6759,7 +6766,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1786
     invoke-virtual {p1}, Lcom/roblox/client/e/v;->a()Z
@@ -6912,7 +6919,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1450
     invoke-static {}, Lcom/roblox/client/i/h;->a()Lcom/roblox/client/i/h;
@@ -7056,7 +7063,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1662
     const/4 v0, 0x0

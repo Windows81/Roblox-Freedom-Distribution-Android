@@ -96,7 +96,7 @@
 
     const-string v1, "Get balance."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 129
     invoke-static {}, Lcom/roblox/client/i/h;->a()Lcom/roblox/client/i/h;

@@ -283,7 +283,7 @@
     goto :goto_0
 .end method
 
-.method public static b(Landroid/content/Context;)Z
+.method public static isPlayStoreInstalled(Landroid/content/Context;)Z
     .locals 4
 
     .prologue
@@ -376,7 +376,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v4}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 114
     if-eqz v2, :cond_0

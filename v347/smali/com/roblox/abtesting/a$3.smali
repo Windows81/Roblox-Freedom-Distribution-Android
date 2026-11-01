@@ -77,7 +77,7 @@
     move-result-object v1
 
     .line 392
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 394
     invoke-virtual {p1}, Lcom/roblox/client/http/j;->b()I

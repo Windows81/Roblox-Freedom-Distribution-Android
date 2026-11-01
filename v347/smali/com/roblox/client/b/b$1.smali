@@ -62,7 +62,7 @@
 
     const-string v1, "addEvent: Failed to post events. Ignore and do nothing"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 195
     const-string v0, "RbxAnalytics"

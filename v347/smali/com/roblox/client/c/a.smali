@@ -167,7 +167,7 @@
 
     const-string v1, "Cleared RateMeMaybe shared preferences."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 194
     return-void
@@ -338,7 +338,7 @@
 
     .line 241
     :cond_0
-    invoke-static {p1}, Lcom/roblox/client/util/h;->b(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/roblox/client/util/h;->isPlayStoreInstalled(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -349,7 +349,7 @@
 
     const-string v1, "No Play Store installed on device."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -374,7 +374,7 @@
 
     const-string v1, "Hasn\'t played a number games higher than the minimum requested."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
@@ -401,7 +401,7 @@
 
     const-string v1, "Hasn\'t played a game for more than the minimum time requested."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 

@@ -478,7 +478,7 @@
 
     const-string v1, "setBrowserTrackerId: Create a new executor to update DeviceHandleV2"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 84
     invoke-static {}, Lcom/roblox/client/b;->aE()J

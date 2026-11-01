@@ -73,7 +73,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 97
     iget-object v1, p0, Lcom/roblox/client/b$2;->a:Landroid/content/Context;
@@ -89,7 +89,7 @@
 
     const-string v1, "checkServerForSettingsChange: Inform the App that it needs to restart..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 99
     sget-object v0, Lcom/roblox/client/b$d;->c:Lcom/roblox/client/b$d;
@@ -106,7 +106,7 @@
 
     const-string v1, "checkServerForSettingsChange: Failed to get settings."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 105
     :cond_1

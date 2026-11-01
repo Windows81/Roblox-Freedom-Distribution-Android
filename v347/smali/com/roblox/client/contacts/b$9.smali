@@ -85,7 +85,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 645
     const/4 v0, 0x0
@@ -137,7 +137,7 @@
 
     const-string v2, "Error parsing contacts avatar json."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 654
     new-instance v1, Ljava/lang/StringBuilder;

@@ -107,7 +107,7 @@
 
     const-string v2, "getListOfBreakpadDumpFiles: ENTER"
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 120
     new-instance v2, Ljava/util/ArrayList;
@@ -169,7 +169,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 154
     :cond_0
@@ -178,7 +178,7 @@
 
     const-string v1, "getListOfBreakpadDumpFiles: END"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 155
     return-object v2
@@ -221,7 +221,7 @@
 
     move-result-object v1
 
-    invoke-static {v4, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 138
     array-length v4, v3
@@ -287,7 +287,7 @@
     move-result-object v7
 
     .line 140
-    invoke-static {v6, v7}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v6, v7}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 142
     sget-object v6, Lcom/roblox/client/b/a$b;->a:Ljava/util/concurrent/ConcurrentLinkedQueue;
@@ -329,7 +329,7 @@
 
     move-result-object v5
 
-    invoke-static {v6, v5}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v6, v5}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 138
     :goto_2
@@ -354,7 +354,7 @@
 
     const-string v1, "The breakpad directory not yet created."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto/16 :goto_0
 .end method
@@ -409,7 +409,7 @@
 
     const-string v1, "UploadTask: Check if we need to upload any crash dump..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 98
     iget-object v0, p0, Lcom/roblox/client/b/a$b;->b:Ljava/io/File;
@@ -444,7 +444,7 @@
 
     const-string v1, "UploadTask: Checking dump file is done."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 108
     iget-object v0, p0, Lcom/roblox/client/b/a$b;->c:Lcom/roblox/client/b/a$c;
@@ -464,7 +464,7 @@
 
     const-string v1, "UploadTask: Checking dump file was cancelled."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 114
     iget-object v0, p0, Lcom/roblox/client/b/a$b;->c:Lcom/roblox/client/b/a$c;

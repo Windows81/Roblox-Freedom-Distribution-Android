@@ -426,7 +426,7 @@
 
     const-string v1, "callLoginWithAuthV1(). errorCode=200. requires 2 step verification"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 264
     :try_start_0
@@ -476,7 +476,7 @@
 
     const-string v1, "callLoginWithApi. Error parsing 2SV response."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 271
     new-instance v0, Lcom/roblox/client/login/mvp/c;
@@ -638,7 +638,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 119
     iget-object v0, p0, Lcom/roblox/client/login/mvp/d;->d:Lcom/roblox/client/q/c;
@@ -729,7 +729,7 @@
 
     const-string v1, "onLoginOK."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 246
     invoke-static {}, Lcom/roblox/client/i/h;->a()Lcom/roblox/client/i/h;

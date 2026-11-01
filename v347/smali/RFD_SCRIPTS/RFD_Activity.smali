@@ -1,4 +1,4 @@
-.class public Lrfdactivity;
+.class public LRFD_Activity;
 .super Lcom/roblox/client/k;
 
 .method protected onCreate(Landroid/os/Bundle;)V

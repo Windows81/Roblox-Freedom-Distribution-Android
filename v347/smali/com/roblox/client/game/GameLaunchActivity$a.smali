@@ -15,21 +15,22 @@
 
 
 # instance fields
-.field a:I
+.field roblox_joinRequestType:I
 
-.field b:J
+.field roblox_userId:J
 
-.field c:J
+.field roblox_placeId:J
 
-.field d:Ljava/lang/String;
+# PATCH: include baseUrl in game-init arguments.
+.field roblox_baseUrl:Ljava/lang/String;
 
-.field e:Ljava/lang/String;
+.field roblox_gameId:Ljava/lang/String;
 
-.field f:Z
+.field roblox_vrMode:Z
 
-.field g:I
+.field roblox_launcher_pid:I
 
-.field h:Z
+.field roblox_launcher_debugger_attached:Z
 
 .field i:Z
 
@@ -51,32 +52,33 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 365
-    iput v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->a:I
+    iput v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_joinRequestType:I
 
     .line 366
-    iput-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->b:J
+    iput-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_userId:J
 
     .line 367
-    iput-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iput-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
+    # PATCH: process baseUrl the same was as accessCode.
     .line 368
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->d:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_baseUrl:Ljava/lang/String;
 
     .line 369
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->e:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_gameId:Ljava/lang/String;
 
     .line 370
-    iput-boolean v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->f:Z
+    iput-boolean v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_vrMode:Z
 
     .line 371
-    iput v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->g:I
+    iput v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_pid:I
 
     .line 372
-    iput-boolean v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->h:Z
+    iput-boolean v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_debugger_attached:Z
 
     .line 373
     const/4 v0, 0x1
@@ -144,42 +146,43 @@
 
     move-result-object v5
 
-    invoke-static {v4, v5}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v5}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 385
     invoke-virtual {v0}, Lcom/roblox/client/game/a;->a()J
 
     move-result-wide v4
 
-    iput-wide v4, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iput-wide v4, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
     .line 386
     invoke-virtual {v0}, Lcom/roblox/client/game/a;->b()J
 
     move-result-wide v4
 
-    iput-wide v4, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->b:J
+    iput-wide v4, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_userId:J
 
+    # PATCH: process baseUrl the same was as accessCode.
     .line 387
-    invoke-virtual {v0}, Lcom/roblox/client/game/a;->c()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/roblox/client/game/a;->get_baseUrl()Ljava/lang/String;
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->d:Ljava/lang/String;
+    iput-object v4, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_baseUrl:Ljava/lang/String;
 
     .line 388
-    invoke-virtual {v0}, Lcom/roblox/client/game/a;->d()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/roblox/client/game/a;->get_gameId()Ljava/lang/String;
 
     move-result-object v4
 
-    iput-object v4, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->e:Ljava/lang/String;
+    iput-object v4, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_gameId:Ljava/lang/String;
 
     .line 389
     invoke-virtual {v0}, Lcom/roblox/client/game/a;->e()I
 
     move-result v0
 
-    iput v0, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->a:I
+    iput v0, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_joinRequestType:I
 
     .line 395
     invoke-static {}, Lcom/roblox/client/b;->T()Z
@@ -204,21 +207,21 @@
     move v0, v1
 
     :goto_0
-    iput-boolean v0, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->f:Z
+    iput-boolean v0, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_vrMode:Z
 
     .line 397
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v0
 
-    iput v0, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->g:I
+    iput v0, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_pid:I
 
     .line 398
     invoke-static {}, Landroid/os/Debug;->isDebuggerConnected()Z
 
     move-result v0
 
-    iput-boolean v0, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->h:Z
+    iput-boolean v0, v3, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_debugger_attached:Z
 
     .line 399
     invoke-static {}, Lcom/roblox/client/b;->aa()Z
@@ -276,7 +279,7 @@
 
     const-string v1, "newInstanceFromStartIntent() ERROR: No GameInitParams"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 392
     const/4 v0, 0x0
@@ -314,7 +317,7 @@
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iput-wide v2, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
     .line 410
     const-string v1, "userId"
@@ -323,10 +326,11 @@
 
     move-result-wide v2
 
-    iput-wide v2, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->b:J
+    iput-wide v2, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_userId:J
 
+    # PATCH: set baseUrl before starting game.
     .line 411
-    const-string v1, "accessCode"
+    const-string v1, "baseUrl"
 
     const-string v2, ""
 
@@ -334,7 +338,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->d:Ljava/lang/String;
+    iput-object v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_baseUrl:Ljava/lang/String;
 
     .line 412
     const-string v1, "gameId"
@@ -345,7 +349,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->e:Ljava/lang/String;
+    iput-object v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_gameId:Ljava/lang/String;
 
     .line 413
     const-string v1, "joinRequestType"
@@ -356,7 +360,7 @@
 
     move-result v1
 
-    iput v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->a:I
+    iput v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_joinRequestType:I
 
     .line 414
     const-string v1, "vrMode"
@@ -365,14 +369,14 @@
 
     move-result v1
 
-    iput-boolean v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->f:Z
+    iput-boolean v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_vrMode:Z
 
     .line 415
     invoke-static {}, Landroid/os/Process;->myPid()I
 
     move-result v1
 
-    iput v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->g:I
+    iput v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_pid:I
 
     .line 416
     const-string v1, "launcher_debugger_attached"
@@ -381,7 +385,7 @@
 
     move-result v1
 
-    iput-boolean v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->h:Z
+    iput-boolean v1, v0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_debugger_attached:Z
 
     .line 417
     const-string v1, "enable_end_game_process"
@@ -451,63 +455,64 @@
     :cond_0
     const-string v0, "roblox_placeId"
 
-    iget-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iget-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
     invoke-virtual {v1, v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 432
     const-string v0, "roblox_userId"
 
-    iget-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->b:J
+    iget-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_userId:J
 
     invoke-virtual {v1, v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
+    # PATCH: set baseUrl before starting game.
     .line 433
-    const-string v0, "roblox_accessCode"
+    const-string v0, "roblox_baseUrl"
 
-    iget-object v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->d:Ljava/lang/String;
+    iget-object v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_baseUrl:Ljava/lang/String;
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 434
     const-string v0, "roblox_gameId"
 
-    iget-object v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->e:Ljava/lang/String;
+    iget-object v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_gameId:Ljava/lang/String;
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 435
     const-string v0, "roblox_joinRequestType"
 
-    iget v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->a:I
+    iget v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_joinRequestType:I
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 436
     const-string v0, "roblox_vrMode"
 
-    iget-boolean v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->f:Z
+    iget-boolean v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_vrMode:Z
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 437
     const-string v0, "roblox_launcher_pid"
 
-    iget v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->g:I
+    iget v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_pid:I
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 438
     const-string v0, "roblox_launcher_debugger_attached"
 
-    iget-boolean v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->h:Z
+    iget-boolean v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_debugger_attached:Z
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 439
     const-string v0, "roblox_app_settings_for_engine"
 
-    invoke-static {}, Lcom/roblox/client/b;->k()Ljava/lang/String;
+    invoke-static {}, Lcom/roblox/client/b;->getRobloxAppSettingsForEngine()Ljava/lang/String;
 
     move-result-object v2
 
@@ -590,56 +595,57 @@
     .line 450
     const-string v0, "placeId"
 
-    iget-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->c:J
+    iget-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_placeId:J
 
     invoke-virtual {p1, v0, v2, v3}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
 
     .line 451
     const-string v0, "userId"
 
-    iget-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->b:J
+    iget-wide v2, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_userId:J
 
     invoke-virtual {p1, v0, v2, v3}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
 
+    # PATCH: set baseUrl before starting game.
     .line 452
-    const-string v0, "accessCode"
+    const-string v0, "baseUrl"
 
-    iget-object v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->d:Ljava/lang/String;
+    iget-object v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_baseUrl:Ljava/lang/String;
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 453
     const-string v0, "gameId"
 
-    iget-object v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->e:Ljava/lang/String;
+    iget-object v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_gameId:Ljava/lang/String;
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 454
     const-string v0, "joinRequestType"
 
-    iget v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->a:I
+    iget v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_joinRequestType:I
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 455
     const-string v0, "vrMode"
 
-    iget-boolean v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->f:Z
+    iget-boolean v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_vrMode:Z
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 456
     const-string v0, "launcher_pid"
 
-    iget v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->g:I
+    iget v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_pid:I
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
     .line 457
     const-string v0, "launcher_debugger_attached"
 
-    iget-boolean v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->h:Z
+    iget-boolean v1, p0, Lcom/roblox/client/game/GameLaunchActivity$a;->roblox_launcher_debugger_attached:Z
 
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 

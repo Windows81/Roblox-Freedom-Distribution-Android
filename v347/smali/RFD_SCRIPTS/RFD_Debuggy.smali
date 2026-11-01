@@ -1,6 +1,6 @@
-.class public Ldebuggy;
+.class public LRFD_Debuggy;
 .super Ljava/lang/Object;
-.source "debuggy"
+.source "RFD_Debuggy"
 
 .method public static print(Ljava/lang/Object;)V
     .locals 4
@@ -29,7 +29,7 @@
     invoke-static {p0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
     move-result-object v0
 
-    invoke-static {v0}, Ldebuggy;->print(Ljava/lang/Object;)V
+    invoke-static {v0}, LRFD_Debuggy;->print(Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
     move-result-object v5
 
     .line 7
-    invoke-static {v5}, Ldebuggy;->print(Ljava/lang/Object;)V
+    invoke-static {v5}, LRFD_Debuggy;->print(Ljava/lang/Object;)V
 
     .line 8
     add-int/lit8 v2, v2, 0x1

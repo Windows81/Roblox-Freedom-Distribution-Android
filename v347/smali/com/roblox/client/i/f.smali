@@ -1052,7 +1052,7 @@
     .line 135
     const-string v0, "rbx.purchaseflow"
 
-    invoke-static {v0, p1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 136
     iget-object v0, p0, Lcom/roblox/client/i/f;->a:Lcom/roblox/client/purchase/b;

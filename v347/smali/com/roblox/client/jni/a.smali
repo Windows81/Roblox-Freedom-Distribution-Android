@@ -157,7 +157,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 140
     invoke-static {}, Lcom/roblox/client/jni/a;->j()Lcom/roblox/client/FragmentGlView;
@@ -200,7 +200,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 243
     invoke-static {}, Lcom/roblox/client/jni/a;->j()Lcom/roblox/client/FragmentGlView;
@@ -230,7 +230,7 @@
 
     const-string v1, "promptNativePurchase. mSingleton==null."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 126
     :goto_0
@@ -480,7 +480,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 191
     invoke-static {}, Lcom/roblox/client/jni/a;->j()Lcom/roblox/client/FragmentGlView;
@@ -612,7 +612,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 249
     invoke-static {}, Lcom/roblox/client/jni/a;->j()Lcom/roblox/client/FragmentGlView;
@@ -653,7 +653,7 @@
 
     const-string v1, "exitGame:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 131
     invoke-static {}, Lcom/roblox/client/jni/a;->j()Lcom/roblox/client/FragmentGlView;
@@ -682,7 +682,7 @@
 
     const-string v1, "gameDidLeave:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 149
     invoke-static {}, Lcom/roblox/client/jni/a;->j()Lcom/roblox/client/FragmentGlView;
@@ -711,7 +711,7 @@
 
     const-string v1, "onLeaveGameFinished:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 158
     invoke-direct {p0}, Lcom/roblox/client/jni/a;->k()Landroid/os/Handler;

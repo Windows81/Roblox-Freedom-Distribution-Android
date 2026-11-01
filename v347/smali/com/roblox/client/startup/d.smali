@@ -114,7 +114,7 @@
 
     const-string v1, "doAllTasksComplete:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 48
     iget-object v0, p0, Lcom/roblox/client/startup/d;->a:Lcom/roblox/client/startup/d$c;

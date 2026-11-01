@@ -1,9 +1,15 @@
 <img src="./_BANNER.jpg" width="100%" />
-<p align="center">Image taken by <a href="https://www.instagram.com/visualsbyleo/">Visuals by Leo</a>.
+<p align="center">Image taken by <a href="https://www.instagram.com/visualsbyleo/">Visuals by Leo</a>, 2026.
 
 ---
 
 The _Rōblox Freedom Distribution_ project has been brought to you by my Surface Duo.
+
+To debug, you can use:
+
+```
+adb logcat "UwU:V" *:S
+```
 
 ## File Structure
 

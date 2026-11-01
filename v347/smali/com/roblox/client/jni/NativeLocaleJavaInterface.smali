@@ -31,6 +31,11 @@
 
     .prologue
     .line 38
+    # PATCH: simplify path for getting locale
+    invoke-static {}, Lcom/roblox/client/jni/NativeLocaleJavaInterface;->getLocale()Ljava/lang/String;
+    move-result-object v0
+    return-object v0
+
     invoke-static {}, Lcom/roblox/client/locale/a;->a()Lcom/roblox/client/locale/a;
 
     move-result-object v0
@@ -115,6 +120,12 @@
     .locals 1
 
     .prologue
+
+    # PATCH: simplify path for getting locale
+    invoke-static {}, Lcom/roblox/client/jni/NativeLocaleJavaInterface;->getLocale()Ljava/lang/String;
+    move-result-object v0
+    return-object v0
+
     .line 33
     invoke-static {}, Lcom/roblox/client/locale/a;->a()Lcom/roblox/client/locale/a;
 

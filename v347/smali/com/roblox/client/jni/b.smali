@@ -100,7 +100,7 @@
     if-nez v0, :cond_0
 
     .line 48
-    invoke-static {p1, p2}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
     :goto_1

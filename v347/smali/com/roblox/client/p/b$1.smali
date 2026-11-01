@@ -68,7 +68,7 @@
 
     const-string v1, "callVerify2SVCode. 2SV code verified."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 62
     iget-object v0, p0, Lcom/roblox/client/p/b$1;->c:Lcom/roblox/client/p/b;
@@ -156,7 +156,7 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v4}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 149
     iget-object v3, p0, Lcom/roblox/client/p/b$1;->c:Lcom/roblox/client/p/b;
@@ -190,7 +190,7 @@
 
     const-string v6, "callVerify2SVCode. Error parsing server response on 200."
 
-    invoke-static {v5, v6}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v5, v6}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 

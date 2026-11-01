@@ -64,7 +64,7 @@
 
     const-string v1, "Search EditText:afterTextChanged"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 126
     iget-object v0, p0, Lcom/roblox/client/contacts/h$2;->b:Lcom/roblox/client/contacts/h;

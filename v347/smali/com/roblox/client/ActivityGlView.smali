@@ -124,7 +124,7 @@
 
     const-string v1, "onGameTimeoutInBackground:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 355
     invoke-static {}, Lcom/roblox/client/b;->af()Z
@@ -157,7 +157,7 @@
 
     const-string v1, "onGameTimeoutInBackground: call finish() on this GL activity."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 365
     const/16 v0, 0x66
@@ -295,7 +295,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 318
     const/4 v0, 0x0
@@ -331,7 +331,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 327
     return-void
@@ -362,7 +362,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 335
     const/4 v0, 0x1
@@ -440,7 +440,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 231
     iget-object v0, p0, Lcom/roblox/client/ActivityGlView;->o:Lcom/roblox/client/purchase/google/b;
@@ -469,7 +469,7 @@
 
     const-string v1, "onActivityResult handled by Store Manager"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -542,7 +542,7 @@
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
     const-string v4, "onCreate: savedInstanceState = "
-    invoke-static {v4}, Ldebuggy;->print(Ljava/lang/Object;)V
+    invoke-static {v4}, LRFD_Debuggy;->print(Ljava/lang/Object;)V
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -556,7 +556,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 103
     invoke-static {}, Lcom/roblox/client/i/c;->a()Lcom/roblox/client/i/c;
@@ -577,7 +577,7 @@
 
     invoke-virtual {v4}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
     move-result-object v0
-    invoke-static {v0}, Ldebuggy;->print(Ljava/lang/Object;)V
+    invoke-static {v0}, LRFD_Debuggy;->print(Ljava/lang/Object;)V
 
     .line 108
     const-string v0, "roblox_app_settings_for_engine"
@@ -680,7 +680,7 @@
 
     move-result-object v0
 
-    invoke-static {v6, v0}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v6, v0}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 145
     const-string v0, "roblox_browser_tracker_id"
@@ -758,7 +758,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v3}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 158
     const-string v0, "roblox_enable_game_in_last_process"
@@ -939,10 +939,11 @@
 
     invoke-virtual {v1, v3, v6, v7}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
 
+    # PATCH: process baseUrl the same was as accessCode.
     .line 212
-    const-string v3, "accessCode"
+    const-string v3, "baseUrl"
 
-    const-string v5, "roblox_accessCode"
+    const-string v5, "roblox_baseUrl"
 
     invoke-virtual {v4, v5}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
@@ -1063,7 +1064,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 294
     invoke-static {}, Lcom/roblox/client/RobloxSettings;->isChrome()Z
@@ -1095,7 +1096,7 @@
 
     const-string v1, "onDestroy: Call stopDataModel (SYNC) if the GL fragment is still there..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 303
     invoke-direct {p0}, Lcom/roblox/client/ActivityGlView;->n()Lcom/roblox/client/FragmentGlView;
@@ -1264,7 +1265,7 @@
 
     const-string v1, "onNewIntent"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 248
     return-void

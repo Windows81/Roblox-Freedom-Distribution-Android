@@ -300,7 +300,7 @@
     return-void
 .end method
 
-.method public a(Ljava/lang/String;Ljava/lang/String;)V
+.method public removeSecurityCookie(Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
     .prologue

@@ -45,7 +45,7 @@
 
     const-string v1, "... Dialog::onClick:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 70
     iget-object v0, p0, Lcom/roblox/client/startup/a$1;->a:Lcom/roblox/client/startup/a;

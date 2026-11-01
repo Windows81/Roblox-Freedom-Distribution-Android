@@ -39,7 +39,7 @@
 
     const-string v1, "[Constructor]:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 50
     return-void
@@ -117,7 +117,7 @@
 
     const-string v1, "reportCrashIfAny:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 60
     iget-object v0, p0, Lcom/roblox/client/b/a;->a:Lcom/roblox/client/b/a$a;
@@ -131,7 +131,7 @@
 
     const-string v1, "reportCrashIfAny: A task is in progress. Do nothing."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 74
     :goto_0

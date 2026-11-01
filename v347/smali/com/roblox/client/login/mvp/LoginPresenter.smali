@@ -206,7 +206,7 @@
 
     const-string v1, "onLoginSuccess: Will finish the view as success..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 132
     iget-object v0, p0, Lcom/roblox/client/login/mvp/LoginPresenter;->d:Lcom/roblox/client/i/f;
@@ -274,7 +274,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 60
     const/4 v0, -0x1
@@ -348,7 +348,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 85
     iget-object v0, p0, Lcom/roblox/client/login/mvp/LoginPresenter;->b:Lcom/roblox/client/login/mvp/b$a;

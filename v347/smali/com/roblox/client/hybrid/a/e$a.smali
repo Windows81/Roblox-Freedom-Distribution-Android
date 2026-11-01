@@ -93,7 +93,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 43
     invoke-virtual {p1}, Lcom/roblox/a/a;->c()Lorg/json/JSONObject;
@@ -134,7 +134,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 47
     invoke-static {v0}, Lcom/roblox/client/locale/c;->a(Ljava/lang/String;)Lcom/roblox/client/locale/c;

@@ -75,7 +75,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 29
     throw v0
@@ -129,7 +129,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 75
     sget-boolean v0, Lcom/roblox/client/realtime/NativeSignalRImplementation;->sSignalRConnected:Z
@@ -240,7 +240,7 @@
 
     const-string v1, "callbackOnDisconnectedEvent()"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 95
     invoke-direct {p0, v2, v2}, Lcom/roblox/client/realtime/NativeSignalRImplementation;->postSignalRConnectivityChangeEvent(ZZ)V
@@ -294,7 +294,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 110
     invoke-direct {p0, p3, p4}, Lcom/roblox/client/realtime/NativeSignalRImplementation;->setSequenceNumber(J)V
@@ -366,7 +366,7 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v4}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 101
     invoke-direct {p0, p1, p2}, Lcom/roblox/client/realtime/NativeSignalRImplementation;->setSequenceNumber(J)V
@@ -429,7 +429,7 @@
 
     const-string v2, "start: ...."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 36
     invoke-static {}, Lcom/roblox/client/RobloxSettings;->baseSignalRUrl()Ljava/lang/String;
@@ -506,7 +506,7 @@
 
     const-string v1, "start: ... END."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 50
     return-void
@@ -533,7 +533,7 @@
 
     const-string v1, "stop: ...."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 55
     invoke-virtual {p0}, Lcom/roblox/client/realtime/NativeSignalRImplementation;->nativeStopSignalR()V
@@ -543,7 +543,7 @@
 
     const-string v1, "stop: ... END."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 57
     return-void

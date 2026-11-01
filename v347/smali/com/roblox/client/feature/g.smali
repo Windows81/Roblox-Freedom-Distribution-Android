@@ -58,7 +58,7 @@
 
     const-string v1, "sendAppEvents() start chat"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 105
     const-string v0, "Chat"
@@ -109,7 +109,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 112
     invoke-virtual {p0, v0, v1}, Lcom/roblox/client/feature/g;->a(J)Lcom/roblox/engine/a/c;
@@ -150,7 +150,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 116
     invoke-virtual {p0, v2, v3}, Lcom/roblox/client/feature/g;->b(J)Lcom/roblox/engine/a/c;
@@ -180,7 +180,7 @@
 
     const-string v1, "sendAppEvents() start avatar"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 122
     const-string v0, "AvatarEditor"
@@ -212,7 +212,7 @@
 
     const-string v1, "sendAppEvents() start home"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 127
     const-string v0, "Home"
@@ -244,7 +244,7 @@
 
     const-string v1, "sendAppEvents() start games"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 132
     const-string v0, "Games"
@@ -276,7 +276,7 @@
 
     const-string v1, "sendAppEvents() start more"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 136
     const-string v0, "More"
@@ -410,7 +410,7 @@
 
     const-string v2, "onShow: Create a GL fragment for LuaApp..."
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 45
     new-instance v0, Lcom/roblox/client/f;
@@ -751,7 +751,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 156
     invoke-virtual {p0, v1}, Lcom/roblox/client/feature/g;->b(Ljava/lang/String;)Lcom/roblox/engine/a/c;

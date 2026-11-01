@@ -148,7 +148,7 @@
     .line 93
     const-string v0, "Failed to parse payload from PresenceNotifications"
 
-    invoke-static {v0}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/roblox/client/util/RobloxActivity;->b(Ljava/lang/String;)I
 
     .line 96
     :cond_2

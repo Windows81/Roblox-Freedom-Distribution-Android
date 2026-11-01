@@ -96,7 +96,7 @@
 
     const-string v1, "initPublisherInterstitialAd:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 259
     new-instance v0, Lcom/google/android/gms/ads/doubleclick/e;
@@ -127,7 +127,7 @@
 
     const-string v1, "initAdPlayer:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 102
     const v0, 0x7f0801f2
@@ -240,7 +240,7 @@
 
     const-string v1, "requestNewStaticAd:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 333
     :try_start_0
@@ -282,7 +282,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 340
     iget-object v1, p0, Lcom/roblox/client/i/b;->f:Lcom/google/android/gms/ads/doubleclick/e;
@@ -327,7 +327,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 342
     iget-object v1, p0, Lcom/roblox/client/i/b;->f:Lcom/google/android/gms/ads/doubleclick/e;
@@ -448,7 +448,7 @@
 
     move-result-object v4
 
-    invoke-static {v0, v4}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v4}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_2
     .catch Lorg/json/JSONException; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -558,7 +558,7 @@
 
     const-string v1, "initVideoAdUi:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 88
     invoke-direct {p0}, Lcom/roblox/client/i/b;->m()Landroid/app/Activity;
@@ -637,7 +637,7 @@
 
     const-string v1, "Activity reference is null, can\'t create video ad UI!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -651,7 +651,7 @@
 
     const-string v1, "requestNewVideoAd:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 114
     iget-object v0, p0, Lcom/roblox/client/i/b;->d:Landroid/view/View;
@@ -670,7 +670,7 @@
 
     const-string v1, "requestNewVideoAd: call initVideoAdUi again..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 117
     invoke-direct {p0}, Lcom/roblox/client/i/b;->e()V
@@ -712,7 +712,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 124
     iget-object v2, p0, Lcom/roblox/client/i/b;->h:Lcom/roblox/ima/a;
@@ -755,7 +755,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -854,7 +854,7 @@
 
     const-string v1, "playVideoAd:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 157
     iget-object v0, p0, Lcom/roblox/client/i/b;->d:Landroid/view/View;
@@ -905,7 +905,7 @@
 
     const-string v1, "initStaticAdUi:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 241
     invoke-direct {p0}, Lcom/roblox/client/i/b;->m()Landroid/app/Activity;
@@ -980,7 +980,7 @@
 
     const-string v1, "Activity reference is null, can\'t create static ad UI!"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -1016,7 +1016,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 317
     iget-object v0, p0, Lcom/roblox/client/i/b;->f:Lcom/google/android/gms/ads/doubleclick/e;
@@ -1043,7 +1043,7 @@
 
     const-string v1, "playStaticAd: DFP ad not loaded."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 321
     invoke-direct {p0}, Lcom/roblox/client/i/b;->m()Landroid/app/Activity;
@@ -1058,7 +1058,7 @@
 
     const-string v2, "playStaticAd: Request a new static ad..."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 324
     const/4 v1, 0x1
@@ -1080,7 +1080,7 @@
 
     const-string v1, "resumeGameJoinAttempt:..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 387
     iget-object v0, p0, Lcom/roblox/client/i/b;->g:Lcom/roblox/client/j;
@@ -1169,7 +1169,7 @@
 
     const-string v1, "videoAdStartedPlaying:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 166
     iget-object v0, p0, Lcom/roblox/client/i/b;->d:Landroid/view/View;
@@ -1214,7 +1214,7 @@
 
     const-string v3, "videoAdStartedPlaying: ... set SENSOR_LANDSCAPE"
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 176
     const/4 v2, 0x6
@@ -1227,7 +1227,7 @@
 
     const-string v3, "videoAdStartedPlaying: ... set view to VISIBLE"
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 179
     const/4 v2, 0x0
@@ -1267,7 +1267,7 @@
 
     const-string v1, "initialize:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 74
     new-instance v0, Ljava/lang/ref/WeakReference;
@@ -1301,7 +1301,7 @@
 
     const-string v1, "startAdPlayAttempt:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 441
     iget-object v0, p0, Lcom/roblox/client/i/b;->b:Lorg/json/JSONObject;
@@ -1313,7 +1313,7 @@
 
     const-string v1, "startAdPlayAttempt: Ad-details is not ready. Resume game now."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 443
     if-eqz p1, :cond_0
@@ -1378,7 +1378,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 228
     const-string v0, "MobileAds"
@@ -1410,7 +1410,7 @@
 
     const-string v1, "videoAdFinishedPlaying:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 192
     iget-object v0, p0, Lcom/roblox/client/i/b;->d:Landroid/view/View;
@@ -1429,7 +1429,7 @@
 
     const-string v2, "videoAdFinishedPlaying: ... set view to INVISIBLE."
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 195
     const/4 v0, 0x4
@@ -1449,7 +1449,7 @@
 
     const-string v3, "videoAdFinishedPlaying: ... remove player-container view entirely."
 
-    invoke-static {v0, v3}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v3}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 203
     invoke-virtual {v2}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
@@ -1505,7 +1505,7 @@
 
     const-string v1, "getAdDetails: get-ad-details request is in progress. Do nothing."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 436
     :goto_0
@@ -1517,7 +1517,7 @@
 
     const-string v1, "getAdDetails:..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 400
     new-instance v0, Lcom/roblox/client/http/n;
@@ -1569,14 +1569,14 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 218
     const-string v0, "MobileAds"
 
     const-string v1, "IMASuccess"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/roblox/client/b/c;->sendAnalytics(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 219
     iget-boolean v0, p0, Lcom/roblox/client/i/b;->c:Z

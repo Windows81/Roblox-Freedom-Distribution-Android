@@ -45,7 +45,7 @@
 
     const-string v1, "onLoginSuccess: Will finish the view as success..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 96
     iget-object v0, p0, Lcom/roblox/client/login/b$1;->a:Lcom/roblox/client/login/b;
@@ -103,7 +103,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 123
     iget-object v0, p0, Lcom/roblox/client/login/b$1;->a:Lcom/roblox/client/login/b;
@@ -272,7 +272,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 114
     iget-object v0, p0, Lcom/roblox/client/login/b$1;->a:Lcom/roblox/client/login/b;
@@ -322,7 +322,7 @@
 
     const-string v1, "onPasswordResetRequested: "
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 107
     iget-object v0, p0, Lcom/roblox/client/login/b$1;->a:Lcom/roblox/client/login/b;

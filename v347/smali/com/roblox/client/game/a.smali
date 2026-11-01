@@ -8,9 +8,11 @@
 
 .field private b:J
 
-.field private c:Ljava/lang/String;
+.field private accessCode:Ljava/lang/String;
 
-.field private d:Ljava/lang/String;
+.field private baseUrl:Ljava/lang/String;
+
+.field private gameId:Ljava/lang/String;
 
 .field private e:I
 
@@ -34,12 +36,12 @@
     .line 15
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/roblox/client/game/a;->c:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/game/a;->accessCode:Ljava/lang/String;
 
     .line 16
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/roblox/client/game/a;->d:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/game/a;->gameId:Ljava/lang/String;
 
     .line 17
     const/4 v0, -0x1
@@ -91,7 +93,7 @@
     .line 160
     const-string v1, "mAccessCode"
 
-    invoke-virtual {p0}, Lcom/roblox/client/game/a;->c()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/roblox/client/game/a;->get_accessCode()Ljava/lang/String;
 
     move-result-object v2
 
@@ -100,7 +102,7 @@
     .line 161
     const-string v1, "mGameId"
 
-    invoke-virtual {p0}, Lcom/roblox/client/game/a;->d()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/roblox/client/game/a;->get_gameId()Ljava/lang/String;
 
     move-result-object v2
 
@@ -355,7 +357,7 @@
 
     .prologue
     .line 66
-    iput-object p1, p0, Lcom/roblox/client/game/a;->c:Ljava/lang/String;
+    iput-object p1, p0, Lcom/roblox/client/game/a;->accessCode:Ljava/lang/String;
 
     .line 67
     return-void
@@ -387,28 +389,38 @@
 
     .prologue
     .line 70
-    iput-object p1, p0, Lcom/roblox/client/game/a;->d:Ljava/lang/String;
+    iput-object p1, p0, Lcom/roblox/client/game/a;->gameId:Ljava/lang/String;
 
     .line 71
     return-void
 .end method
 
-.method public c()Ljava/lang/String;
+.method public get_accessCode()Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 32
-    iget-object v0, p0, Lcom/roblox/client/game/a;->c:Ljava/lang/String;
+    iget-object v0, p0, Lcom/roblox/client/game/a;->accessCode:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public d()Ljava/lang/String;
+.method public get_baseUrl()Ljava/lang/String;
+    .locals 1
+
+    .prologue
+    .line 33
+    iget-object v0, p0, Lcom/roblox/client/game/a;->baseUrl:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public get_gameId()Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 36
-    iget-object v0, p0, Lcom/roblox/client/game/a;->d:Ljava/lang/String;
+    iget-object v0, p0, Lcom/roblox/client/game/a;->gameId:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -474,7 +486,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/roblox/client/game/a;->c:Ljava/lang/String;
+    iget-object v1, p0, Lcom/roblox/client/game/a;->accessCode:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -486,7 +498,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/roblox/client/game/a;->d:Ljava/lang/String;
+    iget-object v1, p0, Lcom/roblox/client/game/a;->gameId:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

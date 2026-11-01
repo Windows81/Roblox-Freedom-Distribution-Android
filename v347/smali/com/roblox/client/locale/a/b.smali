@@ -186,7 +186,7 @@
 
     const-string v3, "Error reading updated string"
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_1
 
@@ -246,7 +246,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 51
     :cond_0
@@ -304,7 +304,7 @@
 
     const-string v1, "Could not read updated strings"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 63
     invoke-interface {p4, v2, v2}, Lcom/roblox/client/locale/e;->a(Ljava/util/HashMap;Lcom/roblox/client/locale/c;)V

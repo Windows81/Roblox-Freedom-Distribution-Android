@@ -119,7 +119,7 @@
 
     move-result-object v7
 
-    invoke-static {v6, v7}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v6, v7}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 77
     iget-object v6, p0, Lcom/roblox/client/resetpassword/b$1;->b:Lcom/roblox/client/resetpassword/b;
@@ -200,7 +200,7 @@
 
     const-string v6, "callResetPasswordWithApi() error parsing response json"
 
-    invoke-static {v0, v6}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v6}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 72
     const-string v0, "FailureJSON"

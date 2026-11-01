@@ -97,7 +97,7 @@
     .line 89
     const-string v0, "rbx.push"
 
-    invoke-static {v0, v6}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v6}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 90
     iget-object v0, p0, Lcom/roblox/client/pushnotification/a/a$2;->e:Lcom/roblox/client/pushnotification/a/a;
@@ -162,7 +162,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 97
     const-string v0, "metadataInaccessible"

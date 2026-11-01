@@ -1,3 +1,5 @@
+# Corresponds to `AppCompatActivity` (https://github.com/AyraHikari/SamsungMusicPort/blob/a10f0017de98fb0df98399a14930c9e47f2589bc/smali/android/support/v7/app/AppCompatActivity.smali)
+
 .class public Landroid/support/v7/app/c;
 .super Landroid/support/v4/app/h;
 .source "SourceFile"
@@ -8,11 +10,11 @@
 
 
 # instance fields
-.field private m:Landroid/support/v7/app/e;
+.field private mDelegate:Landroid/support/v7/app/e;
 
-.field private n:I
+.field private mThemeId:I
 
-.field private o:Landroid/content/res/Resources;
+.field private mResource:Landroid/content/res/Resources;
 
 
 # direct methods
@@ -26,7 +28,7 @@
     .line 65
     const/4 v0, 0x0
 
-    iput v0, p0, Landroid/support/v7/app/c;->n:I
+    iput v0, p0, Landroid/support/v7/app/c;->mThemeId:I
 
     return-void
 .end method
@@ -164,7 +166,7 @@
 
     .prologue
     .line 129
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -191,7 +193,7 @@
 
     .prologue
     .line 154
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -233,7 +235,7 @@
 
     .prologue
     .line 239
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -331,7 +333,7 @@
 
     .prologue
     .line 109
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -354,7 +356,7 @@
 
     .prologue
     .line 190
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -365,7 +367,7 @@
     return-object v0
 .end method
 
-.method public g()Z
+.method public onSupportNavigateUp()Z
     .locals 2
 
     .prologue
@@ -439,7 +441,7 @@
 
     .prologue
     .line 134
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -455,7 +457,7 @@
 
     .prologue
     .line 539
-    iget-object v0, p0, Landroid/support/v7/app/c;->o:Landroid/content/res/Resources;
+    iget-object v0, p0, Landroid/support/v7/app/c;->mResource:Landroid/content/res/Resources;
 
     if-nez v0, :cond_0
 
@@ -474,11 +476,11 @@
 
     invoke-direct {v0, p0, v1}, Landroid/support/v7/widget/VectorEnabledTintResources;-><init>(Landroid/content/Context;Landroid/content/res/Resources;)V
 
-    iput-object v0, p0, Landroid/support/v7/app/c;->o:Landroid/content/res/Resources;
+    iput-object v0, p0, Landroid/support/v7/app/c;->mResource:Landroid/content/res/Resources;
 
     .line 542
     :cond_0
-    iget-object v0, p0, Landroid/support/v7/app/c;->o:Landroid/content/res/Resources;
+    iget-object v0, p0, Landroid/support/v7/app/c;->mResource:Landroid/content/res/Resources;
 
     if-nez v0, :cond_1
 
@@ -490,12 +492,12 @@
     return-object v0
 
     :cond_1
-    iget-object v0, p0, Landroid/support/v7/app/c;->o:Landroid/content/res/Resources;
+    iget-object v0, p0, Landroid/support/v7/app/c;->mResource:Landroid/content/res/Resources;
 
     goto :goto_0
 .end method
 
-.method public h()V
+.method public onSupportContentChanged()V
     .locals 0
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
@@ -505,12 +507,12 @@
     return-void
 .end method
 
-.method public i()Landroid/support/v7/app/e;
+.method public getDelegate()Landroid/support/v7/app/e;
     .locals 1
 
     .prologue
     .line 518
-    iget-object v0, p0, Landroid/support/v7/app/c;->m:Landroid/support/v7/app/e;
+    iget-object v0, p0, Landroid/support/v7/app/c;->mDelegate:Landroid/support/v7/app/e;
 
     if-nez v0, :cond_0
 
@@ -519,11 +521,11 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Landroid/support/v7/app/c;->m:Landroid/support/v7/app/e;
+    iput-object v0, p0, Landroid/support/v7/app/c;->mDelegate:Landroid/support/v7/app/e;
 
     .line 521
     :cond_0
-    iget-object v0, p0, Landroid/support/v7/app/c;->m:Landroid/support/v7/app/e;
+    iget-object v0, p0, Landroid/support/v7/app/c;->mDelegate:Landroid/support/v7/app/e;
 
     return-object v0
 .end method
@@ -533,7 +535,7 @@
 
     .prologue
     .line 244
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -551,14 +553,14 @@
     invoke-super {p0, p1}, Landroid/support/v4/app/h;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 160
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
     invoke-virtual {v0, p1}, Landroid/support/v7/app/e;->a(Landroid/content/res/Configuration;)V
 
     .line 161
-    iget-object v0, p0, Landroid/support/v7/app/c;->o:Landroid/content/res/Resources;
+    iget-object v0, p0, Landroid/support/v7/app/c;->mResource:Landroid/content/res/Resources;
 
     if-eqz v0, :cond_0
 
@@ -572,7 +574,7 @@
     move-result-object v0
 
     .line 165
-    iget-object v1, p0, Landroid/support/v7/app/c;->o:Landroid/content/res/Resources;
+    iget-object v1, p0, Landroid/support/v7/app/c;->mResource:Landroid/content/res/Resources;
 
     invoke-virtual {v1, p1, v0}, Landroid/content/res/Resources;->updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
 
@@ -586,7 +588,7 @@
 
     .prologue
     .line 469
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->h()V
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->onSupportContentChanged()V
 
     .line 470
     return-void
@@ -597,7 +599,7 @@
 
     .prologue
     .line 70
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -614,7 +616,7 @@
 
     if-eqz v0, :cond_0
 
-    iget v0, p0, Landroid/support/v7/app/c;->n:I
+    iget v0, p0, Landroid/support/v7/app/c;->mThemeId:I
 
     if-eqz v0, :cond_0
 
@@ -630,7 +632,7 @@
 
     move-result-object v0
 
-    iget v1, p0, Landroid/support/v7/app/c;->n:I
+    iget v1, p0, Landroid/support/v7/app/c;->mThemeId:I
 
     const/4 v2, 0x0
 
@@ -646,7 +648,7 @@
 
     .line 81
     :cond_1
-    iget v0, p0, Landroid/support/v7/app/c;->n:I
+    iget v0, p0, Landroid/support/v7/app/c;->mThemeId:I
 
     invoke-virtual {p0, v0}, Landroid/support/v7/app/c;->setTheme(I)V
 
@@ -661,7 +663,7 @@
     invoke-super {p0}, Landroid/support/v4/app/h;->onDestroy()V
 
     .line 210
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -742,7 +744,7 @@
     if-eqz v0, :cond_1
 
     .line 202
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->g()Z
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->onSupportNavigateUp()Z
 
     move-result v0
 
@@ -786,7 +788,7 @@
     invoke-super {p0, p1}, Landroid/support/v4/app/h;->onPostCreate(Landroid/os/Bundle;)V
 
     .line 97
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -804,7 +806,7 @@
     invoke-super {p0}, Landroid/support/v4/app/h;->onPostResume()V
 
     .line 172
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -822,7 +824,7 @@
     invoke-super {p0, p1}, Landroid/support/v4/app/h;->onSaveInstanceState(Landroid/os/Bundle;)V
 
     .line 510
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -840,7 +842,7 @@
     invoke-super {p0}, Landroid/support/v4/app/h;->onStart()V
 
     .line 178
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -858,7 +860,7 @@
     invoke-super {p0}, Landroid/support/v4/app/h;->onStop()V
 
     .line 184
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -876,7 +878,7 @@
     invoke-super {p0, p1, p2}, Landroid/support/v4/app/h;->onTitleChanged(Ljava/lang/CharSequence;I)V
 
     .line 216
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -931,7 +933,7 @@
 
     .prologue
     .line 139
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -946,7 +948,7 @@
 
     .prologue
     .line 144
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -961,7 +963,7 @@
 
     .prologue
     .line 149
-    invoke-virtual {p0}, Landroid/support/v7/app/c;->i()Landroid/support/v7/app/e;
+    invoke-virtual {p0}, Landroid/support/v7/app/c;->getDelegate()Landroid/support/v7/app/e;
 
     move-result-object v0
 
@@ -979,7 +981,7 @@
     invoke-super {p0, p1}, Landroid/support/v4/app/h;->setTheme(I)V
 
     .line 91
-    iput p1, p0, Landroid/support/v7/app/c;->n:I
+    iput p1, p0, Landroid/support/v7/app/c;->mThemeId:I
 
     .line 92
     return-void

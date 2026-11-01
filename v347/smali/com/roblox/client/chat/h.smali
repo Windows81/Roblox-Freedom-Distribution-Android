@@ -1412,7 +1412,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;)I
 
     .line 766
     iget-object v0, p0, Lcom/roblox/client/chat/h;->c:Lcom/roblox/client/chat/g;
@@ -2631,7 +2631,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;)I
 
     .line 759
     iget-object v0, p0, Lcom/roblox/client/chat/h;->a:Lcom/roblox/client/j/c;

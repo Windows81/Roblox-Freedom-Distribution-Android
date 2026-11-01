@@ -49,7 +49,7 @@
 
     const-string v1, "onAdStarted:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 98
     iget-object v0, p0, Lcom/roblox/client/game/GameLaunchActivity$1;->b:Lcom/roblox/client/game/GameLaunchActivity;
@@ -69,7 +69,7 @@
 
     const-string v1, "resumeGameLaunch:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 104
     iget-object v0, p0, Lcom/roblox/client/game/GameLaunchActivity$1;->b:Lcom/roblox/client/game/GameLaunchActivity;

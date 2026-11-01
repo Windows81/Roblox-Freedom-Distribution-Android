@@ -156,7 +156,7 @@
 
     const-string v1, "Context is null"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 .end method
@@ -194,7 +194,7 @@
 
     const-string v1, "App updated"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 61
     invoke-static {p1}, Lcom/roblox/client/util/h;->d(Landroid/content/Context;)V
@@ -212,7 +212,7 @@
 
     const-string v1, "No app upgrade"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 65
     invoke-interface {p3}, Lcom/roblox/client/locale/db/a$a;->a()V

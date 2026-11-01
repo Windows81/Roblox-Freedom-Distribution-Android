@@ -212,7 +212,7 @@
 
     const-string v1, "Generating unique contacts."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 205
     new-instance v1, Ljava/util/TreeMap;
@@ -552,7 +552,7 @@
 
     const-string v1, "Getting avatars."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 600
     new-instance v2, Ljava/util/ArrayList;
@@ -739,7 +739,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 344
     invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
@@ -798,7 +798,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 385
     new-instance v1, Lcom/roblox/client/http/post/ContactsSyncRequestBody;
@@ -890,7 +890,7 @@
 
     move-result-object v4
 
-    invoke-static {v1, v4}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v4}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 403
     invoke-interface {p2, v0}, Lcom/roblox/client/contacts/d;->a(Ljava/lang/String;)V
@@ -1130,7 +1130,7 @@
 
     const-string v1, "Parsing json."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 464
     const/4 v0, 0x0
@@ -1162,7 +1162,7 @@
 
     const-string v3, "getRobloxContactsFromServer() error parsing response json"
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 470
     new-instance v2, Ljava/lang/StringBuilder;

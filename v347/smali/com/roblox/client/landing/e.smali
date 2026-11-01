@@ -204,7 +204,7 @@
 
     const-string v1, "onStart"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 115
     const-string v0, "start"
@@ -219,7 +219,7 @@
 
     const-string v1, "onResume"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 120
     invoke-static {}, Lcom/roblox/client/o;->a()Lcom/roblox/client/o;
@@ -240,7 +240,7 @@
 
     const-string v1, "onDestroy"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 133
     invoke-virtual {p0}, Lcom/roblox/client/landing/e;->c()V

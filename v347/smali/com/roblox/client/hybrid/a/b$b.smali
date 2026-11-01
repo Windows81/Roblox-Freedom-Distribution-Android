@@ -55,7 +55,7 @@
 
     const-string v1, "Inside GetTopBarHeight Java"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 84
     new-instance v0, Landroid/content/Intent;

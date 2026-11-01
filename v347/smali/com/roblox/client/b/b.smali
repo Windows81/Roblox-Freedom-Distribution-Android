@@ -64,7 +64,7 @@
 
     const-string v1, "[Constructor]: ENTER."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 67
     iput-object p1, p0, Lcom/roblox/client/b/b;->d:Lcom/roblox/client/b/b$a;
@@ -342,7 +342,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 156
     const/4 v0, 0x0
@@ -1281,7 +1281,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 175
     iget-object v0, p0, Lcom/roblox/client/b/b;->b:Ljava/util/List;
@@ -1311,7 +1311,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 178
     iget-object v2, p0, Lcom/roblox/client/b/b;->b:Ljava/util/List;

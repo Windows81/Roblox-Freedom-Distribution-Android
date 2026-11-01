@@ -15,21 +15,22 @@
 
 
 # instance fields
-.field public a:I
+.field public joinRequestType:I
 
-.field public b:J
+.field public userId:J
 
-.field public c:Ljava/lang/String;
+.field public appStarterPlace:Ljava/lang/String;
 
-.field public d:Ljava/lang/String;
+.field public appStarterScript:Ljava/lang/String;
 
-.field public e:J
+.field public placeId:J
 
-.field public f:Ljava/lang/String;
+# PATCH: include baseUrl in game-init arguments.
+.field public baseUrl:Ljava/lang/String;
 
-.field public g:Ljava/lang/String;
+.field public gameId:Ljava/lang/String;
 
-.field public h:Z
+.field public vrEnabled:Z
 
 .field final synthetic i:Lcom/roblox/client/FragmentGlView;
 
@@ -49,36 +50,37 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 78
-    iput v1, p0, Lcom/roblox/client/FragmentGlView$a;->a:I
+    iput v1, p0, Lcom/roblox/client/FragmentGlView$a;->joinRequestType:I
 
     .line 79
-    iput-wide v2, p0, Lcom/roblox/client/FragmentGlView$a;->b:J
+    iput-wide v2, p0, Lcom/roblox/client/FragmentGlView$a;->userId:J
 
     .line 82
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/roblox/client/FragmentGlView$a;->c:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/FragmentGlView$a;->appStarterPlace:Ljava/lang/String;
 
     .line 83
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/roblox/client/FragmentGlView$a;->d:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/FragmentGlView$a;->appStarterScript:Ljava/lang/String;
 
     .line 86
-    iput-wide v2, p0, Lcom/roblox/client/FragmentGlView$a;->e:J
+    iput-wide v2, p0, Lcom/roblox/client/FragmentGlView$a;->placeId:J
 
+    # PATCH: process baseUrl the same was as accessCode.
     .line 87
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/roblox/client/FragmentGlView$a;->f:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/FragmentGlView$a;->baseUrl:Ljava/lang/String;
 
     .line 88
     const-string v0, ""
 
-    iput-object v0, p0, Lcom/roblox/client/FragmentGlView$a;->g:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/FragmentGlView$a;->gameId:Ljava/lang/String;
 
     .line 90
-    iput-boolean v1, p0, Lcom/roblox/client/FragmentGlView$a;->h:Z
+    iput-boolean v1, p0, Lcom/roblox/client/FragmentGlView$a;->vrEnabled:Z
 
     return-void
 .end method

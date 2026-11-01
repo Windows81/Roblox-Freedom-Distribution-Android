@@ -176,7 +176,7 @@
 
     const-string v3, "Guest mode not enabled. Stopping external launch until signing up."
 
-    invoke-static {v2, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 273
     invoke-static {}, Lcom/roblox/client/game/b;->a()Lcom/roblox/client/game/b;
@@ -269,7 +269,7 @@
 
     const-string v2, "Dismiss the existing Retry UI..."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 351
     invoke-virtual {v0}, Lcom/roblox/client/startup/a;->dismiss()V
@@ -426,7 +426,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 87
     const-string v1, "STARTED_FOR_INTENT_KEY"
@@ -588,7 +588,7 @@
 
     const-string v1, "showRetryFragment: "
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 336
     invoke-direct {p0}, Lcom/roblox/client/startup/ActivitySplash;->C()Lcom/roblox/client/startup/a;
@@ -603,7 +603,7 @@
 
     const-string v2, "showRetryFragment: Found an existing Retry fragment."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 339
     invoke-virtual {p0, p1}, Lcom/roblox/client/startup/ActivitySplash;->getString(I)Ljava/lang/String;
@@ -622,7 +622,7 @@
 
     const-string v1, "showRetryFragment: Create a new FragmentRetry..."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 342
     invoke-static {p1}, Lcom/roblox/client/startup/a;->a(I)Lcom/roblox/client/startup/a;
@@ -796,7 +796,7 @@
 
     const-string v1, "startup:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 195
     const/4 v0, 0x1
@@ -870,7 +870,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 417
     invoke-virtual {p0}, Lcom/roblox/client/startup/ActivitySplash;->u()Z
@@ -1116,7 +1116,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 113
     const v0, 0x7f0a0027
@@ -1135,7 +1135,7 @@
     iput-object v0, p0, Lcom/roblox/client/startup/ActivitySplash;->m:Lcom/roblox/client/components/LoadingBar;
 
     .line 117
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -1201,7 +1201,7 @@
 
     .line 135
     :cond_4
-    invoke-static {}, Lcom/roblox/client/d/b;->a()Z
+    invoke-static {}, Lcom/roblox/client/d/b;->isDevBuild()Z
 
     move-result v0
 
@@ -1218,7 +1218,7 @@
 
     const-string v1, "Alert: needs restart"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 137
     invoke-virtual {p0}, Lcom/roblox/client/startup/ActivitySplash;->q()V
@@ -1262,7 +1262,7 @@
 
     const-string v1, "onDestroy: unset the activity from InitHelper."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 167
     invoke-static {p0}, Lcom/roblox/client/startup/b;->a(Landroid/content/Context;)Lcom/roblox/client/startup/b;
@@ -1303,7 +1303,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 160
     return-void
@@ -1321,7 +1321,7 @@
 
     const-string v1, "onPause:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 189
     invoke-direct {p0}, Lcom/roblox/client/startup/ActivitySplash;->z()V
@@ -1349,7 +1349,7 @@
 
     const-string v1, "onResume:"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 181
     invoke-direct {p0}, Lcom/roblox/client/startup/ActivitySplash;->B()V

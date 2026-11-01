@@ -80,7 +80,7 @@
 
     const-string v1, "App locale value is null"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 63
     sget-object v0, Lcom/roblox/client/locale/c;->a:Lcom/roblox/client/locale/c;
@@ -98,7 +98,7 @@
 
     const-string v1, "LocaleManger is null in getAppLocale()"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 68
     sget-object v0, Lcom/roblox/client/locale/c;->a:Lcom/roblox/client/locale/c;
@@ -223,7 +223,7 @@
 
     const-string v1, "Resources passed to getStringByKeyName() is null."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 134
     const/4 v0, 0x0
@@ -303,7 +303,7 @@
 
     const-string v1, "Context or LocaleManager is null in getStringFromResources()."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 98
     const/4 v0, 0x0
@@ -397,7 +397,7 @@
 
     const-string v1, "Configuration is null in getStringForApiLevel17AndAbove()."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 120
     const/4 v0, 0x0

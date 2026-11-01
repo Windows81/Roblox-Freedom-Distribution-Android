@@ -73,7 +73,7 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 56
     const-string v0, "rbx.purchaseflow"
@@ -100,7 +100,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 59
     :cond_0
@@ -115,7 +115,7 @@
 
     const-string v1, "Validation unknown error"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 102
     sget-object v0, Lcom/roblox/client/purchase/a$a;->f:Lcom/roblox/client/purchase/a$a;
@@ -150,7 +150,7 @@
 
     const-string v1, "Validation successful"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 62
     sget-object v0, Lcom/roblox/client/purchase/a$a;->a:Lcom/roblox/client/purchase/a$a;
@@ -172,7 +172,7 @@
 
     const-string v1, "Service has thrown an uknown exception."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 67
     sget-object v0, Lcom/roblox/client/purchase/a$a;->f:Lcom/roblox/client/purchase/a$a;
@@ -194,7 +194,7 @@
 
     const-string v1, "Unauthorized to make request. Auth cookie is needed."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 72
     sget-object v0, Lcom/roblox/client/purchase/a$a;->b:Lcom/roblox/client/purchase/a$a;
@@ -216,7 +216,7 @@
 
     const-string v1, "Unauthorized to make request. XSRF token is needed."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 77
     sget-object v0, Lcom/roblox/client/purchase/a$a;->b:Lcom/roblox/client/purchase/a$a;
@@ -238,7 +238,7 @@
 
     const-string v1, "{validateModel} is invalid."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 82
     sget-object v0, Lcom/roblox/client/purchase/a$a;->b:Lcom/roblox/client/purchase/a$a;
@@ -260,7 +260,7 @@
 
     const-string v1, "Service has been rate limited to user."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 87
     sget-object v0, Lcom/roblox/client/purchase/a$a;->d:Lcom/roblox/client/purchase/a$a;
@@ -282,7 +282,7 @@
 
     const-string v1, "Server Error"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 92
     sget-object v0, Lcom/roblox/client/purchase/a$a;->f:Lcom/roblox/client/purchase/a$a;
@@ -304,7 +304,7 @@
 
     const-string v1, "Service has been turned off. Header response will include Retry-After in seconds."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 97
     sget-object v0, Lcom/roblox/client/purchase/a$a;->c:Lcom/roblox/client/purchase/a$a;

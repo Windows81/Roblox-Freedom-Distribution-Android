@@ -8,7 +8,8 @@
 
 .field private final p:Ljava/lang/String;
 
-.field private final q:Ljava/lang/String;
+# PATCH: include baseUrl in class.
+.field private final baseUrl:Ljava/lang/String;
 
 .field private final r:Ljava/lang/String;
 
@@ -31,10 +32,11 @@
 
     iput-object v0, p0, Lcom/roblox/client/ActivityProtocolLaunch;->p:Ljava/lang/String;
 
+    # PATCH: include baseUrl in class.
     .line 28
-    const-string v0, "accesscode"
+    const-string v0, "baseurl"
 
-    iput-object v0, p0, Lcom/roblox/client/ActivityProtocolLaunch;->q:Ljava/lang/String;
+    iput-object v0, p0, Lcom/roblox/client/ActivityProtocolLaunch;->baseUrl:Ljava/lang/String;
 
     .line 29
     const-string v0, "gameinstanceid"
@@ -162,9 +164,10 @@
 
     if-eqz v0, :cond_5
 
+    # PATCH: process baseUrl the same was as accessCode.
     .line 62
     :cond_0
-    const-string v0, "accesscode"
+    const-string v0, "baseurl"
 
     invoke-virtual {v7, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -207,7 +210,7 @@
 
     const-string v2, "onCreate() activity is root - starting splash"
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 71
     sget-object v1, Lcom/roblox/client/startup/e;->g:Lcom/roblox/client/startup/e;
@@ -225,7 +228,7 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
-    invoke-static {v0}, Ldebuggy;->print(Ljava/lang/Object;)V
+    invoke-static {v0}, LRFD_Debuggy;->print(Ljava/lang/Object;)V
 
     .line 73
     invoke-virtual {p0, v1}, Lcom/roblox/client/ActivityProtocolLaunch;->startActivity(Landroid/content/Intent;)V
@@ -279,7 +282,7 @@
 
     const-string v2, "onCreate() activity on stack - checking to launch data"
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 80
     if-eqz v0, :cond_4

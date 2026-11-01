@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 393
     invoke-virtual {p2}, Ld/l;->a()I
@@ -242,7 +242,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -259,7 +259,7 @@
 
     const-string v1, "Failed to parse Chat Rename Title Backend response"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 427
     iget-object v0, p0, Lcom/roblox/client/chat/f$2;->a:Lcom/roblox/client/chat/f;
@@ -344,7 +344,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v3}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v3}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -373,7 +373,7 @@
 
     const-string v1, "Failed to Rename Title"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 435
     iget-object v0, p0, Lcom/roblox/client/chat/f$2;->a:Lcom/roblox/client/chat/f;

@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a()Z
+.method public static isDevBuild()Z
     .locals 1
 
     .prologue

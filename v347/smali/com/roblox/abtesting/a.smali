@@ -398,7 +398,7 @@
 
     const-string v2, "getTestsFromNetwork."
 
-    invoke-static {v0, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 416
     iget-object v0, p0, Lcom/roblox/abtesting/a;->c:Lcom/roblox/client/http/f;
@@ -756,7 +756,7 @@
 
     const-string v2, "Enrolling."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 329
     iget-object v1, p0, Lcom/roblox/abtesting/a;->g:Ljava/lang/String;
@@ -1040,7 +1040,7 @@
 
     const-string v2, "Getting enrollments."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 376
     iget-object v1, p0, Lcom/roblox/abtesting/a;->h:Ljava/lang/String;

@@ -110,7 +110,7 @@
 
     const-string v1, "InitHelper created."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 113
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -329,7 +329,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 456
     sget-object v0, Lcom/roblox/client/startup/b$b;->g:Lcom/roblox/client/startup/b$b;
@@ -454,7 +454,7 @@
     move-result-object v1
 
     .line 235
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 238
     invoke-static {}, Lcom/roblox/client/b;->o()Z
@@ -472,7 +472,7 @@
 
     const-string v1, "using new locale api"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 240
     new-instance v0, Lcom/roblox/client/locale/f;
@@ -819,7 +819,7 @@
 
     const-string v1, "SessionCheck... No saved UserId. Go to the landing screen."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 370
     sget-object v0, Lcom/roblox/client/startup/b$b;->d:Lcom/roblox/client/startup/b$b;
@@ -907,7 +907,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 418
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -1058,7 +1058,7 @@
 
     const-string v1, "AppSettings loaded."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 464
     invoke-direct {p0}, Lcom/roblox/client/startup/b;->a()Lcom/roblox/client/startup/c;
@@ -1100,7 +1100,7 @@
 
     const-string v1, "AppSettings FAILURE"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 470
     sget-object v0, Lcom/roblox/client/startup/b$b;->h:Lcom/roblox/client/startup/b$b;
@@ -1176,7 +1176,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 217
     sget-object v0, Lcom/roblox/client/startup/b$b;->d:Lcom/roblox/client/startup/b$b;
@@ -1231,7 +1231,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 211
     sget-object v0, Lcom/roblox/client/startup/b$b;->d:Lcom/roblox/client/startup/b$b;
@@ -1291,7 +1291,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 159
     iput-object p1, p0, Lcom/roblox/client/startup/b;->c:Lcom/roblox/client/startup/e;
@@ -1323,7 +1323,7 @@
 
     const-string v1, "The app was recently initialized successfully. Done."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 164
     invoke-direct {p0}, Lcom/roblox/client/startup/b;->a()Lcom/roblox/client/startup/c;
@@ -1362,7 +1362,7 @@
 
     const-string v1, "Helper starting. Fetching Browser Tracker Id (BTID)"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 174
     sget-object v0, Lcom/roblox/client/startup/b$b;->b:Lcom/roblox/client/startup/b$b;
@@ -1503,7 +1503,7 @@
 
     const-string v1, "The initialization must be in progress. Do nothing."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     goto/16 :goto_0
 .end method

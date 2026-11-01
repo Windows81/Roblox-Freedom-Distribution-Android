@@ -157,7 +157,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v3}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 135
     new-instance v0, Lcom/roblox/client/login/mvp/c;
@@ -176,7 +176,7 @@
 
     const-string v3, "callLoginWithAuthV1(). errorCode=200."
 
-    invoke-static {v1, v3}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v3}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 151
     iget-object v1, p0, Lcom/roblox/client/login/mvp/d$1;->b:Lcom/roblox/client/login/mvp/d;
@@ -247,7 +247,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/roblox/client/util/g;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v3}, Lcom/roblox/client/util/RobloxActivity;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     move-object v0, v1
 

@@ -86,7 +86,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 214
     iput-boolean p1, p0, Lcom/roblox/client/f/d;->m:Z
@@ -266,7 +266,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 138
     invoke-virtual {p3, v0, p2}, Lcom/roblox/client/locale/a;->b(Lcom/roblox/client/locale/c;Landroid/content/Context;)Z
@@ -670,7 +670,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;)I
+    invoke-static {v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;)I
 
     .line 122
     iget-object v0, p0, Lcom/roblox/client/f/d;->h:Lcom/roblox/client/j/c;

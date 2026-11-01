@@ -55,7 +55,7 @@
     .line 36
     const-string v1, "rbx.friends"
 
-    invoke-static {v1, v0}, Lcom/roblox/client/util/g;->a(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Lcom/roblox/client/util/RobloxActivity;->a(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 38
     new-instance v1, Lorg/json/JSONObject;

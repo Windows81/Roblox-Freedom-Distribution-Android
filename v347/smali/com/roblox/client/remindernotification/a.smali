@@ -166,7 +166,7 @@
 
     const-string v1, "Scheduling alarm for broadcasting."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 102
     invoke-static {p0, p1, p2, p3}, Lcom/roblox/client/remindernotification/a;->b(Landroid/content/Context;Ljava/lang/String;J)V
@@ -238,7 +238,7 @@
 
     const-string v1, "App opened from reminder notification"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 212
     invoke-static {}, Lcom/roblox/client/remindernotification/a;->b()V
@@ -347,7 +347,7 @@
 
     const-string v2, "Canceling reminder notification."
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 202
     const-string v1, "ReminderNotificationABTestTAG"
@@ -570,7 +570,7 @@
 
     const-string v1, "App in foreground. No need to show notification."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 220
     const-string v0, "appIsVisible"
@@ -600,7 +600,7 @@
 
     const-string v1, "App recently used. No need to show notification."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 227
     const-string v0, "userActiveBeforeXDays"
@@ -622,7 +622,7 @@
 
     const-string v1, "Different user logged in."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 233
     const-string v0, "userLoggedOut"
@@ -662,7 +662,7 @@
 
     const-string v1, "Feature available only in English."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 239
     const-string v0, "localeNotValid"
@@ -677,7 +677,7 @@
 
     const-string v1, "Creating reminder notification."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 248
     new-instance v1, Landroid/support/v4/app/z$c;
@@ -962,7 +962,7 @@
 
     const-string v1, "clearing preferences"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 403
     invoke-static {p0}, Lcom/roblox/client/util/m;->a(Landroid/content/Context;)Lcom/roblox/client/util/m;
@@ -1049,7 +1049,7 @@
 
     const-string v1, "canceling alarm."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 122
     invoke-static {p0}, Lcom/roblox/client/remindernotification/a;->f(Landroid/content/Context;)Landroid/app/PendingIntent;

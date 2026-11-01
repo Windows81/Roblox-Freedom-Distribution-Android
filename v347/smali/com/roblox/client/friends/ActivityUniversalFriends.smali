@@ -139,7 +139,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 562
     new-instance v1, Ljava/util/ArrayList;
@@ -408,7 +408,7 @@
 
     const-string v1, "Contact permissions have already been granted. Displaying contact details."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 361
     iget-object v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->r:Lcom/roblox/client/friends/b;
@@ -441,7 +441,7 @@
 
     const-string v1, "Contact permissions have already been denied once and the userselected \'Don\'t ask me again\'."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 367
     iget-object v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->r:Lcom/roblox/client/friends/b;
@@ -460,7 +460,7 @@
 
     const-string v1, "Contact permissions have NOT been granted."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 373
     iget-object v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->r:Lcom/roblox/client/friends/b;
@@ -544,7 +544,7 @@
 
     const-string v1, "Should show extra rationale."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 409
     const-string v0, "android.permission.READ_CONTACTS"
@@ -568,7 +568,7 @@
 
     const-string v1, "Already asked for the permission but no rationale needed. This means the user checked: \'Do not show again\'"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 424
     iget-object v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->r:Lcom/roblox/client/friends/b;
@@ -587,7 +587,7 @@
 
     const-string v1, "Requesting the permission for the first time."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 429
     const-string v0, "android.permission.READ_CONTACTS"
@@ -617,7 +617,7 @@
 
     const-string v1, "Should show extra rationale."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 448
     const-string v0, "android.permission.RECORD_AUDIO"
@@ -641,7 +641,7 @@
 
     const-string v1, "Already asked for the permission but no rationale needed. This means the user checked: \'Do not show again\'"
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 463
     iget-object v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->r:Lcom/roblox/client/friends/b;
@@ -660,7 +660,7 @@
 
     const-string v1, "Requesting the permission for the first time."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->b(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->logDebug(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 468
     const-string v0, "android.permission.RECORD_AUDIO"
@@ -688,7 +688,7 @@
 
     const-string v1, "Recourd audio permission have already been granted. Displaying nearby."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 484
     iget-object v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->r:Lcom/roblox/client/friends/b;
@@ -721,7 +721,7 @@
 
     const-string v1, "Recourd audio permissions have already been denied once and the userselected \'Don\'t ask me again\'."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 490
     iget-object v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->r:Lcom/roblox/client/friends/b;
@@ -740,7 +740,7 @@
 
     const-string v1, "Record audio permissions have NOT been granted."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 496
     iget-object v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->r:Lcom/roblox/client/friends/b;
@@ -1144,7 +1144,7 @@
 
     const-string v1, "Received response for contact permissions request."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 299
     invoke-static {p3}, Lcom/roblox/client/util/i;->a([I)Z
@@ -1158,7 +1158,7 @@
 
     const-string v1, "Read Contacts permission granted. Fetching contacts."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 302
     invoke-direct {p0, v3, v3}, Lcom/roblox/client/friends/ActivityUniversalFriends;->a(IZ)V
@@ -1173,7 +1173,7 @@
 
     const-string v1, "Contacts permissions were NOT granted."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 306
     invoke-direct {p0, v3, v2}, Lcom/roblox/client/friends/ActivityUniversalFriends;->a(IZ)V
@@ -1191,7 +1191,7 @@
 
     const-string v1, "Received response for record_audio permissions request."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 312
     invoke-static {p3}, Lcom/roblox/client/util/i;->a([I)Z
@@ -1205,7 +1205,7 @@
 
     const-string v1, "Record_audio permission granted."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 315
     invoke-direct {p0, v2, v3}, Lcom/roblox/client/friends/ActivityUniversalFriends;->a(IZ)V
@@ -1218,7 +1218,7 @@
 
     const-string v1, "Record_audio permissions were NOT granted."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 319
     invoke-direct {p0, v2, v2}, Lcom/roblox/client/friends/ActivityUniversalFriends;->a(IZ)V
@@ -1244,7 +1244,7 @@
 
     const-string v1, "onResume."
 
-    invoke-static {v0, v1}, Lcom/roblox/client/util/g;->c(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/roblox/client/util/RobloxActivity;->c(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 255
     iget v0, p0, Lcom/roblox/client/friends/ActivityUniversalFriends;->q:I
